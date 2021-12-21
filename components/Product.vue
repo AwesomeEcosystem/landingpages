@@ -15,7 +15,7 @@
       </div>
       <div class="w-full flex flex-wrap justify-center items-center">
         <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">
-          Coming Soon
+          More Soon
         </button>
       </div>
     </div>

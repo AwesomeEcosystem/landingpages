@@ -12,7 +12,7 @@
           The Ultimate Web 3 Partnership Network
         </h1>
         <p class="leading-normal text-2xl mb-8 font-thin">
-          Everything you need to do modern Web
+          Everything you need to do modern Web, Business and Financials
         </p>
 
         <a
