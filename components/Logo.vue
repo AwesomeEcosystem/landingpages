@@ -1,14 +1,14 @@
 <template>
-  <a
+  <button
     :class="classList"
     class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl flex items-center"
-    href="#"
+    @click="$router.push('/')"
   >
     <!--Icon from: http://www.potlabicons.com/ -->
     <img src="~/assets/logos/ecosis_transparent_dark.png" alt="" v-if="isSticky || isOpen">
     <img src="~/assets/logos/ecosis_transparent.png" alt="" v-else>
     <p :class="(isSticky || isOpen) ? 'text-gray-800' : 'text-white'" class="font-thin pl-2">ecosis</p>
-  </a>
+  </button>
 </template>
 
 <script>

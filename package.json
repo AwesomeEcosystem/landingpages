@@ -1,6 +1,6 @@
 {
   "name": "ecosis",
-  "version": "1 .0.0",
+  "version": "1.1.0",
   "description": "Awesome Ecosystem",
   "scripts": {
     "dev": "nuxt",
@@ -11,6 +11,8 @@
     "test:dev": "jest --watch"
   },
   "dependencies": {
+    "chart.js": "^3.7.0",
+    "chartjs-adapter-moment": "^1.0.0",
     "nuxt": "^2.14.3",
     "nuxt-svg-loader": "^1.2.0"
   },
