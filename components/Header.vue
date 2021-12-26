@@ -30,24 +30,24 @@
           :class="headerClassListLink"
           class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
-            <a
+            <button
               class="inline-block py-2 px-4 no-underline"
-              href="#about"
-              >About</a
+              @click="($route === '/') ? window.location('#about') : $router.push('/#about')"
+              >About</button
             >
           </li>
           <li class="mr-3">
-            <a
+            <button
               class="inline-block py-2 px-4 no-underline"
-              href="#product"
-              >Product</a
+              @click="($route === '/') ? window.location('#products') : $router.push('/#products')"
+              >Products</button
             >
           </li>
           <li class="mr-3">
-            <a
+            <button
               class="inline-block py-2 px-4 no-underline"
-              href="#partner"
-              >Partner</a
+              @click="($route === '/') ? window.location('#partner') : $router.push('/#partner')"
+              >Partner</button
             >
           </li>
         </ul>
