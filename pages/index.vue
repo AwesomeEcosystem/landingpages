@@ -2,7 +2,7 @@
   <div>
     <hero />
     <features id="about" />
-    <product id="product" />
+    <products id="products" />
     <partners id="partner" />
     <call-to-action />
   </div>
@@ -11,7 +11,7 @@
 <script>
 import Hero from '@/components/Hero'
 import Features from '@/components/Features'
-import Product from '@/components/Product'
+import Products from '@/components/Products'
 import Partners from '@/components/Partners'
 import CallToAction from '@/components/CallToAction'
 
@@ -20,7 +20,7 @@ export default {
   components: {
     hero: Hero,
     features: Features,
-    product: Product,
+    products: Products,
     partners: Partners,
     'call-to-action': CallToAction
   }
