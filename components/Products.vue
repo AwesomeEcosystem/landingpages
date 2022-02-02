@@ -44,7 +44,7 @@
               <img src="~/assets/logos/bend_logo_light.png"/>
             </div>
             <h3 class="w-full text-3xl font-bold leading-none mb-3">Bend</h3>
-            <p>Reflect Finance Token</p>
+            <p>The Ultimate Store of Value</p>
           </div>
           <div class="w-full flex flex-wrap justify-center items-center">
             <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/bend')">
