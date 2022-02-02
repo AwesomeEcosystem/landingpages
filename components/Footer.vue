@@ -6,39 +6,6 @@
           <logo class="w-12 h-12 text-gray-800" :isSticky="true"/>
         </div>
 
-        <!-- <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Getting Started</p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >User</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Developer</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Entrepreneur</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Investor</a
-              >
-            </li>
-          </ul>
-        </div> -->
         <div class="flex-1">
           <p class="uppercase text-gray-500 md:mb-6">Partner</p>
           <ul class="list-reset mb-6">
@@ -71,7 +38,7 @@
         <div class="flex-1">
           <p class="uppercase text-gray-500 md:mb-6">Products</p>
           <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <!-- <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <button
                 href="#products"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
@@ -86,7 +53,7 @@
                 @click="$router.push('/cap')"
                 >Cap</button
               >
-            </li>
+            </li> -->
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <button
                 href="#products"
