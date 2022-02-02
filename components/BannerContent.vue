@@ -1,7 +1,7 @@
 <template>
   <div class="pt-24">
     <div
-      class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center w-full"
+      class="container h-full px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center w-full py-8"
     >
       <!--Left Col-->
       <div
@@ -26,7 +26,7 @@
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center flex">
-        <img class="w-full justify-center items-center" src="~/assets/img/eco.png" alt />
+        <!-- <img class="w-full justify-center items-center" src="~/assets/img/eco.png" alt /> -->
       </div>
     </div>
   </div>
@@ -36,7 +36,7 @@
 import Discord from '~/assets/logos/discord.svg'
 
 export default {
-  name: 'HeroContent',
+  name: 'BannerContent',
   components: {
     Discord
   }

@@ -1,15 +1,15 @@
 <template>
   <div>
-    <hero />
-    <features id="about" />
-    <products id="products" />
-    <partners id="partner" />
-    <call-to-action />
+    <Banner />
+    <Features id="about" />
+    <Products id="products" />
+    <Partners id="partner" />
+    <CallToAction />
   </div>
 </template>
 
 <script>
-import Hero from '@/components/Hero'
+import Banner from '@/components/Banner'
 import Features from '@/components/Features'
 import Products from '@/components/Products'
 import Partners from '@/components/Partners'
@@ -18,11 +18,14 @@ import CallToAction from '@/components/CallToAction'
 export default {
   name: 'LandingPage',
   components: {
-    hero: Hero,
-    features: Features,
-    products: Products,
-    partners: Partners,
-    'call-to-action': CallToAction
+    Banner,
+    Features,
+    Products,
+    Partners,
+    CallToAction
   }
 }
 </script>
+
+<style>
+</style>

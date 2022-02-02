@@ -14,6 +14,8 @@
 
         <Partner logo="angelists_dark" name="Angelists" desc="Be the Angel of Projects with Lifetime Placements" url="https://angelists.ecosis.io"/>
 
+        <Partner logo="aurora_dark" name="Aurora" desc="Innovation Ventures" url="https://auroradao.capital"/>
+
       </div>
 
       </div>

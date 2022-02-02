@@ -1,17 +1,19 @@
 <template>
   <div>
-    <img src="~assets/img/wave-top.svg?inline" alt />
-    <call-to-action-content />
+    <WaveTop/>
+    <CallToActionContent/>
   </div>
 </template>
 
 <script>
+import WaveTop from '@/assets/svg/wave-top.svg'
 import CallToActionContent from '@/components/CallToActionContent'
 
 export default {
   name: 'CallToAction',
   components: {
-    'call-to-action-content': CallToActionContent
+    WaveTop,
+    CallToActionContent
   }
 }
 </script>

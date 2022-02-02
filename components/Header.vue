@@ -8,7 +8,7 @@
       </div>
       <div class="block lg:hidden pr-4">
         <button
-          class="flex items-center p-1 text-orange-800 hover:text-gray-900"
+          class="flex items-center p-1"
           @click.prevent.stop="onToggleClick"
         >
           <svg
