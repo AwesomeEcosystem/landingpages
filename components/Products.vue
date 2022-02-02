@@ -38,7 +38,7 @@
           </div>
         </div> -->
 
-        <div class="w-1/3 bend text-white rounded-lg">
+        <div class="w-full md:w-1/3 bend text-white rounded-lg mx-2">
           <div class="flex flex-wrap justify-center items-center text-center">
             <div class="flex justify-center items-center w-full my-8">
               <img src="~/assets/logos/bend_logo_light.png"/>

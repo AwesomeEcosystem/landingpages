@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="text-center">
     <div class="pt-32">
       <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12">
         <!--Left Col-->
@@ -10,10 +10,10 @@
         <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
           <!-- <h1 class="my-4 text-5xl font-bold leading-tight">
             Bend
-          </h1>
+          </h1> -->
           <p class="leading-normal text-2xl mb-8 font-thin">
-            Reflecting Finance
-          </p> -->
+            The Ultimate Store of Value
+          </p>
 
           <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
             Sale soon!
@@ -31,24 +31,24 @@
       <h1>6%</h1>
     </div>
 
-    <div class="flex flex-wrap justify-center items-cente container mx-auto px-32 text-center py-8 mb-12">
+    <div class="flex flex-wrap justify-center items-cente rcontainer mx-auto px-32 text-center py-8 mb-12">
 
       <div class="w-full flex-1">
         <h1>2%</h1>
         <h2>Reflections</h2>
-        <p>is Redistributed to all existing holders</p>
+        <p></p>
       </div>
 
       <div class="w-full flex-1">
         <h1>2%</h1>
         <h2>Liquidity Providing</h2>
-        <p>is added to liquidity</p>
+        <p></p>
       </div>
 
       <div class="w-full flex-1">
         <h1>2%</h1>
         <h2>Token Burn</h2>
-        <p>of tokens are burned</p>
+        <p></p>
       </div>
 
       <!-- <FeatureRight
@@ -68,13 +68,31 @@
       </FeatureLeft> -->
 
     </div>
-    <div class="flex w-full">
-      <LineChart :chart-data="linedata" />
+    <div class="flex justify-center w-full text-center my-4 px-4 pb-24">
+      <div class="w-full md:w-1/4">
+        <p>The deflationary tokenomics acting as a store of value is estimated to ensure long-term sustainability and can be used to back partner tokens.</p>
+      </div>
     </div>
-    <div class="flex flex-col w-full justify-center items-center text-center md:text-left pb-24">
-      <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
-        Sale soon!
-      </a>
+    <div class="flex justify-center w-full">
+      <LineChart :chart-data="linedata" :styles="chart"/>
+    </div>
+    <div class="py-32">
+      <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12">
+        <!--Left Col-->
+        <div class="w-full text-center flex justify-center">
+          <img src="~/assets/logos/Bend_logo_full_light.png"/>
+        </div>
+        <p class="leading-normal text-2xl mb-8 font-thin">
+          The Ultimate Store of Value
+        </p>
+        <!--Right Col-->
+        <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
+
+          <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
+            Sale soon!
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -90,35 +108,36 @@ export default {
     return {
       linedata: {
         labels: [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
         ],
         datasets: [
           {
-            label: "Data One",
+            label: "Bend",
             borderColor: "#FC2525",
             pointBackgroundColor: "white",
             borderWidth: 1,
             pointBorderColor: "white",
             backgroundColor: this.gradient,
-            data: [40, 39, 10, 40, 39, 80, 40],
+            data: [2, 10, 15, 35, 65],
           },
           {
-            label: "Data Two",
+            label: "Partner Tokens",
             borderColor: "#05CBE1",
             pointBackgroundColor: "white",
             pointBorderColor: "white",
             borderWidth: 1,
             backgroundColor: this.gradient2,
-            data: [60, 55, 32, 10, 2, 12, 53],
+            data: [30, 55, 4, 50, 75],
           },
         ],
       },
+      chart: {
+        width: '80%'
+      }
     };
   },
   components: {
