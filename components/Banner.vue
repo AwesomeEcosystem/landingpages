@@ -2,20 +2,20 @@
   <div>
     <BannerContent />
     <div class="relative -mt-12 lg:-mt-24">
-      <WaveButtom/>
+      <Wave align="top" color="#fafafa"/>
     </div>
   </div>
 </template>
 
 <script>
 import BannerContent from '@/components/BannerContent'
-import WaveButtom from '@/assets/svg/wave-bottom.svg'
+import Wave from '@/components/Wave'
 
 export default {
   name: 'Banner',
   components: {
     BannerContent,
-    WaveButtom
+    Wave
   }
 }
 </script>
