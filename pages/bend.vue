@@ -35,7 +35,7 @@
 
       <div class="w-full flex-1">
         <h1>2%</h1>
-        <h2>Reflections</h2>
+        <h2>Redistribution</h2>
         <p></p>
       </div>
 
@@ -51,31 +51,91 @@
         <p></p>
       </div>
 
-      <!-- <FeatureRight
-      class="w-full"
-      headline="Deflationary Asset"
-      content="Everything you need to participate to Web 3. Bundling the best and most promising Projects to adopt the Real World."
-      >
-      <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
-        </FeatureRight>
-
-        <FeatureLeft
-        class="w-full"
-        headline="Financial Performance"
-        content="Longterm Profits are sustainable. Its about combing DeFi the right way."
-        >
-        <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
-      </FeatureLeft> -->
-
     </div>
+
     <div class="flex justify-center w-full text-center my-4 px-4 pb-24">
       <div class="w-full md:w-1/4">
         <p>The deflationary tokenomics acting as a store of value is estimated to ensure long-term sustainability and can be used to back partner tokens.</p>
       </div>
     </div>
-    <div class="flex justify-center w-full">
-      <LineChart :chart-data="linedata" :styles="chart"/>
+
+    <div class="flex justify-center w-full pb-24">
+      <LineChart :chartData="linedata" :styles="chart"/>
     </div>
+
+    <!-- <div class="flex justify-center w-full text-center my-4 px-4 pb-12">
+      <div class="w-full md:w-1/4">
+        <h2>Decentralized Autonomous Organizaion</h2>
+        <p>Vote for changing tokenomic parameters!</p>
+      </div>
+    </div> -->
+
+    <Wave align="top" color="#fafafa"/>
+    <div class="flex justify-center w-full text-center px-4 bg-gray-100 text-gray-700 pt-12">
+      <div class="w-full md:w-1/2">
+        <h2 class="">Token Allocation</h2>
+        <p>Total Supply</p>
+        <div class="flex justify-center inline w-full">
+          <h1>1,000,000,000,000</h1><img class="w-8 h-8 ml-4" src="@/assets/logos/bend_logo.png" alt="">
+        </div>
+        <div class="flex flex-wrap w-full md:1/2 text-center py-4 mt-4 font-bold border-t border-gray-600">
+          <div class="w-1/4">
+            <h2>10%</h2>
+            <p>Reserve</p>
+          </div>
+          <div class="w-1/4">
+            <h2>20%</h2>
+            <p>eLabs</p>
+          </div>
+          <div class="w-1/4">
+            <h2>30%</h2>
+            <p>Genesis Partner Distribution</p>
+          </div>
+          <div class="w-1/4">
+            <h2>40%</h2>
+            <p>Market</p>
+          </div>
+        </div>
+        <div class="flex justify-center w-full py-24">
+          <DoughnutChart :chartData="doughnutData" :styles="chart"/>
+        </div>
+        <!-- <div class="w-full">
+          <FeatureRight
+            class="w-full"
+            headline="20% Reserve"
+            content=""
+            >
+            <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
+          </FeatureRight>
+
+            <FeatureLeft
+              class="w-full"
+              headline="20% eLabs"
+              content=""
+              >
+              <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
+          </FeatureLeft>
+
+          <FeatureRight
+            class="w-full"
+            headline="20% Genesis Partner"
+            content=""
+            >
+            <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
+          </FeatureRight>
+
+            <FeatureLeft
+              class="w-full"
+              headline="40 Market"
+              content=""
+              >
+              <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
+          </FeatureLeft>
+        </div> -->
+      </div>
+    </div>
+    <Wave align="bottom" color="#fafafa"/>
+
     <div class="py-32">
       <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12">
         <!--Left Col-->
@@ -101,7 +161,11 @@
 import Wave from '@/components/Wave'
 import Bend from '@/components/Bend'
 
-import LineChart from "@/components/Chart"
+import FeatureLeft from '@/components/FeatureLeft'
+import FeatureRight from '@/components/FeatureRight'
+
+import LineChart from "@/components/Charts/LineChart"
+import DoughnutChart from "@/components/Charts/DoughnutChart"
 
 export default {
   data() {
@@ -135,15 +199,31 @@ export default {
           },
         ],
       },
+      doughnutData: {
+        labels: ['Reserve', 'eLabs', 'Genesis Partner Distribution', 'Market'],
+        datasets: [
+          {
+            label: "Bend",
+            borderColor: "transparent",
+            pointBackgroundColor: "white",
+            borderWidth: 1,
+            backgroundColor: ['#5D675B', '#E5B25D', '#4357AD', '#EF5B5B'],
+            data: [10, 20, 30, 40]
+          }
+        ]
+      },
       chart: {
         width: '80%'
-      }
-    };
+      },
+    }
   },
   components: {
     Wave,
     Bend,
     LineChart,
+    DoughnutChart,
+    FeatureLeft,
+    FeatureRight
   }
 }
 </script>

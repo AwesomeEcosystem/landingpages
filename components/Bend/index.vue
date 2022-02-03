@@ -1,21 +1,21 @@
 <template>
-  <section class="bg-gray-100 text-gray-900 py-16">
+  <section class="bg-gray-100 text-gray-700 py-16">
     <p></p>
     <h2>About</h2>
 
     <div class="flex flex-wrap justify-center items-center container mx-auto md:px-32 py-8 my-8 text-center">
       <div class="flex flex-col justify-start items-center w-full min-h-64 h-auto pb-12">
-        <Store class="w-32 h-32 mb-8 icons"/>
+        <Store class="w-16 h-16 mb-8 icons"/>
         <h2>Store of Value</h2>
         <p>Capital can be secured with a deflationary but redistributing asset.</p>
       </div>
       <div class="flex flex-col justify-around items-center w-full md:flex-1 min-h-64 h-auto pb-12">
-        <Chart class="w-32 h-32 mb-8 icons"/>
+        <Chart class="w-16 h-16 mb-8 icons"/>
         <h2>Deflationary</h2>
         <p>Bend is designed to be deflationary. This token is kind of the heart for partner tokenomics to gain more sustainability.</p>
       </div>
       <div class="flex flex-col justify-around items-center w-full md:flex-1 min-h-64 h-auto pb-12">
-        <Coins class="w-32 h-32 mb-8 icons"/>
+        <Coins class="w-16 h-16 mb-8 icons"/>
         <h2>Redistributing</h2>
         <p>It’s important for an ecosystem to have an asset, which is shared mainly between parties with functionalities like redistribution and maintaining liquidity.</p>
       </div>
