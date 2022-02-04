@@ -1,50 +1,73 @@
 <template>
-  <div class="">
-    <div class="pt-24">
-      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center w-full">
+  <div class="text-center">
+    <div class="pt-32">
+      <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12">
         <!--Left Col-->
-        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <h1 class="my-4 text-5xl font-bold leading-tight">
-            Nomics
-          </h1>
-          <p class="leading-normal text-2xl mb-8 font-thin">
-            ecosis Partnership Network Index
-          </p>
-
-          <a class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
-            Sale soon!
-          </a>
+        <div class="w-full text-center flex justify-center">
+          <img src="~/assets/logos/nomics_logo.png"/>
         </div>
         <!--Right Col-->
-        <div class="w-full md:w-3/5 py-6 text-center flex justify-center">
-          <Nomics />
+        <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
+          <!-- <h1 class="my-4 text-5xl font-bold leading-tight">
+            Nomics
+          </h1> -->
+          <p class="leading-normal text-2xl mb-8 font-thin">
+            The Sustainable Set
+          </p>
+
+          <a class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
+            Soon Mintable!
+          </a>
         </div>
       </div>
     </div>
-    <section class="bg-gray-100 text-gray-900 py-16">
-      <h2 class="text-3xl text-center mb-8">Set Protocol</h2>
-      <div class="container mx-auto flex flex-wrap">
-        <p class="w-full md:flex-1 p-8">Nomics Index Token is a Set Protocol backed by ecosis Partnership Network Assets on Avalanche Network.</p>
-        <p class="w-full md:flex-1 p-8">The combination of the underlying assets ensures increasing token value over time.</p>
-        <p class="w-full md:flex-1 p-8">By investing into Nomics, you invest into the hole ecosis Network without the need to buy each single token.</p>
+
+    <Wave align="top" color="#fafafa"/>
+    <Nomics/>
+    <Wave align="bottom" color="#fafafa"/>
+
+    <div class="flex flex-wrap justify-center items-cente rcontainer mx-auto px-32 text-center py-8 mb-12">
+
+      <!-- <div class="w-full flex-1">
+        <h1>2%</h1>
+        <h2>Redistribution</h2>
+        <p></p>
       </div>
-    </section>
-    <section class="bg-gray-200 text-gray-900 text-center py-16">
+
+      <div class="w-full flex-1">
+        <h1>2%</h1>
+        <h2>Liquidity Providing</h2>
+        <p></p>
+      </div>
+
+      <div class="w-full flex-1">
+        <h1>2%</h1>
+        <h2>Token Burn</h2>
+        <p></p>
+      </div> -->
+
+      <div class="flex justify-center w-full pb-24">
+        <LineChart :chartData="linedata" :styles="chart"/>
+      </div>
+    </div>
+
+    <Wave align="top" color="#fafafa"/>
+    <section class="bg-gray-100 text-gray-900 text-center py-16">
       <p>Underlying</p>
       <h2 class="text-3xl mb-8">Assets</h2>
       <div class="container mx-auto flex flex-wrap justify-around items-start">
-        <button
+        <!-- <button
           class="w-1/2 md:flex-1 flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
           @click="$router.push('cap')"
         >
           <Cap class="h-32 w-32"/>
           <h3 class="text-center text-xl">CAP</h3>
-        </button>
+        </button> -->
         <button
           class="w-1/2 md:flex-1 flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
           @click="$router.push('bend')"
         >
-          <Bend class="h-32 w-32"/>
+          <img class="h-32 w-32 p-2" src="~/assets/logos/bend_logo_dark.png" alt="">
           <h3 class="text-center text-xl">BEND</h3>
         </button>
         <button
@@ -56,9 +79,9 @@
         </button>
         <button
           class="w-1/2 md:flex-1 flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
-          @click="redirect('https://elabs.ecosis.io')"
+          @click="redirect('https://elabs.enterprises')"
         >
-          <img class="h-32 w-32" src="~/assets/logos/elabs_transparent-bg.png" alt="">
+          <img class="h-32 w-32" src="~/assets/logos/elabs_dark.png" alt="">
           <h3 class="text-center text-xl">ELABS</h3>
         </button>
       </div>
@@ -66,7 +89,7 @@
         <p>You have a sustainable DeFi Tokenomics on the Avalanche Network?</p>
         <h4 class="text-xl pt-8">Add your Asset into the Set!</h4>
         <a
-          class="flex flex-col mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center"
+          class="flex flex-col mx-auto lg:mx-0 hover:underline success text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center"
           href="https://discord.gg/YMeuhQdFtR"
           target="_blank"
         >
@@ -75,29 +98,120 @@
         </a>
       </div>
     </section>
+    <Wave align="bottom" color="#fafafa"/>
+
+    <div class="container px-3 mx-auto flex flex-col items-center w-full py-12 mb-24">
+      <!--Left Col-->
+      <div class="w-full text-center flex justify-center">
+        <img src="~/assets/logos/nomics_logo.png"/>
+      </div>
+      <!--Right Col-->
+      <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
+        <!-- <h1 class="my-4 text-5xl font-bold leading-tight">
+          Nomics
+        </h1> -->
+        <p class="leading-normal text-2xl mb-8 font-thin">
+          The Sustainable Set
+        </p>
+
+        <a class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
+          Soon Mintable!
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Nomics from '@/assets/logos/nomics.svg'
-import Cap from '@/assets/logos/cap.svg'
-import Bend from '@/assets/logos/bend.svg'
-import Discord from '@/assets/logos/discord.svg'
+import Wave from '@/components/Wave'
+import Nomics from '@/components/Nomics'
+
+import FeatureLeft from '@/components/FeatureLeft'
+import FeatureRight from '@/components/FeatureRight'
+
+import LineChart from "@/components/Charts/LineChart"
+import DoughnutChart from "@/components/Charts/DoughnutChart"
+
+import Bank from '@/assets/svg/piggy-bank-solid.svg'
+import Team from '@/assets/svg/users-solid.svg'
+import Partners from '@/assets/svg/hands-helping-solid.svg'
+import Market from '@/assets/svg/globe-solid.svg'
 
 export default {
+  data() {
+    return {
+      linedata: {
+        labels: [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        datasets: [
+          {
+            label: "Nomics",
+            borderColor: "#FC2525",
+            pointBackgroundColor: "white",
+            borderWidth: 1,
+            pointBorderColor: "white",
+            backgroundColor: this.gradient,
+            data: [20, 35, 40, 65, 60, 80],
+          },
+          {
+            label: "Bend",
+            borderColor: "#E5B25D",
+            pointBackgroundColor: "white",
+            pointBorderColor: "white",
+            borderWidth: 1,
+            backgroundColor: this.gradient2,
+            data: [0, 5, 5, 10, 15, 50],
+          },
+          {
+            label: "Partner",
+            borderColor: "#05CBE1",
+            pointBackgroundColor: "white",
+            pointBorderColor: "white",
+            borderWidth: 1,
+            backgroundColor: this.gradient2,
+            data: [10, 30, 25, 35, 40, 75],
+          },
+          {
+            label: "Partner",
+            borderColor: "#5D675B",
+            pointBackgroundColor: "white",
+            pointBorderColor: "white",
+            borderWidth: 1,
+            backgroundColor: this.gradient2,
+            data: [0, 25, 20, 50, 50, 70],
+          },
+        ],
+      },
+      chart: {
+        width: '80%'
+      },
+    }
+  },
   methods: {
     redirect(url) {
       window.open(url, '_blank')
     }
   },
   components: {
+    Wave,
     Nomics,
-    Cap,
-    Bend,
-    Discord
+    LineChart,
+    DoughnutChart,
+    FeatureLeft,
+    FeatureRight,
+    Bank,
+    Team,
+    Partners,
+    Market
   }
 }
 </script>
 
-<style lang="css" scoped>
+<style scoped>
 </style>

@@ -40,8 +40,17 @@ p {
   background-attachment: fixed;
 }
 
+.nomics {
+  background: radial-gradient(circle at 80% 80%, #001A23 0%, #4357AD 100%);
+  background-attachment: fixed;
+}
+
 .hot {
   background: linear-gradient(90deg, rgba(239,91,91,1) 0%, rgba(229,178,93,1) 100%);
+}
+
+.success {
+  background: linear-gradient(90deg, #31493C 0%, #5D675B 100%);
 }
 
 .standard {

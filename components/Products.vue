@@ -8,35 +8,20 @@
       </h1>
       <div class="w-full flex flex-wrap justify-center items-center text-gray-800 text-center">
 
-        <!-- <div class="w-full">
-          <div class="flex flex-wrap justify-center items-center text-gray-800 text-center">
+        <div class="w-full md:w-1/3 bend text-white rounded-lg mx-2">
+          <div class="flex flex-wrap justify-center items-center text-center">
             <div class="flex justify-center items-center w-full my-8">
-              <Nomics/>
+              <img src="~/assets/logos/nomics_logo_light.png"/>
             </div>
             <h3 class="w-full text-3xl font-bold leading-none mb-3">Nomics</h3>
-            <p>ecosis Partnership Network Index</p>
+            <p>The Sustainable Set</p>
           </div>
           <div class="w-full flex flex-wrap justify-center items-center">
-            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/nomics')">
+            <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/nomics')">
               Learn more
             </button>
           </div>
-        </div> -->
-
-        <!-- <div class="flex-1">
-          <div class="flex flex-wrap justify-center items-center text-gray-800 text-center">
-            <div class="flex justify-center items-center w-full my-8">
-              <Cap/>
-            </div>
-            <h3 class="w-full text-3xl font-bold leading-none mb-3">Cap</h3>
-            <p>Crypto Total Market Capitalization Index</p>
-          </div>
-          <div class="w-full flex flex-wrap justify-center items-center">
-            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/cap')">
-              Learn more
-            </button>
-          </div>
-        </div> -->
+        </div>
 
         <div class="w-full md:w-1/3 bend text-white rounded-lg mx-2">
           <div class="flex flex-wrap justify-center items-center text-center">
