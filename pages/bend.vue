@@ -71,32 +71,37 @@
     </div> -->
 
     <Wave align="top" color="#fafafa"/>
-    <div class="flex justify-center w-full text-center px-4 bg-gray-100 text-gray-700 pt-12">
+    <div class="flex justify-center w-full text-center px-4 bg-gray-100 text-gray-800 pt-12">
       <div class="w-full md:w-1/2">
-        <h2 class="">Token Allocation</h2>
-        <p>Total Supply</p>
+        <h2 class="font-bold">Token Allocation</h2>
+        <p class="font-bold">Total Supply</p>
         <div class="flex justify-center inline w-full">
           <h1>1,000,000,000,000</h1><img class="w-8 h-8 ml-4" src="@/assets/logos/bend_logo.png" alt="">
         </div>
-        <div class="flex flex-wrap w-full md:1/2 text-center py-4 mt-4 font-bold border-t border-gray-600">
-          <div class="w-1/4">
-            <h2>10%</h2>
+        <div class="flex flex-wrap justify-around items-center w-full md:1/2 text-center py-8 mt-4 font-bold border-t border-gray-600">
+          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
+            <Bank class="w-24 h-24 mb-4"/>
             <p>Reserve</p>
+            <h2>10%</h2>
           </div>
-          <div class="w-1/4">
-            <h2>20%</h2>
+          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
+            <Team class="w-24 h-24 mb-4"/>
             <p>eLabs</p>
+            <h2>20%</h2>
           </div>
-          <div class="w-1/4">
-            <h2>30%</h2>
+          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
+            <Partners class="w-24 h-24 mb-4"/>
             <p>Genesis Partner Distribution</p>
+            <h2>30%</h2>
           </div>
-          <div class="w-1/4">
-            <h2>40%</h2>
+          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
+            <Market class="w-24 h-24 mb-4"/>
             <p>Market</p>
+            <h2>40%</h2>
           </div>
         </div>
-        <div class="flex justify-center w-full py-24">
+
+        <div class="flex justify-center w-full pt-2 pb-16">
           <DoughnutChart :chartData="doughnutData" :styles="chart"/>
         </div>
         <!-- <div class="w-full">
@@ -167,6 +172,11 @@ import FeatureRight from '@/components/FeatureRight'
 import LineChart from "@/components/Charts/LineChart"
 import DoughnutChart from "@/components/Charts/DoughnutChart"
 
+import Bank from '@/assets/svg/piggy-bank-solid.svg'
+import Team from '@/assets/svg/users-solid.svg'
+import Partners from '@/assets/svg/hands-helping-solid.svg'
+import Market from '@/assets/svg/globe-solid.svg'
+
 export default {
   data() {
     return {
@@ -223,7 +233,11 @@ export default {
     LineChart,
     DoughnutChart,
     FeatureLeft,
-    FeatureRight
+    FeatureRight,
+    Bank,
+    Team,
+    Partners,
+    Market
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 text-gray-700 py-16">
+  <section class="bg-gray-100 text-gray-800 py-16">
     <p></p>
     <h2>About</h2>
 
