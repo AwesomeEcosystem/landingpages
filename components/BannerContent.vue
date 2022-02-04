@@ -9,10 +9,10 @@
       >
         <p class="uppercase tracking-loose w-full">Awesome Ecosystem</p>
         <h1 class="my-4 text-5xl font-bold leading-tight">
-          The Ultimate Web 3 Partnership Network
+          The Sustainable <br> Web 3 Network
         </h1>
         <p class="leading-normal text-2xl mb-8 font-thin">
-          Everything you need to do modern Web, Business and Financials
+          Capital. Finance. Economics.
         </p>
 
         <a

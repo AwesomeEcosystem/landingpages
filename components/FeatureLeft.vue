@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-wrap flex-col-reverse sm:flex-row my-16">
-    <div class="w-full sm:w-1/2 p-6 mt-6">
+  <div class="w-full flex flex-wrap justify-right w-full sm:flex-row">
+    <div class="flex justify-right w-1/2 p-6 mt-6">
       <slot name="svg" />
     </div>
-    <div class="w-full h-auto flex justify-center items-center sm:w-1/2 p-6 mt-6">
+    <div class="h-auto flex justify-right items-center w-1/2 p-6 mt-6">
       <div class="align-middle">
         <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">{{ headline }}</h3>
         <p class="text-gray-700 mb-8 h-auto">

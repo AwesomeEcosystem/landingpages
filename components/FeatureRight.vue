@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-wrap my-16 h-auto flex justify-center items-center">
-    <div class="w-5/6 sm:w-1/2 p-6 ">
+  <div class="flex flex-wrap w-full my-16 h-auto justify-left items-center md:text-right">
+    <div class="w-1/2 p-6 ">
       <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
         {{ headline }}
       </h3>
@@ -8,7 +8,7 @@
         {{ content }}
       </p>
     </div>
-    <div class="w-full sm:w-1/2 p-6">
+    <div class="w-1/2 p-6">
       <slot name="svg" />
     </div>
   </div>

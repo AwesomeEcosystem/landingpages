@@ -4,18 +4,18 @@
       <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12">
         <!--Left Col-->
         <div class="w-full text-center flex justify-center">
-          <img src="~/assets/logos/Bend_logo_full_light.png"/>
+          <img src="~/assets/logos/bend_logo.png"/>
         </div>
         <!--Right Col-->
         <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
-          <!-- <h1 class="my-4 text-5xl font-bold leading-tight">
+          <h1 class="my-4 text-5xl font-bold leading-tight">
             Bend
-          </h1> -->
+          </h1>
           <p class="leading-normal text-2xl mb-8 font-thin">
             The Ultimate Store of Value
           </p>
 
-          <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
+          <a class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
             Sale soon!
           </a>
         </div>
@@ -63,13 +63,6 @@
       <LineChart :chartData="linedata" :styles="chart"/>
     </div>
 
-    <!-- <div class="flex justify-center w-full text-center my-4 px-4 pb-12">
-      <div class="w-full md:w-1/4">
-        <h2>Decentralized Autonomous Organizaion</h2>
-        <p>Vote for changing tokenomic parameters!</p>
-      </div>
-    </div> -->
-
     <Wave align="top" color="#fafafa"/>
     <div class="flex justify-center w-full text-center px-4 bg-gray-100 text-gray-800 pt-12">
       <div class="w-full md:w-1/2">
@@ -104,39 +97,6 @@
         <div class="flex justify-center w-full pt-2 pb-16">
           <DoughnutChart :chartData="doughnutData" :styles="chart"/>
         </div>
-        <!-- <div class="w-full">
-          <FeatureRight
-            class="w-full"
-            headline="20% Reserve"
-            content=""
-            >
-            <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
-          </FeatureRight>
-
-            <FeatureLeft
-              class="w-full"
-              headline="20% eLabs"
-              content=""
-              >
-              <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
-          </FeatureLeft>
-
-          <FeatureRight
-            class="w-full"
-            headline="20% Genesis Partner"
-            content=""
-            >
-            <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
-          </FeatureRight>
-
-            <FeatureLeft
-              class="w-full"
-              headline="40 Market"
-              content=""
-              >
-              <img class="w-32" src="~/assets/img/market.png?inline" alt slot="svg" />
-          </FeatureLeft>
-        </div> -->
       </div>
     </div>
     <Wave align="bottom" color="#fafafa"/>

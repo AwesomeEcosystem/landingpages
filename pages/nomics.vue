@@ -8,9 +8,10 @@
         </div>
         <!--Right Col-->
         <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
-          <!-- <h1 class="my-4 text-5xl font-bold leading-tight">
+          <h1 class="my-4 text-5xl font-bold leading-tight">
             Nomics
-          </h1> -->
+          </h1>
+
           <p class="leading-normal text-2xl mb-8 font-thin">
             The Sustainable Set
           </p>
@@ -26,29 +27,11 @@
     <Nomics/>
     <Wave align="bottom" color="#fafafa"/>
 
-    <div class="flex flex-wrap justify-center items-cente rcontainer mx-auto px-32 text-center py-8 mb-12">
-
-      <!-- <div class="w-full flex-1">
-        <h1>2%</h1>
-        <h2>Redistribution</h2>
-        <p></p>
-      </div>
-
-      <div class="w-full flex-1">
-        <h1>2%</h1>
-        <h2>Liquidity Providing</h2>
-        <p></p>
-      </div>
-
-      <div class="w-full flex-1">
-        <h1>2%</h1>
-        <h2>Token Burn</h2>
-        <p></p>
-      </div> -->
-
-      <div class="flex justify-center w-full pb-24">
+    <div class="flex flex-wrap justify-center items-cente rcontainer mx-auto px-32 text-center py-8">
+      <div class="flex justify-center w-full pb-12 pt-8">
         <LineChart :chartData="linedata" :styles="chart"/>
       </div>
+      <p class="w-full md:flex-1 p-8">The combination of the underlying assets ensures increasing token value over time.</p>
     </div>
 
     <Wave align="top" color="#fafafa"/>
@@ -56,13 +39,6 @@
       <p>Underlying</p>
       <h2 class="text-3xl mb-8">Assets</h2>
       <div class="container mx-auto flex flex-wrap justify-around items-start">
-        <!-- <button
-          class="w-1/2 md:flex-1 flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
-          @click="$router.push('cap')"
-        >
-          <Cap class="h-32 w-32"/>
-          <h3 class="text-center text-xl">CAP</h3>
-        </button> -->
         <button
           class="w-1/2 md:flex-1 flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
           @click="$router.push('bend')"
@@ -84,6 +60,12 @@
           <img class="h-32 w-32" src="~/assets/logos/elabs_dark.png" alt="">
           <h3 class="text-center text-xl">ELABS</h3>
         </button>
+        <div
+          class="w-full flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
+        >
+          <Plus class="h-16 w-16 mb-4"/>
+          <h3 class="text-center">More soon!</h3>
+        </div>
       </div>
       <div class="container mx-auto flex flex-col justify-center items-center w-full text-center pt-16 px-8">
         <p>You have a sustainable DeFi Tokenomics on the Avalanche Network?</p>
@@ -136,6 +118,7 @@ import Bank from '@/assets/svg/piggy-bank-solid.svg'
 import Team from '@/assets/svg/users-solid.svg'
 import Partners from '@/assets/svg/hands-helping-solid.svg'
 import Market from '@/assets/svg/globe-solid.svg'
+import Plus from '@/assets/svg/plus-circle-solid.svg'
 
 export default {
   data() {
@@ -208,7 +191,8 @@ export default {
     Bank,
     Team,
     Partners,
-    Market
+    Market,
+    Plus
   }
 }
 </script>

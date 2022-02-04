@@ -6,24 +6,44 @@
       >
         About
       </h1>
-      <p class="text-gray-700 text-center my-4">Its a Web 3 Partnership Network delivering sophisticated Protocols, Apps and Toolsets</p>
+      <p class="text-gray-700 text-center my-4">
+        Sustainable Web 3 Economics
+      </p>
       <div class="w-full mb-4">
         <div
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
         ></div>
       </div>
-      <feature-right
-        headline="Awesome Bundled Set"
-        content="Everything you need to participate to Web 3. Bundling the best and most promising Projects to adopt the Real World."
-      >
-        <img src="~/assets/img/set.png?inline" alt slot="svg" />
-      </feature-right>
+
       <feature-left
-        headline="Financial Performance"
-        content="Longterm Profits are sustainable. Its about combing DeFi the right way."
+        headline="Bend"
+        content="The store of value to back partner tokens."
       >
-        <img src="~/assets/img/market.png?inline" alt slot="svg" />
+        <img class="w-32" src="~/assets/logos/bend_logo_dark.png?inline" alt slot="svg" />
       </feature-left>
+
+      <div class="w-full flex justify-center text-gray-800">
+        <Caret class="w-12 h-12"/>
+      </div>
+
+      <feature-right
+        headline="Backing"
+        content="Mint Partner Tokens by backing with Bend."
+      >
+        <Hands class="text-gray-800 w-32" slot="svg" />
+      </feature-right>
+
+      <div class="w-full flex justify-center text-gray-800">
+        <Caret class="w-12 h-12"/>
+      </div>
+
+      <feature-left
+        headline="Nomics"
+        content="Wrap Partner Assets into Global Asset."
+      >
+        <img class="w-32" src="~/assets/logos/nomics_logo_dark.png?inline" alt slot="svg" />
+      </feature-left>
+
     </div>
   </section>
 </template>
@@ -32,11 +52,16 @@
 import FeatureRight from '@/components/FeatureRight'
 import FeatureLeft from '@/components/FeatureLeft'
 
+import Hands from '@/assets/svg/hands-helping-solid.svg'
+import Caret from '@/assets/svg/caret-down-solid.svg'
+
 export default {
   name: 'Features',
   components: {
-    'feature-right': FeatureRight,
-    'feature-left': FeatureLeft
+    FeatureRight,
+    FeatureLeft,
+    Hands,
+    Caret
   }
 }
 </script>
