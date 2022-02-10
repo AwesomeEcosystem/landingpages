@@ -69,7 +69,7 @@
         <h2 class="font-bold">Token Allocation</h2>
         <p class="font-bold">Total Supply</p>
         <div class="flex justify-center inline w-full">
-          <h1>1,000,000,000,000</h1><img class="w-8 h-8 ml-4" src="@/assets/logos/bend_logo.png" alt="">
+          <h1>12,000,000,000</h1><img class="w-8 h-8 ml-4" src="@/assets/logos/bend_logo.png" alt="">
         </div>
         <div class="flex flex-wrap justify-around items-center w-full md:1/2 text-center py-8 mt-4 font-bold border-t border-gray-600">
           <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">

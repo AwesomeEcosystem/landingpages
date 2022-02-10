@@ -39,7 +39,7 @@
 
       <feature-left
         headline="Nomics"
-        content="Wrap Partner Assets into Global Asset."
+        content="Wrap Partner Tokens into Global Asset."
       >
         <img class="w-32" src="~/assets/logos/nomics_logo_dark.png?inline" alt slot="svg" />
       </feature-left>
