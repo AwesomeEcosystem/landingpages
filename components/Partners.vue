@@ -12,7 +12,7 @@
 
         <Partner logo="cunoro_dark" name="cunoro" desc="The ultimate Payment and Cash Flow Gateway" url="https://cunoro.finance"/>
 
-        <Partner logo="angelists_dark" name="Angelists" desc="Be the Angel of Projects with Lifetime Placements" url="https://angelists.ecosis.io"/>
+        <Partner logo="angelists_dark" name="Angelists" desc="Be the Angel of Projects with Lifetime Placements" url="https://angelists.ecosis.network"/>
 
         <Partner logo="aurora_dark" name="Aurora" desc="Innovation Ventures" url="https://auroradao.capital"/>
 

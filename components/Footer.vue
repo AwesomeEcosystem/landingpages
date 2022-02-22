@@ -27,10 +27,18 @@
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://angelists.ecosis.io"
+                href="https://angelists.ecosis.network"
                 target="_blank"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 >Angelists</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="https://auroradao.capital"
+                target="_blank"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Aurora</a
               >
             </li>
           </ul>
