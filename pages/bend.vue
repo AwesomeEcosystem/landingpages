@@ -74,8 +74,8 @@
         <div class="flex flex-wrap justify-around items-center w-full md:1/2 text-center py-8 mt-4 font-bold border-t border-gray-600">
           <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
             <Bank class="w-24 h-24 mb-4"/>
-            <p>Reserve</p>
-            <h2>10%</h2>
+            <p>Presale</p>
+            <h2>20%</h2>
           </div>
           <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
             <Team class="w-24 h-24 mb-4"/>
@@ -85,7 +85,7 @@
           <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
             <Partners class="w-24 h-24 mb-4"/>
             <p>Genesis Partner Distribution</p>
-            <h2>30%</h2>
+            <h2>20%</h2>
           </div>
           <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
             <Market class="w-24 h-24 mb-4"/>
@@ -170,7 +170,7 @@ export default {
         ],
       },
       doughnutData: {
-        labels: ['Reserve', 'eLabs', 'Genesis Partner Distribution', 'Market'],
+        labels: ['Presale', 'eLabs', 'Genesis Partner Distribution', 'Market'],
         datasets: [
           {
             label: "Bend",
@@ -178,7 +178,7 @@ export default {
             pointBackgroundColor: "white",
             borderWidth: 1,
             backgroundColor: ['#5D675B', '#E5B25D', '#4357AD', '#EF5B5B'],
-            data: [10, 20, 30, 40]
+            data: [20, 20, 20, 40]
           }
         ]
       },

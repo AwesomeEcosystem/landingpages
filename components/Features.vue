@@ -45,6 +45,13 @@
       </feature-left>
 
     </div>
+    <div class="flex w-full justify-center">
+      <a
+        class="w-auto hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center"
+        href="https://docs.ecosis.network">
+        Read more!
+      </a>
+    </div>
   </section>
 </template>
 

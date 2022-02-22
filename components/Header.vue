@@ -50,6 +50,13 @@
               >Partner</button
             >
           </li>
+          <li class="mr-3">
+            <a
+              class="inline-block py-2 px-4 no-underline"
+              href="https://docs.ecosis.network" target="_blank"
+              >Documentation</a
+            >
+          </li>
         </ul>
         <!-- <button
           :class="navActionClassList"
