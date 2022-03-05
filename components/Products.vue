@@ -47,9 +47,9 @@
             <p>The All-in-One ecosis Network Wallet</p>
           </div>
           <div class="w-full flex flex-wrap justify-center items-center">
-            <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="window.location('https://one.ecosis.network')">
+            <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" href="https://one.ecosis.network" target="_blank">
               Open App
-            </button>
+            </a>
           </div>
         </div>
 
