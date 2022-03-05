@@ -4,19 +4,19 @@
       <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12">
         <!--Left Col-->
         <div class="w-full text-center flex justify-center">
-          <img src="~/assets/logos/bend_logo.png"/>
+          <img src="~/assets/logos/one_logo.png"/>
         </div>
         <!--Right Col-->
         <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            Bend
+            One
           </h1>
           <p class="leading-normal text-2xl mb-8 font-thin">
-            The Root of Sustainability
+            The All-in-One ecosis Network Wallet
           </p>
 
-          <a class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
-            Sale soon!
+          <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center" href="https://app.ecosis.network" target="_blank">
+            Open App
           </a>
         </div>
       </div>
@@ -105,16 +105,16 @@
       <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12">
         <!--Left Col-->
         <div class="w-full text-center flex justify-center">
-          <img src="~/assets/logos/Bend_logo_full_light.png"/>
+          <img src="~/assets/logos/one_logo_light.png"/>
         </div>
         <p class="leading-normal text-2xl mb-8 font-thin">
-          The Root of Sustainability
+          The All-in-One ecosis Network Wallet
         </p>
         <!--Right Col-->
         <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
 
-          <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
-            Sale soon!
+          <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center" href="https://app.ecosis.network" target="_blank">
+            Open App
           </a>
         </div>
       </div>
