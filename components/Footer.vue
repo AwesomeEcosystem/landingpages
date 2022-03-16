@@ -7,7 +7,7 @@
         </div>
 
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Partner</p>
+          <p class="uppercase text-gray-500 md:mb-6">Backed Partner</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
@@ -46,20 +46,25 @@
         <div class="flex-1">
           <p class="uppercase text-gray-500 md:mb-6">Products</p>
           <ul class="list-reset mb-6">
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <button
-              href="#products"
-              class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              @click="$router.push('/bend')"
-              >Bend</button
-            >
-          </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <button
-                href="#products"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                @click="$router.push('/bend')"
+                >Bend</button
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <button
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 @click="$router.push('/nomics')"
                 >Nomics</button
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <button
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                @click="$router.push('/one')"
+                >One</button
               >
             </li>
           </ul>
@@ -83,14 +88,22 @@
                 >Discord</a
               >
             </li>
-            <!-- <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://discord.gg/9xejeEcH3N"
+                href="https://twitter.com/ecosisnetwork"
                 target="_blank"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 >Twitter</a
               >
-            </li> -->
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="https://t.co/kCfN6RJKr5"
+                target="_blank"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Telegram</a
+              >
+            </li>
           </ul>
         </div>
       </div>

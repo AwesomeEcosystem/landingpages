@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-wrap w-full my-16 h-auto justify-left items-center md:text-right">
-    <div class="w-1/2 p-6 ">
+  <div class="flex flex-wrap flex-col-reverse md:flex-row w-full my-16 h-auto justify-left items-center md:text-right">
+    <div class="w-full md:w-1/2 p-6 text-center md:text-right">
       <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
         {{ headline }}
       </h3>
@@ -8,9 +8,11 @@
         {{ content }}
       </p>
     </div>
-    <div class="w-1/2 p-6">
-      <slot name="svg" />
-    </div>
+      <div class="flex flex-wrap w-full md:w-1/2 p-6 mt-6">
+        <div class="flex justify-center w-full">
+          <slot name="svg"/>
+        </div>
+      </div>
   </div>
 </template>
 

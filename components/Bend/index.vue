@@ -21,6 +21,15 @@
       </div>
     </div>
 
+
+    <div class="flex w-full justify-center">
+      <a
+        class="w-auto hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center"
+        href="https://docs.ecosis.network/products/bend">
+        Read more!
+      </a>
+    </div>
+
     <div class="">
       <h2></h2>
       <div class="flex flex-wrap justify-center items-cente container mx-auto px-32 text-center">

@@ -8,10 +8,10 @@
         class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
       >
         <p class="uppercase tracking-loose w-full">Awesome Ecosystem</p>
-        <h1 class="my-4 text-5xl font-bold leading-tight">
+        <h1 class="my-4 text-5xl font-bold">
           The Sustainable <br> Web 3 Network
         </h1>
-        <p class="leading-normal text-2xl mb-8 font-thin">
+        <p class="text-2xl mb-8 font-thin">
           Capital. Finance. Economics.
         </p>
 
@@ -26,7 +26,7 @@
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center flex">
-        <!-- <img class="w-full justify-center items-center" src="~/assets/img/eco.png" alt /> -->
+        <img class="w-full justify-center items-center" src="~/assets/img/eco.png" alt />
       </div>
     </div>
   </div>

@@ -7,7 +7,7 @@
         About
       </h1>
       <p class="text-gray-700 text-center my-4">
-        Sustainable Web 3 Economics
+        A Sustainable Web 3 Ecosystem
       </p>
       <div class="w-full mb-4">
         <div
@@ -16,10 +16,10 @@
       </div>
 
       <feature-left
-        headline="Bend"
-        content="The store of value to back partner tokens."
+        headline="Secure Web"
+        content="Use verified and trusted modern Web 3 Applications. Each Partner gets through a strict process to get proved of security and sustainability."
       >
-        <img class="w-32" src="~/assets/logos/bend_logo_dark.png?inline" alt slot="svg" />
+        <Shield class="text-gray-800 w-32" slot="svg" />
       </feature-left>
 
       <div class="w-full flex justify-center text-gray-800">
@@ -27,10 +27,10 @@
       </div>
 
       <feature-right
-        headline="Backing"
-        content="Mint Partner Tokens by backing with Bend."
+        headline="Passive Income"
+        content="Store your money in a secure way. The network combines sophisticated DeFi protocols to save your capital and generates cashflow."
       >
-        <Hands class="text-gray-800 w-32" slot="svg" />
+        <Piggy class="text-gray-800 w-32" slot="svg" />
       </feature-right>
 
       <div class="w-full flex justify-center text-gray-800">
@@ -38,10 +38,10 @@
       </div>
 
       <feature-left
-        headline="Nomics"
-        content="Wrap Partner Tokens into Global Asset."
+        headline="Passive Payments"
+        content="Pay passively by staking for service subscriptions. No need to spending your money away from your account anymore."
       >
-        <img class="w-32" src="~/assets/logos/nomics_logo_dark.png?inline" alt slot="svg" />
+        <Credit class="text-gray-800 w-32" slot="svg" />
       </feature-left>
 
     </div>
@@ -59,7 +59,9 @@
 import FeatureRight from '@/components/FeatureRight'
 import FeatureLeft from '@/components/FeatureLeft'
 
-import Hands from '@/assets/svg/hands-helping-solid.svg'
+import Shield from '@/assets/svg/user-shield-solid.svg'
+import Piggy from '@/assets/svg/piggy-bank-solid.svg'
+import Credit from '@/assets/svg/credit-card-solid.svg'
 import Caret from '@/assets/svg/caret-down-solid.svg'
 
 export default {
@@ -67,7 +69,9 @@ export default {
   components: {
     FeatureRight,
     FeatureLeft,
-    Hands,
+    Shield,
+    Piggy,
+    Credit,
     Caret
   }
 }

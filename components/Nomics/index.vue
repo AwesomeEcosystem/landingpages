@@ -11,6 +11,13 @@
         <p>By investing into Nomics, you invest into the hole ecosis Network without the need to buy each single token.</p>
       </div>
     </div>
+    <div class="flex w-full justify-center mt-8">
+      <a
+        class="w-auto hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center"
+        href="https://docs.ecosis.network/products/nomics">
+        Read more!
+      </a>
+    </div>
   </section>
 </template>
 

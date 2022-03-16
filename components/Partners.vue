@@ -8,20 +8,27 @@
       </h1>
       <div class="text-center mb-8">
         <div class="flex flex-wrap justify-center">
-          <Partner class="w-full" logo="fab_dark" name="est" desc="FinTech and Blockchain Association" url="https://www.estglobalinc.com/"/>
+
+          <Partner logo="fab_dark" name="est" desc="FinTech and Blockchain Association" url="https://www.estglobalinc.com/"/>
+
+          <Partner logo="shefan_dark" name="SheFan Pro" desc="Empowered Women in Blockchains" url="https://www.shefanpro.co.uk/"/>
+
+          <Partner logo="webmagaritas_dark" name="WEBMAGARITAS" desc="Token Promotion and Advertising" url="https://www.webmargaritas.com/"/>
+
+
         </div>
       </div>
       <div class="text-center">
-        <h2>Genesis Network Partners</h2>
+        <h2>Bend backed and Nomics wrapped Partner</h2>
         <div class="flex flex-wrap justify-center">
 
-          <Partner logo="elabs_dark" name="eLabs" desc="The community driven Web 3 Laboratories" url="https://elabs.ecosis.io"/>
+          <Partner logo="elabs_dark" name="eLabs" desc="The community driven Web 3 Laboratories" url="https://elabs.enterprises"/>
 
           <Partner logo="cunoro_dark" name="cunoro" desc="The ultimate Payment and Cash Flow Gateway" url="https://cunoro.finance"/>
 
-          <Partner logo="angelists_dark" name="Angelists" desc="Be the Angel of Projects with Lifetime Placements" url="https://angelists.ecosis.network"/>
-
           <Partner logo="aurora_dark" name="Aurora" desc="Innovation Ventures" url="https://auroradao.capital"/>
+
+          <Partner logo="angelists_dark" name="Angelists" desc="Be the Angel of Projects with Lifetime Placements" url="https://angelists.ecosis.network"/>
 
         </div>
       </div>

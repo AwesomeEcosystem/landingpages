@@ -68,15 +68,14 @@
         </div>
       </div>
       <div class="container mx-auto flex flex-col justify-center items-center w-full text-center pt-16 px-8">
-        <p>You have a sustainable DeFi Tokenomics on the Avalanche Network?</p>
-        <h4 class="text-xl pt-8">Add your Asset into the Set!</h4>
+        <p>You have a sustainable Web 3 Organization?</p>
+        <h4 class="text-xl pt-2">Become a Partner!</h4>
         <a
           class="flex flex-col mx-auto lg:mx-0 hover:underline success text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center"
-          href="https://discord.gg/YMeuhQdFtR"
+          href="https://forms.gle/9mX2ka8bUaq7zA126"
           target="_blank"
         >
-          <Discord class="mr-4"/>
-          Join Discord in #Partnership
+          Contact
         </a>
       </div>
     </section>
