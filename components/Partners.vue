@@ -13,7 +13,7 @@
 
           <Partner logo="shefan_dark" name="SheFan Pro" desc="Empowered Women in Blockchains" url="https://www.shefanpro.co.uk/"/>
 
-          <Partner logo="webmagaritas_dark" name="WEBMAGARITAS" desc="Token Promotion and Advertising" url="https://www.webmargaritas.com/"/>
+          <Partner logo="webmagaritas_dark" name="WebMargaritas" desc="Token Promotion and Advertising" url="https://www.webmargaritas.com/"/>
 
 
         </div>
