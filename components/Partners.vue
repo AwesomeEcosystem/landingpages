@@ -9,17 +9,19 @@
       <div class="text-center mb-8">
         <div class="flex flex-wrap justify-center">
 
+          <Partner logo="boosterdao_dark" name="BoosterDAO" desc="REINVENTING Mobility" url="https://boosterdao.network/"/>
+
           <Partner logo="fab_dark" name="est" desc="FinTech and Blockchain Association" url="https://www.estglobalinc.com/"/>
 
           <Partner logo="shefan_dark" name="SheFan Pro" desc="Empowered Women in Blockchains" url="https://www.shefanpro.co.uk/"/>
 
           <Partner logo="webmagaritas_dark" name="WebMargaritas" desc="Token Promotion and Advertising" url="https://www.webmargaritas.com/"/>
 
-
         </div>
       </div>
       <div class="text-center">
-        <h2>Bend backed and Nomics wrapped Partner</h2>
+        <h2>Genesis Partner</h2>
+        <p>Backed with Bend and wrapped in Nomics</p>
         <div class="flex flex-wrap justify-center">
 
           <Partner logo="elabs_dark" name="eLabs" desc="The community driven Web 3 Laboratories" url="https://elabs.enterprises"/>
