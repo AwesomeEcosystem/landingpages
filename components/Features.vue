@@ -17,7 +17,7 @@
 
       <feature-left
         headline="Secure Web"
-        content="Use verified and trusted modern Web 3 Applications. Each Partner gets through a strict process to get proved of security and sustainability."
+        content="Using verified and trusted modern Web 3 Applications. Each Partner goes through a rigorous process to be verified of security and sustainability."
       >
         <Shield class="text-gray-800 w-32" slot="svg" />
       </feature-left>
@@ -28,7 +28,7 @@
 
       <feature-right
         headline="Passive Income"
-        content="Store your money in a secure way. The network combines sophisticated DeFi protocols to save your capital and generates cashflow."
+        content="Through storing your money securely in the network, the sophisticated DeFi protocols combine to save your capital and generate cash-flow passively."
       >
         <Piggy class="text-gray-800 w-32" slot="svg" />
       </feature-right>
@@ -39,7 +39,7 @@
 
       <feature-left
         headline="Passive Payments"
-        content="Pay passively by staking for service subscriptions. No need to spending your money away from your account anymore."
+        content="Pay passively by staking for service subscriptions. No longer a need to move money around. By being part of the protocol, you’re covered on all bases."
       >
         <Credit class="text-gray-800 w-32" slot="svg" />
       </feature-left>

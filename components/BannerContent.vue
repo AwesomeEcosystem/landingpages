@@ -15,14 +15,29 @@
           Capital. Finance. Economics.
         </p>
 
-        <a
-          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center"
-          href="https://discord.gg/9xejeEcH3N"
-          target="_blank"
-        >
-          <Discord class="mr-4"/>
-          Join Discord
-        </a>
+        <div class="flex justify-start w-full">
+          <a
+            class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold rounded-full my-2 py-4 px-2 flex items-center"
+            href="https://www.linkedin.com/company/ecosiss/"
+            target="_blank"
+            >
+            <Linkedin class="mr-4"/>
+          </a>
+          <a
+            class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold rounded-full my-2 py-4 px-2 flex items-center"
+            href="https://discord.gg/9xejeEcH3N"
+            target="_blank"
+            >
+            <Discord class="mr-4"/>
+          </a>
+          <a
+            class="mx-auto lg:mx-0 hover:underline text-gray-800 font-bold rounded-full my-2 py-4 px-2 flex items-center"
+            href="https://t.co/kCfN6RJKr5"
+            target="_blank"
+            >
+            <Telegram class="mr-4"/>
+          </a>
+        </div>
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center flex">
@@ -34,11 +49,15 @@
 
 <script>
 import Discord from '~/assets/logos/discord.svg'
+import Telegram from '~/assets/logos/telegram.svg'
+import Linkedin from '~/assets/logos/linkedin.svg'
 
 export default {
   name: 'BannerContent',
   components: {
-    Discord
+    Discord,
+    Telegram,
+    Linkedin
   }
 }
 </script>
