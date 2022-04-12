@@ -8,6 +8,7 @@
       </div>
       <div class="block lg:hidden pr-4">
         <button
+          :class="headerClassListLink"
           class="flex items-center p-1"
           @click.prevent.stop="onToggleClick"
         >
@@ -51,6 +52,13 @@
             >
           </li>
           <li class="mr-3">
+            <button
+              class="inline-block py-2 px-4 no-underline"
+              @click="($route === '/') ? window.location('#team') : $router.push('/#team')"
+              >Team</button
+            >
+          </li>
+          <li class="mr-3">
             <a
               class="inline-block py-2 px-4 no-underline"
               href="https://docs.ecosis.network" target="_blank"
@@ -58,12 +66,6 @@
             >
           </li>
         </ul>
-        <!-- <button
-          :class="navActionClassList"
-          class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
-        >
-          Nomics
-        </button> -->
       </div>
     </div>
   </nav>

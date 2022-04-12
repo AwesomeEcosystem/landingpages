@@ -12,7 +12,7 @@
           The Sustainable <br> Web 3 Network
         </h1>
         <p class="text-2xl mb-8 font-thin">
-          Capital. Finance. Economics.
+          Business. Finance. Economics.
         </p>
 
         <div class="flex justify-start w-full">
