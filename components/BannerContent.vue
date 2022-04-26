@@ -9,10 +9,11 @@
       >
         <p class="uppercase tracking-loose w-full">Awesome Ecosystem</p>
         <h1 class="my-4 text-5xl font-bold">
-          The Sustainable <br> Web 3 Network
+          The Ultimate <br>
+          Gateway
         </h1>
         <p class="text-2xl mb-8 font-thin">
-          Business. Finance. Economics.
+          To Web 3 and DeFi
         </p>
 
         <div class="flex justify-start w-full">
@@ -37,6 +38,11 @@
             >
             <Telegram class="mr-4"/>
           </a>
+        </div>
+        <div class="">
+          <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/launch')">
+            Enter preLaunch
+          </button>
         </div>
       </div>
       <!--Right Col-->

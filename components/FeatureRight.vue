@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-wrap flex-col-reverse md:flex-row w-full my-16 h-auto justify-left items-center md:text-right">
     <div class="w-full md:w-1/2 p-6 text-center md:text-right">
-      <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+      <h3 class="text-3xl font-bold leading-none mb-3">
         {{ headline }}
       </h3>
-      <p class="text-gray-700 mb-8">
+      <p class="mb-8">
         {{ content }}
       </p>
     </div>

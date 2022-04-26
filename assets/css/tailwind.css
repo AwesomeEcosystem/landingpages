@@ -30,6 +30,10 @@ p {
   @apply mb-2
 }
 
+.btn {
+  @apply mx-auto hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg
+}
+
 .gradient {
   background: radial-gradient(circle at 80% 20%, #31493C 0%, #011638 100%);
   background-attachment: fixed;
@@ -47,6 +51,10 @@ p {
 
 .hot {
   background: linear-gradient(90deg, rgba(239,91,91,1) 0%, rgba(229,178,93,1) 100%);
+}
+
+.hot:hover {
+  background: linear-gradient(90deg, rgba(229,178,93,1) 0%, rgba(239,91,91,1) 100%);
 }
 
 .success {

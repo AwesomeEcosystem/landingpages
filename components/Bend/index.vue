@@ -2,7 +2,7 @@
   <section class="bg-gray-100 text-gray-800 py-16">
     <p></p>
     <h2>About</h2>
-
+    <p>Bend is a deflationary premium Token. <br> It acts like a store af value by its own and is a permission utility for Investors to claim the Nomics Token.</p>
     <div class="flex flex-wrap justify-center items-center container mx-auto md:px-32 py-8 my-8 text-center">
       <div class="flex flex-col justify-start items-center w-full min-h-64 h-auto pb-12">
         <Store class="w-16 h-16 mb-8 icons"/>
@@ -51,11 +51,6 @@
         </FeatureLeft> -->
 
       </div>
-      <!-- <div class="flex justify-center items-center w-full">
-        <a class="w-1/5 text-center mx-auto lg:mx-0 hover:underline bend text-white font-bold rounded-full py-4 shadow-lg">
-          Read More
-        </a>
-      </div> -->
     </div>
   </section>
 </template>

@@ -28,6 +28,9 @@ export default {
    ** Global CSS
    */
 
+  // This will automatically load components from `~/components`
+  components: true,
+
   router: {
     scrollBehavior: async (to, from, savedPosition) => {
       if (savedPosition) {

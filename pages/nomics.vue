@@ -16,9 +16,9 @@
             The Sustainable Set
           </p>
 
-          <a class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
+          <button class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center" @click="$router.push('/launch')">
             Soon Mintable!
-          </a>
+          </button>
         </div>
       </div>
     </div>
@@ -27,67 +27,38 @@
     <Nomics/>
     <Wave align="bottom" color="#fafafa"/>
 
-    <div class="flex flex-wrap justify-center items-cente rcontainer mx-auto px-32 text-center py-8">
-      <div class="flex justify-center w-full pb-12 pt-8">
-        <LineChart :chartData="linedata" :styles="chart"/>
-      </div>
-      <p class="w-full md:flex-1 p-8">The combination of the underlying assets ensures increasing token value over time.</p>
-    </div>
+    <HowNomicsWorks/>
 
     <Wave align="top" color="#fafafa"/>
-    <section class="bg-gray-100 text-gray-900 text-center py-16">
-      <p>Underlying</p>
-      <h2 class="text-3xl mb-8">Assets</h2>
-      <div class="container mx-auto flex flex-wrap justify-around items-start">
-        <button
-          class="w-1/2 md:flex-1 flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
-          @click="$router.push('bend')"
-        >
-          <img class="h-32 w-32 p-2" src="~/assets/logos/bend_logo_dark.png" alt="">
-          <h3 class="text-center text-xl">BEND</h3>
-        </button>
-        <button
-          class="w-1/2 md:flex-1 flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
-          @click="redirect('https://cunoro.finance')"
-        >
-          <img class="h-32 w-32 p-2" src="~/assets/logos/cunoro_dark.png" alt="">
-          <h3 class="text-center text-xl">NORO</h3>
-        </button>
-        <button
-          class="w-1/2 md:flex-1 flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
-          @click="redirect('https://elabs.enterprises')"
-        >
-          <img class="h-32 w-32" src="~/assets/logos/elabs_dark.png" alt="">
-          <h3 class="text-center text-xl">ELABS</h3>
-        </button>
-        <div
-          class="w-full flex flex-col justify-center items-center h-64 hover:bg-gray-300 rounded rounded-lg"
-        >
-          <Plus class="h-16 w-16 mb-4"/>
-          <h3 class="text-center">More soon!</h3>
+    <section class="w-full flex flex-wrap justify-center bg-gray-100 text-gray-900 text-center py-16">
+      <div class="container px-3 mx-auto flex flex-col justify-center items-center w-full py-12 mb-24">
+        <div class="w-full">
+          <p>Demo</p>
+          <h4 class="text-xl pt-2">Nomics Delegation</h4>
         </div>
-      </div>
-      <div class="container mx-auto flex flex-col justify-center items-center w-full text-center pt-16 px-8">
-        <p>You have a sustainable Web 3 Organization?</p>
-        <h4 class="text-xl pt-2">Become a Partner!</h4>
-        <a
-          class="flex flex-col mx-auto lg:mx-0 hover:underline success text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center"
-          href="https://forms.gle/9mX2ka8bUaq7zA126"
-          target="_blank"
-        >
-          Contact
-        </a>
+        <div class="w-full">
+          <NomicsWidget/>
+        </div>
       </div>
     </section>
     <Wave align="bottom" color="#fafafa"/>
 
     <div class="container px-3 mx-auto flex flex-col items-center w-full py-12 mb-24">
-      <!--Left Col-->
+      <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
+        <!-- <div class="container mx-auto flex flex-col justify-center items-center w-full text-center pt-16 px-8">
+          <p>You have a sustainable Web 3 Business?</p>
+          <h4 class="text-xl pt-2">Become a Partner!</h4>
+          <a
+            class="flex flex-col mx-auto lg:mx-0 hover:underline success text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center"
+            href="https://forms.gle/9mX2ka8bUaq7zA126"
+            target="_blank"
+          >
+          Contact
+        </a>
+      </div> -->
       <div class="w-full text-center flex justify-center">
         <img src="~/assets/logos/nomics_logo.png"/>
       </div>
-      <!--Right Col-->
-      <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
         <!-- <h1 class="my-4 text-5xl font-bold leading-tight">
           Nomics
         </h1> -->
