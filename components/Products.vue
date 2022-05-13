@@ -28,13 +28,13 @@
           </div>
         </div> -->
 
-        <!-- <div class="w-full md:w-1/3 text-white">
+        <div class="w-full md:w-1/3 text-white">
           <div class="flex flex-wrap justify-center items-center text-center">
             <div class="flex justify-center items-center w-full my-8">
               <img src="~/assets/logos/nomics_logo.png"/>
             </div>
             <h3 class="w-full text-3xl font-bold leading-none mb-3">Nomics</h3>
-            <p>Autonomous Cashflow</p>
+            <p>Passive Payments</p>
           </div>
           <div class="w-full flex flex-wrap justify-center items-center">
             <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/nomics')">
@@ -49,14 +49,14 @@
               <img src="~/assets/logos/bend_logo.png"/>
             </div>
             <h3 class="w-full text-3xl font-bold leading-none mb-3">Bend</h3>
-            <p>The Root of Sustainability</p>
+            <p>Store of value</p>
           </div>
           <div class="w-full flex flex-wrap justify-center items-center">
             <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/bend')">
               Learn more
             </button>
           </div>
-        </div> -->
+        </div>
 
         <div class="w-full md:w-1/3 text-white rounded-lg m-2">
           <div class="flex flex-wrap justify-center items-center text-center">
@@ -64,7 +64,7 @@
               <img src="~/assets/logos/one_logo.png"/>
             </div>
             <h3 class="w-full text-3xl font-bold leading-none mb-3">One</h3>
-            <p>The All-in-One ecosis Network Wallet</p>
+            <p>All-in-One ecosis Network Wallet</p>
           </div>
           <div class="w-full flex flex-wrap justify-center items-center">
             <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" href="https://one.ecosis.network" target="_blank">

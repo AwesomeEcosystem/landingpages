@@ -7,9 +7,15 @@
         About
       </h1>
       <p class="text-gray-700 text-center mt-4 mb-2 px-4">
-        World's first decentralized finance aggregator enabling Passive Payments as a Service.
+        We are bringing web 3 to the masses.
       </p>
-      <div class="w-full flex flex-wrap justify-center items-center text-gray-700 mb-12 px-4">
+      <p class="text-gray-700 text-center mt-4 mb-2 px-4">
+        ecosis is a partnership network focusing on building a secure and sustainable web 3 space.
+      </p>
+      <p class="text-gray-700 text-center mt-4 mb-2 px-4">
+        We envision a future where ecosis is the driving force behind protocols and projects that the masses are benefiting from.
+      </p>
+      <!-- <div class="w-full flex flex-wrap justify-center items-center text-gray-700 mb-12 px-4">
         <div class="w-full md:flex-1 my-12 text-center">
           <div class="flex justify-center py-2 my-8">
             <Puzzle class="text-gray-800 w-24"/>
@@ -24,12 +30,14 @@
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Autonomous Cashflow</h3>
           <p>Bringing a revolutionized way of doing finance between users, investors and businesses.</p>
         </div>
-      </div>
-      <div class="w-full mb-4">
+      </div> -->
+      <div class="w-full my-12">
         <div
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
         ></div>
       </div>
+
+      <h2 class="text-center">Why ecosis</h2>
 
       <feature-left
         headline="Secure Web"

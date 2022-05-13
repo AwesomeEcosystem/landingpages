@@ -14,9 +14,11 @@
     "@nuxtjs/fontawesome": "^1.1.2",
     "chart.js": "^2.9.4",
     "chartjs-adapter-moment": "^1.0.0",
+    "moralis": "^1.7.0",
     "nuxt": "^2.14.3",
     "nuxt-svg-loader": "^1.2.0",
-    "vue-chartjs": "^3.5.1"
+    "vue-chartjs": "^3.5.1",
+    "web3": "^1.7.3"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",

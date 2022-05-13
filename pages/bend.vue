@@ -12,11 +12,11 @@
             Bend
           </h1>
           <p class="leading-normal text-2xl mb-8 font-thin">
-            The Root of Sustainability
+            The Exclusive Accessibility
           </p>
 
-          <button class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center" @click="$router.push('/launch')">
-            Sale soon!
+          <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center" @click="$router.push('/launch')">
+            Join Sale!
           </button>
         </div>
       </div>
@@ -55,7 +55,7 @@
 
     <div class="flex justify-center w-full text-center my-4 px-4 pb-24">
       <div class="w-full md:w-1/4">
-        <p>The deflationary tokenomics acting as a store of value is estimated to ensure long-term sustainability and can be used to back partner tokens.</p>
+        <p>The deflationary tokenomics acting as a store of value is estimated to ensure long-term sustainability.</p>
       </div>
     </div>
 
@@ -72,30 +72,40 @@
           <h1>12,000,000,000</h1><img class="w-8 h-8 ml-4" src="@/assets/logos/bend_logo.png" alt="">
         </div>
         <div class="flex flex-wrap justify-around items-center w-full md:1/2 text-center py-8 mt-4 font-bold border-t border-gray-600">
-          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
-            <Bank class="w-24 h-24 mb-4"/>
+          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/5">
+            <Presale class="w-24 h-24 mb-4"/>
             <p>Presale</p>
-            <h2>20%</h2>
+            <h2>10%</h2>
           </div>
-          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
-            <Team class="w-24 h-24 mb-4"/>
-            <p>eLabs</p>
-            <h2>20%</h2>
-          </div>
-          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
-            <Partners class="w-24 h-24 mb-4"/>
-            <p>Genesis Partner Distribution</p>
-            <h2>20%</h2>
-          </div>
-          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/4">
-            <Market class="w-24 h-24 mb-4"/>
-            <p>Market</p>
+          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/5">
+            <Mainsale class="w-24 h-24 mb-4"/>
+            <p>Mainsale</p>
             <h2>40%</h2>
+          </div>
+          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/5">
+            <Team class="w-24 h-24 mb-4"/>
+            <p>Team</p>
+            <h2>10%</h2>
+          </div>
+          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/5">
+            <Marketing class="w-24 h-24 mb-4"/>
+            <p>Marketing</p>
+            <h2>20%</h2>
+          </div>
+          <div class="flex flex-col justify-center items-center w-1/2 md:w-1/5">
+            <Liquidity class="w-24 h-24 mb-4"/>
+            <p>Liquidity</p>
+            <h2>20%</h2>
           </div>
         </div>
 
         <div class="flex justify-center w-full pt-2 pb-16">
           <DoughnutChart :chartData="doughnutData" :styles="chart"/>
+        </div>
+        <div class="w-full flex justify-center">
+          <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center" @click="$router.push('/launch')">
+            Join Sale!
+          </button>
         </div>
       </div>
     </div>
@@ -108,14 +118,14 @@
           <img src="~/assets/logos/Bend_logo_full_light.png"/>
         </div>
         <p class="leading-normal text-2xl mb-8 font-thin">
-          The Root of Sustainability
+          The Exclusive Utility
         </p>
         <!--Right Col-->
         <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
 
-          <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
-            Sale soon!
-          </a>
+          <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center" @click="$router.push('/launch')">
+            Join Sale!
+          </button>
         </div>
       </div>
     </div>
@@ -132,10 +142,11 @@ import FeatureRight from '@/components/FeatureRight'
 import LineChart from "@/components/Charts/LineChart"
 import DoughnutChart from "@/components/Charts/DoughnutChart"
 
-import Bank from '@/assets/svg/piggy-bank-solid.svg'
+import Presale from '@/assets/svg/percent-solid.svg'
 import Team from '@/assets/svg/users-solid.svg'
-import Partners from '@/assets/svg/hands-helping-solid.svg'
-import Market from '@/assets/svg/globe-solid.svg'
+import Marketing from '@/assets/svg/arrows-to-eye-solid.svg'
+import Mainsale from '@/assets/svg/cart-arrow-down-solid.svg'
+import Liquidity from '@/assets/svg/circle-dollar-to-slot-solid.svg'
 
 export default {
   data() {
@@ -150,27 +161,18 @@ export default {
         ],
         datasets: [
           {
-            label: "Bend",
+            label: "Deflation",
             borderColor: "#FC2525",
             pointBackgroundColor: "white",
             borderWidth: 1,
             pointBorderColor: "white",
             backgroundColor: this.gradient,
-            data: [2, 10, 15, 35, 65],
-          },
-          {
-            label: "Partner Tokens",
-            borderColor: "#05CBE1",
-            pointBackgroundColor: "white",
-            pointBorderColor: "white",
-            borderWidth: 1,
-            backgroundColor: this.gradient2,
-            data: [30, 55, 4, 50, 75],
+            data: [2, 5, 15, 35, 65],
           },
         ],
       },
       doughnutData: {
-        labels: ['Presale', 'eLabs', 'Genesis Partner Distribution', 'Market'],
+        labels: ['Presale', 'Mainsale', 'Team', 'Mainsaleing', 'Liquidity'],
         datasets: [
           {
             label: "Bend",
@@ -178,7 +180,7 @@ export default {
             pointBackgroundColor: "white",
             borderWidth: 1,
             backgroundColor: ['#5D675B', '#E5B25D', '#4357AD', '#EF5B5B'],
-            data: [20, 20, 20, 40]
+            data: [20, 40, 10, 10, 20]
           }
         ]
       },
@@ -194,10 +196,11 @@ export default {
     DoughnutChart,
     FeatureLeft,
     FeatureRight,
-    Bank,
+    Presale,
     Team,
-    Partners,
-    Market
+    Marketing,
+    Mainsale,
+    Liquidity
   }
 }
 </script>

@@ -1,22 +1,35 @@
 <template>
   <div class="text-center">
     <div class="pt-32">
-      <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12">
+      <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12" v-if="!started">
         <h1>Countdown</h1>
         <div class="w-full flex justify-center text-white">
-          <CountDown :date="end" @onFinish="finished = true"/>
+          <CountDown :date="end"/>
         </div>
         <button class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-12 py-4 px-8 shadow-lg flex items-center">
           Soon Launch!
         </button>
       </div>
+      <div class="w-full" v-if="started">
+        <div class="w-full flex justify-center mb-8">
+          <img src="~/assets/imgs/vault.png" class="w-3/4 md:w-1/4">
+        </div>
+        <SaleVault/>
+      </div>
     </div>
 
     <Wave align="top" color="#fafafa"/>
     <div class="w-full bg-gray-100 text-gray-800">
-      <div class="w-full container mx-auto">
-        <h2>Soft Launch</h2>
+      <div class="w-full container mx-auto pt-8">
+        <h2>Launch</h2>
         <p>You will be able to buy the deflationary premium Token Bend here  out of our vault system. </p>
+        <p>What is BEND and how to bond for rewards?</p>
+
+        <div class="flex justify-center">
+          <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-12 py-4 px-8 shadow-lg flex items-center" href="https://docs.ecosis.network/launch" target="_blank">
+            Learn more about the Launch here!
+          </a>
+        </div>
 
         <FeatureLeft
           headline="Bend Token Sale"
@@ -50,7 +63,7 @@
 
         <div class="flex justify-center">
           <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-12 py-4 px-8 shadow-lg flex items-center" href="https://cunoro.finance" target="_blank">
-            Learn more about the Partner!
+            Bond in Cunoro Finance's Treasury!
           </a>
         </div>
 
@@ -79,49 +92,29 @@
     <Wave align="bottom" color="#fafafa"/>
 
     <div class="w-full">
-      <div class="w-full">
-        <h2>Tokenomics</h2>
-        <p>Bend Token Allocation and Vesting</p>
-        <div class="flex justify-center w-full pt-2 pb-16">
-          <Tokenomics/>
-        </div>
-        <h3>Vesting</h3>
-        <div class="flex flex-col justify-center w-full pt-2 pb-16">
-          <p>
-            Tokens are locked until Vesting Period begins after Mainsale.
-            Presale supports launch for marketing and liquidity providing.
-          </p>
-          <p>
-            Treasury
-            100% Locked
-            until ELABS Token Release.
-            10% Unlocked each week
-            after ELABS Token Release.
-          </p>
-        </div>
-      </div>
-      <div class="flex">
-      </div>
+      <Tokenomics/>
     </div>
   </div>
 </template>
 
 <script>
 import Wave from '@/components/Wave'
-import TokenSale from '@/components/TokenSale'
+import SaleVault from '@/components/TokenSale/SaleVault'
+import Tokenomics from '@/components/TokenSale/Tokenomics'
 import Caret from '@/assets/svg/caret-down-solid.svg'
 
 export default {
   data() {
     return {
-      end: new Date('2022-05-09'),
-      finished: false
+      end: new Date('2022-05-13 21:00'),
+      started: true
     }
   },
   components: {
     Wave,
     Caret,
-    TokenSale
+    SaleVault,
+    Tokenomics
   }
 }
 </script>

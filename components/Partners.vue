@@ -11,7 +11,7 @@
 
           <Partner logo="boosterdao_dark" name="BoosterDAO" desc="REINVENTING Mobility" url="https://boosterdao.network/"/>
 
-          <Partner logo="fab_dark" name="est" desc="FinTech and Blockchain Association" url="https://www.estglobalinc.com/"/>
+          <Partner logo="fab_dark" name="FAB" desc="FinTech and Blockchain Association" url="https://www.estglobalinc.com/"/>
 
           <Partner logo="shefan_dark" name="SheFan Pro" desc="Empowered Women in Blockchains" url="https://www.shefanpro.co.uk/"/>
 
@@ -21,7 +21,7 @@
       </div>
       <div class="text-center">
         <h2>Genesis Partner</h2>
-        <p>Backed with Bend and wrapped in Nomics</p>
+        <p></p>
         <div class="flex flex-wrap justify-center">
 
           <Partner logo="elabs_dark" name="eLabs" desc="The community driven Web 3 Laboratories" url="https://elabs.enterprises"/>

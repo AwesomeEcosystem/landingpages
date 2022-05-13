@@ -6,6 +6,10 @@
         <CountDown/>
       </div>
 
+      <div class="w-full" v-if="saleActive">
+        <SaleVault/>
+      </div>
+
       <div class="w-full">
         <button class="btn hot" @click="" v-if="!connected">
           Connect
@@ -58,17 +62,19 @@
 
 <script>
 import CountDown from './CountDown.vue'
+import SaleVault from './SaleVault.vue'
 
 export default {
   data() {
     return {
       connected: false,
-      saleActive: false,
+      saleActive: true,
       amount: 0
     }
   },
   components: {
-    CountDown
+    CountDown,
+    SaleVault
   }
 }
 </script>

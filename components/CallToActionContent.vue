@@ -38,6 +38,13 @@
           >
           <Telegram class="mr-4"/>
         </a>
+        <a
+          class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-2 py-4 px-2 flex items-center"
+          href="https://twitter.com/ecosisnetwork"
+          target="_blank"
+          >
+          <Twitter class="mr-4"/>
+        </a>
       </div>
     </div>
   </section>
@@ -47,13 +54,15 @@
 import Discord from '~/assets/logos/discord.svg'
 import Telegram from '~/assets/logos/telegram.svg'
 import Linkedin from '~/assets/logos/linkedin.svg'
+import Twitter from '~/assets/logos/twitter.svg'
 
 export default {
   name: 'CallToActionContent',
   components: {
     Discord,
     Telegram,
-    Linkedin
+    Linkedin,
+    Twitter
   }
 }
 </script>
