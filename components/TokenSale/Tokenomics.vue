@@ -37,11 +37,11 @@
       <h2>Allocation</h2>
     </div>
     <DoughnutChart :chartData="allocation" :styles="chart"/>
-    <div class="w-full py-8">
+    <!-- <div class="w-full py-8">
       <h2>Vesting</h2>
       <p>20% unlocked after Sale. After two weeks 10% get unlocked linearly over a period of 4 Months</p>
     </div>
-    <LineChart :chartData="vesting" :styles="chart"/>
+    <LineChart :chartData="vesting" :styles="chart"/> -->
   </div>
 </template>
 

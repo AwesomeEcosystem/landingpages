@@ -22,7 +22,7 @@
     <div class="w-full bg-gray-100 text-gray-800">
       <div class="w-full container mx-auto pt-8">
         <h2>Launch</h2>
-        <p>You will be able to buy the deflationary premium Token Bend here  out of our vault system. </p>
+        <p>Get the deflationary premium Token Bend here out of our vault system. <br> The next Sale and the Liquidity Pools are going to be listed here. </p>
         <p>What is BEND and how to bond for rewards?</p>
 
         <div class="flex justify-center">

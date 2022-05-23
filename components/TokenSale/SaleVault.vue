@@ -1,20 +1,70 @@
 <template>
   <div class="w-full">
-    <div class="w-full">
-      <h1>Bend Sale Vault</h1>
-      <p>Buy the Bend Token with Avax out of the Soft Launch Presale Vault</p>
+    <h1>Bend Sale Vault</h1>
+    <div class="w-full" v-if="!finalized">
+      <p>Buy the Bend Token with Avax out of the Soft Launch Presale Vault.</p>
+      <p class="font-italic">New Hot Price with 10x Bonus for all contributors!</p>
       <h2 class="font-bold">{{ numberWithCommas(rate) }} Bend/Avax</h2>
       <p>{{ numberWithCommas(leftBend) }} Bend left for sale</p>
+      <div class="w-full">
+        <button class="btn hot" @click="" v-if="!connected && !finalized" @click="connect()">
+          Connect
+        </button>
+      </div>
     </div>
-    <div class="w-full">
-      <button class="btn hot" @click="" v-if="!connected && !finalized" @click="connect()">
-        Connect
+    <div class="w-full flex flex-col" v-if="finalized">
+      <p>Bend Token PreSale ended! Liquidity Pool will be listed here soon</p>
+      <h2 class="font-bold">{{ numberWithCommas(bought) }} Bend sold!</h2>
+      <p class="italic">Tokens are distributed to all contributors</p>
+      <p>Add the Bend token to your Metamask (Only Desktop) or open ecosis Native One Wallet (Desktop and Mobile)</p>
+      <div class="w-full flex justify-center py-4">
+        <img src="~/assets/logos/metamask.png" class="w-32">
+      </div>
+      <button class="btn hot" @click="addTokenToMetamask()">
+        Add Bend to Metamask
       </button>
-      <button class="btn hot" v-if="finalized">
-        Sold Out!
-      </button>
+      <div class="w-full flex justify-center py-4">
+        <img src="~/assets/logos/one_logo.png" class="w-32">
+      </div>
+      <a class="btn hot" href="https://one.ecosis.network">
+        Open <b>One</b> Wallet
+      </a>
+      <div class="w-full pt-16">
+        <h2>Special Give-aways</h2>
+        <p>Stay tuned for upcoming Discount Sales with Extras and additional Airdrops!</p>
+        <div class="flex justify-center w-full">
+          <a
+            class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-2 py-4 px-2 flex items-center"
+            href="https://www.linkedin.com/company/ecosiss/"
+            target="_blank"
+            >
+            <Linkedin class="mr-4"/>
+          </a>
+          <a
+            class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-2 py-4 px-2 flex items-center"
+            href="https://discord.gg/9xejeEcH3N"
+            target="_blank"
+            >
+            <Discord class="mr-4"/>
+          </a>
+          <a
+            class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-2 py-4 px-2 flex items-center"
+            href="https://t.co/kCfN6RJKr5"
+            target="_blank"
+            >
+            <Telegram class="mr-4"/>
+          </a>
+          <a
+            class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-2 py-4 px-2 flex items-center"
+            href="https://twitter.com/ecosisnetwork"
+            target="_blank"
+            >
+            <Twitter class="mr-4"/>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="w-full flex flex-col justify-center items-center" v-if="connected">
+    <div class="w-full flex flex-col justify-center items-center" v-if="connected && !finalized">
       <div class="w-full md:w-1/3 flex justify-center items-center p-4 border-b border-white mx-24 md:mx-32">
         <input class="bg-transparent w-1/4 p-2 text-4xl text-center"
           v-model="nativeAmount"
@@ -30,15 +80,12 @@
         </div>
         <div class="w-full flex flex-col justify-center items-center pt-8">
           <p>Bend Token is claimable in</p>
-          <CountDown :date="new Date('2022-05-20 21:00')"/>
+          <CountDown :date="new Date('2022-05-23 20:00')"/>
         </div>
       </div>
       <div class="w-full pt-12">
         <button class="btn hot" @click="buy()" v-if="!finalized">
           Buy
-        </button>
-        <button class="btn hot" v-if="finalized">
-          Sold Out!
         </button>
       </div>
     </div>
@@ -47,6 +94,11 @@
 
 <script>
 import Moralis from 'moralis'
+
+import Discord from '~/assets/logos/discord.svg'
+import Telegram from '~/assets/logos/telegram.svg'
+import Linkedin from '~/assets/logos/linkedin.svg'
+import Twitter from '~/assets/logos/twitter.svg'
 
 /* Moralis init code */
 const serverUrl = "https://yzixmn7rbnkf.usemoralis.com:2053/server";
@@ -63,11 +115,11 @@ export default {
   data() {
     return {
       connected: false,
-      finalized: false,
+      finalized: true,
       web3: {},
       account: {},
       Vault: {},
-      rate: 1000000,
+      rate: 10000000,
       supply: 2400000000,
       nativeAmount: 0,
       bought: 0
@@ -75,8 +127,7 @@ export default {
   },
   async mounted() {
     try {
-      // Moralis.enableWeb3();
-      console.log(Moralis);
+      Moralis.enableWeb3();
 
       const query = new Moralis.Query(Sale)
       const res = await query.get('IummsrvpW2KLkW2x0QFXbVHT')
@@ -93,13 +144,41 @@ export default {
 
   },
   methods: {
+    async addTokenToMetamask() {
+      const tokenAddress = '0x3160591776e34C319F2Ad28Ba8c1F4829adc3907';
+      const tokenSymbol = 'Bend';
+      const tokenDecimals = 3;
+      const tokenImage = 'https://ecosis.network/_nuxt/img/bend_logo.8387551.png';
+
+      try {
+        await window.ethereum.request({
+          method: 'wallet_switchEthereumChain',
+          params: [{ chainId: '0xa86a' }], // chainId must be in hexadecimal numbers
+        });
+
+        // wasAdded is a boolean. Like any RPC method, an error may be thrown.
+        const wasAdded = await window.ethereum.request({
+          method: 'wallet_watchAsset',
+          params: {
+            type: 'ERC20', // Initially only supports ERC20, but eventually more!
+            options: {
+              address: tokenAddress, // The address that the token is at.
+              symbol: tokenSymbol, // A ticker symbol or shorthand, up to 5 chars.
+              decimals: tokenDecimals, // The number of decimals in the token
+              image: tokenImage, // A string url of the token logo
+            },
+          },
+        });
+      } catch (error) {
+        console.log(error);
+      }
+    },
     async connect() {
       try {
         let user = await Moralis.authenticate();
         // Moralis.switchNetwork("0xa869")
         Moralis.switchNetwork("0xa86a")
 
-        console.log("logged in user:", user);
         console.log(user.get("ethAddress"));
         this.account = user
         this.connected = true
@@ -111,12 +190,6 @@ export default {
       } catch (e) {
         console.log(e)
         alert(e.data.message || e)
-      }
-    },
-    async rate() {
-      try {
-      } catch (e) {
-        alert(e)
       }
     },
     async buy() {
@@ -176,6 +249,12 @@ export default {
     leftBend() {
       return this.supply - this.bought
     }
+  },
+  components: {
+    Discord,
+    Telegram,
+    Linkedin,
+    Twitter
   }
 }
 </script>
