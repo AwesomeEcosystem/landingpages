@@ -31,6 +31,14 @@ export default {
   // This will automatically load components from `~/components`
   components: true,
 
+  generate: {
+    routes: [
+      '/launch',
+      '/bend',
+      '/nomics'
+    ]
+  },
+
   router: {
     scrollBehavior: async (to, from, savedPosition) => {
       if (savedPosition) {
@@ -63,7 +71,9 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    '~/plugins/paypal.js'
+  ],
   /*
    ** Nuxt.js dev-modules
    */

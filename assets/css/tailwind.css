@@ -31,7 +31,7 @@ p {
 }
 
 .btn {
-  @apply mx-auto hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg
+  @apply mx-auto font-bold rounded-full my-6 py-4 px-8 shadow-lg
 }
 
 .gradient {

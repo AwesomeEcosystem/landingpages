@@ -2,20 +2,60 @@
   <div class="w-full">
     <h1>Bend Sale Vault</h1>
     <div class="w-full" v-if="!finalized">
-      <p>Buy the Bend Token with Avax out of the Soft Launch Presale Vault.</p>
-      <p class="font-italic">New Hot Price with 10x Bonus for all contributors!</p>
+      <p>Buy the Bend Token with Avax out of the Soft Launch Sale Vault.</p>
+      <!-- <p class="font-italic">New Hot Price with 10x Bonus for all contributors!</p> -->
       <h2 class="font-bold">{{ numberWithCommas(rate) }} Bend/Avax</h2>
       <p>{{ numberWithCommas(leftBend) }} Bend left for sale</p>
-      <div class="w-full">
-        <button class="btn hot" @click="" v-if="!connected && !finalized" @click="connect()">
+      <div class="w-full flex flex-col">
+        <button class="btn hot flex items-center" @click="" v-if="!connected && !finalized" @click="connect()">
           Connect
+          <img src="~/assets/logos/metamask.png" class="w-12 h-12 ml-4">
+        </button>
+        <div class="w-full flex flex-col justify-center items-center" v-if="connected && !finalized">
+          <div class="w-full md:w-1/3 flex justify-center items-center p-4 border-b border-white mx-24 md:mx-32">
+            <input class="bg-transparent w-1/4 p-2 text-4xl text-center"
+              v-model="nativeAmount"
+              type="number" min="0"
+              placeholder="Amount">
+              <img class="w-12 m-2" src="~/assets/logos/avalanche.png" alt="">
+          </div>
+          <div class="w-full pt-8">
+            <p>You will receive</p>
+            <div class="flex w-full justify-center items-center">
+              <p>{{ numberWithCommas(stake) }}</p>
+              <img class="w-12 m-2" src="~/assets/logos/bend_logo.png" alt="">
+            </div>
+          </div>
+          <div class="w-full pt-12">
+            <button class="btn hot" @click="buyAvax()" v-if="!finalized">
+              Buy
+            </button>
+          </div>
+          <div class="w-full flex flex-col justify-center items-center pt-8">
+            <div class="w-auto p-4 bg-green-500 rounded-lg my-8" v-if="finallyBought">
+              Congratulations, you bought {{ numberWithCommas(stake) }} Bend
+            </div>
+          </div>
+        </div>
+        <h1 class="pt-12">Or</h1>
+        <button class="bg-white btn text-gray-900 flex items-center" @click="() => { paypal = !paypal }">
+          Paypal
+          <img src="~/assets/logos/paypal.png" class="w-12 h-12 ml-4">
         </button>
       </div>
+      <div class="w-full flex justify-center items-center" v-if="paypal">
+        <PaypalWidget :Moralis="Moralis" :Buyer="Buyer" :Sale="Sale" :bought="bought"/>
+      </div>
     </div>
-    <div class="w-full flex flex-col" v-if="finalized">
+
+    <div class="w-full flex flex-col pt-24" v-if="!finalized">
+    <p>Bend Token is claimable in</p>
+    <div class="w-full flex justify-center">
+      <CountDown :date="new Date('2022-06-12 20:00')"/>
+    </div>
     <div class="flex flex-col justify-center items-center w-full text-center py-8">
-    <p class="font-italic">Final Sale Vault opens soon!</p>
-      <CountDown date="Fri 3 June 2022"/>
+    <!-- <p class="font-italic">Final Sale Vault opens soon!</p>
+      <CountDown date="Fri 3 June 2022"/> -->
     </div>
       <p>Bend Token PreSale ended! Liquidity Pool will be listed here.</p>
       <div class="flex flex-wrap justify-center items-center py-16">
@@ -25,13 +65,13 @@
         <div class="m-4">
           <h3>Sold</h3>
           <div class="flex">
-            <h2 class="font-bold">{{ numberWithCommas(bought) }}</h2><img src="~/assets/logos/bend_logo.png" class=" m-2 w-8 h-8" alt="Bend">
+            <h2 class="font-bold">{{ numberWithCommas(172650000) }}</h2><img src="~/assets/logos/bend_logo.png" class=" m-2 w-8 h-8" alt="Bend">
           </div>
         </div>
         <div class="m-4">
           <h3>Redistributed</h3>
           <div class="flex">
-            <h2 class="font-bold">{{ numberWithCommas(54565000) }}</h2><img src="~/assets/logos/bend_logo.png" class=" m-2 w-8 h-8" alt="Bend">
+            <h2 class="font-bold">{{ numberWithCommas(66820500) }}</h2><img src="~/assets/logos/bend_logo.png" class=" m-2 w-8 h-8" alt="Bend">
           </div>
         </div>
         <div class="m-4">
@@ -92,31 +132,6 @@
         </div>
       </div>
     </div>
-    <div class="w-full flex flex-col justify-center items-center" v-if="connected && !finalized">
-      <div class="w-full md:w-1/3 flex justify-center items-center p-4 border-b border-white mx-24 md:mx-32">
-        <input class="bg-transparent w-1/4 p-2 text-4xl text-center"
-          v-model="nativeAmount"
-          type="number" min="0"
-          placeholder="Amount">
-          <img class="w-12 m-2" src="~/assets/logos/avalanche.png" alt="">
-      </div>
-      <div class="w-full pt-8">
-        <p>You will receive</p>
-        <div class="flex w-full justify-center items-center">
-          <p>{{ numberWithCommas(stake) }}</p>
-          <img class="w-12 m-2" src="~/assets/logos/bend_logo.png" alt="">
-        </div>
-        <div class="w-full flex flex-col justify-center items-center pt-8">
-          <p>Bend Token is claimable in</p>
-          <CountDown :date="new Date('2022-05-23 20:00')"/>
-        </div>
-      </div>
-      <div class="w-full pt-12">
-        <button class="btn hot" @click="buy()" v-if="!finalized">
-          Buy
-        </button>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -135,6 +150,7 @@ Moralis.start({ serverUrl, appId });
 
 // Simple syntax to create a new subclass of Moralis.Object.
 const Sale = Moralis.Object.extend("Sale");
+const Buyer = Moralis.Object.extend("Buyer");
 
 // Create a new instance of that class.
 const sale = new Sale();
@@ -143,14 +159,19 @@ export default {
   data() {
     return {
       connected: false,
-      finalized: true,
+      finalized: false,
+      finallyBought: 0,
+      paypal: false,
       web3: {},
       account: {},
       Vault: {},
-      rate: 10000000,
-      supply: 2400000000,
+      rate: 6000000,
+      supply: 4800000000,
       nativeAmount: 0,
-      bought: 0
+      bought: 0,
+      Moralis,
+      Sale,
+      Buyer,
     }
   },
   async mounted() {
@@ -220,7 +241,7 @@ export default {
         alert(e.data.message || e)
       }
     },
-    async buy() {
+    async buyAvax() {
       try {
         const amount = this.nativeAmount * this.rate;
 
@@ -256,10 +277,14 @@ export default {
           const totalBought = bought + amount;
 
           this.bought = totalBought;
-          //
+
           await res.set('bought', totalBought.toString())
           await res.save()
-        } else {
+
+          if (result) {
+            this.finallyBought = this.nativeAmount;
+            // this.nativeAmount = 0;
+          }
         }
       } catch (e) {
         console.log(e)

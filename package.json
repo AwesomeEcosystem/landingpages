@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/fontawesome": "^1.1.2",
+    "@paypal/paypal-js": "^5.0.6",
     "chart.js": "^2.9.4",
     "chartjs-adapter-moment": "^1.0.0",
     "moralis": "^1.7.0",
