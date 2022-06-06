@@ -13,8 +13,8 @@
         placeholder="Amount">
         <select class="bg-blue-500 text-white px-2 py-4 rounded-full" v-model="currency">
           <option>USD</option>
-          <option disabled>EUR</option>
-          <option disabled>GBP</option>
+          <option>EUR</option>
+          <option>GBP</option>
         </select>
       </div>
     </div>
@@ -54,6 +54,7 @@ export default {
       account: {},
       Vault: {},
       currency: 'USD',
+      memo: '',
       price: 0,
       rate: 300000,
       supply: 4800000000,
@@ -63,7 +64,7 @@ export default {
     }
   },
   async created() {
-    const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=avalanche-2,usd-coin&vs_currencies=usd');
+    const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=avalanche-2&vs_currencies=usd');
     console.log(response.body);
   },
   methods: {
@@ -73,7 +74,7 @@ export default {
         return false;
       }
       if (!this.avaxAddress) {
-        alert('Enter Avalanche Address');
+        alert('Enter Avalanche C-Chain-Address (starting with 0x...)');
         return false;
       }
       if (!this.avaxAddress.startsWith('0x')) {
@@ -125,9 +126,10 @@ export default {
           purchase_units: [
             {
               amount: {
-                // 'currency_code': this.currency,
+                // currency_code: this.currency,
                 value: this.nativeAmount,
               },
+              invoice_id: `Wallet: ${this.avaxAddress} | Amount: ${this.nativeAmount * this.rate}`
             },
           ],
         });
@@ -135,7 +137,7 @@ export default {
     },
     onApprove: function () {
         return async (data, actions) => {
-          console.log(data);
+          alert(data);
           await this.startBuy();
           this.successfullyBought = true;
           this.finallyBought = this.nativeAmount * this.rate;
