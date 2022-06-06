@@ -1,8 +1,8 @@
 <template>
-  <section>
-    <div class="">
-      <Prices />
-    </div>
+  <section class="py-32">
+    <PricesStarter />
+    <PricesInvestor />
+    <PricesBusiness />
   </section>
 </template>
 

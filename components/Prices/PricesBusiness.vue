@@ -4,7 +4,7 @@
       <h1
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
       >
-        Starter
+        Business
       </h1>
       <div class="w-full mb-4">
         <div
@@ -12,14 +12,20 @@
         ></div>
       </div>
       <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-        <price name="Free" price="£0" :limited="true" :list="listFree" />
+        <price name="Minimal" price="100$" :limited="true" :list="listFree" />
         <price-highlighted
-          name="Basic"
-          price="x.99"
+          name="Extended"
+          price="1,200$"
           :limited="false"
           :list="listBasic"
         />
-        <price name="Pro" price="£xx.99" :limited="false" :list="listPro" />
+        <price name="Advanced" price="2,500" :limited="false" :list="listPro" />
+        <price
+          name="Premium"
+          price="5,000$"
+          :limited="false"
+          :list="listBasic"
+        />
       </div>
     </div>
   </section>
