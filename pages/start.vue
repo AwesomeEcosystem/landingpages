@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="">
-
+      <Prices />
     </div>
   </section>
 </template>

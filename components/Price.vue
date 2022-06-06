@@ -33,10 +33,36 @@
 </template>
 
 <script>
-import priceMixin from '@/mixins/price'
+// import priceMixin from '@/mixins/price'
 
 export default {
   name: 'Price',
-  mixins: [priceMixin]
+  mixins: [
+    {
+      props: {
+        name: {
+          type: String,
+          required: true
+        },
+        price: {
+          type: String,
+          required: true
+        },
+        limited: {
+          type: Boolean,
+          default: true
+        },
+        list: {
+          type: Array,
+          required: true
+        }
+      },
+      computed: {
+        pricePer() {
+          return this.limited ? 'for one user' : '/ per user'
+        }
+      }
+    }
+  ]
 }
 </script>

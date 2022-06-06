@@ -22,7 +22,7 @@
       </div>
       <div class="flex items-center justify-center">
         <button
-          class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+          class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
         >
           Sign Up
         </button>
@@ -32,10 +32,36 @@
 </template>
 
 <script>
-import priceMixin from '@/mixins/price'
+// import priceMixin from '@/mixins/price'
 
 export default {
   name: 'PriceHighlighted',
-  mixins: [priceMixin]
+  mixins: [
+    {
+      props: {
+        name: {
+          type: String,
+          required: true
+        },
+        price: {
+          type: String,
+          required: true
+        },
+        limited: {
+          type: Boolean,
+          default: true
+        },
+        list: {
+          type: Array,
+          required: true
+        }
+      },
+      computed: {
+        pricePer() {
+          return this.limited ? 'for one user' : '/ per user'
+        }
+      }
+    }
+  ]
 }
 </script>
