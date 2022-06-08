@@ -6,6 +6,7 @@
       <!-- <p class="font-italic">New Hot Price with 10x Bonus for all contributors!</p> -->
       <h2 class="font-bold">{{ numberWithCommas(rate) }} Bend/Avax</h2>
       <p>{{ numberWithCommas(leftBend) }} Bend left for sale</p>
+      <h3 class="pt-8">Choose Payment</h3>
       <div class="w-full flex flex-col">
         <button class="btn hot flex items-center" @click="" v-if="!connected && !finalized" @click="connect()">
           Connect
@@ -37,14 +38,20 @@
             </div>
           </div>
         </div>
-        <h1 class="pt-12">Or</h1>
         <button class="bg-white btn text-gray-900 flex items-center" @click="() => { paypal = !paypal }">
           Paypal
           <img src="~/assets/logos/paypal.png" class="w-12 h-12 ml-4">
         </button>
+        <button class="bg-black btn text-white flex items-center" @click="() => { googlepay = !googlepay }">
+          Google Pay
+          <img src="~/assets/logos/googlepay.png" class="w-12 h-12 ml-4">
+        </button>
       </div>
       <div class="w-full flex justify-center items-center" v-if="paypal">
         <PaypalWidget :Moralis="Moralis" :Buyer="Buyer" :Sale="Sale" :bought="bought"/>
+      </div>
+      <div class="w-full flex justify-center items-center" v-if="googlepay">
+        <GooglePayWidget :Moralis="Moralis" :Buyer="Buyer" :Sale="Sale" :bought="bought"/>
       </div>
     </div>
 
@@ -162,6 +169,7 @@ export default {
       finalized: false,
       finallyBought: 0,
       paypal: false,
+      googlepay: false,
       web3: {},
       account: {},
       Vault: {},
