@@ -8,13 +8,13 @@
     <div class="w-full flex flex-col justify-center items-center">
       <div class="w-full md:w-1/3 flex justify-center items-center p-4 border-b border-white mx-24 md:mx-32">
         <input class="bg-transparent w-auto p-2 text-4xl text-center"
-        v-model="nativeAmount"
-        type="number" min="0"
-        placeholder="Amount">
+          v-model="nativeAmount"
+          type="number" min="0"
+          placeholder="Amount">
         <select class="bg-blue-500 text-white px-2 py-4 rounded-full" v-model="currency">
           <option>USD</option>
-          <option>EUR</option>
-          <option>GBP</option>
+          <option disabled>EUR</option>
+          <option disabled>GBP</option>
         </select>
       </div>
     </div>
@@ -29,7 +29,7 @@
     <button class="bg-white btn text-gray-900 flex items-center" @click="buy()" v-if="!buying">Buy</button>
     <PayPalButton :on-approve="onApprove" :create-order="createOrder"  v-if="buying"/>
     <div class="w-auto p-4 bg-green-500 rounded-lg my-8" v-if="finallyBought">
-      Congratulations, you bought {{ numberWithCommas(finallyBought) }} Bend
+      Congratulations, you bought {{ numberWithCommas(returnPrice.toFixed(3)) }} Bend
     </div>
   </div>
 </template>
@@ -107,7 +107,15 @@ export default {
       return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
     },
     async startBuy() {
-      const amount = this.nativeAmount * this.rate;
+      let amount;
+
+      if (this.currency === 'EUR') {
+        amount = (this.rate / this.prices.eur) * this.nativeAmount
+      } else if (this.currency === 'USD') {
+        amount = (this.rate / this.prices.usd) * this.nativeAmount
+      } else if (this.currency === 'GBP') {
+        amount = (this.rate / this.prices.gbp) * this.nativeAmount
+      }
 
       const buyer = new this.Buyer();
       buyer.set('address', this.avaxAddress);
@@ -130,7 +138,7 @@ export default {
           purchase_units: [
             {
               amount: {
-                currency_code: this.currency,
+                // currency_code: this.currency,
                 value: this.nativeAmount,
               },
               invoice_id: `Wallet: ${this.avaxAddress} | Amount: ${this.nativeAmount * this.rate}`
@@ -141,11 +149,11 @@ export default {
     },
     onApprove: function () {
         return async (data, actions) => {
-          alert(data);
           await this.startBuy();
           this.successfullyBought = true;
           this.finallyBought = this.nativeAmount * this.rate;
           this.nativeAmount = 0;
+          alert(data);
           return actions.order.capture();
         }
     },
