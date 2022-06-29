@@ -1,6 +1,8 @@
 <template>
   <div class="w-full">
     <h1>Bend Sale Vault</h1>
+    <h2>Ended!</h2>
+    <p class="italic">Don't worry! Starter Packages with Bend, Noro and Nomics comes soon and Trading Pools will be listed here as well!</p>
     <div class="w-full" v-if="!finalized">
       <p>Buy the Bend Token with Avax out of the Soft Launch Sale Vault.</p>
       <!-- <p class="font-italic">New Hot Price with 10x Bonus for all contributors!</p> -->
@@ -55,16 +57,55 @@
       </div>
     </div>
 
-    <div class="w-full flex flex-col pt-24" v-if="!finalized">
-    <p>Bend Token is claimable in</p>
-    <div class="w-full flex justify-center">
-      <CountDown :date="new Date('2022-06-12 20:00')"/>
-    </div>
-    <div class="flex flex-col justify-center items-center w-full text-center py-8">
-    <!-- <p class="font-italic">Final Sale Vault opens soon!</p>
-      <CountDown date="Fri 3 June 2022"/> -->
-    </div>
-      <p>Bend Token PreSale ended! Liquidity Pool will be listed here.</p>
+    <div class="w-full flex flex-col" v-if="finalized">
+      <!-- <p>Bend Token is claimable in</p>
+      <div class="w-full flex justify-center">
+        <CountDown :date="new Date('2022-06-12 20:00')"/>
+      </div> -->
+      <div class="flex flex-col justify-center items-center w-full text-center pb-8">
+      <!-- <p class="font-italic">Final Sale Vault opens soon!</p>
+        <CountDown date="Fri 3 June 2022"/> -->
+      </div>
+      <!-- <p>Bend Token Sale ended! Liquidity Pool will be listed here.</p> -->
+      <p class="italic">Tokens are distributed to all contributors.</p>
+      <p>Add the Bend token to your Metamask (Only Desktop) or open ecosis Native One Wallet (Desktop and Mobile)</p>
+      <div class="w-full hidden md:block">
+        <div class="w-full flex justify-center py-4">
+          <img src="~/assets/logos/metamask.png" class="w-32">
+        </div>
+        <button class="btn hot" @click="addTokenToMetamask()">
+          Add Bend to Metamask
+        </button>
+      </div>
+      <div class="w-full flex justify-center py-4">
+        <img src="~/assets/logos/one_logo.png" class="w-32">
+      </div>
+      <a class="btn hot" href="https://one.ecosis.network" target="_blank">
+        Open <b>One</b> Wallet
+      </a>
+      <div class="flex flex-wrap justify-center items-center pt-16">
+        <div class="w-full">
+          <h1>Mainsale Result</h1>
+        </div>
+        <div class="m-4">
+          <h3>Sold</h3>
+          <div class="flex">
+            <h2 class="font-bold">{{ numberWithCommas(235870957) }}</h2><img src="~/assets/logos/bend_logo.png" class=" m-2 w-8 h-8" alt="Bend">
+          </div>
+        </div>
+        <!-- <div class="m-4">
+          <h3>Redistributed</h3>
+          <div class="flex">
+            <h2 class="font-bold">{{ numberWithCommas(66820500) }}</h2><img src="~/assets/logos/bend_logo.png" class=" m-2 w-8 h-8" alt="Bend">
+          </div>
+        </div> -->
+        <div class="m-4">
+          <h3>Burned</h3>
+          <div class="flex">
+            <h2 class="font-bold">{{ numberWithCommas(2880529500) }}</h2><img src="~/assets/logos/bend_logo.png" class=" m-2 w-8 h-8" alt="Bend">
+          </div>
+        </div>
+      </div>
       <div class="flex flex-wrap justify-center items-center py-16">
         <div class="w-full">
           <h1>Presale Result</h1>
@@ -88,22 +129,6 @@
           </div>
         </div>
       </div>
-      <p class="italic">Tokens are distributed to all contributors. Redistribution after sale to all investors additionally to bought amount.</p>
-      <p>Add the Bend token to your Metamask (Only Desktop) or open ecosis Native One Wallet (Desktop and Mobile)</p>
-      <div class="w-full hidden md:block">
-        <div class="w-full flex justify-center py-4">
-          <img src="~/assets/logos/metamask.png" class="w-32">
-        </div>
-        <button class="btn hot" @click="addTokenToMetamask()">
-          Add Bend to Metamask
-        </button>
-      </div>
-      <div class="w-full flex justify-center py-4">
-        <img src="~/assets/logos/one_logo.png" class="w-32">
-      </div>
-      <a class="btn hot" href="https://one.ecosis.network" target="_blank">
-        Open <b>One</b> Wallet
-      </a>
       <div class="w-full pt-16">
         <h2>Special Give-aways</h2>
         <p>Stay tuned for upcoming Discount Sales with Extras and additional Airdrops!</p>
@@ -166,7 +191,7 @@ export default {
   data() {
     return {
       connected: false,
-      finalized: false,
+      finalized: true,
       finallyBought: 0,
       paypal: false,
       googlepay: false,
