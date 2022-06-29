@@ -52,13 +52,6 @@
             >
           </li>
           <li class="mr-3">
-            <button
-              class="inline-block py-2 px-4 no-underline"
-              @click="($route === '/') ? window.location('#team') : $router.push('/#team')"
-              >Team</button
-            >
-          </li>
-          <li class="mr-3">
             <a
               class="inline-block py-2 px-4 no-underline"
               href="https://docs.ecosis.network" target="_blank"

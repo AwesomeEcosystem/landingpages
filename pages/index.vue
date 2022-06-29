@@ -4,7 +4,7 @@
     <Features id="about" />
     <Products id="products" />
     <Partners id="partner" />
-    <Team id="team" />
+    <!-- <Team id="team" /> -->
     <CallToAction />
   </div>
 </template>
