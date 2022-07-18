@@ -1,6 +1,6 @@
 <template>
   <div>
-    <WaveTop/>
+    <!-- <WaveTop/> -->
     <CallToActionContent/>
   </div>
 </template>
