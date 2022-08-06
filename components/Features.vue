@@ -1,80 +1,90 @@
 <template>
-  <section class="bg-gray-100 text-gray-900 py-8">
-    <div class="container max-w-5xl mx-auto m-8">
-      <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-      >
-        About
-      </h1>
+  <section class="w-full flex flex-col md:flex-wrap justify-center bg-gray-100 text-gray-900">
+    <div class="md:px-64 max-w-5xl m-8">
+      <div class="">
+        <p>Tired of complexitiy and volatility?</p>
+        <p>Tired of not having your data under control?</p>
+        <p>Tired of undemocratic infrastrucutures?</p>
+        <p>Tired of unefficient economics?</p>
+        <h3>There is no agrument, it all couldn't be solved NOW!</h3>
+        <p>Showing the world it's possible</p>
+      </div>
+      <div class="">
+        <h1
+          class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
+        >
+          About
+        </h1>
+        <p>
+          A Marketplace enabling more efficient digital economics and fair democratics!
+        </p>
+      </div>
       <p class="text-gray-700 text-center mt-4 mb-2 px-4">
-        We are bringing web 3 to the masses.
+        Sustainable world for everyone by digitized infrastructures!
       </p>
       <p class="text-gray-700 text-center mt-4 mb-2 px-4">
-        ecosis is a partnership network focusing on building a secure and sustainable web 3 space.
+        We are the new stage of digital economy to enable a more
       </p>
-      <p class="text-gray-700 text-center mt-4 mb-2 px-4">
-        We envision a future where ecosis is the driving force behind protocols and projects that the masses are benefiting from.
-      </p>
-      <!-- <div class="w-full flex flex-wrap justify-center items-center text-gray-700 mb-12 px-4">
-        <div class="w-full md:flex-1 my-12 text-center">
-          <div class="flex justify-center py-2 my-8">
-            <Puzzle class="text-gray-800 w-24"/>
-          </div>
-          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Protocol Modules</h3>
-          <p>Combine conciousnessly sophisticated DeFi Protocols to gain economical sustainability.</p>
+      <div class="flex lfex-wrap justify-center items-start">
+        <feature-left
+          headline="efficient infrastructures for businesses"
+          content=""
+        >
+          <Shield class="text-gray-800 w-32" slot="svg" />
+        </feature-left>
+
+        <div class="w-full flex justify-center text-gray-800">
+          <Caret class="w-12 h-12"/>
         </div>
-        <div class="w-full md:flex-1 my-12 text-center">
-          <div class="flex justify-center py-2 my-8">
-            <Chart class="text-gray-800 w-24"/>
-          </div>
-          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Autonomous Cashflow</h3>
-          <p>Bringing a revolutionized way of doing finance between users, investors and businesses.</p>
+
+        <feature-right
+          headline="locratives gateway for investors"
+          content=""
+        >
+          <Piggy class="text-gray-800 w-32" slot="svg" />
+        </feature-right>
+
+        <div class="w-full flex justify-center text-gray-800">
+          <Caret class="w-12 h-12"/>
         </div>
-      </div> -->
+
+        <feature-left
+          headline="safer space for users"
+          content=""
+        >
+          <Credit class="text-gray-800 w-32" slot="svg" />
+        </feature-left>
+
+        <div class="w-full flex justify-center text-gray-800">
+          <Caret class="w-12 h-12"/>
+        </div>
+
+        <feature-right
+          headline="productive tools for developers"
+          content=""
+        >
+          <Piggy class="text-gray-800 w-32" slot="svg" />
+        </feature-right>
+      </div>
       <div class="w-full my-12">
         <div
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
         ></div>
       </div>
 
-      <h2 class="text-center">Why ecosis</h2>
-
-      <feature-left
-        headline="Secure Web"
-        content="Using verified and trusted modern Web 3 Applications. Each Partner goes through a rigorous process to be verified of security and sustainability."
-      >
-        <Shield class="text-gray-800 w-32" slot="svg" />
-      </feature-left>
-
-      <div class="w-full flex justify-center text-gray-800">
-        <Caret class="w-12 h-12"/>
-      </div>
-
-      <feature-right
-        headline="Passive Income"
-        content="Through storing your money securely in the network, the sophisticated DeFi protocols combine to save your capital and generate cash-flow passively."
-      >
-        <Piggy class="text-gray-800 w-32" slot="svg" />
-      </feature-right>
-
-      <div class="w-full flex justify-center text-gray-800">
-        <Caret class="w-12 h-12"/>
-      </div>
-
-      <feature-left
-        headline="Passive Payments"
-        content="Pay passively by delegating your stakes. No longer a need to move money around. By being part of the protocol, you’re covered on all bases."
-      >
-        <Credit class="text-gray-800 w-32" slot="svg" />
-      </feature-left>
+      <p>THE GLOBAL WE</p>
+      <p>Bringing democracy to everyone!</p>
+      <p>The platform build by everyone for everyone!</p>
 
     </div>
-    <div class="w-full text-gray-700 text-center mt-16">
+    <!-- <div class="w-full text-gray-700 text-center mt-16">
       <p>
-        Advantages of Web 3 and Next Gen DeFi <br>
-        The gateway to a new world.
+        Take Advantages out of Crypto's Benefits.<br>
+        But with much less risk of volatility, because dynamic token price compansates automatically the worlds leading fiat inflation. <br>
+        This platform is resevered with digital assets put to work to back the ecosystem on top of business revenue streams. <br>
+        Reserve is owned by users, business owners, developers and investors. <br>
       </p>
-    </div>
+    </div> -->
     <div class="w-full flex justify-center text-gray-800">
       <Caret class="w-12 h-12"/>
     </div>
@@ -82,7 +92,7 @@
       <a
         class="w-auto hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center"
         href="https://docs.ecosis.network">
-        Read more!
+        Learn more!
       </a>
     </div>
   </section>

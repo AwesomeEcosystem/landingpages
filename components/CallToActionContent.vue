@@ -12,7 +12,7 @@
     </div>
 
     <h3 class="my-4 text-3xl leading-tight">
-      Web 3 is waiting for you!
+      The Multiverse is waiting for you!
     </h3>
 
     <div class="w-full flex justify-center">

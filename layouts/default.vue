@@ -1,9 +1,9 @@
 <template>
   <div class="leading-normal tracking-normal text-white gradient">
-    <Maintenance/>
-    <!-- <Header />
+    <!-- <Maintenance/> -->
+    <Header />
     <nuxt />
-    <Footer /> -->
+    <Footer />
   </div>
 </template>
 

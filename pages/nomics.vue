@@ -1,6 +1,7 @@
 <template>
   <div class="text-center">
     <div class="pt-32">
+      https://www.freepik.com/free-vector/data-insight-concept-abstract-big-data-analysis-illustration-digital-technology_4102895.htm#&position=0&from_view=collections
       <div class="container px-3 mx-auto flex flex-col items-center w-full pt-12">
         <!--Left Col-->
         <div class="w-full text-center flex justify-center">
@@ -13,63 +14,136 @@
           </h1>
 
           <p class="leading-normal text-2xl mb-8 font-thin">
-            The Sustainable Set
+            Reserved Bridgechain
           </p>
 
-          <button class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center" @click="$router.push('/launch')">
-            Soon Mintable!
+          <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center" @click="$router.push('/launch')">
+            Get started
           </button>
         </div>
       </div>
     </div>
 
     <Wave align="top" color="#fafafa"/>
-    <Nomics/>
-    <Wave align="bottom" color="#fafafa"/>
-
-    <HowNomicsWorks/>
-
-    <Wave align="top" color="#fafafa"/>
-    <section class="w-full flex flex-wrap justify-center bg-gray-100 text-gray-900 text-center py-16">
-      <div class="container px-3 mx-auto flex flex-col justify-center items-center w-full py-12 mb-24">
-        <div class="w-full">
-          <p>Demo</p>
-          <h4 class="text-xl pt-2">Nomics Delegation</h4>
+    <section>
+      <div class="flex flex-wrap">
+        <div class="">
+          https://www.freepik.com/free-vector/isometric-networking-connection-internet-network-topology-concept-server-room_3629630.htm
         </div>
-        <div class="w-full">
-          <NomicsWidget/>
+        <div class="">
+          <h1>What is Nomics</h1>
+          <p>Nomics is a Bridgechain enabling the digital economical infrastructure.</p>
+          <p>A Blockchain how it should!</p>
+          <p>This Bridgechain is the base for the ecosis platform at the very bottom. </p>
+          <p>Could run a smartphone.</p>
+          <p>Fast and low fee Transactions.</p>
+          <p>Best Developer Adoption due it's developed with the worlds most wellknown programming language Typescript.</p>
+          <p>The Blockchain which enables cross-chain decentralized exchanges!</p>
+        </div>
+        <div class="flex flex-wrap justify-around items-center">
+          <div class="w-full md:w-1/2">
+            <p class="uppercase tracking-loose w-full"></p>
+            <h1 class="my-4 text-5xl font-bold">
+              Easy to use. <br>Effictient.
+            </h1>
+            <p class="text-2xl mb-8 font-thin">
+              One Dynamic Assets wraps a whole market.
+            </p>
+          </div>
+          <div class="w-full md:w-1/2">
+            <img src="" alt="">
+          </div>
         </div>
       </div>
     </section>
     <Wave align="bottom" color="#fafafa"/>
 
-    <div class="container px-3 mx-auto flex flex-col items-center w-full py-12 mb-24">
-      <div class="flex flex-col w-full justify-center items-center text-center md:text-left">
-        <!-- <div class="container mx-auto flex flex-col justify-center items-center w-full text-center pt-16 px-8">
-          <p>You have a sustainable Web 3 Business?</p>
-          <h4 class="text-xl pt-2">Become a Partner!</h4>
-          <a
-            class="flex flex-col mx-auto lg:mx-0 hover:underline success text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center"
-            href="https://forms.gle/9mX2ka8bUaq7zA126"
-            target="_blank"
-          >
-          Contact
-        </a>
-      </div> -->
-      <div class="w-full text-center flex justify-center">
-        <img src="~/assets/logos/nomics_logo.png"/>
+    <section>
+      <h2>How it works</h2>
+      <div class="flex flex-wrap">
+        <div class="">
+          <img src="https://www.freepik.com/free-vector/dark-neon-isometric_3629585.htm#&position=3&from_view=collections" alt="">
+          <h1>Dynamic Custom Transaction Types</h1>
+          <p>Enabling effecient and transparent economics</p>
+        </div>
+        <div class="">
+          <img src="https://www.freepik.com/free-vector/mining-bitcoin-ethereum-crypto-currency-mining-server-farm-room_2910210.htm" alt="">
+          <h2>Dynamic Native Bridgchain Asset</h2>
+          <h3>on top of the Eco Bridgechain</h3>
+        </div>
+        <div class="flex flex-wrap justify-center items-center">
+          <div class="w-full md:w-1/2">
+            <p class="uppercase tracking-loose w-full">economical backbone</p>
+            <h1 class="my-4 text-5xl font-bold">
+              Easy to use. <br>Effictient.
+            </h1>
+            <p class="text-2xl mb-8 font-thin">
+              Fair Economics. Sustainable Market.
+            </p>
+          </div>
+          <div class="w-full md:w-1/2">
+            <p>Backed algorithmicly by network traffic and Liquidity Pools!</p>
+            <p>It's the native token wrapping all kind of digitial assets to build the currency the worls needs.</p>
+            <p>Native Transaction Fees for Assets Transfers instead of native fees within the ecosystem!</p>
+            <p>Nomics rewards stake holders with revenue out of specific customized transaction types.</p>
+            <p>It effects out of traffic and not our of growth in the first place.</p>
+            <p>Custom Transaction Types for the most efficient cash flow.</p>
+            <p>Rewards its paticipants with the most sustainable revenue.</p>
+            <p>It's the worlds first non-speculatable digital asset.</p>
+          </div>
+        </div>
+        <a href="#">Learn More</a>
       </div>
-        <!-- <h1 class="my-4 text-5xl font-bold leading-tight">
-          Nomics
-        </h1> -->
-        <p class="leading-normal text-2xl mb-8 font-thin">
-          The Sustainable Set
-        </p>
+    </section>
 
-        <a class="mx-auto lg:mx-0 hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center">
-          Soon Mintable!
-        </a>
+    <Wave align="top" color="#fafafa"/>
+    <section>
+      <div class="flex">
+        <div class="">
+          https://www.freepik.com/free-vector/data-security-encryption-database-concept-server-room-data-warehouse-digital-technology_4102850.htm
+        </div>
+        <div class="w-full flex flex-col justify-center items-center">
+          <!-- <p>Pay Transaction Fees only with the Synthetic Asset like their are native</p> -->
+          <div class="w-full flex flex-wrap flex justify-center items-center">
+            <div class="w-full md:w-1/2">
+              <img src="https://img.freepik.com/free-vector/server-room-big-data-cloud-computing-artificial-intelligence-ai-processing-data-database_39422-934.jpg?size=626&ext=jpg&uid=R63789477" alt="">
+              <p>Enabling Crosschain Decentralized Exchanges in the most secure way</p>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center items-center">
+              <img src="https://www.freepik.com/free-vector/blockchain-feature-security-data-cryptographic-info-protection-technology-cube_4102900.htm" alt="">
+              <p>Intrinsic Backing over time</p>
+            </div>
+          </div>
+          <div class="w-full flex justify-center items-center">
+            <img src="https://www.freepik.com/free-vector/data-security-encryption-database-concept-server-room-data-warehouse-digital-technology_4102850.htm" alt="">
+            <p>Easy to use Asset</p>
+          </div>
+        </div>
       </div>
+    </section>
+    <Wave align="bottom" color="#fafafa"/>
+
+    <section>
+      <div class="py-32">
+        https://www.freepik.com/free-vector/awesome-isometric-banner-digital-technology-isometric-abstract-icon-big-data-processing_4102891.htm#&position=0&from_view=collections
+        <p>Consensus</p>
+        <h1>Delegate Prof of Stake</h1>
+        <div class="">
+          <p>Vote for a Delegate validating the blocks.</p>
+          <p>Your Stake is your Vote Weigth.</p>
+          <p>Delegates share Rewards with its staker!</p>
+        </div>
+      </div>
+    </section>
+
+    <Wave align="top" color="#fafafa"/>
+    <section class="w-full flex flex-wrap justify-center bg-gray-100 text-gray-900 text-center py-16">
+
+    </section>
+    <Wave align="bottom" color="#fafafa"/>
+
+    <div class="container px-3 mx-auto flex flex-col items-center w-full py-12 mb-24">
+
     </div>
   </div>
 </template>

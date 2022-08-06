@@ -1,7 +1,7 @@
 <template>
   <div class="pt-24">
     <div
-      class="container h-full px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center w-full py-8"
+      class="h-full md:px-64 flex flex-wrap md:flex-row justify-around items-center w-full"
     >
       <!--Left Col-->
       <div
@@ -9,10 +9,10 @@
       >
         <p class="uppercase tracking-loose w-full">Awesome Ecosystem</p>
         <h1 class="my-4 text-5xl font-bold">
-          Web 3 <br>for the masses
+          Immersive <br>Multiverse
         </h1>
         <p class="text-2xl mb-8 font-thin">
-          Security. Sustainability. Finance. Capital.
+          Composable. Interoperable. Sustainable.
         </p>
 
         <div class="flex justify-start w-full">
@@ -47,14 +47,28 @@
         </div>
         <div class="">
           <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/launch')">
-            Enter Launch
+            Enter App
+          </button>
+          <button class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-6 py-4 px-8" @click="$router.push('/launch')">
+            Start here
           </button>
         </div>
       </div>
       <!--Right Col-->
-      <div class="w-full md:w-3/5 py-6 text-center flex">
-        <img class="w-full justify-center items-center" src="~/assets/img/eco.png" alt />
+      <div class="w-full md:w-2/4 py-6 text-center flex justify-center items-center">
+        <img class="w-full" src="~/assets/imgs/cover.png" alt />
+        <!-- https://www.freepik.com/free-vector/digital-smart-city-isometric-landing-page-banner_6993977.htm#&position=29&from_view=collections -->
       </div>
+      <!-- <section class="w-full">
+        <div class="">
+          Total Value Locked
+          <p>0</p>
+        </div>
+        <div class="">
+          Total Market Cap
+          <p>0</p>
+        </div>
+      </section> -->
     </div>
   </div>
 </template>
