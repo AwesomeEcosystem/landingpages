@@ -16,7 +16,7 @@
           About
         </h1>
         <p>
-          A Marketplace enabling more efficient digital economics and fair democratics!
+          A Marketplace enabling more efficient digital economics with passive income and real democracy!
         </p>
       </div>
       <p class="text-gray-700 text-center mt-4 mb-2 px-4">
