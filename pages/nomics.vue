@@ -86,6 +86,7 @@
             <p>It's the native token wrapping all kind of digitial assets to build the currency the worls needs.</p>
             <p>Native Transaction Fees for Assets Transfers instead of native fees within the ecosystem!</p>
             <p>Nomics rewards stake holders with revenue out of specific customized transaction types.</p>
+            <p>Typical EVMs Transaction Fee Models are limiting growth.</p>
             <p>It effects out of traffic and not our of growth in the first place.</p>
             <p>Custom Transaction Types for the most efficient cash flow.</p>
             <p>Rewards its paticipants with the most sustainable revenue.</p>
