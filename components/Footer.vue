@@ -7,7 +7,7 @@
         </div>
 
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Backed Partner</p>
+          <p class="uppercase text-gray-500 md:mb-6">Delegates</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
@@ -25,7 +25,7 @@
                 >cunoro</a
               >
             </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <!-- <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="https://angelists.ecosis.network"
                 target="_blank"
@@ -40,32 +40,50 @@
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 >Aurora</a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
         <div class="flex-1">
           <p class="uppercase text-gray-500 md:mb-6">Products</p>
           <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <!-- <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <button
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 @click="$router.push('/bend')"
                 >Bend</button
               >
+            </li> -->
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <button
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                @click="($route === '/') ? window.location('#products') : $router.push('/#products')"
+              >
+                Nomics
+              </button>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <button
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                @click="$router.push('/nomics')"
-                >Nomics</button
+                @click="($route === '/') ? window.location('#products') : $router.push('/#products')"
               >
+                Authic
+              </button>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <button
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                @click="$router.push('/one')"
-                >One</button
+                @click="($route === '/') ? window.location('#products') : $router.push('/#products')"
               >
+                One
+              </button>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <button
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                @click="($route === '/') ? window.location('#products') : $router.push('/#products')"
+              >
+                Verse
+              </button>
             </li>
           </ul>
         </div>

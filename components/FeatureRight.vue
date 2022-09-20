@@ -9,7 +9,7 @@
       </p>
     </div>
       <div class="flex flex-wrap w-full md:w-1/2 p-6 mt-6">
-        <div class="flex justify-center w-full">
+        <div class="flex justify-center md:justify-start w-full mx-8">
           <slot name="svg"/>
         </div>
       </div>

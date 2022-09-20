@@ -44,20 +44,20 @@
               >Products</button
             >
           </li>
-          <li class="mr-3">
+          <!-- <li class="mr-3">
             <button
               class="inline-block py-2 px-4 no-underline"
               @click="($route === '/') ? window.location('#partner') : $router.push('/#partner')"
-              >Partner</button
+              >Delegates</button
             >
-          </li>
-          <li class="mr-3">
+          </li> -->
+          <!-- <li class="mr-3">
             <a
               class="inline-block py-2 px-4 no-underline"
               href="https://docs.ecosis.network" target="_blank"
               >Documentation</a
             >
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>

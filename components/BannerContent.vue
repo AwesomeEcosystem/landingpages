@@ -9,7 +9,7 @@
       >
         <p class="uppercase tracking-loose w-full">Awesome Ecosystem</p>
         <h1 class="my-4 text-5xl font-bold">
-          Immersive <br>Multiverse
+          Digitized  <br>Marketplace
         </h1>
         <p class="text-2xl mb-8 font-thin">
           Composable. Interoperable. Sustainable.
@@ -46,29 +46,22 @@
           </a>
         </div>
         <div class="">
-          <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/launch')">
+          <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-900 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+            More Soon October 1st
+          </button>
+          <p>Big Upgrade Announcement coming!</p>
+          <!-- <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/#')">
             Enter App
           </button>
-          <button class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-6 py-4 px-8" @click="$router.push('/launch')">
+          <button class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-6 py-4 px-8" @click="$router.push('/#')">
             Start here
-          </button>
+          </button> -->
         </div>
       </div>
       <!--Right Col-->
-      <div class="w-full md:w-2/4 py-6 text-center flex justify-center items-center">
-        <img class="w-full" src="~/assets/imgs/cover.png" alt />
-        <!-- https://www.freepik.com/free-vector/digital-smart-city-isometric-landing-page-banner_6993977.htm#&position=29&from_view=collections -->
+      <div class="w-full md:w-3/5 py-6 text-center flex justify-center items-center">
+        <img class="w-full" src="~/assets/imgs/marketplace.png" alt />
       </div>
-      <!-- <section class="w-full">
-        <div class="">
-          Total Value Locked
-          <p>0</p>
-        </div>
-        <div class="">
-          Total Market Cap
-          <p>0</p>
-        </div>
-      </section> -->
     </div>
   </div>
 </template>

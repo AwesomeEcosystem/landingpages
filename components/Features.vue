@@ -1,99 +1,47 @@
 <template>
-  <section class="w-full flex flex-col md:flex-wrap justify-center bg-gray-100 text-gray-900">
-    <div class="md:px-64 max-w-5xl m-8">
-      <div class="">
-        <p>Tired of complexitiy and volatility?</p>
-        <p>Tired of not having your data under control?</p>
-        <p>Tired of undemocratic infrastrucutures?</p>
-        <p>Tired of unefficient economics?</p>
-        <h3>There is no agrument, it all couldn't be solved NOW!</h3>
-        <p>Showing the world it's possible</p>
-      </div>
-      <div class="">
-        <h1
-          class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-        >
-          About
-        </h1>
-        <p>
-          A Marketplace enabling more efficient digital economics with passive income and real democracy!
-        </p>
-      </div>
-      <p class="text-gray-700 text-center mt-4 mb-2 px-4">
-        Sustainable world for everyone by digitized infrastructures!
-      </p>
-      <p class="text-gray-700 text-center mt-4 mb-2 px-4">
-        We are the new stage of digital economy to enable a more
-      </p>
-      <div class="flex lfex-wrap justify-center items-start">
-        <feature-left
-          headline="efficient infrastructures for businesses"
-          content=""
-        >
-          <Shield class="text-gray-800 w-32" slot="svg" />
-        </feature-left>
+  <section class="w-full flex flex-col md:flex-wrap justify-center itmes-center bg-gray-100 text-gray-800 py-24">
 
-        <div class="w-full flex justify-center text-gray-800">
-          <Caret class="w-12 h-12"/>
+    <div class="w-full flex flex-wrap justify-center">
+
+      <div class="w-full md:w-auto flex flex-col justify-center items-center text-center md:text-right px-12">
+        <div class="">
+          <p>A MARKETPLACE HOW IT SHOULD</p>
+          <h1>Profit out of revenues <br> from the whole Marketplace</h1>
         </div>
-
-        <feature-right
-          headline="locratives gateway for investors"
-          content=""
-        >
-          <Piggy class="text-gray-800 w-32" slot="svg" />
-        </feature-right>
-
-        <div class="w-full flex justify-center text-gray-800">
-          <Caret class="w-12 h-12"/>
-        </div>
-
-        <feature-left
-          headline="safer space for users"
-          content=""
-        >
-          <Credit class="text-gray-800 w-32" slot="svg" />
-        </feature-left>
-
-        <div class="w-full flex justify-center text-gray-800">
-          <Caret class="w-12 h-12"/>
-        </div>
-
-        <feature-right
-          headline="productive tools for developers"
-          content=""
-        >
-          <Piggy class="text-gray-800 w-32" slot="svg" />
-        </feature-right>
-      </div>
-      <div class="w-full my-12">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
+        <img src="~/assets/imgs/calc_illustration.png" alt="">
       </div>
 
-      <p>THE GLOBAL WE</p>
-      <p>Bringing democracy to everyone!</p>
-      <p>The platform build by everyone for everyone!</p>
+      <div class="w-full md:w-auto flex flex-col justify-center items-center text-center md:text-left px-12">
+        <div class="">
+          <p>THE WORLD'S MOST DEMOCRATIC MARKETPLACE</p>
+          <h1>Vote for Delegates <br> maintaining and validating the network</h1>
+        </div>
+        <img src="~/assets/imgs/contribute_shape.png" alt="">
+      </div>
 
     </div>
-    <!-- <div class="w-full text-gray-700 text-center mt-16">
-      <p>
-        Take Advantages out of Crypto's Benefits.<br>
-        But with much less risk of volatility, because dynamic token price compansates automatically the worlds leading fiat inflation. <br>
-        This platform is resevered with digital assets put to work to back the ecosystem on top of business revenue streams. <br>
-        Reserve is owned by users, business owners, developers and investors. <br>
-      </p>
-    </div> -->
-    <div class="w-full flex justify-center text-gray-800">
-      <Caret class="w-12 h-12"/>
+
+    <div class="w-full text-center">
+      <div class="flex flex-wrap justify-center items-center text-center md:text-right px-12">
+        <div class="">
+          <p>Community Spaces</p>
+          <h1>Build dedicated and secure Worlds<br> for your Community</h1>
+        </div>
+        <img src="~/assets/imgs/business_space.png" alt="">
+      </div>
+      <h3>It's the most digitized and automated marketplace on earth!</h3>
     </div>
-    <div class="flex w-full justify-center my-16">
-      <a
-        class="w-auto hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center"
-        href="https://docs.ecosis.network">
-        Learn more!
-      </a>
+
+    <div class="w-full pt-8">
+      <div class="w-full flex justify-center text-gray-800">
+        <Caret class="w-12 h-12"/>
+      </div>
+      <div class="flex w-full justify-center">
+        <a
+          class="w-auto hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center">
+          More soon!
+        </a>
+      </div>
     </div>
   </section>
 </template>

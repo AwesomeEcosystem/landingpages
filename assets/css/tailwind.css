@@ -3,8 +3,7 @@
 @import 'tailwindcss/utilities';
 
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -45,7 +44,7 @@ p {
 }
 
 .nomics {
-  background: radial-gradient(circle at 80% 80%, #0f123b 0%, #21277b 100%);
+  background: radial-gradient(circle at 80% 80%, #0f123b 0%, #293299 100%);
   background-attachment: fixed;
 }
 

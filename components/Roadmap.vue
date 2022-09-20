@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg-white text-gray-900 w-full flex flex-col items-center">
+    <div class="bg-white text-gray-900 w-full flex flex-col items-center pb-4">
       <div class="w-full text-center py-8">
         <h1>Roadmap</h1>
       </div>

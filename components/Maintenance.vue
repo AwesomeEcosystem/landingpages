@@ -22,7 +22,7 @@
 export default {
   data() {
     return {
-      time: 'August 8, 2022 12:00:00'
+      time: 'August 8, 2022 16:00:00 GMT+02:00'
     }
   }
 }
