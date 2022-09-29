@@ -3,7 +3,7 @@
     <h1
       class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
     >
-      Join the Community
+      Join Today
     </h1>
     <div class="w-full mb-4">
       <div
@@ -12,7 +12,7 @@
     </div>
 
     <h3 class="my-4 text-3xl leading-tight">
-      The Multiverse is waiting for you!
+      and gain Passive Income!
     </h3>
 
     <div class="w-full flex justify-center">
@@ -46,6 +46,14 @@
           <Twitter class="mr-4"/>
         </a>
       </div>
+    </div>
+    <div class="pt-12">
+      <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">
+        Request Beta
+      </a>
+      <a class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-6 py-4 px-8" href="https://docs.ecosis.network" target="_blank">
+        Start here
+      </a>
     </div>
   </section>
 </template>

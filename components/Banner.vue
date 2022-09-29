@@ -1,11 +1,11 @@
 <template>
   <section>
-    <div class="md:h-screen flex flex-col justify-between">
+    <div class="md:min-h-screen flex flex-col justify-center">
       <div class="h-full flex flex-col justify-center items-center">
         <BannerContent />
       </div>
-      <Wave align="top" color="#fafafa"/>
     </div>
+    <Wave align="top" color="#fafafa"/>
   </section>
 </template>
 
