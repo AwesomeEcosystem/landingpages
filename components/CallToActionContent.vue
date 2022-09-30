@@ -49,7 +49,7 @@
     </div>
     <div class="pt-12">
       <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">
-        Request Beta
+        Request
       </a>
       <a class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-6 py-4 px-8" href="https://docs.ecosis.network" target="_blank">
         Start here

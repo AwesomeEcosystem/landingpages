@@ -12,10 +12,7 @@
             Nomics
           </h1>
 
-          <p>The Digital Foundation for Businesses</p>
-          <p class="leading-normal text-2xl mb-8 font-thin">
-            Reserved Bridgechain
-          </p>
+          <p>The Digital Market Foundation</p>
 <!--
           <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-900 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
             More soon
@@ -34,10 +31,10 @@
           <div class="">
             <h1>What is Nomics</h1>
             <p>Nomics is a Bridgechain enabling the digital economical infrastructure.</p>
-            <p>It's liteweight, developer adoption friendly and even the most easiest migration for real world businesses.</p>
-            <p>This Bridgechain is the base for the ecosis platform at the very bottom. </p>
-            <p>Fast and low fee Transactions.</p>
-            <p>It's developed with the most well-known and scalable programming language Typescript to enable a better developer mass adoption and a much more barrier free business migration on top of it.</p>
+            <p>It's lightweight, developer adoption friendly, and even the easiest migration for real-world businesses.</p>
+            <p>This Bridgechain is the base for the ecosis platform at the very bottom.</p>
+            <p>Fast and low-fee Transactions.</p>
+            <p>It's developed with the most well-known and scalable programming language Typescript to enable a better developer mass adoption and a much more 	barrier-free business migration on top of it.</p>
           </div>
         </div>
       </div>
@@ -51,7 +48,7 @@
           <p class="text-2xl mb-8 font-thin">
             Less Volatile. Fair Profit Distribution.
           </p>
-          <p class="italic -mt-8">Designed to be secured for market dynamics</p>
+          <p class="italic -mt-8">Designed to be secured against market dynamics</p>
         </div>
         <div class="w-full md:w-1/3 flex justify-center items-center">
           <img src="~/assets/imgs/nomics_easy_to_use.png" alt="">
@@ -70,7 +67,7 @@
             <img class="md:w-2/3" src="~/assets/imgs/nomics_tx_types.png" alt="">
             <p>Dynamic Custom Transaction Types</p>
             <h2>Economical Efficient Inbuild Taxes</h2>
-            <p>Individual designed Custom Transaction Types collect different kind of fees.</p>
+            <p>Individual designed Custom Transaction Types collect a different kind of fees.</p>
             <p>Correct Fees for the correct type of transactions.</p>
             <p>Collected funds get redistributed to voting stakeholders.</p>
           </div>
@@ -79,15 +76,15 @@
             <img class="md:w-2/3 pb-24" src="~/assets/imgs/nomics_wrapped_assets.png" alt="">
             <p>Synthetic Bridgechain Assets</p>
             <h2>Native Transaction fees for wrapped Assets</h2>
-            <p>Pay Transaction Fees only with the Synthetic Token like their are native.</p>
+            <p>Pay Transaction Fees only with the Synthetic Token like they are native.</p>
             <p>You don't need to pay the Native Token anymore to send Synthetic Tokens.</p>
-            <p>Access world's leading digital assets in the most practical way without leaving the platform.</p>
+            <p>Access the world's leading digital assets most practically without leaving the platform.</p>
           </div>
 
           <div class="w-full flex justify-center py-4">
             <a
-              class="w-auto hover:underline bg-white text-gray-900 font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center">
-              More soon!
+              class="w-auto hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center" href="https://docs.ecosis.network/">
+              Learn More!
             </a>
           </div>
         </div>
@@ -137,7 +134,7 @@
         <div class="flex flex-wrap justify-center items-center text-center md:text-right px-12 py-24">
           <div class="">
             <p>THE MOST SECURE WAY FOR DIGITAL ASSETS</p>
-            <h1>Say good-bye to <br> Bridgehacks</h1>
+            <h1>Efficient <br> Asset Gateway</h1>
             <p class="-my-8">Every action is a Transaction. Nothing without validation!</p>
           </div>
           <img class="w-1/3" src="~/assets/imgs/gateway.png" alt="">
@@ -176,9 +173,8 @@
           <h2>Vote a Delegate!</h2>
           <div class="w-full flex flex-col justify-center items-center">
             <Caret class="w-12 h-12"/>
-            <a
-              class="w-auto hover:underline bg-white text-gray-900 font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center">
-              More soon!
+            <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">
+              Request
             </a>
           </div>
         </div>
@@ -187,9 +183,8 @@
           <h2>Become a Delegate!</h2>
           <div class="w-full flex flex-col justify-center items-center">
             <Caret class="w-12 h-12"/>
-            <a
-              class="w-auto hover:underline bg-white text-gray-900 font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center">
-              More soon!
+            <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">
+              Request
             </a>
           </div>
         </div>
