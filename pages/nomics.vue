@@ -13,10 +13,10 @@
           </h1>
 
           <p>The Digital Market Foundation</p>
-<!--
-          <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-900 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
-            More soon
-          </button> -->
+
+          <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" href="http://nomics.ecosis.network:4200/" target="_blank">
+            Explorer
+          </a>
         </div>
       </div>
       <Wave align="top" color="#fafafa"/>

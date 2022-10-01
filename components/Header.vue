@@ -61,6 +61,13 @@
           <li class="mr-3">
             <a
               class="inline-block py-2 px-4 no-underline"
+              href="http://nomics.ecosis.network:4200/" target="_blank"
+              >Explorer</a
+            >
+          </li>
+          <li class="mr-3">
+            <a
+              class="inline-block py-2 px-4 no-underline"
               href="https://docs.ecosis.network" target="_blank"
               >Documentation</a
             >

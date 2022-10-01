@@ -107,6 +107,14 @@
         </li>
         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
           <a
+            href="http://nomics.ecosis.network:4200/"
+            target="_blank"
+            class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+            >Nomics Explorer</a
+          >
+        </li>
+        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+          <a
           href="mailto:contact@ecosis.network"
           target="_blank"
           class="no-underline hover:underline text-gray-800 hover:text-orange-500"
