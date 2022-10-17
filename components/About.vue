@@ -3,6 +3,40 @@
 
     <div class="w-full flex flex-wrap justify-center items-start">
 
+      <div class="w-full text-center py-8">
+        <h1>Features</h1>
+      </div>
+      <div class="">
+        <h2>It's all about <br> Traffic. </h2>
+        <p>Traffic means actions. Actions means Transaction. Transaction means Passive Income!</p>
+      </div>
+      <div class="">
+        <h3>If you are in, you will win!</h3>
+      </div>
+
+      <div class="w-full flex flex-wrap justify-center text-center pb-8">
+        <div class="px-6">
+          <h2>Build an App</h2>
+          <div class="">
+            <p>
+              Use ecosis SDK to build your App on top of the marketplace!
+            </p>
+          </div>
+        </div>
+        <div class="px-6">
+          <h2>Run a Business</h2>
+          <div class="">
+            Integrate ecosis' features into your e-commerce!
+          </div>
+        </div>
+        <div class="px-6">
+          <h2>Invest Volatility Free</h2>
+          <div class="">
+            Provide Liquidty and get ecosis' Stake to profit out of the marketplace!
+          </div>
+        </div>
+      </div>
+
       <div class="w-full md:w-1/3 flex flex-col justify-center items-center text-center md:text-right m-8">
         <div class="">
           <p>A MARKETPLACE HOW IT SHOULD</p>
