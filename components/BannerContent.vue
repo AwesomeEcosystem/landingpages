@@ -10,10 +10,11 @@
         <div class="flex flex-col justify-center">
           <p class="uppercase tracking-loose w-full">Awesome Ecosystem</p>
           <h1 class="my-4 text-5xl font-bold">
-            Automated  <br>Marketplace
+            Rewarding
+            <br>Marketplace
           </h1>
           <p class="text-2xl my-4 font-thin">
-            Composable. Interoperable. Sustainable.
+            Purchasing Power to the People!
           </p>
         </div>
 

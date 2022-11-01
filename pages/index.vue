@@ -4,7 +4,7 @@
     <About id="about" />
     <Products id="products" />
     <!-- <Partners id="partner" /> -->
-    <Features id="roadmap" />
+    <Features id="features" />
     <CallToAction />
   </div>
 </template>

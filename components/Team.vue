@@ -104,20 +104,20 @@ export default {
             link: 'https://www.linkedin.com/in/navneet-singhrol/'
           },
         ],
-        team: [
-          {
-            img: 'https://avatars.githubusercontent.com/u/93404834?v=4',
-            name: 'Lev Wang',
-            bio: 'Lead Developer',
-            link: 'https://github.com/LevDev2017'
-          },
-          {
-            img: 'https://media-exp1.licdn.com/dms/image/C5603AQFDBFnryPFydA/profile-displayphoto-shrink_200_200/0/1635010470004?e=1655337600&v=beta&t=dAb_zNo22_bORKy3BM5wlrgp0kuLpVqXGRoIIMdK-z8',
-            name: 'Steve Chin',
-            bio: 'CM',
-            link: 'https://www.linkedin.com/in/steve-chin-005176a3/'
-          },
-        ]
+        // team: [
+        //   {
+        //     img: 'https://avatars.githubusercontent.com/u/93404834?v=4',
+        //     name: 'Lev Wang',
+        //     bio: 'Lead Developer',
+        //     link: 'https://github.com/LevDev2017'
+        //   },
+        //   {
+        //     img: 'https://media-exp1.licdn.com/dms/image/C5603AQFDBFnryPFydA/profile-displayphoto-shrink_200_200/0/1635010470004?e=1655337600&v=beta&t=dAb_zNo22_bORKy3BM5wlrgp0kuLpVqXGRoIIMdK-z8',
+        //     name: 'Steve Chin',
+        //     bio: 'CM',
+        //     link: 'https://www.linkedin.com/in/steve-chin-005176a3/'
+        //   },
+        // ]
       },
     }
   },

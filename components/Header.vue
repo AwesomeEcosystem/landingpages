@@ -40,38 +40,31 @@
           <li class="mr-3">
             <button
               class="inline-block py-2 px-4 no-underline"
-              @click="($route === '/') ? window.location('#products') : $router.push('/#nomics')"
+              @click="($route === '/') ? window.location('#products') : $router.push('/#products')"
+              >Eco</button
+            >
+          </li>
+          <li class="mr-3">
+            <button
+              class="inline-block py-2 px-4 no-underline"
+              @click="($route === '/') ? window.location('#products') : $router.push('/#products')"
               >Nomics</button
             >
           </li>
+          <li class="mr-3">
+            <button
+              class="inline-block py-2 px-4 no-underline"
+              @click="($route === '/') ? window.location('#features') : $router.push('/#features')"
+              >Ecosystem</button
+            >
+          </li>
           <!-- <li class="mr-3">
-            <button
-              class="inline-block py-2 px-4 no-underline"
-              @click="($route === '/') ? window.location('#products') : $router.push('/#authic')"
-              >Authic</button
-            >
-          </li> -->
-          <li class="mr-3">
-            <button
-              class="inline-block py-2 px-4 no-underline"
-              @click="($route === '/') ? window.location('#partner') : $router.push('/#one')"
-              >One</button
-            >
-          </li>
-          <li class="mr-3">
-            <a
-              class="inline-block py-2 px-4 no-underline"
-              href="http://nomics.ecosis.network:4200/" target="_blank"
-              >Explorer</a
-            >
-          </li>
-          <li class="mr-3">
             <a
               class="inline-block py-2 px-4 no-underline"
               href="https://docs.ecosis.network" target="_blank"
               >Documentation</a
             >
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
