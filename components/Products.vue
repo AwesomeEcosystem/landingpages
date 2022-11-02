@@ -6,7 +6,7 @@
     </div>
     <div class="flex flex-wrap text-white">
 
-      <div class="w-full flex flex-col justify-center md:w-1/2 md:h-auto min-h-screen py-12" id="one">
+      <div class="w-full flex flex-col justify-center md:w-1/2 md:h-auto min-h-screen py-12" id="eco">
         <div class="flex flex-wrap justify-center items-center text-center">
           <div class="flex justify-center items-center w-full my-8">
             <img class="md:w-1/3"src="~/assets/logos/one_logo.png"/>

@@ -8,10 +8,10 @@
         class="flex flex-col w-full md:w-2/5 justify-center items-center md:items-start text-center md:text-left"
       >
         <div class="flex flex-col justify-center">
-          <p class="uppercase tracking-loose w-full">Awesome Ecosystem</p>
+          <p class="uppercase tracking-loose w-full">The ultimate</p>
           <h1 class="my-4 text-5xl font-bold">
-            Rewarding
-            <br>Marketplace
+            Passive Income
+            <br>& Reward System
           </h1>
           <p class="text-2xl my-4 font-thin">
             Purchasing Power to the People!

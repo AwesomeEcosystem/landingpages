@@ -10,25 +10,40 @@
 
       <div class="w-full flex flex-wrap justify-center items-start text-center md:mx-64">
         <div class="w-full md:flex-1 p-4">
-          <div class="flex justify-center items-center p-4 h-24">
-            <Chart class="w-24"/>
+          <div class="flex flex-col justify-around items-center p-4 h-24">
+            <ChartLine class="w-24"/>
           </div>
-          <h3>It is rewarding</h3>
-          <p>The system rewards everyone with a deposit!</p>
+          <p>A simple and profitable User Experience</p>
         </div>
         <div class="w-full md:flex-1 p-4">
-          <div class="flex justify-center items-center p-4 h-24">
+          <div class="flex flex-col justify-around items-center p-4 h-24">
             <Shield class="w-24"/>
           </div>
-          <h3>It is risk-less</h3>
-          <p>Your deposit is still yours!</p>
+          <p>The most stable and risk-free Investment Solution</p>
         </div>
         <div class="w-full md:flex-1 p-4">
-          <div class="flex justify-center items-center p-4 h-24">
+          <div class="flex flex-col justify-around items-center p-4 h-24">
+            <ChartBar class="w-24"/>
+          </div>
+          <p>Investment and Cash-Flow all-in-one</p>
+        </div>
+        <div class="w-full md:flex-1 p-4">
+          <div class="flex flex-col justify-around items-center p-4 h-24">
+            <Landmark class="w-24"/>
+          </div>
+          <p>No regulatory issues and easily accessible to everyone</p>
+        </div>
+        <div class="w-full md:flex-1 p-4">
+          <div class="flex flex-col justify-around items-center p-4 h-24">
+            <Check class="w-24"/>
+          </div>
+          <p>Available for B2C, B2B, and IoT</p>
+        </div>
+        <div class="w-full md:flex-1 p-4">
+          <div class="flex flex-col justify-around items-center p-4 h-24">
             <Puzzle class="w-24"/>
           </div>
-          <h3>It is interoperable</h3>
-          <p>Use it with more and more existing platforms out there!</p>
+          <p>Interoperable with all existing businesses</p>
         </div>
       </div>
 
@@ -56,7 +71,7 @@
 
     <div class="w-full flex flex-col justify-center items-center text-center">
       <h2>Compound Rewards</h2>
-      <p>You get automatically rewarded proportional to your deposit!</p>
+      <p>Earn rewards proportional to your deposit!</p>
       <!-- <p>Current Weekly Reward Rate</p>
       <h3>~0.27%</h3>
       <p class="font-italic">~14.04% annualized</p> -->
@@ -66,7 +81,7 @@
 
     <div class="w-full text-center pt-24">
       <h3>If you are in, you will win!</h3>
-      <p>It is absolutely risk-less. You can not lose any money. You only can get rewarded over time!</p>
+      <p>It is absolutely risk-less. We have a money back guarantee! You will only receive rewards over time!</p>
     </div>
     <div class="w-full pt-8">
       <div class="w-full flex justify-center text-gray-800">
@@ -86,69 +101,17 @@
 import FeatureRight from '@/components/FeatureRight'
 import FeatureLeft from '@/components/FeatureLeft'
 
-import LineChart from "@/components/Charts/LineChart"
-
 import Shield from '@/assets/svg/user-shield-solid.svg'
 import Piggy from '@/assets/svg/piggy-bank-solid.svg'
 import Credit from '@/assets/svg/credit-card-solid.svg'
 import Caret from '@/assets/svg/caret-down-solid.svg'
 import Puzzle from '@/assets/svg/puzzle-piece-solid.svg'
-import Chart from '@/assets/svg/chart-line-solid.svg'
+import ChartLine from '@/assets/svg/chart-line-solid.svg'
+import ChartBar from '@/assets/svg/chart-bar-solid.svg'
+import Landmark from '@/assets/svg/landmark-solid.svg'
+import Check from '@/assets/svg/check-to-slot-solid.svg'
 
 export default {
-  name: 'Features',
-  data() {
-    return {
-      linedata: {
-        labels: [
-          "Week 1",
-          "Week 2",
-          "Week 3",
-          "Week 4",
-          "Week 5"
-        ],
-        datasets: [
-          {
-            label: "Income",
-            borderColor: "#FC2525",
-            pointBackgroundColor: "white",
-            borderWidth: 1,
-            pointBorderColor: "white",
-            backgroundColor: this.gradient,
-            data: [2, 5, 15, 35, 65],
-          },
-        ],
-      },
-      doughnutData: {
-        labels: ['Presale', 'Mainsale', 'Team', 'Mainsaleing', 'Liquidity'],
-        datasets: [
-          {
-            label: "Bend",
-            borderColor: "transparent",
-            pointBackgroundColor: "white",
-            borderWidth: 1,
-            backgroundColor: ['#5D675B', '#E5B25D', '#4357AD', '#EF5B5B'],
-            data: [20, 40, 10, 10, 20]
-          }
-        ]
-      },
-      chart: {
-        options: {
-        legend: {
-          display: false
-        },
-        tooltips: {
-          callbacks: {
-             label: function(tooltipItem) {
-                return tooltipItem.yLabel;
-             }
-            }
-          }
-        },
-        width: '80%'
-      },
-    }
-  },
   components: {
     FeatureRight,
     FeatureLeft,
@@ -157,7 +120,10 @@ export default {
     Credit,
     Caret,
     Puzzle,
-    Chart
+    ChartLine,
+    ChartBar,
+    Landmark,
+    Check
   }
 }
 </script>

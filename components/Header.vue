@@ -40,14 +40,14 @@
           <li class="mr-3">
             <button
               class="inline-block py-2 px-4 no-underline"
-              @click="($route === '/') ? window.location('#products') : $router.push('/#products')"
+              @click="($route === '/') ? window.location('#products') : $router.push('/#eco')"
               >Eco</button
             >
           </li>
           <li class="mr-3">
             <button
               class="inline-block py-2 px-4 no-underline"
-              @click="($route === '/') ? window.location('#products') : $router.push('/#products')"
+              @click="($route === '/') ? window.location('#products') : $router.push('/#nomics')"
               >Nomics</button
             >
           </li>
