@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="w-full bg-white text-gray-900">
+    <div class="w-full bg-white text-gray-900 pb-16">
       <div class="flex w-full justify-center">
         <a
           class="w-auto hover:underline nomics text-white font-bold rounded-full py-4 px-8 shadow-lg flex items-center text-center" href="https://docs.ecosis.network/">

@@ -47,13 +47,13 @@
         </a>
       </div>
     </div>
-    <div class="pt-12">
-      <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">
+    <div class="pt-8">
+      <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full py-4 px-8 shadow-lg" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">
         Request
       </a>
-      <a class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-6 py-4 px-8" href="https://docs.ecosis.network" target="_blank">
+      <button class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full py-4 px-8" @click="$router.push('/start')">
         Start here
-      </a>
+      </button>
     </div>
   </section>
 </template>

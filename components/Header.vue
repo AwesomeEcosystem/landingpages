@@ -58,6 +58,13 @@
               >Ecosystem</button
             >
           </li>
+          <li class="mr-3">
+            <button
+              class="inline-block py-2 px-4 no-underline"
+              @click="$router.push('/start/#getstarted')"
+              >Get Started</button
+            >
+          </li>
           <!-- <li class="mr-3">
             <a
               class="inline-block py-2 px-4 no-underline"

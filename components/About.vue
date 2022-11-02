@@ -4,7 +4,7 @@
     <div class="w-full flex flex-wrap justify-center items-start">
 
       <div class="w-full text-center py-8">
-        <h1>Features</h1>
+        <h1>About</h1>
         <h3>The marketplace which rewards its users!</h3>
       </div>
 
@@ -54,13 +54,14 @@
 
     </div>
 
-    <div class="w-full flex flex-col justify-center items-center">
+    <div class="w-full flex flex-col justify-center items-center text-center">
       <h2>Compound Rewards</h2>
       <p>You get automatically rewarded proportional to your deposit!</p>
       <!-- <p>Current Weekly Reward Rate</p>
       <h3>~0.27%</h3>
       <p class="font-italic">~14.04% annualized</p> -->
-      <LineChart :chartData="linedata" :styles="chart"/>
+      <!-- <LineChart :chartData="linedata" :styles="chart"/> -->
+      <img src="~/assets/imgs/screenshots/ecomock.png">
     </div>
 
     <div class="w-full text-center pt-24">
@@ -72,10 +73,10 @@
         <Caret class="w-12 h-12"/>
       </div>
       <div class="flex w-full justify-center">
-        <a
-          class="w-auto hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center" href="https://docs.ecosis.network/">
-          Learn More!
-        </a>
+        <button
+          class="w-auto hover:underline nomics text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg flex items-center text-center" @click="$router.push('/start/#getstarted')">
+          Get Started!
+        </button>
       </div>
     </div>
   </section>
@@ -132,6 +133,18 @@ export default {
         ]
       },
       chart: {
+        options: {
+        legend: {
+          display: false
+        },
+        tooltips: {
+          callbacks: {
+             label: function(tooltipItem) {
+                return tooltipItem.yLabel;
+             }
+            }
+          }
+        },
         width: '80%'
       },
     }
