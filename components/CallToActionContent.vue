@@ -12,7 +12,7 @@
     </div>
 
     <h3 class="my-4 text-3xl leading-tight">
-      and gain Passive Income!
+      and earn Passive Income!
     </h3>
 
     <div class="w-full flex justify-center">
