@@ -1,5 +1,5 @@
 <template>
-  <div class="leading-normal tracking-normal text-white gradient">
+  <div class="text-white nomics">
     <!-- <Maintenance/> -->
     <Header />
     <nuxt />

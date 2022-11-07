@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <BannerContent />
-    <div class="relative -mt-12 lg:-mt-24">
-      <Wave align="top" color="#fafafa"/>
+  <section>
+    <div class="md:min-h-screen flex flex-col justify-center">
+      <div class="h-full flex flex-col justify-center items-center">
+        <BannerContent />
+      </div>
     </div>
-  </div>
+    <Wave align="top" color="#fafafa"/>
+  </section>
 </template>
 
 <script>

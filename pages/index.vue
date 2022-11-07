@@ -1,30 +1,30 @@
 <template>
   <div>
     <Banner />
-    <Features id="about" />
+    <About id="about" />
     <Products id="products" />
-    <Partners id="partner" />
-    <!-- <Team id="team" /> -->
+    <!-- <Partners id="partner" /> -->
+    <Features id="features" />
     <CallToAction />
   </div>
 </template>
 
 <script>
 import Banner from '@/components/Banner'
-import Features from '@/components/Features'
+import About from '@/components/About'
 import Products from '@/components/Products'
 import Partners from '@/components/Partners'
-import Team from '@/components/Team'
+import Features from '@/components/Features'
 import CallToAction from '@/components/CallToAction'
 
 export default {
   name: 'LandingPage',
   components: {
     Banner,
-    Features,
+    About,
     Products,
     Partners,
-    Team,
+    Features,
     CallToAction
   }
 }

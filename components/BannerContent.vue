@@ -1,19 +1,22 @@
 <template>
   <div class="pt-24">
     <div
-      class="container h-full px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center w-full py-8"
+      class="h-full md:px-64 flex flex-wrap justify-around items-center w-full"
     >
       <!--Left Col-->
       <div
-        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
+        class="flex flex-col w-full md:w-2/5 justify-center items-center md:items-start text-center md:text-left"
       >
-        <p class="uppercase tracking-loose w-full">Awesome Ecosystem</p>
-        <h1 class="my-4 text-5xl font-bold">
-          Web 3 <br>for the masses
-        </h1>
-        <p class="text-2xl mb-8 font-thin">
-          Security. Sustainability. Finance. Capital.
-        </p>
+        <div class="flex flex-col justify-center">
+          <p class="uppercase tracking-loose w-full">The ultimate</p>
+          <h1 class="my-4 text-5xl font-bold">
+            Passive Income
+            <br>& Reward System
+          </h1>
+          <p class="text-2xl my-4 font-thin">
+            Purchasing Power to the People!
+          </p>
+        </div>
 
         <div class="flex justify-start w-full">
           <a
@@ -45,15 +48,18 @@
             <Twitter class="mr-4"/>
           </a>
         </div>
-        <div class="">
-          <button class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" @click="$router.push('/launch')">
-            Enter Launch
+        <div class="flex flex-wrap pt-4">
+          <a class="mx-auto lg:mx-0 hover:underline hot text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">
+            Request
+          </a>
+          <button class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-6 py-4 px-8" @click="$router.push('/start')">
+            Start here
           </button>
         </div>
       </div>
       <!--Right Col-->
-      <div class="w-full md:w-3/5 py-6 text-center flex">
-        <img class="w-full justify-center items-center" src="~/assets/img/eco.png" alt />
+      <div class="w-full md:w-3/5 p-6 text-center flex justify-center items-center">
+        <img class="w-full" src="~/assets/imgs/marketplace.png" alt />
       </div>
     </div>
   </div>

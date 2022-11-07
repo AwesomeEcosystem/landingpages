@@ -33,9 +33,8 @@ export default {
 
   generate: {
     routes: [
-      '/launch',
-      '/bend',
-      '/nomics'
+      '/nomics',
+      '/eco'
     ]
   },
 
@@ -72,7 +71,7 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    '~/plugins/paypal.js'
+    // '~/plugins/paypal.js'
   ],
   /*
    ** Nuxt.js dev-modules

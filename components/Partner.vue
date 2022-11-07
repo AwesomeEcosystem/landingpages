@@ -1,6 +1,6 @@
 <template>
-  <a class="flex flex-col justify-start items-center h-auto bg-gray-200 hover:bg-gray-300 w-full rounded-lg md:w-1/4 m-2 p-4" :href="url" target="_blank">
-    <img :src="fetchImage()" class="w-32 p-2 my-8"/>
+  <a class="flex flex-col justify-start items-center h-auto bg-gray-200 hover:bg-gray-300 text-gray-800 w-full rounded-lg md:w-1/4 m-2 p-4" :href="url" target="_blank">
+    <img :src="fetchImage()" class="w-64 p-2 my-8"/>
     <h2 class="text-3xl font-bold leading-none mb-3">{{ name }}</h2>
     <p class="text-center">{{ desc }}</p>
   </a>
