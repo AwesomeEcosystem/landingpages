@@ -11,15 +11,12 @@
                             </router-link>
                         </div>
                         <ul class="footer-widget__list">
-                            <li>Your address goes here</li>
+                            <li>ecosis Network Ltd</li>
                             <li>
-                                <a href="mailto:demo@example.com" class="hover-style-link">demo@example.com</a>
+                                <a href="mailto:contact@ecosis.network" class="hover-style-link">contact@ecosis.network</a>
                             </li>
                             <li>
-                                <a href="tel:0123456789" class="hover-style-link">0123456789</a>
-                            </li>
-                            <li>
-                                <a href="www.website.com" target="_blank" class="hover-style-link hover-style-link--green">www.example.com</a>
+                                <a href="elabs.enterprises" target="_blank" class="hover-style-link hover-style-link--green">elabs.enterprises</a>
                             </li>
                         </ul>
                     </div>
@@ -86,19 +83,13 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center text-md-start">
                         <span class="copyright-text">
-                            &copy; 2022 <b>AeroLand</b> Made with <i class="fa fa-heart text-danger"></i> by <a href="https://hasthemes.com/"><b>HasThemes</b></a>
+                            &copy; 2022 <b>ecosis</b> Made with <i class="fa fa-heart text-danger"></i> by <a href="https://elabs.enterprises"><b>elabs Enterprises</b></a>
                         </span>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <ul class="list ht-social-networks solid-rounded-icon">
                             <li class="item">
-                                <a href="https://www.facebook.com/" target="_blank" class="social-link"> <i class="fab fa-facebook social-link-icon"></i> </a>
-                            </li>
-                            <li class="item">
-                                <a href="https://twitter.com/" target="_blank" class="social-link"> <i class="fab fa-twitter social-link-icon"></i> </a>
-                            </li>
-                            <li class="item">
-                                <a href="https://www.instagram.com/" target="_blank" class="social-link"> <i class="fab fa-instagram social-link-icon"></i> </a>
+                                <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="social-link"> <i class="fab fa-linkedin social-link-icon"></i> </a>
                             </li>
                         </ul>
                     </div>

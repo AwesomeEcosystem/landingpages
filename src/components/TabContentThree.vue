@@ -11,29 +11,29 @@
                     <div class="ht-service-box--three mb-40">
                         <div class="service-box-wrap text-left">
                             <div class="image__media">
-                                <img src="../assets/img/icons/aeroland-tab-content-image-icon-01.png" class="img-fluid" alt="aeroland-payment-box-icon-01">
+                                <img src="../assets/img/logo/eco-logo.png" class="img-fluid" alt="aeroland-payment-box-icon-01" style="width: 100px">
                             </div>
-                            <div class="content">
-                                <h6 class="sub-heading mb-10 text-uppercase">Hotline</h6>
+                            <router-link :to="{ path: 'eco' }" class="content">
+                                <h6 class="sub-heading mb-10 text-uppercase">Wallet</h6>
                                 <h4 class="heading">
-                                    <a href="tel:0123456789">0123456789</a>
+                                    Eco
                                 </h4>
-                                <div class="service_text">24/7 phone and email support</div>
-                            </div>
+                                <div class="service_text">Your App on Mobile and Desktop</div>
+                            </router-link>
                         </div>
                     </div>
                     <div class="ht-service-box--three">
                         <div class="service-box-wrap">
                             <div class="image__media">
-                                <img src="../assets/img/icons/aeroland-tab-content-image-icon-02.png" class="img-fluid" alt="aeroland-payment-box-icon-01">
+                                <img src="../assets/img/logo/nomics-logo.png" class="img-fluid" alt="aeroland-payment-box-icon-01" style="width: 100px">
                             </div>
-                            <div class="content">
-                                <h6 class="sub-heading mb-10 text-uppercase">Give your Feedback</h6>
+                            <router-link :to="{ path: 'nomics' }" class="content">
+                                <h6 class="sub-heading mb-10 text-uppercase">Reward System</h6>
                                 <h4 class="heading">
-                                    <a href="mailto:demo@example.com">demo@example.com</a>
+                                    Nomics
                                 </h4>
-                                <div class="service_text">24/7 phone and email support</div>
-                            </div>
+                                <div class="service_text">The economical infrastructure</div>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -41,4 +41,3 @@
         </div>
     </div>
 </template>
-

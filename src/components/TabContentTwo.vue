@@ -8,17 +8,16 @@
             </div>
             <div class="col-lg-5">
                 <div class="tab-content-inner">
-                    <h4 class="font-weight--light" style="">The best ways<br>to create websites</h4>
-                    <p class="dec section-space--mt_40 section-space--mb_40">We bring on like-minded and talented members to help you grow a stronger business for fiercely reaching towards higher goals every day. </p>
+                    <h4 class="font-weight--light" style="">Passive Income <br>for businesses, consumers and investors</h4>
+                    <p class="dec section-space--mt_40 section-space--mb_40">We bring the most riskless and easy-to-use financial infrastructure by the redistribution of fees! </p>
                     <div class="tab-button section-space--mb_40">
                         <router-link to="/" class="ht-btn ht-btn-md">Learn more</router-link>
                     </div>
-                    <h6 class="sub-heading">What’s next in AeroLand? 
-                        <router-link to="/" class="hover-style-link hover-style-link--green">Learn more</router-link>
+                    <h6 class="sub-heading">Start make your money work for you!
+                        <router-link to="/" class="hover-style-link hover-style-link--green">Get started</router-link>
                     </h6>
                 </div>
             </div>
         </div>
     </div>
 </template>
-

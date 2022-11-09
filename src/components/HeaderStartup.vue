@@ -42,7 +42,7 @@
                     </ul>
                 </div>
                 <div class="btn-group header-button button--white d-none d-xl-block">
-                    <router-link to="" class="btn btn--white">Hire Us Now</router-link>
+                    <router-link to="" class="btn btn--white">Request</router-link>
                 </div>
             </nav>
         </div>

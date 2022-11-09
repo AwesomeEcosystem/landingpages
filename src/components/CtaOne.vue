@@ -7,10 +7,10 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 order-2 order-lg-1">
                                 <div class="cta-image__content">
-                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Free download of our app now</h4>
-                                    <div class="cta-image__text text-white mb-20 wow move-up">Offer your business with the best assistance for growth.</div>
+                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Eco</h4>
+                                    <div class="cta-image__text text-white mb-20 wow move-up">Get started, create an account, and earn passive income!</div>
                                     <router-link :to="{ path: 'branding' }" class="btn btn--green">
-                                        <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get AeroLand
+                                        <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-right-to-arc"></i></span> Request Access
                                     </router-link>
                                 </div>
                             </div>

@@ -7,7 +7,7 @@
                         <h2 class="h1 hero-content-title text-white">Exclusive Mobile <br> App Today!</h2>
                         <h6 class="hero-content-subtitle text-white mt-20">Apps designed by our experts can work perfectly on any devices with high responsiveness and performance.</h6>
                         <div class="slider-button mt-30">
-                            <router-link :to="{ path: 'branding' }" class="btn btn--green"> 
+                            <router-link :to="{ path: 'branding' }" class="btn btn--green">
                                 <i class="fa fa-arrow-alt-to-bottom"></i>
                                 Get Aeroland
                             </router-link>

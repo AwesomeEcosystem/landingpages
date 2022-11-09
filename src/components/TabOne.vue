@@ -8,7 +8,7 @@
                 <button class="nav-link" id="two-tab" data-bs-toggle="tab" data-bs-target="#two-tab-pane" type="button" role="tab" aria-controls="two-tab-pane" aria-selected="false">OUR MISSION</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="three-tab" data-bs-toggle="tab" data-bs-target="#three-tab-pane" type="button" role="tab" aria-controls="three-tab-pane" aria-selected="false">NEW FRIENDLY SUPPORT</button>
+                <button class="nav-link" id="three-tab" data-bs-toggle="tab" data-bs-target="#three-tab-pane" type="button" role="tab" aria-controls="three-tab-pane" aria-selected="false">Products</button>
             </li>
         </ul>
         <div class="tab-content" id="myTabContentOne">

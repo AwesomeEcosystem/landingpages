@@ -8,22 +8,21 @@
             </div>
             <div class="col-lg-5">
                 <div class="tab-content-inner">
-                    <div class="heading mb-30">Meeting all of your requirements for SEO &amp; branding</div>
+                    <div class="heading mb-30">Meeting all of your requirements for your business &amp; sustainable passive income</div>
                     <ul class="check-list green-check-list section-space--mb_50">
-                        <li class="list-item">Receive real-time business analytics </li>
-                        <li class="list-item">Cross-browser Compatible Design </li>
-                        <li class="list-item">Completely Gutenberg Ready </li>
-                        <li class="list-item">Highly Responsive Tools </li>
+                        <li class="list-item">Cross-Platform ready </li>
+                        <li class="list-item">Riskless </li>
+                        <li class="list-item">Easy to use </li>
+                        <li class="list-item">One-Spot Investment </li>
                     </ul>
                     <div class="tab-button mb-30">
                         <button class="ht-btn ht-btn-md">Learn more </button>
                     </div>
-                    <h6 class="sub-heading">What’s next in AeroLand? 
-                        <router-link to="/" class="hover-style-link hover-style-link--green">Learn more</router-link>
+                    <h6 class="sub-heading">Start make your money work for you!
+                        <router-link to="/" class="hover-style-link hover-style-link--green">Start here!</router-link>
                     </h6>
                 </div>
             </div>
         </div>
     </div>
 </template>
-

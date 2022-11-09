@@ -1,16 +1,17 @@
 <template>
     <section class="hero-branding bg-cover" :style="bgImg" id="home">
         <div class="container-fluid container-fluid--cp-150">
-            <div class="row hero-startup">
+            <div class="row ">
                 <div class="col-md-6">
                     <div class="hero-content">
-                        <h2 class="h1 hero-content-title">Get Your Sites <br> A Kickstart Now!</h2>
-                        <h6 class="hero-content-subtitle mt-20">There’s no need to be a technical professional to create sites with AeroLand. With simple guides, everything is easy!</h6>
+                        <h6 class="hero-content-subtitle mt-20">The ultimate</h6>
+                        <h2 class="h1 hero-content-title">Passive Income <br> & Reward System</h2>
+                        <h6 class="hero-content-subtitle mt-20"> Purchasing Power to the People!</h6>
+
                         <div class="slider-button mt-30">
-                            <router-link to="" class="btn btn--green">Get Started</router-link>
+                            <router-link to="" class="btn btn--green">Request</router-link>
                             <h6 class="sub-heading">
-                                Questions? 
-                                <router-link to="" class="hover-style-link hover-style-link--green">Talk to our team</router-link>
+                                <router-link to="" class="hover-style-link">Start here</router-link>
                             </h6>
                         </div>
                     </div>
@@ -40,7 +41,7 @@
 <style lang="scss" scoped>
     @import '../assets/scss/variabls.scss';
     @import '../assets/scss/elements/hero-branding.scss';
-    
+
     .hero-branding {
         // responsive
         @media #{$large-mobile}{

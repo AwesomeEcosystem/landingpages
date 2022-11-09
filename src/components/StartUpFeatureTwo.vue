@@ -25,34 +25,34 @@
             return {
                 items: [
                     {
-                       icon: require('../assets/img/icons/aeroland-startup-box-icon-01.png'), 
-                       heading: 'Web Development', 
-                       text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                       icon: require('../assets/img/icons/aeroland-startup-box-icon-01.png'),
+                       heading: 'Cross-Platform',
+                       text: 'Interoperable with all existing businesses.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-02.png'), 
-                        heading: 'Social Media', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-startup-box-icon-02.png'),
+                        heading: 'B2B2C',
+                        text: 'Available for B2C, B2B, and IoT.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-03.png'), 
-                        heading: 'SEO Marketing', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-startup-box-icon-03.png'),
+                        heading: 'Rewarding',
+                        text: 'A simple and profitable User Experience.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-04.png'), 
-                        heading: 'Keyword Search', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-startup-box-icon-04.png'),
+                        heading: 'All-in-One',
+                        text: 'Investment and Cash-Flow all-in-one.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-05.png'), 
-                        heading: 'Email Optimization', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-startup-box-icon-05.png'),
+                        heading: 'Riskless',
+                        text: 'The most stable and risk-free Investment Solution.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-startup-box-icon-06.png'), 
-                        heading: 'Web Design', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-startup-box-icon-06.png'),
+                        heading: 'Legal',
+                        text: 'No regulatory issues and easily accessible to everyone.'
                     },
                 ]
             }

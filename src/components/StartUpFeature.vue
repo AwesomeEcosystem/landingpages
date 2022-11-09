@@ -24,32 +24,32 @@
             return {
                 iconboxs: [
                     {
-                        icon: 'fab fa-react', 
-                        heading: 'React Native'
+                        icon: 'fab fa-shopify',
+                        heading: 'Shopify'
                     },
                     {
-                        icon: 'fab fa-microsoft', 
-                        heading: 'Windows', 
-                        window:true
+                        icon: 'fab fa-paypal',
+                        heading: 'Paypal',
+                        paypal:true
                     },
                     {
-                        icon: 'fab fa-apple', 
-                        heading: 'MacOS', 
+                        icon: 'fab fa-revolut',
+                        heading: 'Revolut',
                         macos:true
                     },
                     {
-                        icon: 'fab fa-java', 
-                        heading: 'Java', 
+                        icon: 'fab fa-ethereum',
+                        heading: 'Ethereum',
                         java:true
                     },
                     {
-                        icon: 'fab fa-android', 
-                        heading: 'Android', 
+                        icon: 'fab fa-bitcoin',
+                        heading: 'Bitcoin',
                         android:true
                     },
                     {
-                        icon: 'fab fa-php', 
-                        heading: 'PHP', 
+                        icon: 'fab fa-php',
+                        heading: 'PHP',
                         php:true
                     },
                 ]
