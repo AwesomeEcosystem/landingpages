@@ -30,8 +30,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#team" @click="menuCollapseOnLinkClick">
-                                <span>TEAM</span>
+                            <a class="nav-link" href="#products" @click="menuCollapseOnLinkClick">
+                                <span>PRODUCTS</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ecosystem" @click="menuCollapseOnLinkClick">
+                                <span>ECOSYSTEM</span>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -42,7 +47,7 @@
                     </ul>
                 </div>
                 <div class="btn-group header-button button--white d-none d-xl-block">
-                    <router-link to="" class="btn btn--white">Request</router-link>
+                    <router-link to="/eco" class="btn btn--white">Get Started</router-link>
                 </div>
             </nav>
         </div>

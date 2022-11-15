@@ -1,12 +1,12 @@
 <template>
-    <div class="feature-app-showcase" id="about">
+    <div class="feature-app-showcase section-space--mt_60" id="about">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <ChartCircleTwo circleValue="01" class="section-space--mb_40" />
                 </div>
             </div>
-            <SectionTitle sectionTitle="Innovative Ideas for Apps" class="wow move-up" />
+            <SectionTitle sectionTitle="About" class="wow move-up" />
             <FeatureApp />
         </div>
     </div>

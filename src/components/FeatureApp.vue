@@ -27,24 +27,24 @@
             return {
                 items: [
                     {
-                        icon: require('../assets/img/icons/aeroland-app-showcase-box-icon-image-01.png'), 
-                        heading: 'Connect ideas', 
-                        text: 'Consider this app a platform for connecting people  from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-app-showcase-box-icon-image-01.png'),
+                        heading: 'One-Spot Solution',
+                        text: 'Deposit Cash, make payments, share funds and invest easily.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-app-showcase-box-icon-image-02.png'), 
-                        heading: 'Make schedules', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-app-showcase-box-icon-image-02.png'),
+                        heading: 'Easy-to-Use',
+                        text: 'Nothing more than you are use to like with Paypal and Co.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-app-showcase-box-icon-image-03.png'), 
-                        heading: 'Manage time', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-app-showcase-box-icon-image-03.png'),
+                        heading: 'Migratable',
+                        text: 'Embed this wallet features into you own apps or use it with Shopify and Co. instantly.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-app-showcase-box-icon-image-04.png'), 
-                        heading: 'Working mobile', 
-                        text: 'Consider this app a platform for connecting people from everywhere based on their preferences.'
+                        icon: require('../assets/img/icons/aeroland-app-showcase-box-icon-image-04.png'),
+                        heading: 'Cross-Platform',
+                        text: 'Use the app Mobile, Desktop or as a Plugin for Shopify and Co.'
                     },
                 ]
             }

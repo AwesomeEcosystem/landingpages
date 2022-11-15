@@ -17,7 +17,7 @@
                             {{ desc }}
                         </div>
                         <div class="btn-sowcase section-space--mb_40 wow move-up">
-                            <a href="#" class="ht-btn ht-btn-md">Download now</a>
+                            <a href="#" class="ht-btn ht-btn-md">Request</a>
                         </div>
                     </div>
                 </div>
@@ -31,9 +31,9 @@
         name: 'CreativeAppDisplay',
         data(){
             return {
-                subtitle: "03-social share!",
-                title: "Creative App Display",
-                desc: "TMore than 35 social platforms are integrated into the app. Cross-platform sharing & displaying followers and likes are easy and convenient with just a few clicks."
+                subtitle: "03 - Checkout",
+                title: "Make Payments",
+                desc: "Go shopping and make payents with your rewards or share with your friends and family."
             }
         }
     };

@@ -16,10 +16,10 @@
                         <li class="list-item">One-Spot Investment </li>
                     </ul>
                     <div class="tab-button mb-30">
-                        <button class="ht-btn ht-btn-md">Learn more </button>
+                        <router-link to="/nomics" class="ht-btn ht-btn-md">Learn more </router-link>
                     </div>
                     <h6 class="sub-heading">Start make your money work for you!
-                        <router-link to="/" class="hover-style-link hover-style-link--green">Start here!</router-link>
+                        <router-link to="/eco" class="hover-style-link hover-style-link--green">Start here!</router-link>
                     </h6>
                 </div>
             </div>

@@ -29,20 +29,20 @@
         data(){
             return {
                 img: require("../assets/img/features/aeroland-app-showcase-image-04.png"),
-                subtitle: "02 – communicate with friends",
+                subtitle: "02 – Increase your funds",
                 collections: [
                     {
-                        collect: "User-friendly, modern and intuitive"
+                        collect: "Deposit money with money-back guarantee"
                     },
                     {
-                        collect: "Updated mobile design & features"
+                        collect: "Receive funds"
                     },
                     {
-                        collect: "Beautiful icons, typography and images"
+                        collect: "Get passive rewards proportional to your deposit"
                     },
-                    {
-                        collect: "Extendable premium customer support"
-                    }
+                    // {
+                    //     collect: "Exchange assets"
+                    // }
                 ]
             }
         }

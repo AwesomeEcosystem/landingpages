@@ -31,10 +31,7 @@
                 </button>
 
                 <div class="header-config-wrapper btn-group">
-                    <button class="header-config btn" @click="toggleClass('addClass', 'active')">
-                        <i class="far fa-search"></i>
-                    </button>
-                    <router-link to="" class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Hire Us Now</router-link>
+                    <a class="ht-btn ht-btn--outline hire-btn d-none d-xl-block" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Request</a>
                 </div>
 
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
@@ -51,7 +48,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#service" @click="menuCollapseOnLinkClick">
-                                <span>SERVICE</span>
+                                <span>FEATURES</span>
                             </a>
                         </li>
                         <li class="nav-item">

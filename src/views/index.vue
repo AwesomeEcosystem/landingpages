@@ -20,6 +20,7 @@
                 <StartUpFeatureTwo />
             </div>
         </div>
+        <TabThree />
 
         <div class="start-ups-feature" id="platform">
             <div class="container">
@@ -37,7 +38,7 @@
             </div>
         </div>
 
-        <div class="tabs-wrapper startup-tab section-space--mt_30 section-space--pb_120">
+        <div class="tabs-wrapper startup-tab section-space--mt_30 section-space--pb_120" id="products">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -50,17 +51,16 @@
             </div>
         </div>
 
-        <div class="team-member-wrapper section-space--ptb_120 default-bg" id="team">
+        <div class="team-member-wrapper section-space--ptb_120 default-bg" id="ecosystem">
             <div class="container">
                 <TeamTwo />
             </div>
         </div>
-        <TabThree />
+
         <CarouselStartup />
         <ContactForm />
-        <CtaFour />
+        <!-- <CtaFour /> -->
         <FooterMain FooterStyle="bg_drak-footer" />
-
     </div>
 </template>
 

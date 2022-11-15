@@ -2,63 +2,62 @@
 	<div class="main-container">
 		<HeaderSoftware />
 		<HeroSoftware />
-		<BrandLogoCarousel />
 
-        <div class="feature-icon-list-area section-space--pb_120 section-space--mt_40" id="about">
-            <div class="container">
-                <div class="section-title-wrapper text-center section-space--mb_100">
-                    <h2 class="section-title font-weight--light mb-30 wow move-up">In-depth Sales Reports Available at <br> Your Hand</h2>
-                    <div class="video-button-container video-popup">
-                        <div class="video-play">
-                            <i class="fa fa-play-circle"></i>
-                            <span class="video-text">INTRO & DEMO VIDEO</span>
-                        </div>
+    <div class="feature-icon-list-area section-space--pb_120 section-space--mt_40" id="about">
+        <div class="container">
+            <div class="section-title-wrapper text-center section-space--mb_100">
+                <h2 class="section-title font-weight--light mb-30 wow move-up">Better than any Smart-Contracts <br> based platform out there</h2>
+                <div class="video-button-container video-popup">
+                    <!-- <div class="video-play">
+                        <i class="fa fa-play-circle"></i>
+                        <span class="video-text">INTRO & DEMO VIDEO</span>
+                    </div> -->
+                </div>
+            </div>
+            <FeatureList />
+        </div>
+    </div>
+
+    <TabTwo BgGradient="bg-gradient" id="service" />
+
+    <div class="progress-bar-warpper section-space--pt_120">
+        <div class="container_fl">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="sofftware-progress-images_media text-center wow move-up">
+                        <img src="../assets/img/features/aeroland-software-image-05.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <FeatureList />
-            </div>
-        </div>
-
-        <TabTwo BgGradient="bg-gradient" id="service" />
-
-        <div class="progress-bar-warpper section-space--pt_120">
-            <div class="container_fl">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="sofftware-progress-images_media text-center wow move-up">
-                            <img src="../assets/img/features/aeroland-software-image-05.png" alt="" class="img-fluid">
+                <div class="col-lg-6">
+                    <div class="sofftware-progress__content">
+                        <div class="section-title-wrapper section-space--mb_60 wow move-up">
+                            <h2 class="section-title font-weight--light">All-in-one responsive app for you</h2>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="sofftware-progress__content">
-                            <div class="section-title-wrapper section-space--mb_60 wow move-up">
-                                <h2 class="section-title font-weight--light">All-in-one responsive app for you</h2>
-                            </div>
-                            <ProgressBar />
-                        </div>
+                        <ProgressBar />
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 		<div class="fun-fact-wrapper section-space--pt_60 section-space--pb_60">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title text-center section-space--mb_60">
-                            <h2 class="font-weight--light mb-15 wow move-up">No stories, facts only</h2>
-                            <span class="section-text wow move-up">Better software promotes overall sales & net profits</span>
-                        </div>
-                    </div>
-                </div>
-				<FunFactOne />
-            </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="section-title text-center section-space--mb_60">
+                          <h2 class="font-weight--light mb-15 wow move-up">No stories, facts only</h2>
+                          <span class="section-text wow move-up">Better software promotes overall sales & net profits</span>
+                      </div>
+                  </div>
+              </div>
+							<FunFactOne />
+          </div>
 		</div>
 
         <CurveShape>
             <template v-slot:bgcolor>
                 <path style="fill: #f6f5f9;
-                    stroke-miterlimit:10;" 
+                    stroke-miterlimit:10;"
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
                         S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
@@ -97,23 +96,23 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="faq-wrapper">
                             <Accordion />
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <!-- <div class="col-lg-6">
                         <div class="faq-wrapper soft-accordion-two">
                             <Accordion />
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
         <CurveShape class="curve-bottom">
             <template v-slot:bgcolor>
                 <path style="fill: #f6f5f9;
-                    stroke-miterlimit:10;" 
+                    stroke-miterlimit:10;"
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
                         S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
@@ -132,9 +131,9 @@
             </div>
         </div>
 
-        <Newsletter /> 
-        <FooterMain />
-        <OffcanvasSearchBox />
+        <!-- <Newsletter /> -->
+        <FooterMain FooterStyle="bg_drak-footer" />
+        <!-- <OffcanvasSearchBox /> -->
 	</div>
 </template>
 
@@ -170,8 +169,7 @@
             Accordion,
             Newsletter,
             FooterMain,
-            OffcanvasSearchBox	
+            OffcanvasSearchBox
 		}
 	};
 </script>
-

@@ -17,7 +17,7 @@
                             {{ desc }}
                         </div>
                         <div class="btn-sowcase section-space--mb_40 wow move-up">
-                            <a href="#" class="ht-btn ht-btn-md">Download now</a>
+                            <a href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank" class="ht-btn ht-btn-md">Request</a>
                         </div>
                     </div>
                 </div>
@@ -32,9 +32,9 @@
         data (){
             return {
                 img: require("../assets/img/features/aeroland-app-showcase-image-03.jpg"),
-                subtitle: "01 – login screen",
-                title: "Everything starts with the login screen",
-                desc: "The design of a login screen is intended to give users a quick and secure way to access their personal account. Bot detection algorithm is available for selection."
+                subtitle: "01 – Create Account",
+                title: "Everything starts with the login",
+                desc: "Simply create an account and access the dashboard for free."
             }
         }
     };

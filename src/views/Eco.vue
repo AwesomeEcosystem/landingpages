@@ -2,12 +2,12 @@
 	<div class="main-container">
 		<HeaderShowcase />
 		<HeroAppShowcase />
-		<BrandLogoCarousel />
+		<!-- <BrandLogoCarousel /> -->
 		<FeatureAppShowcase />
 		<Download />
 		<ThreeStepProcessWrap />
 		<AppShowcaseNewsletter />
-        <FooterAppShowcase />
+		<FooterMain FooterStyle="bg_drak-footer" />
 	</div>
 </template>
 
@@ -19,7 +19,7 @@
 	import Download from "../components/Download";
 	import ThreeStepProcessWrap from "../components/ThreeStepProcessWrap";
 	import AppShowcaseNewsletter from "../components/sections/AppShowcaseNewsletter";
-	import FooterAppShowcase from "../components/FooterAppShowcase";
+	import FooterMain from '../components/FooterMain'
 
 	export default {
 		name: "HomeShowcase",
@@ -31,8 +31,7 @@
 			Download,
 			ThreeStepProcessWrap,
 			AppShowcaseNewsletter,
-			FooterAppShowcase
+			FooterMain
 		}
 	};
 </script>
-

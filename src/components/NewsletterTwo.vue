@@ -7,13 +7,13 @@
             <!-- newsletter form -->
             <div class="newsletter-form--two section-space--mb_40 text-center wow move-up">
                 <form>
-                    <input type="text" placeholder="Your name">
+                    <!-- <input type="text" placeholder="Your name"> -->
                     <input type="email" placeholder="Email">
                     <button class="ht-btn ht-btn-md">Subscribe</button>
                 </form>
             </div>
             <!-- newsletter text -->
-            <h6 class="sub-heading text-center wow move-up">What’s next in AeroLand? <router-link to="" class="hover-style-link hover-style-link--green">Learn more</router-link></h6>
+            <!-- <h6 class="sub-heading text-center wow move-up">What’s next in AeroLand? <router-link to="" class="hover-style-link hover-style-link--green">Learn more</router-link></h6> -->
         </div>
     </div>
 </template>

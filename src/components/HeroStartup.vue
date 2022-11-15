@@ -1,5 +1,5 @@
 <template>
-    <section class="hero-branding bg-cover" :style="bgImg" id="home">
+    <section class="hero-branding banner-gradient-bg" :style="bgImg" id="home">
         <div class="container-fluid container-fluid--cp-150">
             <div class="row ">
                 <div class="col-md-6">
@@ -9,9 +9,9 @@
                         <h6 class="hero-content-subtitle mt-20"> Purchasing Power to the People!</h6>
 
                         <div class="slider-button mt-30">
-                            <router-link to="" class="btn btn--green">Request</router-link>
+                            <a class="btn btn--gradient-hot" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Request</a>
                             <h6 class="sub-heading">
-                                <router-link to="" class="hover-style-link">Start here</router-link>
+                                <router-link to="/eco" class="hover-style-link">Start here</router-link>
                             </h6>
                         </div>
                     </div>

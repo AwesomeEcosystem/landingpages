@@ -31,19 +31,19 @@
             return {
                 features: [
                     {
-                        icon: require('../assets/img/icons/aeroland-branding-box-image-01-1.png'), 
-                        title: 'Cross-browser Compatible Design', 
-                        desc: 'Apps are built based on highly compatible design for all kinds of Internet browsers.'
+                        icon: require('../assets/img/icons/aeroland-branding-box-image-01-1.png'),
+                        title: 'Cross-platform Compatible Design',
+                        desc: 'It is interoperable with many platforms like Revolut, Shopfiy, Ethereum and Bitcoin.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-branding-box-image-02-1.png'), 
-                        title: 'Highly Responsive Tools', 
-                        desc: 'Apps are built based on highly compatible design for all kinds of Internet browsers.'
+                        icon: require('../assets/img/icons/aeroland-branding-box-image-02-1.png'),
+                        title: 'Stabilized',
+                        desc: 'The Deposit Token is over-collateralized to ensure minimum 100% reserves.'
                     },
                     {
-                        icon: require('../assets/img/icons/aeroland-branding-box-image-03-1.png'), 
-                        title: 'Completely Mobile Ready', 
-                        desc: 'Apps are built based on highly compatible design for all kinds of Internet browsers.'
+                        icon: require('../assets/img/icons/aeroland-branding-box-image-03-1.png'),
+                        title: 'It is composable',
+                        desc: 'Build your app on top or migrate an existing one thanks to the support of the most well-known web development programming language. '
                     },
                 ]
             }

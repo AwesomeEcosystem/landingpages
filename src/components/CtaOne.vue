@@ -9,8 +9,8 @@
                                 <div class="cta-image__content">
                                     <h4 class="cta-image__title text-white mb-20 wow move-up">Eco</h4>
                                     <div class="cta-image__text text-white mb-20 wow move-up">Get started, create an account, and earn passive income!</div>
-                                    <router-link :to="{ path: 'branding' }" class="btn btn--green">
-                                        <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-right-to-arc"></i></span> Request Access
+                                    <router-link to="/eco" class="btn btn--green">
+                                        <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-right-to-arc"></i></span> Get Started
                                     </router-link>
                                 </div>
                             </div>

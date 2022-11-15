@@ -37,21 +37,21 @@
                         heading: 'Revolut',
                         macos:true
                     },
-                    {
-                        icon: 'fab fa-ethereum',
-                        heading: 'Ethereum',
-                        java:true
-                    },
-                    {
-                        icon: 'fab fa-bitcoin',
-                        heading: 'Bitcoin',
-                        android:true
-                    },
-                    {
-                        icon: 'fab fa-php',
-                        heading: 'PHP',
-                        php:true
-                    },
+                    // {
+                    //     icon: 'fab fa-ethereum',
+                    //     heading: 'Ethereum',
+                    //     java:true
+                    // },
+                    // {
+                    //     icon: 'fab fa-bitcoin',
+                    //     heading: 'Bitcoin',
+                    //     android:true
+                    // },
+                    // {
+                    //     icon: 'fab fa-plus',
+                    //     heading: 'TypeScript',
+                    //     php:true
+                    // },
                 ]
             }
         }

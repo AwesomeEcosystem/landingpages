@@ -3,7 +3,7 @@
         <div class="footer-area section-space--ptb_90">
             <div class="container">
                 <div class="row footer-widget-wrapper">
-                    <div class="col-lg-4 col-md-6 footer-widget">
+                    <div class="col-lg-2 col-md-6 footer-widget">
                         <div class="footer-widget__logo mb-30">
                             <router-link to="/">
                                 <img src="../assets/img/logo/logo-dark.png" class="img-fluid logo-dark" alt="logo">
@@ -21,19 +21,27 @@
                         </ul>
                     </div>
                     <div class="col-lg-2 col-md-6 footer-widget">
-                        <h6 class="footer-widget__title mb-20">Who we are</h6>
+                        <h6 class="footer-widget__title mb-20">Products</h6>
                         <ul class="footer-widget__list">
                             <li>
-                                <router-link to="/" class="hover-style-link">About us</router-link>
+                                <router-link to="/eco" class="hover-style-link">Eco</router-link>
                             </li>
                             <li>
-                                <router-link to="/" class="hover-style-link">Before you go</router-link>
+                                <router-link to="/nomics" class="hover-style-link">Nomics</router-link>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-widget">
+                        <h6 class="footer-widget__title mb-20">Businesses</h6>
+                        <ul class="footer-widget__list">
+                            <li>
+                                <a class="hover-style-link" href="https://elabs.enterprises/" target="_blank">eLabs</a>
                             </li>
                             <li>
-                                <router-link to="/" class="hover-style-link">Online check in</router-link>
+                                <a class="hover-style-link" href="https://cunoro.finance/" target="_blank">Cunoro</a>
                             </li>
                             <li>
-                                <router-link to="/" class="hover-style-link">FAQ</router-link>
+                                <a class="hover-style-link" href="https://thescooterz.com/" target="_blank">TheScooterz</a>
                             </li>
                         </ul>
                     </div>
@@ -41,16 +49,13 @@
                         <h6 class="footer-widget__title mb-20">Quick links</h6>
                         <ul class="footer-widget__list">
                             <li>
-                                <router-link to="/" class="hover-style-link">Pick up locations</router-link>
-                            </li>
-                            <li>
                                 <router-link to="/" class="hover-style-link">Terms of Payment</router-link>
                             </li>
                             <li>
-                                <router-link to="/" class="hover-style-link">Privacy Policy</router-link>
+                                <router-link to="/" class="hover-style-link">Terms of Use</router-link>
                             </li>
                             <li>
-                                <router-link to="/" class="hover-style-link">Where to Find Us</router-link>
+                                <router-link to="/" class="hover-style-link">Privacy Policy</router-link>
                             </li>
                         </ul>
                     </div>

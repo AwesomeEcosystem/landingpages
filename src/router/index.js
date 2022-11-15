@@ -21,6 +21,11 @@ const routes = [
         name: 'Nomics',
         component: () => import(/* webpackChunkName: "HomeSoftware" */ '../views/Nomics.vue'),
     },
+    {
+        path: '/shop',
+        name: 'ecosis Shop',
+        component: () => import(/* webpackChunkName: "HomeSoftware" */ '../views/ComingSoon.vue'),
+    },
     // {
     //     path: '/blog-list-large-image',
     //     name: 'BlogListLargeImage',

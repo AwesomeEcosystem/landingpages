@@ -26,7 +26,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#service" @click="menuCollapseOnLinkClick">
-                                <span>service</span>
+                                <span>Get Started</span>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -37,7 +37,7 @@
                     </ul>
                 </div>
                 <div class="btn-group header-button button--white d-none d-xl-block">
-                    <router-link to="" class="btn btn--white">Hire Us Now</router-link>
+                    <a class="btn btn--white" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Request</a>
                 </div>
             </nav>
         </div>

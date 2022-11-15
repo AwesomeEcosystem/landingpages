@@ -3,7 +3,7 @@
         <div class="col-md-6 col-xl-3 pricing-table wow move-up" v-for="(pricing, index) in pricingTable" :key="index" :class="{'pricing-table--popular__bg': pricing.active}">
             <div class="pricing-table__inner" :class="{'bg-gradient': pricing.active}">
                 <div class="pricing-table__feature-mark" v-if="pricing.isPopular">
-                    <span>Popular Choice</span>
+                    <span>Hot</span>
                 </div>
                 <div class="pricing-table__header">
                     <div class="pricing-table__image">
@@ -13,7 +13,7 @@
                     <div class="pricing-table__price-wrap">
                         <h6 class="currency">$</h6>
                         <h6 class="price">{{ pricing.value }}</h6>
-                        <h6 class="period">/{{ pricing.duration }}</h6>
+                        <!-- <h6 class="period">/{{ pricing.duration }}</h6> -->
                     </div>
                 </div>
                 <div class="pricing-table__body">
@@ -22,7 +22,7 @@
                     </ul>
                 </div>
                 <div class="pricing-table__footer">
-                    <a href="#" class="ht-btn ht-btn--outline ht-btn-default" :class="{'btn--white': pricing.active}">Get started</a>
+                    <a href="/eco" class="ht-btn ht-btn--outline ht-btn-default" :class="{'btn--white': pricing.active}">Get started</a>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
                         alt: 'Pricing Thumb',
                         isPopular: false,
                         active: false,
-                        price: ['03 projects', 'Power And Predictive Dialing', 'Quality & Customer Experience', 'Try for free, forever!']
+                        price: ['Free Acount', 'Explore App', ' ', ' ']
                     },
                     {
                         thumb: require('../assets/img/pricing/aeroland-branding-pricing-image-02.png'),
@@ -53,7 +53,7 @@
                         alt: 'Pricing Thumb',
                         isPopular: true,
                         active: true,
-                        price: ['30 project', 'Power And Predictive Dialing', 'Quality & Customer Experience', '24/7 phone and email support']
+                        price: ['Free Acount', 'Explore App', '$19 Deposit', 'Weekly Rewards', 'Money Back Guarantee']
                     },
                     {
                         thumb: require('../assets/img/pricing/aeroland-branding-pricing-image-03.png'),
@@ -63,7 +63,7 @@
                         alt: 'Pricing Thumb',
                         isPopular: false,
                         active: false,
-                        price: ['50 projects', 'Power And Predictive Dialing', 'Quality & Customer Experience', '24/7 phone and email support']
+                        price: ['Free Acount', 'Explore App', '$29 Deposit', 'Weekly Rewards', 'Money Back Guarantee']
                     },
                     {
                         thumb: require('../assets/img/pricing/aeroland-branding-pricing-image-04.png'),
@@ -73,7 +73,7 @@
                         alt: 'Pricing Thumb',
                         isPopular: false,
                         active: false,
-                        price: ['Unlimited projects', 'Power And Predictive Dialing', 'Quality & Customer Experience', '24/7 phone and email support']
+                        price: ['Free Acount', 'Explore App', '$49 Deposit', 'Weekly Rewards', 'Money Back Guarantee']
                     }
                 ]
             }

@@ -12,14 +12,14 @@
 </template>
 
 <script>
-    import LoginScreen from "../components/LoginScreen";
+  import LoginScreen from "../components/LoginScreen";
 	import ShowcaseAdvancedFeatures from "../components/ShowcaseAdvancedFeatures";
 	import CreativeAppDisplay from "../components/CreativeAppDisplay";
     export default{
         components: {
             LoginScreen,
-			ShowcaseAdvancedFeatures,
-			CreativeAppDisplay,
+      			ShowcaseAdvancedFeatures,
+      			CreativeAppDisplay,
         }
     };
 </script>

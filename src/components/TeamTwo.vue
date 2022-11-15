@@ -10,8 +10,8 @@
             <div class="swiper-container team-slider__container">
                 <swiper
                     :speed="800"
-                    :loop="true"
-                    :slidesPerView="4"
+                    :loop="false"
+                    :slidesPerView="3"
                     :spaceBetween="30"
                     :pagination="swiperOptions.pagination"
                     :breakpoints="swiperOptions.breakpoints"
@@ -35,13 +35,10 @@
                                         <div class="social-networks-rounded mt-10">
                                             <ul class="list ht-social-networks solid-rounded-icon">
                                                 <li class="item">
-                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top  hint--primary" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                                                </li>
-                                                <li class="item">
                                                     <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                                                 </li>
                                                 <li class="item">
-                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Instagram"><i class="fab fa-linkedin"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -71,8 +68,38 @@
                                         <div class="social-networks-rounded mt-10">
                                             <ul class="list ht-social-networks solid-rounded-icon">
                                                 <li class="item">
-                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top  hint--primary" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                                                 </li>
+                                                <li class="item">
+                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Instagram"><i class="fab fa-linkedin"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- team-info End -->
+                                </div>
+                            </div>
+                            <!-- ht-team-member End -->
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="swiper-slide">
+                        <div class="grid-item wow move-up">
+                            <!-- ht-team-member Start -->
+                            <div class="ht-team-member text-center">
+                                <div class="ht-team-member--inner">
+                                    <!-- team-image Start -->
+                                    <div class="team-image">
+                                        <img class="img-fluid" src="../assets/img/team/avatar-01-140x140.png" alt="avatar 01">
+                                    </div>
+                                    <!-- team-image End -->
+                                    <!-- team-info Start -->
+                                    <div class="team-info text-center">
+                                        <h5 class="name">TheScooterz</h5>
+
+                                        <div class="position">Electronic Scooters Shop</div>
+
+                                        <div class="social-networks-rounded mt-10">
+                                            <ul class="list ht-social-networks solid-rounded-icon">
                                                 <li class="item">
                                                     <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                                                 </li>
