@@ -96,6 +96,15 @@
                             <li class="item">
                                 <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="social-link"> <i class="fab fa-linkedin social-link-icon"></i> </a>
                             </li>
+                            <li class="item">
+                                <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="social-link"> <i class="fab fa-discord social-link-icon"></i> </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="social-link"> <i class="fab fa-github social-link-icon"></i> </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="social-link"> <i class="fab fa-twitter social-link-icon"></i> </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
