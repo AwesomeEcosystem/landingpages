@@ -7,10 +7,11 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 order-2 order-lg-1">
                                 <div class="cta-image__content">
-                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Free download of our app now</h4>
-                                    <div class="cta-image__text text-white mb-20 wow move-up">Offer your business with the best assistance for growth.</div>
-                                    <router-link to="" class="btn btn--green wow move-up">
-                                        <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get AeroLand
+                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Start here with the Eco Wallet</h4>
+                                    <div class="cta-image__text text-white mb-20 wow move-up">and create a free account, and deposit your funds to get rewarded!</div>
+                                    <router-link to="/eco" class="btn btn--green wow move-up">
+                                        Get Started
+                                        <!-- <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get Started -->
                                     </router-link>
                                 </div>
                             </div>

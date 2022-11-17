@@ -4,8 +4,8 @@
             <div class="row">
                 <div class="col-lg-7 order-2 order-lg-1">
                     <div class="section-title text-left section-space--mb_60">
-                        <h2 class="font-weight--bold mb-15 wow move-up">Let’s cooperate!</h2>
-                        <span class="section-text_left wow move-up">Let’s become partners to build a better future for today.</span>
+                        <h2 class="font-weight--bold mb-15 wow move-up">Work with us!</h2>
+                        <span class="section-text_left wow move-up">Partner with us to build a better future for today.</span>
                     </div>
                     <div class="contact-from-wrapper wow move-up">
                         <form id="contact-form" action="http://hasthemes.com/file/mail.php" method="post">

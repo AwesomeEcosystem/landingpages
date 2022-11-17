@@ -1,17 +1,32 @@
 <template>
     <div class="start-ups-feature-wrap">
-        <div class="modern-grid">
+        <div class="modern-grid center">
             <div v-for="iconbox in iconboxs" :key="iconbox.id" class="ht-box-icon style-02 wow move-up">
-                <router-link :to="'branding'" class="link-secret">
-                    <div class="icon-box-wrap">
-                        <div class="icon react" :class="{'java':iconbox.java, 'macos':iconbox.macos, 'window':iconbox.window, 'android':iconbox.android, 'php':iconbox.php}">
-                            <i :class="iconbox.icon"></i>
-                        </div>
-                        <div class="content">
-                            <h6 class="heading">{{ iconbox.heading }}</h6>
-                        </div>
-                    </div>
-                </router-link>
+              <div class="icon-box-wrap">
+                <div class="icon react" :class="{'java':iconbox.java, 'macos':iconbox.macos, 'window':iconbox.window, 'android':iconbox.android, 'php':iconbox.php}">
+                  <i :class="iconbox.icon"></i>
+                </div>
+                <div class="content">
+                  <h6 class="heading">{{ iconbox.heading }}</h6>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="section-title text-center section-space--mt_60">
+            <span class="section-text wow move-up">Upcoming Integrations</span>
+        </div>
+
+        <div class="modern-grid center">
+            <div v-for="iconbox in upcoming" :key="iconbox.id" class="ht-box-icon style-02 wow move-up">
+              <div class="icon-box-wrap">
+                <div class="icon react" :class="{'java':iconbox.java, 'macos':iconbox.macos, 'window':iconbox.window, 'android':iconbox.android, 'php':iconbox.php}">
+                  <i :class="iconbox.icon"></i>
+                </div>
+                <div class="content">
+                  <h6 class="heading">{{ iconbox.heading }}</h6>
+                </div>
+              </div>
             </div>
         </div>
     </div>
@@ -24,7 +39,7 @@
             return {
                 iconboxs: [
                     {
-                        icon: 'fab fa-shopify',
+                        icon: 'fa-brands fa-shopify',
                         heading: 'Shopify'
                     },
                     {
@@ -37,21 +52,28 @@
                         heading: 'Revolut',
                         macos:true
                     },
-                    // {
-                    //     icon: 'fab fa-ethereum',
-                    //     heading: 'Ethereum',
-                    //     java:true
-                    // },
-                    // {
-                    //     icon: 'fab fa-bitcoin',
-                    //     heading: 'Bitcoin',
-                    //     android:true
-                    // },
-                    // {
-                    //     icon: 'fab fa-plus',
-                    //     heading: 'TypeScript',
-                    //     php:true
-                    // },
+                ],
+                upcoming: [
+                    {
+                        icon: 'fab fa-ethereum',
+                        heading: 'Ethereum',
+                        java:true
+                    },
+                    {
+                        icon: 'fab fa-bitcoin',
+                        heading: 'Bitcoin',
+                        android:true
+                    },
+                    {
+                        icon: 'fab fa-bitcoin',
+                        heading: 'WooCommerce',
+                        android:true
+                    },
+                    {
+                        icon: 'fab fa-amazon',
+                        heading: 'Amazon',
+                        android:false
+                    },
                 ]
             }
         }

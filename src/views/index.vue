@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
-                            <h2 class="section-title font-weight--bold mb-15">We design a powerful network for a <br> win-win-marketplace.</h2>
+                            <h2 class="section-title font-weight--bold mb-15">We are building a powerful network for a <br> win-win-marketplace.</h2>
                         </div>
                     </div>
                 </div>

@@ -31,7 +31,7 @@
                 <div class="col-lg-6">
                     <div class="sofftware-progress__content">
                         <div class="section-title-wrapper section-space--mb_60 wow move-up">
-                            <h2 class="section-title font-weight--light">All-in-one responsive app for you</h2>
+                            <h2 class="section-title font-weight--light">Just Sustainable</h2>
                         </div>
                         <ProgressBar />
                     </div>
@@ -40,7 +40,7 @@
         </div>
     </div>
 
-		<div class="fun-fact-wrapper section-space--pt_60 section-space--pb_60">
+		<!-- <div class="fun-fact-wrapper section-space--pt_60 section-space--pb_60">
           <div class="container">
               <div class="row">
                   <div class="col-lg-12">
@@ -52,7 +52,7 @@
               </div>
 							<FunFactOne />
           </div>
-		</div>
+		</div> -->
 
         <CurveShape>
             <template v-slot:bgcolor>
@@ -70,7 +70,7 @@
                         <div class="col-lg-12  wow move-up">
                             <div class="section-title-wrapper text-center section-space--mb_60">
                                 <h2 class="section-title font-weight--light mb-15 wow move-up">Affordable for everyone!</h2>
-                                <span class="section-text wow move-up">If you are planning on developing a product landing app or website, take a look at this beautiful-crafted and error-free HTML template.</span>
+                                <span class="section-text wow move-up">Create an account within the Eco Wallet App and deposit your first funds to get rewarded</span>
                             </div>
                         </div>
                     </div>

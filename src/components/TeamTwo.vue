@@ -8,7 +8,7 @@
         </div>
         <div class="col-lg-12">
             <div class="swiper-container team-slider__container">
-                <swiper
+                <swiper class="center"
                     :speed="800"
                     :loop="false"
                     :slidesPerView="3"

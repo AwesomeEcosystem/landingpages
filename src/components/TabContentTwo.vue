@@ -9,7 +9,7 @@
             <div class="col-lg-5">
                 <div class="tab-content-inner">
                     <h4 class="font-weight--light" style="">Passive Income <br>for businesses, consumers and investors</h4>
-                    <p class="dec section-space--mt_40 section-space--mb_40">We bring the most riskless and easy-to-use financial infrastructure by the redistribution of fees! </p>
+                    <p class="dec section-space--mt_40 section-space--mb_40">We bring the most risk-free and easy-to-use financial infrastructure through the redistribution of fees! </p>
                     <div class="tab-button section-space--mb_40">
                         <router-link to="/" class="ht-btn ht-btn-md">Learn more</router-link>
                     </div>

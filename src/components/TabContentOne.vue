@@ -11,14 +11,14 @@
                     <div class="heading mb-30">Meeting all of your requirements for your business &amp; sustainable passive income</div>
                     <ul class="check-list green-check-list section-space--mb_50">
                         <li class="list-item">Cross-Platform ready </li>
-                        <li class="list-item">Riskless </li>
+                        <li class="list-item">Risk-free </li>
                         <li class="list-item">Easy to use </li>
                         <li class="list-item">One-Spot Investment </li>
                     </ul>
                     <div class="tab-button mb-30">
                         <router-link to="/nomics" class="ht-btn ht-btn-md">Learn more </router-link>
                     </div>
-                    <h6 class="sub-heading">Start make your money work for you!
+                    <h6 class="sub-heading">Start making your money work for you!
                         <router-link to="/eco" class="hover-style-link hover-style-link--green">Start here!</router-link>
                     </h6>
                 </div>

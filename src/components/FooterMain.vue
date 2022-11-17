@@ -13,9 +13,6 @@
                         <ul class="footer-widget__list">
                             <li>ecosis Network Ltd</li>
                             <li>
-                                <a href="mailto:contact@ecosis.network" class="hover-style-link">contact@ecosis.network</a>
-                            </li>
-                            <li>
                                 <a href="elabs.enterprises" target="_blank" class="hover-style-link hover-style-link--green">elabs.enterprises</a>
                             </li>
                         </ul>

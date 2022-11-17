@@ -31,7 +31,8 @@
         data (){
             return {
                 bgImg: {
-                    backgroundImage: `url(${require('../assets/img/hero/startup/startup-bg.jpg')})`
+                    backgroundImage: `url(${require('../assets/img/hero/startup/startup-bg.jpg')})`,
+                    backgroundSize: 'cover'
                 },
             }
         }
