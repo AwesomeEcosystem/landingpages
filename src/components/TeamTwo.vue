@@ -23,7 +23,7 @@
                                 <div class="ht-team-member--inner">
                                     <!-- team-image Start -->
                                     <div class="team-image">
-                                        <img class="img-fluid" src="../assets/img/team/avatar-01-140x140.png" alt="avatar 01">
+                                        <img class="img-fluid" src="../assets/img/logo/elabs.png" alt="avatar 01">
                                     </div>
                                     <!-- team-image End -->
                                     <!-- team-info Start -->
@@ -35,10 +35,13 @@
                                         <div class="social-networks-rounded mt-10">
                                             <ul class="list ht-social-networks solid-rounded-icon">
                                                 <li class="item">
-                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                                    <a target="_blank" href="https://elabs.enterprises/" class="social-link hint--bounce hint--top hint--primary" aria-label="Website"><i class="fab fa-globe"></i></a>
                                                 </li>
                                                 <li class="item">
-                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Instagram"><i class="fab fa-linkedin"></i></a>
+                                                    <a target="_blank" href="https://github.com/ecosisLaboratories" class="social-link hint--bounce hint--top hint--primary" aria-label="Twitter"><i class="fab fa-github"></i></a>
+                                                </li>
+                                                <li class="item">
+                                                    <a target="_blank" href="https://www.linkedin.com/company/ecosislaboratories/" class="social-link hint--bounce hint--top hint--primary" aria-label="Instagram"><i class="fab fa-linkedin"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -56,7 +59,7 @@
                                 <div class="ht-team-member--inner">
                                     <!-- team-image Start -->
                                     <div class="team-image">
-                                        <img class="img-fluid" src="../assets/img/team/avatar-02-140x140.png" alt="avatar 02">
+                                        <img class="img-fluid" src="../assets/img/logo/cunoro.png" alt="avatar 02">
                                     </div>
                                     <!-- team-image End -->
                                     <!-- team-info Start -->
@@ -68,10 +71,13 @@
                                         <div class="social-networks-rounded mt-10">
                                             <ul class="list ht-social-networks solid-rounded-icon">
                                                 <li class="item">
-                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                                    <a target="_blank" href="https://cunoro.finance/" class="social-link hint--bounce hint--top hint--primary" aria-label="Website"><i class="fab fa-globe"></i></a>
                                                 </li>
                                                 <li class="item">
-                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Instagram"><i class="fab fa-linkedin"></i></a>
+                                                    <a target="_blank" href="https://twitter.com/cunorofinance" class="social-link hint--bounce hint--top hint--primary" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li class="item">
+                                                    <a target="_blank" href="https://www.linkedin.com/company/cunoro/" class="social-link hint--bounce hint--top hint--primary" aria-label="Instagram"><i class="fab fa-linkedin"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -89,7 +95,7 @@
                                 <div class="ht-team-member--inner">
                                     <!-- team-image Start -->
                                     <div class="team-image">
-                                        <img class="img-fluid" src="../assets/img/team/avatar-01-140x140.png" alt="avatar 01">
+                                        <img class="img-fluid" src="../assets/img/logo/scooterz.png" alt="avatar 01">
                                     </div>
                                     <!-- team-image End -->
                                     <!-- team-info Start -->
@@ -101,10 +107,13 @@
                                         <div class="social-networks-rounded mt-10">
                                             <ul class="list ht-social-networks solid-rounded-icon">
                                                 <li class="item">
-                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                                    <a target="_blank" href="https://thescooterz.com/" class="social-link hint--bounce hint--top hint--primary" aria-label="Website"><i class="fab fa-globe"></i></a>
                                                 </li>
                                                 <li class="item">
-                                                    <a target="_blank" href="#" class="social-link hint--bounce hint--top hint--primary" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                                    <a target="_blank" href="https://twitter.com/TheScooterzShop" class="social-link hint--bounce hint--top hint--primary" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li class="item">
+                                                    <a target="_blank" href="https://www.instagram.com/thescooterzshop/" class="social-link hint--bounce hint--top hint--primary" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
