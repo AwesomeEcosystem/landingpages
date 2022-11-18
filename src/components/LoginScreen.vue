@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-5 col-md-5">
                 <div class="app-showcase-process-step__media text-center wow move-up">
-                    <img :src="img" class="img-fluid" alt="thumbnail">
+                    <img :src="img" class="img-fluid" style="width: 50%">
                 </div>
             </div>
             <div class="col-lg-7 col-md-7">
@@ -31,7 +31,7 @@
         name: 'LoginScreen',
         data (){
             return {
-                img: require("../assets/img/features/aeroland-app-showcase-image-03.jpg"),
+                img: require("../assets/img/screenshots/dev_mobile_login.png"),
                 subtitle: "01 – Create Account",
                 title: "Everything starts with the login",
                 desc: "Simply create an account and access the dashboard for free."

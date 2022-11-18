@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="app-showcase-process-step__media text-center wow move-up">
-                    <img src="../assets/img/features/aeroland-app-showcase-image-05.png" class="img-fluid" alt="thumbnail">
+                    <img src="../assets/img/screenshots/dev_mobile_shop.png" class="img-fluid" style="width: 50%">
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1">

@@ -16,7 +16,7 @@
             </div>
             <div class="col-lg-7 order-1 order-lg-2">
                 <div class="app-showcase-process-step__media text-center wow move-up">
-                    <img :src="img" class="img-fluid" alt="thumbnail">
+                    <img :src="img" class="img-fluid" style="width: 50%">
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
         name: 'ShowcaseAdvancedFeatures',
         data(){
             return {
-                img: require("../assets/img/features/aeroland-app-showcase-image-04.png"),
+                img: require("../assets/img/screenshots/dev_mobile_dashboard.png"),
                 subtitle: "02 – Increase your funds",
                 collections: [
                     {
