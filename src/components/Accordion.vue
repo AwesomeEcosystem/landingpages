@@ -9,7 +9,7 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        Technically yes! We call it a Bridechain, because it bridges technologically the gap between crypto and fintech. Nomics is a 'Distributed Ledger Technology' (DLT) known as a Blockchain.
+                        Technically yes! It is a DLT (Distributed Ledger Technology), but we call it a Bridgechain because technologically it bridges the gap between crypto and fintech.
                     </div>
                 </div>
             </div>
@@ -21,31 +21,31 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      Nomics is a 'Deposit Token' - in germany called 'Pfand Marke'. It is not the same like Bitcoin or Ethereum and co. It represents the liquidity within the system and speculators can not dump the price of Nomics!
+                      Nomics is a 'Deposit Token' - in Germany it is called a 'Pfand Marke'. It is not similar to Bitcoin or Ethereum etc because it simply represents real liquidity and is not tradable! No market manipulation here.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Is it a Smart-Contract based platform?
+                    Is it a smart-contract based platform?
                 </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        It acts like it. You can build your own logic written in the most well-known web-development programming language Typescript/Javascript on top of Nomics and inject it as a plugin!
+                        It is. You can build your own apps with Typescript on top of ecosis.
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                    For whom is this solution?
+                    Who is this solution for?
                 </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        It's there for all kind of users - Consumers, Businesses, Investors and Developers!
+                        It is available for all kind of users - especially for developers and businesses.
                     </div>
                 </div>
             </div>

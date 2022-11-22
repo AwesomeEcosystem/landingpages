@@ -16,7 +16,7 @@
                                 <a class="ht-btn ht-btn-md" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Request</a>
                             </div>
                             <h6 class="sub-heading wow move-up">
-                              The Nomics Core System enables the automated cash-flow! <router-link to="/nomics" class="hover-style-link  hover-style-link--green">Learn more</router-link>
+                              The Nomics Core System enables automated cash-flow! <router-link to="/nomics" class="hover-style-link  hover-style-link--green">Learn more</router-link>
                             </h6>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
             return {
                 thumbnail: require("../assets/img/banners/aeroland-app-showcase-image-02.png"),
                 title: 'The Ultimate Cash-Flow',
-                desc: 'There is nothing more simple out there than the Eco App to earn risk-less sustainable passive income and enjoy shopping experience on the fly.',
+                desc: 'Eco App is the simplest way to earn sustainable Risk-free passive income whilst simultaneously enjoying a seamless shopping experience.',
             }
         },
     };

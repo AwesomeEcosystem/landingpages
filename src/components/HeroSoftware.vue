@@ -13,7 +13,7 @@
                         <div class="hero-item">
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Your business deserves better Cash-Flow</h2>
-                                <h6 class="hero-content-subtitle">Let you and your customers become part of a rewarding finance solution.</h6>
+                                <h6 class="hero-content-subtitle">Become part of a rewarding finance solution for you and your customers.</h6>
                                 <a class="btn btn--green" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">
                                     Request
                                 </a>
@@ -27,7 +27,7 @@
                         <div class="hero-item">
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Composable Cash-Flow</h2>
-                                <h6 class="hero-content-subtitle">Build your own cash-flow logic and benefit from others</h6>
+                                <h6 class="hero-content-subtitle">Build your own cash-flow logic on top of ecosis</h6>
                                 <a class="btn btn--green" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">
                                     Request
                                 </a>

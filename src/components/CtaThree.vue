@@ -17,7 +17,7 @@
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2">
                                 <div class="cta-image_two section-space--mt_60 wow move-up">
-                                    <img src="../assets/img/banners/aeroland-macbook-01.png" class="img-fluid" alt="aeroland-macbook-01">
+                                    <img src="../assets/img/screenshots/dev_desktop_dashboard2.png" class="img-fluid">
                                 </div>
                             </div>
                         </div>

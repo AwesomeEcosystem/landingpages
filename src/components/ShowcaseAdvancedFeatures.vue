@@ -7,7 +7,7 @@
                         <div class="sub__title mb-20">
                             <h6 class="font-weight--blod  wow move-up">{{ subtitle }}</h6>
                         </div>
-                        <h4 class="font-weight--light wow move-up">A Collection of <br> Advanced Features</h4>
+                        <h4 class="font-weight--light wow move-up">And get Rewarded</h4>
                         <ul class="check-list green-check-list section-space--mt_30 wow move-up">
                             <li class="list-item" v-for="(list, i) in collections" :key="i">{{ list.collect }}</li>
                         </ul>
@@ -29,7 +29,7 @@
         data(){
             return {
                 img: require("../assets/img/screenshots/dev_mobile_dashboard.png"),
-                subtitle: "02 – Increase your funds",
+                subtitle: "02 – Add funds",
                 collections: [
                     {
                         collect: "Deposit money with money-back guarantee"

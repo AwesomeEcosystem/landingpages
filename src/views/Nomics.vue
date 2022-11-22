@@ -6,7 +6,7 @@
     <div class="feature-icon-list-area section-space--pb_120 section-space--mt_40" id="about">
         <div class="container">
             <div class="section-title-wrapper text-center section-space--mb_100">
-                <h2 class="section-title font-weight--light mb-30 wow move-up">Better than any Smart-Contracts <br> based platform out there</h2>
+                <h2 class="section-title font-weight--light mb-30 wow move-up">The best smart-contract <br> platform available</h2>
                 <div class="video-button-container video-popup">
                     <!-- <div class="video-play">
                         <i class="fa fa-play-circle"></i>
@@ -31,7 +31,7 @@
                 <div class="col-lg-6">
                     <div class="sofftware-progress__content">
                         <div class="section-title-wrapper section-space--mb_60 wow move-up">
-                            <h2 class="section-title font-weight--light">Just Sustainable</h2>
+                            <h2 class="section-title font-weight--light">Sustainable Technology</h2>
                         </div>
                         <ProgressBar />
                     </div>
@@ -54,7 +54,7 @@
           </div>
 		</div> -->
 
-        <CurveShape>
+        <!-- <CurveShape>
             <template v-slot:bgcolor>
                 <path style="fill: #f6f5f9;
                     stroke-miterlimit:10;"
@@ -68,9 +68,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12  wow move-up">
-                            <div class="section-title-wrapper text-center section-space--mb_60">
-                                <h2 class="section-title font-weight--light mb-15 wow move-up">Affordable for everyone!</h2>
-                                <span class="section-text wow move-up">Create an account within the Eco Wallet App and deposit your first funds to get rewarded</span>
+                            <div class="section-title-wrapper text-center section-space--mb_60 section-space--mt_120">
+                                <h2 class="section-title font-weight--light mb-15 wow move-up">Business Packages</h2>
+                                <span class="section-text wow move-up">Coming soon!</span>
                             </div>
                         </div>
                     </div>
@@ -81,9 +81,9 @@
                     <PricingOne />
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <CtaThree />
+        <!-- <CtaThree /> -->
 
         <div class="software-accordion-wrapper section-space--pt_120 section-space--pb_60 gray-gradient" id="faq">
             <div class="container">

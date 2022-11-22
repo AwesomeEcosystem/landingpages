@@ -3,7 +3,7 @@
         <div class="modern-grid center">
             <div v-for="iconbox in iconboxs" :key="iconbox.id" class="ht-box-icon style-02 wow move-up">
               <div class="icon-box-wrap">
-                <div class="icon react" :class="{'java':iconbox.java, 'macos':iconbox.macos, 'window':iconbox.window, 'android':iconbox.android, 'php':iconbox.php}">
+                <div class="icon react" :class="{'java':iconbox.java, 'macos':iconbox.macos, 'window':iconbox.window, 'amazon':iconbox.amazon, 'shopify':iconbox.shopify}">
                   <i :class="iconbox.icon"></i>
                 </div>
                 <div class="content">
@@ -20,7 +20,7 @@
         <div class="modern-grid center">
             <div v-for="iconbox in upcoming" :key="iconbox.id" class="ht-box-icon style-02 wow move-up">
               <div class="icon-box-wrap">
-                <div class="icon react" :class="{'java':iconbox.java, 'macos':iconbox.macos, 'window':iconbox.window, 'android':iconbox.android, 'php':iconbox.php}">
+                <div class="icon react" :class="{'java':iconbox.java, 'macos':iconbox.macos, 'window':iconbox.window, 'amazon':iconbox.amazon, 'shopify':iconbox.shopify}">
                   <i :class="iconbox.icon"></i>
                 </div>
                 <div class="content">
@@ -39,8 +39,9 @@
             return {
                 iconboxs: [
                     {
-                        icon: 'fa-brands fa-shopify',
-                        heading: 'Shopify'
+                        icon: 'fab fa-shopify',
+                        heading: 'Shopify',
+                        shopify: true
                     },
                     {
                         icon: 'fab fa-paypal',
@@ -62,17 +63,12 @@
                     {
                         icon: 'fab fa-bitcoin',
                         heading: 'Bitcoin',
-                        android:true
-                    },
-                    {
-                        icon: 'fab fa-bitcoin',
-                        heading: 'WooCommerce',
-                        android:true
+                        amazon:true
                     },
                     {
                         icon: 'fab fa-amazon',
                         heading: 'Amazon',
-                        android:false
+                        amazon:false
                     },
                 ]
             }

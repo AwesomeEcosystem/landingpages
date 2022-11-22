@@ -4,7 +4,8 @@ import router from "./router";
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap'
-import '../src/assets/css/fontawesome-all.min.css'
+import '../src/assets/css/fontawesome-all.min.css' // TODO is doubled
+import '../src/assets/css/all.min.css'
 import 'animate.css/animate.min.css'
 import '../src/assets/scss/style.scss'
 import 'swiper/css';

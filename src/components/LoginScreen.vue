@@ -33,7 +33,7 @@
             return {
                 img: require("../assets/img/screenshots/dev_mobile_login.png"),
                 subtitle: "01 – Create Account",
-                title: "Everything starts with the login",
+                title: "Register",
                 desc: "Simply create an account and access the dashboard for free."
             }
         }

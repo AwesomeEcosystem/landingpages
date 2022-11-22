@@ -22,7 +22,7 @@
                     </ul>
                 </div>
                 <div class="pricing-table__footer">
-                    <a href="/eco" class="ht-btn ht-btn--outline ht-btn-default" :class="{'btn--white': pricing.active}">Get started</a>
+                    <a href="/eco" class="ht-btn ht-btn--outline ht-btn-default" :class="{'btn--white': pricing.active}">Available Soon</a>
                 </div>
             </div>
         </div>
@@ -35,16 +35,16 @@
         data (){
             return {
                 pricingTable: [
-                    {
-                        thumb: require('../assets/img/pricing/aeroland-branding-pricing-image-01.png'),
-                        title: 'Free',
-                        value: '0',
-                        duration: 'mo',
-                        alt: 'Pricing Thumb',
-                        isPopular: false,
-                        active: false,
-                        price: ['Free Acount', 'Explore App', ' ', ' ']
-                    },
+                    // {
+                    //     thumb: require('../assets/img/pricing/aeroland-branding-pricing-image-01.png'),
+                    //     title: 'Free',
+                    //     value: '0',
+                    //     duration: 'mo',
+                    //     alt: 'Pricing Thumb',
+                    //     isPopular: false,
+                    //     active: false,
+                    //     price: ['Free Acount', 'Explore App', ' ', ' ']
+                    // },
                     {
                         thumb: require('../assets/img/pricing/aeroland-branding-pricing-image-02.png'),
                         title: 'Personal',

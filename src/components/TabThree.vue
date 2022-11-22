@@ -12,33 +12,33 @@
             <div class="row start-ups-left-tab">
                 <div class="col-lg-4">
                     <div class="tab-slider-nav" id="myTab" role="tablist">
-                        <div class="tab-slider-nav--list wow move-up" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="true">
-                          <i class="ht-slider-tab-icon fal fa-rocket"></i>
+                      <div class="tab-slider-nav--list wow move-up active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">
+                          <i class="ht-slider-tab-icon fal fa-align-left"></i>
                           <h5>Sustainable</h5>
                           <p>The rewards are generated from collected transaction fees and not from risky interest earned.</p>
                       </div>
-                        <div class="tab-slider-nav--list wow move-up active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">
-                            <i class="ht-slider-tab-icon fal fa-align-left"></i>
-                            <h5>One Spot</h5>
-                            <p>Pay instantly from your deposited investment.</p>
-                        </div>
-                        <div class="tab-slider-nav--list wow move-up" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
-                            <i class="ht-slider-tab-icon fal fa-chart-pie"></i>
-                            <h5>Risk-free</h5>
-                            <p>Your deposit is still yours! We offer a full money-back guarantee!</p>
-                        </div>
+                      <div class="tab-slider-nav--list wow move-up" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="true">
+                          <i class="ht-slider-tab-icon fal fa-rocket"></i>
+                          <h5>One Spot</h5>
+                          <p>Pay instantly from your deposited investment.</p>
+                      </div>
+                      <div class="tab-slider-nav--list wow move-up" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+                          <i class="ht-slider-tab-icon fal fa-chart-pie"></i>
+                          <h5>Risk-free</h5>
+                          <p>Your deposit is still yours! We offer a full money-back guarantee!</p>
+                      </div>
                     </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                             <div class="pro-large-img img-zoom wow move-up">
-                                <img class="img-fluid" src="../assets/img/screenshots/dev_desktop_dashboard2.png" alt="product-details" />
+                                <img class="img-fluid" src="../assets/img/screenshots/dev_desktop_dashboard.png" alt="product-details" />
                             </div>
                         </div>
                         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                             <div class="pro-large-img img-zoom wow move-up">
-                                <img class="img-fluid" src="../assets/img/screenshots/dev_desktop_dashboard.png" alt="product-details" />
+                                <img class="img-fluid" src="../assets/img/screenshots/dev_desktop_dashboard2.png" alt="product-details" />
                             </div>
                         </div>
                         <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">

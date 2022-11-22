@@ -51,11 +51,11 @@
                                 <span>FEATURES</span>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#pricing" @click="menuCollapseOnLinkClick">
                                 <span>PRICING</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#faq" @click="menuCollapseOnLinkClick">
                                 <span>FAQ</span>

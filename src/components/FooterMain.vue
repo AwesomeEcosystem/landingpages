@@ -3,7 +3,7 @@
         <div class="footer-area section-space--ptb_90">
             <div class="container">
                 <div class="row footer-widget-wrapper">
-                    <div class="col-lg-2 col-md-6 footer-widget">
+                    <div class="col-lg-3 col-md-6 footer-widget">
                         <div class="footer-widget__logo mb-30">
                             <router-link to="/">
                                 <img src="../assets/img/logo/logo-dark.png" class="img-fluid logo-dark" alt="logo">
@@ -28,7 +28,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-md-6 footer-widget">
+                    <div class="col-lg-3 col-md-6 footer-widget">
                         <h6 class="footer-widget__title mb-20">Businesses</h6>
                         <ul class="footer-widget__list">
                             <li>
@@ -42,7 +42,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-md-6 footer-widget">
+                    <!-- <div class="col-lg-2 col-md-6 footer-widget">
                         <h6 class="footer-widget__title mb-20">Quick links</h6>
                         <ul class="footer-widget__list">
                             <li>
@@ -55,7 +55,7 @@
                                 <router-link to="/" class="hover-style-link">Privacy Policy</router-link>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="col-lg-3 col-md-6 offset-lg-1 footer-widget">
                         <div class="twitter-feed-slider">
                             <div class="swiper-container twitter-feed-slider__container">
@@ -63,13 +63,12 @@
                                     <div class="swiper-slide twitter-feed-slider__single">
                                         <div class="tweet">
                                             <div class="tweet__text">
-                                                "The ocean never ceases to amaze!" Feature: Ben Klea
-                                                <a href="https://t.co/jSRMsZAdPW" target="_blank">https://t.co/jSRMsZAdPW</a>
-                                                <a href="https://t.co/2iDReuyPMt" target="_blank">https://t.co/2iDReuyPMt</a>
+                                                "If you are in, you will win!" by Christopher Müller
+                                                <a href="https://lnkd.in/eqSdAXhj" target="_blank">https://lnkd.in/eqSdAXhj</a>
                                             </div>
                                             <div class="tweet__info">
-                                                <h6 class="tweet__heading">Unsplash</h6>
-                                                <span class="tweet__date">May 07, 2022</span>
+                                                <h6 class="tweet__heading">ecosis</h6>
+                                                <span class="tweet__date">Nov 18, 2022</span>
                                             </div>
                                         </div>
                                     </div>

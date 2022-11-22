@@ -32,18 +32,18 @@
                 features: [
                     {
                         icon: require('../assets/img/icons/aeroland-branding-box-image-01-1.png'),
-                        title: 'Cross-platform Compatible Design',
-                        desc: 'It is interoperable with many platforms like Revolut, Shopfiy, Ethereum and Bitcoin.'
+                        title: 'Cross-platform Compatibility',
+                        desc: 'It is interoperable with many platforms such as Revolut, Shopfiy, Ethereum and Bitcoin.'
                     },
                     {
                         icon: require('../assets/img/icons/aeroland-branding-box-image-02-1.png'),
-                        title: 'Stabilized',
-                        desc: 'The Deposit Token is over-collateralized to ensure minimum 100% reserves.'
+                        title: 'Stable',
+                        desc: 'To ensure at least 100% backing the Deposit Token is over-collateralized.'
                     },
                     {
                         icon: require('../assets/img/icons/aeroland-branding-box-image-03-1.png'),
-                        title: 'It is composable',
-                        desc: 'Build your app on top or migrate an existing one thanks to the support of the most well-known web development programming language. '
+                        title: 'Simple APIs',
+                        desc: 'Easily build your app or migrate on top of ecosis with Typescipt.'
                     },
                 ]
             }

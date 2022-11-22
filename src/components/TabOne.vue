@@ -2,21 +2,21 @@
     <div class="ht-tab-wrap ht-tab-menu">
         <ul class="nav nav-tabs wow move-up" id="myTabOne" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class=" ht-btn" id="three-tab" data-bs-toggle="tab" data-bs-target="#three-tab-pane" type="button" role="tab" aria-controls="three-tab-pane" aria-selected="false">PRODUCTS</button>
+                <button class=" ht-btn active" id="one-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane" type="button" role="tab" aria-controls="one-tab-pane" aria-selected="false">PRODUCTS</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class=" ht-btn active" id="one-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane" type="button" role="tab" aria-controls="one-tab-pane" aria-selected="false">FEATURED</button>
+                <button class=" ht-btn" id="three-tab" data-bs-toggle="tab" data-bs-target="#three-tab-pane" type="button" role="tab" aria-controls="three-tab-pane" aria-selected="false">FEATURED</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class=" ht-btn" id="two-tab" data-bs-toggle="tab" data-bs-target="#two-tab-pane" type="button" role="tab" aria-controls="two-tab-pane" aria-selected="false">OUR MISSION</button>
             </li>
         </ul>
         <div class="tab-content" id="myTabContentOne">
-            <div class="tab-pane fade" id="three-tab-pane" role="tabpanel" aria-labelledby="three-tab" tabindex="0">
+            <div class="tab-pane fade show active" id="one-tab-pane" role="tabpanel" aria-labelledby="one-tab" tabindex="0">
                 <TabContentThree />
             </div>
-            <div class="tab-pane fade show active" id="one-tab-pane" role="tabpanel" aria-labelledby="one-tab" tabindex="0">
-                <TabContentOne />
+            <div class="tab-pane fade" id="three-tab-pane" role="tabpanel" aria-labelledby="three-tab" tabindex="0">
+              <TabContentOne />
             </div>
             <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="two-tab" tabindex="0">
                 <TabContentTwo />

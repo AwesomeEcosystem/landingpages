@@ -7,7 +7,14 @@
                         <h2 class="font-weight--bold mb-15 wow move-up">Work with us!</h2>
                         <span class="section-text_left wow move-up">Partner with us to build a better future for today.</span>
                     </div>
-                    <div class="contact-from-wrapper wow move-up">
+                    <!-- <div class="header-config-wrapper btn-group">
+                        <button class="ht-btn ht-btn--outline hire-btn d-none d-xl-block" @click="() => contact = !contact">Contact</button>
+                    </div> -->
+                    <div class="">
+                        <div data-tf-widget="QOyYsO0L" data-tf-iframe-props="title=proposal" data-tf-medium="snippet" style="width:100%;height:400px;">
+                        </div>
+                    </div>
+                    <!-- <div class="contact-from-wrapper wow move-up">
                         <form id="contact-form" action="http://hasthemes.com/file/mail.php" method="post">
                             <div class="contact-page-form">
                                 <div class="contact-input">
@@ -30,7 +37,7 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-5 order-1 order-lg-2">
                     <div class="peatures_image-wrap section-space--mb_40">
@@ -46,6 +53,16 @@
 
 <script>
     export default {
-        name: 'ContactForm'
+        name: 'ContactForm',
+        data() {
+            return {
+                contact: false
+            }
+        },
+        mounted() {
+            let recaptchaScript = document.createElement('script')
+            recaptchaScript.setAttribute('src', 'https://embed.typeform.com/next/embed.js')
+            document.head.appendChild(recaptchaScript)
+        },
     }
 </script>
