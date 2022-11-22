@@ -1,3 +1,17 @@
+// // project specific variables
+// $theme-color-6: linear-gradient(-180deg,#BC4B51 0,#E5B25D 100%);
+// $theme-color--default: #011638;
+// $theme-color--heading: #011638;
+// $theme-color--black: #333333;
+// $theme-color--green: #5D675B;
+// $theme-color-sub--heading: #4357AD;
+// $transition--default: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+// $gradient--default: linear-gradient(218deg,#31493C 0,#001A23 50%,#011638 100%);
+// $gradient--default-two: llinear-gradient(-180deg,#BC4B51 0,#E5B25D 100%);
+// $gradient--secondary: linear-gradient(-180deg,#31493C 0,#011638 100%);
+// $gradient--hot: llinear-gradient(-180deg,#BC4B51 0,#E5B25D 100%);
+// $gradient--eco: linear-gradient(-180deg,#31493C 0,#011638 100%);
+// $gray-gradient: -webkit-linear-gradient(top,#FFF 0,#F6F5F9 74%,#F6F5F9 100%);
 
 // project specific variables
 $theme-color-6: #e84855;
@@ -116,6 +130,3 @@ $tablet-device:'only screen and (min-width: 768px) and (max-width: 991px)';
 $large-mobile:'only screen and (max-width: 767px)';
 $small-mobile: 'only screen and (max-width: 575px)';
 $extra-small-mobile: 'only screen and (max-width: 479px)';
-
-
-
