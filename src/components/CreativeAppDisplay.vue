@@ -33,7 +33,7 @@
             return {
                 subtitle: "03 - Checkout",
                 title: "Make Payments",
-                desc: "Go shopping and make payents with your rewards or share with your friends and family."
+                desc: "Go shopping and make payments with your rewards or share with your friends and family."
             }
         }
     };
