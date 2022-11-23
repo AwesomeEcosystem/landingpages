@@ -93,13 +93,16 @@
                                 <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="social-link"> <i class="fab fa-linkedin social-link-icon"></i> </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="social-link"> <i class="fab fa-discord social-link-icon"></i> </a>
+                                <a href="https://discord.gg/JFuxncwnDt" target="_blank" class="social-link"> <i class="fab fa-discord social-link-icon"></i> </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="social-link"> <i class="fab fa-github social-link-icon"></i> </a>
+                                <a href="https://t.me/ecosisnetwork" target="_blank" class="social-link"> <i class="fab fa-telegram social-link-icon"></i> </a>
                             </li>
                             <li class="item">
-                                <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="social-link"> <i class="fab fa-twitter social-link-icon"></i> </a>
+                                <a href="https://github.com/AwesomeEcosystem" target="_blank" class="social-link"> <i class="fab fa-github social-link-icon"></i> </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://twitter.com/ecosisnetwork" target="_blank" class="social-link"> <i class="fab fa-twitter social-link-icon"></i> </a>
                             </li>
                         </ul>
                     </div>
