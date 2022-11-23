@@ -30,7 +30,7 @@
     export default {
         data() {
             return {
-                thumbnail: require("../assets/img/banners/aeroland-app-showcase-image-02.png"),
+                thumbnail: require("../assets/img/screenshots/dev_package3.png"),
                 title: 'The Ultimate Cash-Flow',
                 desc: 'Eco App is the simplest way to earn sustainable Risk-free passive income whilst simultaneously enjoying a seamless shopping experience.',
             }
