@@ -18,7 +18,27 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 footer-widget">
-                        <h6 class="footer-widget__title mb-20">Products</h6>
+                        <h6 class="footer-widget__title mb-20">Ecosystem</h6>
+                        <ul class="footer-widget__list">
+                            <li>
+                                <a class="hover-style-link" href="https://ecosis.network/" target="_blank">ecosis Network</a>
+                            </li>
+                            <!-- <li>
+                                <a class="hover-style-link" href="https://ecosis.finance/" target="_blank">ecosis Finance</a>
+                            </li> -->
+                            <li>
+                                <a class="hover-style-link" href="https://ecosis.pro/" target="_blank">ecosis Pro</a>
+                            </li>
+                            <li>
+                                <a class="hover-style-link" href="https://ecosis.shop/" target="_blank">ecosis Shop</a>
+                            </li>
+                            <li>
+                                <a class="hover-style-link" href="https://elabs.enterprises/" target="_blank">ecosis Laboratories</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-widget">
+                        <!-- <h6 class="footer-widget__title mb-20">Products</h6>
                         <ul class="footer-widget__list">
                             <li>
                                 <router-link to="/eco" class="hover-style-link">Payment Gateway</router-link>
@@ -32,27 +52,7 @@
                             <li>
                                 <router-link to="/nomics" class="hover-style-link">Lending</router-link>
                             </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 footer-widget">
-                        <h6 class="footer-widget__title mb-20">Ecosystem</h6>
-                        <ul class="footer-widget__list">
-                            <li>
-                                <a class="hover-style-link" href="https://elabs.enterprises/" target="_blank">ecosis Laboratories</a>
-                            </li>
-                            <li>
-                                <a class="hover-style-link" href="https://ecosis.network/" target="_blank">ecosis Network</a>
-                            </li>
-                            <!-- <li>
-                                <a class="hover-style-link" href="https://ecosis.finance/" target="_blank">ecosis Finance</a>
-                            </li> -->
-                            <li>
-                                <a class="hover-style-link" href="https://ecosis.pro/" target="_blank">ecosis Pro</a>
-                            </li>
-                            <li>
-                                <a class="hover-style-link" href="https://ecosis.shop/" target="_blank">ecosis Shop</a>
-                            </li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <!-- <div class="col-lg-2 col-md-6 footer-widget">
                         <h6 class="footer-widget__title mb-20">Partners</h6>
