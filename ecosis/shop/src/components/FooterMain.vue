@@ -11,23 +11,30 @@
                             </router-link>
                         </div>
                         <ul class="footer-widget__list">
+                            <li>ecosis Network Ltd</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-widget">
+                        <h6 class="footer-widget__title mb-20">Ecosystem</h6>
+                        <ul class="footer-widget__list">
                             <li>
-                                <a href="https://ecosis.network" target="_blank" class="hover-style-link hover-style-link--green">ecosis Network Ltd</a>
+                                <a class="hover-style-link" href="https://ecosis.network/" target="_blank">ecosis Network</a>
                             </li>
+                            <li>
+                                <a class="hover-style-link" href="https://ecosis.finance/" target="_blank">ecosis Finance</a>
+                            </li>
+                            <li>
+                                <a class="hover-style-link" href="https://ecosis.pro/" target="_blank">ecosis Pro</a>
+                            </li>
+                            <li>
+                                <a class="hover-style-link" href="https://elabs.enterprises/" target="_blank">ecosis Laboratories</a>
+                            </li>
+                            <!-- <li>
+                                <a class="hover-style-link" href="https://ecosis.shop/" target="_blank">ecosis Shop</a>
+                            </li> -->
                         </ul>
                     </div>
                     <div class="col-lg-2 col-md-6 footer-widget">
-                        <!-- <h6 class="footer-widget__title mb-20">Products</h6>
-                        <ul class="footer-widget__list">
-                            <li>
-                                <router-link to="/eco" class="hover-style-link">Eco</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/nomics" class="hover-style-link">Nomics</router-link>
-                            </li>
-                        </ul> -->
-                    </div>
-                    <div class="col-lg-3 col-md-6 footer-widget">
                         <!-- <h6 class="footer-widget__title mb-20">Businesses</h6>
                         <ul class="footer-widget__list">
                             <li>

@@ -15,6 +15,10 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="nav main-menu">
                         <li class="nav-item">
+                            <a class="nav-link">
+                            </a>
+                        </li>
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#" @click="menuCollapseOnLinkClick">
                                 <span>HOME</span>
                             </a>
@@ -28,7 +32,7 @@
                             <a class="nav-link" href="#discount-section" @click="menuCollapseOnLinkClick">
                                 <span>discount</span>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="btn-group header-button button--white d-none d-xl-block">
