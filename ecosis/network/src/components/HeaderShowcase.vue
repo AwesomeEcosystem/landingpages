@@ -37,7 +37,7 @@
                     </ul>
                 </div>
                 <div class="btn-group header-button button--white d-none d-xl-block">
-                    <a class="btn btn--white" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Request</a>
+                    <a class="btn btn--white" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Whitelist</a>
                 </div>
             </nav>
         </div>

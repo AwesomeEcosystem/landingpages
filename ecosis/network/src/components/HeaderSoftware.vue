@@ -31,7 +31,7 @@
                 </button>
 
                 <div class="header-config-wrapper btn-group">
-                    <a class="ht-btn ht-btn--outline hire-btn d-none d-xl-block" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Request</a>
+                    <a class="ht-btn ht-btn--outline hire-btn d-none d-xl-block" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Whitelist</a>
                 </div>
 
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
