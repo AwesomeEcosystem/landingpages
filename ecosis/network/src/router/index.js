@@ -43,8 +43,8 @@ const router = createRouter({
     routes,
     scrollBehavior(to, from, savedPosition) {
       // always scroll to top
-      console.log(from)
-      if (!from.path.startsWith('/#')) {
+      console.log(to)
+      if (!to.hash.startsWith('#')) {
         return { top: 0 }
       };
     },
