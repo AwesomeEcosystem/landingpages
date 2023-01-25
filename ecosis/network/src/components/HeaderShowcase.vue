@@ -31,7 +31,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact" @click="menuCollapseOnLinkClick">
-                                <span>Join Comunity</span>
+                                <span>Join Community</span>
                             </a>
                         </li>
                     </ul>
