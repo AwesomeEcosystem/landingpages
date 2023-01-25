@@ -14,18 +14,18 @@
                     <div class="tab-slider-nav" id="myTab" role="tablist">
                       <div class="tab-slider-nav--list wow move-up active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">
                           <i class="ht-slider-tab-icon fal fa-align-left"></i>
-                          <h5>Sustainable</h5>
+                          <h5>Rewarding</h5>
                           <p>The rewards are generated from collected transaction fees and not from risky interest earned.</p>
                       </div>
                       <div class="tab-slider-nav--list wow move-up" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="true">
                           <i class="ht-slider-tab-icon fal fa-rocket"></i>
-                          <h5>One Spot</h5>
-                          <p>Pay instantly from your deposited investment.</p>
+                          <h5>Interoperable</h5>
+                          <p>Use third-party platform integrations</p>
                       </div>
                       <div class="tab-slider-nav--list wow move-up" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
                           <i class="ht-slider-tab-icon fal fa-chart-pie"></i>
-                          <h5>Risk-free</h5>
-                          <p>Your deposit is still yours! We offer a full money-back guarantee!</p>
+                          <h5>Extendable</h5>
+                          <p>Install apps by businesses to maximaize the user experience</p>
                       </div>
                     </div>
                 </div>
