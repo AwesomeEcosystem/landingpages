@@ -58,34 +58,24 @@
                 return [
                     {
                         id: 1,
-                        question: 'How long is this site live?',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                        question: 'Is Nomics a Blockchain?',
+                        answer: 'Yes! It is a DLT (Distributed Ledger Technology), but we call it a Bridgechain because technologically it bridges the gap between crypto and fintech. ',
                     },
                     {
                         id: 2,
-                        question: 'How do I create an account?',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                        question: 'Is Nomics a Coin or a Token?',
+                        answer: `Nomics is a 'Deposit Token' - in Germany it is called a 'Pfand Marke'. It is not similar to Bitcoin or Ethereum etc because it simply represents real liquidity and is not tradable! No market manipulation or speculation here.`,
                     },
                     {
                         id: 3,
-                        question: 'What protections does Strategic Systems use to protect our data?',
-                        answer: "For now it is limited to 100MB per instance. We'll offer expansion options soon.",
+                        question: 'Is it a smart contract based platform?',
+                        answer: "It is. You can build your own apps with Typescript on top of ecosis.",
                     },
                     {
                         id: 4,
-                        question: 'What type of support is included with this Service?',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-                    },
-                    {
-                        id: 5,
-                        question: 'Do you have premium plans for products?',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-                    },
-                    {
-                        id: 6,
-                        question: 'Who else is using plurk SaaS tool?',
-                        answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-                    },
+                        question: 'Who is this solution for?',
+                        answer: ' It is available for all kind of users - especially for developers and businesses. ',
+                    }
                 ];
             },
         },

@@ -2,7 +2,7 @@
     <header class="sticky top-0 z-50 bg-black/10 transition duration-300">
         <div class="container">
             <div class="flex items-center justify-between py-5 lg:py-0">
-                <router-link to="/"><img src="/assets/images/logo.png" alt="logo" class="h-10" /></router-link>
+                <router-link to="/"><img src="/assets/logos/ecosis.png" alt="logo" class="h-10" /></router-link>
                 <div class="flex items-center">
                     <div @click="toggleMenu()" class="overlay fixed inset-0 z-[51] bg-black/60" :class="{ hidden: !showMenu }"></div>
                     <div class="menus" :class="{ 'overflow-y-auto ltr:!right-0 rtl:!left-0': showMenu }">
@@ -22,7 +22,7 @@
                         </div>
                         <ul @click="showMenu = false">
                             <li><router-link to="/"> Home </router-link></li>
-                            <li class="group relative" @click.stop>
+                            <!-- <li class="group relative" @click.stop>
                                 <a
                                     href="javascript:;"
                                     :class="{
@@ -93,27 +93,36 @@
                                         <span class="ml-1 rounded bg-secondary px-2 py-1 text-[9px] font-bold uppercase text-white">Coming Soon</span>
                                     </a>
                                     <a href="#">
-                                        NFT Marketplace 
+                                        NFT Marketplace
                                         <span class="ml-1 rounded bg-secondary px-2 py-1 text-[9px] font-bold uppercase text-white">Coming Soon</span>
                                     </a>
                                 </div>
-                            </li>
-                            <li>
+                            </li> -->
+                            <!-- <li>
                                 <router-link to="/portfolio" :class="{ active: $route.name === 'portfolio-detail' }">Portfolio</router-link>
                             </li>
                             <li>
                                 <router-link to="/services" :class="{ active: $route.name === 'services-detail' }">Service</router-link>
+                            </li> -->
+                            <li>
+                                <router-link to="/#features">Features</router-link>
                             </li>
                             <li>
-                                <router-link to="/team">Team</router-link>
+                                <router-link to="/#ecosystem">Ecosystem</router-link>
                             </li>
                             <li>
-                                <router-link to="/about-us">About Us</router-link>
+                                <router-link to="/eco">Eco</router-link>
                             </li>
                             <li>
-                                <router-link to="/career">Career</router-link>
+                                <router-link to="/nomics">Nomics</router-link>
                             </li>
-                            <li
+                            <li>
+                                <router-link to="/#partner">Partner</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/#contact">Contact</router-link>
+                            </li>
+                            <!-- <li
                                 class="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex"
                             >
                                 <button type="button" @click="toggleSearch()" class="text-white hover:text-primary">
@@ -152,11 +161,11 @@
                                         </svg>
                                     </button>
                                 </form>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                     <ul class="flex items-center gap-5 ltr:pr-5 rtl:pl-5 ltr:lg:pl-5 ltr:lg:pr-0 rtl:lg:pr-5 rtl:lg:pl-0">
-                        <li>
+                        <!-- <li>
                             <button
                                 type="button"
                                 class="flex h-5 w-5 items-center text-white hover:text-primary rtl:text-primary"
@@ -190,7 +199,7 @@
                                     <path d="M6.3573 12.3084V1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </button>
-                        </li>
+                        </li> -->
                         <li>
                             <button
                                 type="button"

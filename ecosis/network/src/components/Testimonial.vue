@@ -149,8 +149,8 @@
         </div>
         <div class="container">
             <div :class="{ hidden: !showTitle }" class="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                <h6>Testimonial</h6>
-                <h4 class="!text-white">Feedback from our clients</h4>
+                <h6>Quotes</h6>
+                <h4 class="!text-white">What the Founders say</h4>
             </div>
             <div class="mx-auto" :class="{ 'lg:w-11/12': type.toLowerCase() === 'common' }">
                 <swiper
@@ -181,7 +181,7 @@
                                             alt="blue-quote"
                                             class="absolute top-0 ltr:right-0 rtl:left-0 sm:-top-6 ltr:sm:-right-6 rtl:sm:-left-6"
                                         />
-                                        <div class="pb-8">
+                                        <!-- <div class="pb-8">
                                             <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path
                                                     d="M86.2864 2.84744C87.0637 1.5558 88.9363 1.5558 89.7136 2.84744L90.1964 3.64962C90.4756 4.11365 90.9311 4.44459 91.4587 4.56678L92.3708 4.77803C93.8395 5.11816 94.4181 6.8991 93.4299 8.03752L92.8162 8.74454C92.4612 9.15352 92.2872 9.68898 92.334 10.2285L92.4149 11.1613C92.5453 12.6631 91.0303 13.7638 89.6423 13.1757L88.7802 12.8105C88.2815 12.5993 87.7185 12.5993 87.2198 12.8105L86.3577 13.1757C84.9697 13.7638 83.4547 12.6631 83.5851 11.1613L83.666 10.2285C83.7128 9.68899 83.5388 9.15352 83.1838 8.74454L82.5701 8.03752C81.5819 6.89911 82.1605 5.11816 83.6292 4.77803L84.5413 4.56678C85.0689 4.44459 85.5244 4.11365 85.8036 3.64962L86.2864 2.84744Z"
@@ -204,7 +204,7 @@
                                                     fill="#FFBD11"
                                                 />
                                             </svg>
-                                        </div>
+                                        </div> -->
                                         <p class="relative font-medium italic text-white">
                                             {{ feedback.message }}
                                             <span class="absolute -left-2 -top-2">
@@ -304,7 +304,7 @@
                             'ltr:left-0 rtl:right-0 md:absolute md:mt-0 md:justify-end': type.toLowerCase() === 'modern-saas',
                         }"
                     >
-                        <a href="javascript:" class="text-sm font-extrabold text-white transition hover:text-secondary dark:hover:text-secondary">View All</a>
+                        <!-- <a href="javascript:" class="text-sm font-extrabold text-white transition hover:text-secondary dark:hover:text-secondary">View All</a> -->
                         <button
                             type="button"
                             class="testimonial-swiper-button-prev static mt-0 flex h-10 w-10 items-center justify-center rounded-full bg-white/5 transition after:text-[0px] hover:bg-secondary rtl:rotate-180"
@@ -360,11 +360,11 @@
                 return [
                     {
                         id: 1,
-                        name: 'Allan Branch',
-                        role: 'CEO of Lifted',
+                        name: 'Christopher Müller',
+                        role: 'CEO',
                         thumbnail: '/assets/images/testimonial.png',
                         message:
-                            "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+                            "In the future people will have several multiple passive income streams just by participating in economies of goverances and companies.",
                     },
                 ];
             },

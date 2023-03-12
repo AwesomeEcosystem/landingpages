@@ -1,5 +1,5 @@
 {
-    "name": "ecosis Network Landingpage",
+    "name": "ecosis-landingpage",
     "version": "3.0.0",
     "scripts": {
         "dev": "vite",

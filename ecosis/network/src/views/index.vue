@@ -1,45 +1,69 @@
 <template>
     <div class="overflow-x-hidden">
+
+        <!-- Hero  -->
         <div class="overflow-hidden bg-black pt-[82px] sm:-mx-[250px] sm:rounded-b-[50%] lg:-mx-[150px] lg:pt-[106px]">
             <div class="relative">
                 <img src="/assets/images/banner-lefticon.png" alt="banner-lefticon" class="absolute left-0 top-20 sm:left-[250px] lg:left-[150px]" />
                 <img src="/assets/images/banner-rightIcon.png" alt="banner-rightIcon" class="absolute right-0 -top-4 sm:right-[250px] lg:right-[150px]" />
                 <div class="container">
-                    <div class="relative bg-[url('/assets/images/world-map.png')] bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
+                    <div class="relative md:flex bg-[url('/assets/images/world-map.png')] bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
                         <div class="relative z-[1] text-center text-white lg:w-3/5 ltr:lg:text-left rtl:lg:text-right xl:w-1/2">
                             <h2 class="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px]">
-                                The <span class="italic text-primary">Ultimate </span> <span class="italic text-secondary">Win-Win</span> Economy
+                              Turn <span class="italic text-primary">Transactions </span> into <span class="italic text-secondary">Opportunities</span>
                             </h2>
-                            <p class="my-8 text-lg lg:w-[90%]">
-                                Streamline your economy. Simplify your transactions. Connect the world.
+                            <p class="my-8 text-lg lg:w-[100%]">
+                              Streamline smart economies.
                             </p>
                             <div class="flex">
-                              <router-link to="/about-us" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">Enter Demo</router-link>
-                              <router-link to="/about-us" class="btn bg-transparent text-white underline mx-auto mt-2 block w-fit lg:mx-0 lg:rtl:ml-auto">Start here</router-link>
+                              <a href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto px-4">Waitlist</a>
+                              <router-link to="/eco" class="btn bg-transparent text-white underline mx-auto mt-2 block w-fit lg:mx-0 lg:rtl:ml-auto px-4">Start here</router-link>
                             </div>
                         </div>
                         <div
-                            class="bottom-0 mx-auto mt-5 mb-2 w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:absolute lg:mb-0 lg:mt-0 xl:w-[650px]"
+                            class="mx-auto mt-5 mb-2 w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:mb-0 lg:mt-0 xl:w-[650px]"
                             :data-aos="store.direction === 'rtl' ? 'fade-right' : 'fade-left'"
                             data-aos-duration="1000"
                             data-aos-offset="0"
                             data-aos-delay="300"
                         >
-                            <img src="/assets/images/home-banner-icon.svg" alt="home-banner-icon" class="rtl:rotate-y-180" />
+                            <img src="/assets/images/ecoHero.png" alt="home-banner-icon" class="rtl:rotate-y-180" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <section class="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:bg-none lg:py-20">
+        <!-- Intro -->
+        <section class="relative overflow-hidden pt-14 lg:pb-16 lg:pt-[100px]">
+            <div class="container relative z-[1] flex">
+                <div class="text-center lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
+                    <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
+                        <h6>Join the Future</h6>
+                        <h4>Empower Your Purchases,<br> Empower Your Community</h4>
+                    </div>
+                    <p class="pb-10 text-lg font-semibold leading-[30px]">
+                      Step into a reward-based digital economy platform that supports the growth of your community.
+                    </p>
+                    <p class="pb-10 text-xl font-semibold leading-[30px]">
+                        Are you ready to enter the future?
+                    </p>
+                </div>
+                <div class="lg:w-1/2 w-full p-4">
+                  <img src="/assets/images/smareco.png" alt="about-who-bg" class="rtl:rotate-y-180" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:bg-none lg:py-20" id="features">
             <div class="container">
                 <div class="lg:w-1/2">
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                         <h6 class="!text-secondary">FEATURES</h6>
-                        <h4>A robust digitized economy</h4>
+                        <h4>A robust rewarding B2B2C SaaS</h4>
                         <p class="mt-4 text-lg font-semibold">
-                            It's a B2B2C SaaS providing the most degitized and rewarding infrastructure to support the cash-flow between businesses, consumers, and investors.
+                            Unleash the power for businesses, consumers, and investors to benefit from the most advanced and rewarding infrastructure. Streamline your cash-flow and support sustainable growth with ease.
                         </p>
                     </div>
                 </div>
@@ -62,8 +86,8 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Realtime analytics</h3>
-                            <p class="line-clamp-3">Real-time analytics is the discipline that applies logic and mathematics to data....</p>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Compound Rewards</h3>
+                            <p class="line-clamp-3">Supports purchasing power of consumers, investors and businesses</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -89,8 +113,8 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">User journey</h3>
-                            <p class="line-clamp-3">A customer journey map is a visual representation of a customer’s experience with a company.</p>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Transaction Driven</h3>
+                            <p class="line-clamp-3">It's all about transaction are incetivising user traffic by rewards</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -117,8 +141,8 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Automated reports</h3>
-                            <p class="line-clamp-3">Let’s take a deeper look into what report automation is, why your agency should automate its..</p>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Automated Contracts</h3>
+                            <p class="line-clamp-3">Smat Contract like platform to enhance the ecosystem behaviour</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -135,8 +159,8 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Funnel optimization</h3>
-                            <p class="line-clamp-3">Real-time analytics is the discipline that applies logic and mathematics to data....</p>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Powerful Gateway</h3>
+                            <p class="line-clamp-3">Simplify and customize your Transactions</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -159,8 +183,8 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">A/B Testing</h3>
-                            <p class="line-clamp-3">A customer journey map is a visual representation of a customer’s experience with a company.</p>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Customizable</h3>
+                            <p class="line-clamp-3">Build custom logics for your business and customers needs</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -187,15 +211,137 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Integrations</h3>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Interoperability</h3>
                             <p class="text-lg font-semibold line-clamp-3">
-                                Let’s take a deeper look into what report automation is, why your agency should automate its..
+                                Cross-platform third-party integrations
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Benefits -->
+        <!-- <section class="py-14 dark:bg-gradient-to-t dark:from-white/[0.02] dark:to-transparent lg:py-20">
+            <div class="container">
+                <div class="relative">
+                    <div class="lg:w-2/3">
+                        <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
+                            <h6 class="!text-secondary">Advantages</h6>
+                            <h4 class="">Smart Economics</h4>
+                            <p class="mt-4 text-lg font-semibold">
+                                Designs the most efficient ecosystem infrastructres. Every good ecosystem is made by great transaction volume.
+                            </p>
+                        </div>
+                        <ul class="mt-14 space-y-14 lg:w-2/3">
+                            <li class="flex gap-5 sm:gap-8">
+                                <div class="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-primary p-2 sm:h-[72px] sm:w-[72px]">
+                                    <img src="/assets/images/modern-saas/tracking-icon.svg" alt="" />
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="text-[22px] font-extrabold text-black dark:text-white">Data Driven</h4>
+                                    <p class="pt-4 text-lg font-semibold">
+                                        Get the most out of processed data to support your business.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="flex gap-5 sm:gap-8">
+                                <div class="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-secondary p-2 sm:h-[72px] sm:w-[72px]">
+                                    <img src="/assets/images/modern-saas/monitoring-icon.svg" alt="" />
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="text-[22px] font-extrabold text-black dark:text-white">Sustainable Rewards</h4>
+                                    <p class="pt-4 text-lg font-semibold">User traffic incentivied due attractive rewards from your application.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <img
+                        src="/assets/images/modern-saas/benifits-img.png"
+                        alt=""
+                        class="top-0 mx-auto mt-10 h-full ltr:-right-[125px] rtl:-left-[125px] lg:absolute lg:mt-0"
+                    />
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Integrations -->
+        <section class="py-14 lg:py-20">
+            <div class="container">
+                <div class="relative grid items-center gap-y-10 lg:grid-cols-2 lg:gap-4">
+                    <div class="ltr:pr-24 rtl:pl-24 sm:ltr:pr-60 sm:rtl:pl-60 lg:ltr:pr-24 lg:rtl:pl-24" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="/assets/images/ecoNet.png" alt="" />
+                    </div>
+                    <div class="heading mb-5 text-center ltr:lg:text-right rtl:lg:text-left">
+                        <h6 class="!text-secondary">INTEGRATIONS</h6>
+                        <h4 class="">Interoperable with platforms you love</h4>
+                        <p class="mt-4 text-lg font-semibold">
+                            Bundle your existing web accounts and leverage the most out of your data and finance!
+                        </p>
+                        <!-- <a
+                            href="javascript:"
+                            class="mt-8 inline-flex items-center gap-4 text-lg font-extrabold text-primary transition hover:text-secondary md:mt-12"
+                        >
+                            <span>Learn More</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.0398 3.96094C18.4495 2.36891 16.4227 1.28435 14.2158 0.844459C12.0089 0.404569 9.7212 0.629129 7.64196 1.48972C5.56274 2.35031 3.7855 3.80827 2.53506 5.67914C1.28462 7.55001 0.617188 9.7497 0.617188 12C0.617188 14.2503 1.28462 16.45 2.53506 18.3209C3.7855 20.1917 5.56274 21.6497 7.64196 22.5103C9.7212 23.3709 12.0089 23.5954 14.2158 23.1556C16.4227 22.7157 18.4495 21.6311 20.0398 20.0391C21.0961 18.9837 21.934 17.7305 22.5057 16.3511C23.0775 14.9717 23.3717 13.4932 23.3717 12C23.3717 10.5068 23.0775 9.0283 22.5057 7.64891C21.934 6.26952 21.0961 5.01632 20.0398 3.96094ZM15.9382 14.1875C15.9382 14.4196 15.8461 14.6421 15.682 14.8062C15.5179 14.9703 15.2953 15.0625 15.0632 15.0625C14.8312 15.0625 14.6086 14.9703 14.4445 14.8062C14.2804 14.6421 14.1882 14.4196 14.1882 14.1875V11.0484L9.5617 15.6859C9.3925 15.8446 9.1702 15.9344 8.9382 15.9375C8.7059 15.9365 8.4828 15.8465 8.3148 15.6859C8.1505 15.52 8.0583 15.296 8.0583 15.0625C8.0583 14.829 8.1505 14.605 8.3148 14.4391L12.9523 9.8125H9.8132C9.5812 9.8125 9.3586 9.7203 9.1945 9.5562C9.0304 9.3921 8.9382 9.1696 8.9382 8.9375C8.9382 8.7054 9.0304 8.4829 9.1945 8.3188C9.3586 8.1547 9.5812 8.0625 9.8132 8.0625H15.0632C15.1759 8.0622 15.2875 8.0845 15.3914 8.1281C15.6074 8.2155 15.7803 8.3845 15.8726 8.5984C15.9155 8.7064 15.9377 8.8214 15.9382 8.9375V14.1875Z"
+                                    fill="currentColor"
+                                />
+                            </svg>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video -->
+        <!-- <section class="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 lg:pb-[100px] lg:pt-[130px]">
+            <div class="relative bg-center">
+                <img
+                    src="/assets/images/world.png"
+                    alt="service-video-bg"
+                    class="relative z-[1] h-[400px] w-full object-cover object-top sm:h-[500px] lg:h-[738px]"
+                />
+                <div class="absolute -inset-x-4 bottom-0 h-12 -rotate-[2deg] bg-[#7780A1]/10 xl:bottom-3"></div>
+                <div class="absolute top-1/2 z-[1] -translate-y-1/2 ltr:left-5 ltr:pr-5 rtl:right-5 rtl:pl-5 ltr:lg:left-[10%] rtl:lg:right-[10%] xl:w-[620px]">
+                    <p class="pb-8 text-2xl font-extrabold text-white sm:text-4xl sm:leading-[50px]">
+                        Enabling Possibilities.
+                    </p>
+                    <button
+                        type="button"
+                        class="group flex h-[60px] w-[60px] items-center justify-center rounded-full bg-white ring-[5px] ring-white/10 transition hover:bg-secondary"
+                        @click="dialog.open()"
+                    >
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="text-secondary group-hover:text-black/60"
+                        >
+                            <g clip-path="url(#clip0_279_1223)">
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M7.12543 0.661061C4.53562 -1.06548 1.06668 0.791048 1.06668 3.90361V12.0964C1.06668 15.209 4.53562 17.0655 7.12543 15.3389L13.27 11.2425C15.5838 9.70001 15.5838 6.3 13.27 4.75746L7.12543 0.661061Z"
+                                    fill="currentColor"
+                                />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_279_1223">
+                                    <rect width="16" height="16" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Mission -->
+
         <section class="py-14 dark:!bg-none lg:py-[100px]" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 54.69%)">
             <!-- <counter></counter> -->
 
@@ -207,7 +353,8 @@
                         <div class="lg:w-1/2">
                             <div class="heading mb-16 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h6>Ecosystem as a Service</h6>
-                                <h4 class="leading-normal !text-white lg:!leading-[50px]">We provide an automated economy infrastructure the world needs a long time ago.</h4>
+                                <h4 class="leading-normal !text-white lg:!leading-[50px]">Reward communities for engagement</h4>
+                                <p class="text-white pt-4">Every sustainable ecosystem needs distributed purchasing power.</p>
                             </div>
                             <div
                                 class="grid gap-x-7 gap-y-12 sm:grid-cols-2"
@@ -236,8 +383,8 @@
                                         </svg>
                                     </div>
                                     <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Creativity</h4>
-                                        <p class="font-semibold">Curabitur blandit lacus porttitor ridiculus mus.</p>
+                                        <h4 class="mb-2 text-lg font-bold text-white">Innovative</h4>
+                                        <p class="font-semibold">Digitize and automate fundamentals of economics</p>
                                     </div>
                                 </div>
                                 <div class="flex transition">
@@ -309,8 +456,8 @@
                                         </svg>
                                     </div>
                                     <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Innovative Thinking</h4>
-                                        <p class="font-semibold">There are many variations of passages of Lorem Ipsum available</p>
+                                        <h4 class="mb-2 text-lg font-bold text-white">Curative</h4>
+                                        <p class="font-semibold">Accelerates your network effect</p>
                                     </div>
                                 </div>
                                 <div class="flex transition">
@@ -345,8 +492,8 @@
                                         </svg>
                                     </div>
                                     <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Rapid Solutions</h4>
-                                        <p class="font-semibold">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                                        <h4 class="mb-2 text-lg font-bold text-white">Extenbable</h4>
+                                        <p class="font-semibold">The Module System enables customizability, compatibility and scalability</p>
                                     </div>
                                 </div>
                                 <div class="flex transition">
@@ -371,8 +518,8 @@
                                         </svg>
                                     </div>
                                     <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Top-Notch Support</h4>
-                                        <p class="font-semibold">It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                                        <h4 class="mb-2 text-lg font-bold text-white">Engaging</h4>
+                                        <p class="font-semibold">Incentivize users for engagement</p>
                                     </div>
                                 </div>
                             </div>
@@ -383,25 +530,25 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container" id="ecosystem">
                 <div class="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
                     <div class="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h6>Awesome</h6>
                         <h4>Ecosystem</h4>
                     </div>
                     <!-- <div class="flex items-center justify-end gap-4">
-                            <div class="text-sm font-extrabold text-black dark:text-white">View All</div>
-                            <button type="button" class="bg-black/5 dark:bg-white/5 w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary dark:hover:bg-secondary transition">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-black dark:text-white">
-                                    <path d="M5.95007 1.2002L1.48924 5.3424C1.06317 5.73803 1.06317 6.41236 1.48924 6.80799L5.95007 10.9502" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                </svg>
-                            </button>
-                            <button type="button" class="bg-black/5 dark:bg-white/5 text-p w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary dark:hover:bg-secondary transition">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-black dark:text-white">
-                                    <path d="M1.05005 10.7998L5.51089 6.6576C5.93695 6.26197 5.93695 5.58764 5.51089 5.19201L1.05005 1.0498" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                </svg>
-                            </button>
-                        </div> -->
+                        <div class="text-sm font-extrabold text-black dark:text-white">View All</div>
+                        <button type="button" class="bg-black/5 dark:bg-white/5 w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary dark:hover:bg-secondary transition">
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-black dark:text-white">
+                                <path d="M5.95007 1.2002L1.48924 5.3424C1.06317 5.73803 1.06317 6.41236 1.48924 6.80799L5.95007 10.9502" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                        <button type="button" class="bg-black/5 dark:bg-white/5 text-p w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary dark:hover:bg-secondary transition">
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-black dark:text-white">
+                                <path d="M1.05005 10.7998L5.51089 6.6576C5.93695 6.26197 5.93695 5.58764 5.51089 5.19201L1.05005 1.0498" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div> -->
                 </div>
                 <!-- <div class="mb-7">
                     <ul class="filters home-filter mt-10 flex gap-8 overflow-x-auto whitespace-nowrap pb-3 font-bold lg:mt-0 lg:gap-10">
@@ -430,8 +577,8 @@
                         <div
                             class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
                         >
-                            <router-link to="/portfolio-detail" class="absolute top-0 left-0 h-full w-full"></router-link>
-                            <img src="/assets/images/project-1.png" alt="project-1" class="h-52 w-full rounded-t-3xl object-cover" />
+                            <a href="https://elabs.enterprises" target="_blank" class="absolute top-0 left-0 h-full w-full"></a>
+                            <img src="/assets/images/project-3-1.png" alt="project-1" class="h-52 w-full rounded-t-3xl object-cover" />
                             <div class="p-5 text-sm font-bold">
                                 <h6 class="mb-1 text-black dark:text-white">eLabs</h6>
                                 <p>ecosis Laboratories</p>
@@ -442,11 +589,11 @@
                         <div
                             class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
                         >
-                            <router-link to="/portfolio-detail" class="absolute top-0 left-0 h-full w-full"></router-link>
-                            <img src="/assets/images/project-2.png" alt="project-2" class="h-52 w-full rounded-t-3xl object-cover" />
+                            <a href="https://ecosis.finance" target="_blank" class="absolute top-0 left-0 h-full w-full"></a>
+                            <img src="/assets/images/project-3-2.png" alt="project-2" class="h-52 w-full rounded-t-3xl object-cover" />
                             <div class="p-5 text-sm font-bold">
                                 <h6 class="mb-1 text-black dark:text-white">ecosis Finance</h6>
-                                <p>Rewarding Finance Gateway</p>
+                                <p>Revolut & Paypal Extention</p>
                             </div>
                         </div>
                     </div>
@@ -454,15 +601,15 @@
                         <div
                             class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
                         >
-                            <router-link to="/portfolio-detail" class="absolute top-0 left-0 h-full w-full"></router-link>
+                            <a href="https://ecosis.shop" target="_blank" class="absolute top-0 left-0 h-full w-full"></a>
                             <img src="/assets/images/project-3.png" alt="project-3" class="h-52 w-full rounded-t-3xl object-cover" />
                             <div class="p-5 text-sm font-bold">
                                 <h6 class="mb-1 text-black dark:text-white">ecosis Shop</h6>
-                                <p>Rewarding Shopping Experience</p>
+                                <p>Shopify Extention</p>
                             </div>
                         </div>
                     </div>
-                    <div class="project" :class="activeTab === 'all' || activeTab === 'design' ? 'block' : 'hidden'">
+                    <!-- <div class="project" :class="activeTab === 'all' || activeTab === 'design' ? 'block' : 'hidden'">
                         <div
                             class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
                         >
@@ -497,99 +644,21 @@
                                 <p>More soon</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+
                 </div>
+                <!-- <div class="w-full flex justify-center pt-24">
+                  <router-link to="/about-us" class="btn mx-auto mt-2 block w-fit bg-primary text-white lg:mx-0 lg:rtl:ml-auto">Join Us</router-link>
+                </div> -->
             </div>
         </section>
 
-        <section class="py-14 dark:bg-gradient-to-t dark:from-white/[0.02] dark:to-transparent lg:py-20">
-            <div class="container">
-                <div class="relative">
-                    <div class="lg:w-2/3">
-                        <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h6 class="!text-secondary">THOUSANDS OF BENIFITS</h6>
-                            <h4 class="">We make it easy to track all user analytics</h4>
-                            <p class="mt-4 text-lg font-semibold">
-                                We analyze step wise for your every platform. You will get best reports and analytics. We helping to client with our talented
-                                expert.
-                            </p>
-                        </div>
-                        <ul class="mt-14 space-y-14 lg:w-2/3">
-                            <li class="flex gap-5 sm:gap-8">
-                                <div class="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-primary p-2 sm:h-[72px] sm:w-[72px]">
-                                    <img src="/assets/images/modern-saas/tracking-icon.svg" alt="" />
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="text-[22px] font-extrabold text-black dark:text-white">Advanced tracking</h4>
-                                    <p class="pt-4 text-lg font-semibold">
-                                        Use our analytics, reporting, and AI-assisted optimization tools to monitor trends, track.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="flex gap-5 sm:gap-8">
-                                <div class="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-secondary p-2 sm:h-[72px] sm:w-[72px]">
-                                    <img src="/assets/images/modern-saas/monitoring-icon.svg" alt="" />
-                                </div>
-                                <div class="flex-1">
-                                    <h4 class="text-[22px] font-extrabold text-black dark:text-white">In-depth monitoring</h4>
-                                    <p class="pt-4 text-lg font-semibold">Time Tracking is never been easier. Just let the stopwatch run.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <img
-                        src="/assets/images/modern-saas/benifits-img.png"
-                        alt=""
-                        class="top-0 mx-auto mt-10 h-full ltr:-right-[125px] rtl:-left-[125px] lg:absolute lg:mt-0"
-                    />
-                </div>
-            </div>
-        </section>
-
-        <section class="py-14 lg:py-20">
-            <div class="container">
-                <div class="relative grid items-center gap-y-10 lg:grid-cols-2 lg:gap-4">
-                    <img
-                        src="/assets/images/modern-saas/analysis-icon.svg"
-                        alt=""
-                        class="absolute top-0 block w-32 ltr:right-0 rtl:left-0 dark:hidden sm:w-72 lg:-top-16 lg:ltr:right-36 lg:rtl:left-36"
-                    />
-                    <img
-                        src="/assets/images/modern-saas/analysis-icon-dark.svg"
-                        alt=""
-                        class="absolute top-0 hidden w-32 ltr:right-0 rtl:left-0 dark:block sm:w-72 lg:-top-16 lg:ltr:right-36 lg:rtl:left-36"
-                    />
-                    <div class="ltr:pr-24 rtl:pl-24 sm:ltr:pr-60 sm:rtl:pl-60 lg:ltr:pr-24 lg:rtl:pl-24" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="/assets/images/modern-saas/integration-img.png" alt="" />
-                    </div>
-                    <div class="heading mb-5 text-center ltr:lg:text-right rtl:lg:text-left">
-                        <h6 class="!text-secondary">INTEGRATIONS</h6>
-                        <h4 class="">Interoperable with platforms you already know and love</h4>
-                        <p class="mt-4 text-lg font-semibold">
-                            Leverage your existing accounts and bundle them into a powerful tool to get the most out of your data and finance!
-                        </p>
-                        <a
-                            href="javascript:"
-                            class="mt-8 inline-flex items-center gap-4 text-lg font-extrabold text-primary transition hover:text-secondary md:mt-12"
-                        >
-                            <span>Learn More</span>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M20.0398 3.96094C18.4495 2.36891 16.4227 1.28435 14.2158 0.844459C12.0089 0.404569 9.7212 0.629129 7.64196 1.48972C5.56274 2.35031 3.7855 3.80827 2.53506 5.67914C1.28462 7.55001 0.617188 9.7497 0.617188 12C0.617188 14.2503 1.28462 16.45 2.53506 18.3209C3.7855 20.1917 5.56274 21.6497 7.64196 22.5103C9.7212 23.3709 12.0089 23.5954 14.2158 23.1556C16.4227 22.7157 18.4495 21.6311 20.0398 20.0391C21.0961 18.9837 21.934 17.7305 22.5057 16.3511C23.0775 14.9717 23.3717 13.4932 23.3717 12C23.3717 10.5068 23.0775 9.0283 22.5057 7.64891C21.934 6.26952 21.0961 5.01632 20.0398 3.96094ZM15.9382 14.1875C15.9382 14.4196 15.8461 14.6421 15.682 14.8062C15.5179 14.9703 15.2953 15.0625 15.0632 15.0625C14.8312 15.0625 14.6086 14.9703 14.4445 14.8062C14.2804 14.6421 14.1882 14.4196 14.1882 14.1875V11.0484L9.5617 15.6859C9.3925 15.8446 9.1702 15.9344 8.9382 15.9375C8.7059 15.9365 8.4828 15.8465 8.3148 15.6859C8.1505 15.52 8.0583 15.296 8.0583 15.0625C8.0583 14.829 8.1505 14.605 8.3148 14.4391L12.9523 9.8125H9.8132C9.5812 9.8125 9.3586 9.7203 9.1945 9.5562C9.0304 9.3921 8.9382 9.1696 8.9382 8.9375C8.9382 8.7054 9.0304 8.4829 9.1945 8.3188C9.3586 8.1547 9.5812 8.0625 9.8132 8.0625H15.0632C15.1759 8.0622 15.2875 8.0845 15.3914 8.1281C15.6074 8.2155 15.7803 8.3845 15.8726 8.5984C15.9155 8.7064 15.9377 8.8214 15.9382 8.9375V14.1875Z"
-                                    fill="currentColor"
-                                />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        <!-- Products -->
         <section class="bg-white/50 py-14 dark:bg-white/[0.03] lg:py-20">
             <div class="container">
                 <div class="heading mb-5 text-center">
                     <h6 class="!text-secondary">Products</h6>
-                    <h4 class="">Everything you need to live the life of tomorrow today!</h4>
+                    <h4 class="">Everything you need to live the life of tomorrow, today!</h4>
                 </div>
                 <div
                     class="mt-14 grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2"
@@ -598,23 +667,23 @@
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                         <h4 class="">Eco</h4>
                         <p class="mt-6 text-lg font-semibold">
-                            The most easiest to use Cross-platform Account incl a Wallet on the world!
+                            Your one and only Wallet
                         </p>
-                        <a
-                            href="javascript:"
-                            class="mt-8 inline-flex items-center gap-4 text-lg font-extrabold text-primary transition hover:text-secondary lg:mt-14"
+                        <router-link
+                          class="mt-8 inline-flex items-center gap-4 text-lg font-extrabold text-primary transition hover:text-secondary lg:mt-14"
+                          to="/eco"
                         >
-                            <span>Learn More</span>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M20.0398 3.96094C18.4495 2.36891 16.4227 1.28435 14.2158 0.844459C12.0089 0.404569 9.7212 0.629129 7.64196 1.48972C5.56274 2.35031 3.7855 3.80827 2.53506 5.67914C1.28462 7.55001 0.617188 9.7497 0.617188 12C0.617188 14.2503 1.28462 16.45 2.53506 18.3209C3.7855 20.1917 5.56274 21.6497 7.64196 22.5103C9.7212 23.3709 12.0089 23.5954 14.2158 23.1556C16.4227 22.7157 18.4495 21.6311 20.0398 20.0391C21.0961 18.9837 21.934 17.7305 22.5057 16.3511C23.0775 14.9717 23.3717 13.4932 23.3717 12C23.3717 10.5068 23.0775 9.0283 22.5057 7.64891C21.934 6.26952 21.0961 5.01632 20.0398 3.96094ZM15.9382 14.1875C15.9382 14.4196 15.8461 14.6421 15.682 14.8062C15.5179 14.9703 15.2953 15.0625 15.0632 15.0625C14.8312 15.0625 14.6086 14.9703 14.4445 14.8062C14.2804 14.6421 14.1882 14.4196 14.1882 14.1875V11.0484L9.5617 15.6859C9.3925 15.8446 9.1702 15.9344 8.9382 15.9375C8.7059 15.9365 8.4828 15.8465 8.3148 15.6859C8.1505 15.52 8.0583 15.296 8.0583 15.0625C8.0583 14.829 8.1505 14.605 8.3148 14.4391L12.9523 9.8125H9.8132C9.5812 9.8125 9.3586 9.7203 9.1945 9.5562C9.0304 9.3921 8.9382 9.1696 8.9382 8.9375C8.9382 8.7054 9.0304 8.4829 9.1945 8.3188C9.3586 8.1547 9.5812 8.0625 9.8132 8.0625H15.0632C15.1759 8.0622 15.2875 8.0845 15.3914 8.1281C15.6074 8.2155 15.7803 8.3845 15.8726 8.5984C15.9155 8.7064 15.9377 8.8214 15.9382 8.9375V14.1875Z"
-                                    fill="currentColor"
-                                />
-                            </svg>
-                        </a>
+                          <span>Learn More</span>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M20.0398 3.96094C18.4495 2.36891 16.4227 1.28435 14.2158 0.844459C12.0089 0.404569 9.7212 0.629129 7.64196 1.48972C5.56274 2.35031 3.7855 3.80827 2.53506 5.67914C1.28462 7.55001 0.617188 9.7497 0.617188 12C0.617188 14.2503 1.28462 16.45 2.53506 18.3209C3.7855 20.1917 5.56274 21.6497 7.64196 22.5103C9.7212 23.3709 12.0089 23.5954 14.2158 23.1556C16.4227 22.7157 18.4495 21.6311 20.0398 20.0391C21.0961 18.9837 21.934 17.7305 22.5057 16.3511C23.0775 14.9717 23.3717 13.4932 23.3717 12C23.3717 10.5068 23.0775 9.0283 22.5057 7.64891C21.934 6.26952 21.0961 5.01632 20.0398 3.96094ZM15.9382 14.1875C15.9382 14.4196 15.8461 14.6421 15.682 14.8062C15.5179 14.9703 15.2953 15.0625 15.0632 15.0625C14.8312 15.0625 14.6086 14.9703 14.4445 14.8062C14.2804 14.6421 14.1882 14.4196 14.1882 14.1875V11.0484L9.5617 15.6859C9.3925 15.8446 9.1702 15.9344 8.9382 15.9375C8.7059 15.9365 8.4828 15.8465 8.3148 15.6859C8.1505 15.52 8.0583 15.296 8.0583 15.0625C8.0583 14.829 8.1505 14.605 8.3148 14.4391L12.9523 9.8125H9.8132C9.5812 9.8125 9.3586 9.7203 9.1945 9.5562C9.0304 9.3921 8.9382 9.1696 8.9382 8.9375C8.9382 8.7054 9.0304 8.4829 9.1945 8.3188C9.3586 8.1547 9.5812 8.0625 9.8132 8.0625H15.0632C15.1759 8.0622 15.2875 8.0845 15.3914 8.1281C15.6074 8.2155 15.7803 8.3845 15.8726 8.5984C15.9155 8.7064 15.9377 8.8214 15.9382 8.9375V14.1875Z"
+                                  fill="currentColor"
+                              />
+                          </svg>
+                        </router-link>
                     </div>
                     <div class="lg:ltr:pl-24 lg:rtl:pr-24">
-                        <img src="/assets/images/modern-saas/optimization.png" alt="" class="rounded-2xl" />
+                        <img src="/assets/logos/eco.png" alt="" class="rounded-2xl" />
                     </div>
                 </div>
                 <div
@@ -624,88 +693,100 @@
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                         <h4 class="">Nomics</h4>
                         <p class="mt-6 text-lg font-semibold">
-                            The world most advanced Smart Contract Platform connected to the real world.
+                            The most advanced Smart Contract Platform connected to the real world.
                         </p>
-                        <a
-                            href="javascript:"
-                            class="mt-8 inline-flex items-center gap-4 text-lg font-extrabold text-secondary transition hover:text-primary lg:mt-14"
+
+                        <router-link
+                        class="mt-8 inline-flex items-center gap-4 text-lg font-extrabold text-secondary transition hover:text-primary lg:mt-14"
+                          to="/nomics"
                         >
-                            <span>Learn More</span>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M20.0398 3.96094C18.4495 2.36891 16.4227 1.28435 14.2158 0.844459C12.0089 0.404569 9.7212 0.629129 7.64196 1.48972C5.56274 2.35031 3.7855 3.80827 2.53506 5.67914C1.28462 7.55001 0.617188 9.7497 0.617188 12C0.617188 14.2503 1.28462 16.45 2.53506 18.3209C3.7855 20.1917 5.56274 21.6497 7.64196 22.5103C9.7212 23.3709 12.0089 23.5954 14.2158 23.1556C16.4227 22.7157 18.4495 21.6311 20.0398 20.0391C21.0961 18.9837 21.934 17.7305 22.5057 16.3511C23.0775 14.9717 23.3717 13.4932 23.3717 12C23.3717 10.5068 23.0775 9.0283 22.5057 7.64891C21.934 6.26952 21.0961 5.01632 20.0398 3.96094ZM15.9382 14.1875C15.9382 14.4196 15.8461 14.6421 15.682 14.8062C15.5179 14.9703 15.2953 15.0625 15.0632 15.0625C14.8312 15.0625 14.6086 14.9703 14.4445 14.8062C14.2804 14.6421 14.1882 14.4196 14.1882 14.1875V11.0484L9.5617 15.6859C9.3925 15.8446 9.1702 15.9344 8.9382 15.9375C8.7059 15.9365 8.4828 15.8465 8.3148 15.6859C8.1505 15.52 8.0583 15.296 8.0583 15.0625C8.0583 14.829 8.1505 14.605 8.3148 14.4391L12.9523 9.8125H9.8132C9.5812 9.8125 9.3586 9.7203 9.1945 9.5562C9.0304 9.3921 8.9382 9.1696 8.9382 8.9375C8.9382 8.7054 9.0304 8.4829 9.1945 8.3188C9.3586 8.1547 9.5812 8.0625 9.8132 8.0625H15.0632C15.1759 8.0622 15.2875 8.0845 15.3914 8.1281C15.6074 8.2155 15.7803 8.3845 15.8726 8.5984C15.9155 8.7064 15.9377 8.8214 15.9382 8.9375V14.1875Z"
-                                    fill="currentColor"
-                                />
-                            </svg>
-                        </a>
+                          <span>Learn More</span>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  d="M20.0398 3.96094C18.4495 2.36891 16.4227 1.28435 14.2158 0.844459C12.0089 0.404569 9.7212 0.629129 7.64196 1.48972C5.56274 2.35031 3.7855 3.80827 2.53506 5.67914C1.28462 7.55001 0.617188 9.7497 0.617188 12C0.617188 14.2503 1.28462 16.45 2.53506 18.3209C3.7855 20.1917 5.56274 21.6497 7.64196 22.5103C9.7212 23.3709 12.0089 23.5954 14.2158 23.1556C16.4227 22.7157 18.4495 21.6311 20.0398 20.0391C21.0961 18.9837 21.934 17.7305 22.5057 16.3511C23.0775 14.9717 23.3717 13.4932 23.3717 12C23.3717 10.5068 23.0775 9.0283 22.5057 7.64891C21.934 6.26952 21.0961 5.01632 20.0398 3.96094ZM15.9382 14.1875C15.9382 14.4196 15.8461 14.6421 15.682 14.8062C15.5179 14.9703 15.2953 15.0625 15.0632 15.0625C14.8312 15.0625 14.6086 14.9703 14.4445 14.8062C14.2804 14.6421 14.1882 14.4196 14.1882 14.1875V11.0484L9.5617 15.6859C9.3925 15.8446 9.1702 15.9344 8.9382 15.9375C8.7059 15.9365 8.4828 15.8465 8.3148 15.6859C8.1505 15.52 8.0583 15.296 8.0583 15.0625C8.0583 14.829 8.1505 14.605 8.3148 14.4391L12.9523 9.8125H9.8132C9.5812 9.8125 9.3586 9.7203 9.1945 9.5562C9.0304 9.3921 8.9382 9.1696 8.9382 8.9375C8.9382 8.7054 9.0304 8.4829 9.1945 8.3188C9.3586 8.1547 9.5812 8.0625 9.8132 8.0625H15.0632C15.1759 8.0622 15.2875 8.0845 15.3914 8.1281C15.6074 8.2155 15.7803 8.3845 15.8726 8.5984C15.9155 8.7064 15.9377 8.8214 15.9382 8.9375V14.1875Z"
+                                  fill="currentColor"
+                              />
+                          </svg>
+                        </router-link>
                     </div>
                     <div class="lg:ltr:pl-24 lg:rtl:pr-24">
-                        <img src="/assets/images/modern-saas/migrate-modernize.png" alt="" class="rounded-2xl" />
+                        <img src="/assets/logos/nomics.png" alt="" class="rounded-2xl p-8" />
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
+        <!-- Partners -->
+        <!-- <section class="py-14 lg:py-[100px]">
+            <project-slider>
+                <template #title>
+                    <div class="heading mb-0 text-center ltr:lg:text-left rtl:lg:text-right">
+                        <h6>Our Project</h6>
+                        <h4>Some of our finest work.</h4>
+                    </div>
+                </template>
+            </project-slider>
+        </section> -->
+        <section class="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]" id="partner">
             <div class="container">
                 <div class="heading text-center">
                     <h6>Our</h6>
                     <h4>Partners</h4>
                 </div>
-                <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-                    <div class="group cursor-pointer text-center">
+                <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
+                    <a class="group cursor-pointer text-center" href="https://changenow.io/" target="_blank">
                         <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/team-member-1.png" alt="team-member-1" class="h-full w-full rounded-3xl object-cover object-top" />
+                            <img src="/assets/images/partners/changenow_dark.png" alt="team-member-1" class="h-64 w-64 rounded-3xl object-cover object-top" />
                         </div>
                         <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                             Change Now
                         </h4>
                         <h6 class="text-sm font-bold">Crypto Exchange</h6>
-                    </div>
-                    <div class="group cursor-pointer text-center">
+                    </a>
+                    <a class="group cursor-pointer text-center" href="https://www.revolut.com/" target="_blank">
                         <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/team-member-2.png" alt="team-member-2" class="h-full w-full rounded-3xl object-cover object-top" />
-                        </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                            Purism
-                        </h4>
-                        <h6 class="text-sm font-bold">Beautify, Privacy-respecting Devices</h6>
-                    </div>
-                    <div class="group cursor-pointer text-center">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/team-member-3.png" alt="team-member-3" class="h-full w-full rounded-3xl object-cover object-top" />
-                        </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                            SheFan Pro
-                        </h4>
-                        <h6 class="text-sm font-bold">Womens Empowerment Blockchain</h6>
-                    </div>
-                    <div class="group cursor-pointer text-center">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/team-member-4.png" alt="team-member-4" class="h-full w-full rounded-3xl object-cover object-top" />
+                            <img src="/assets/images/partners/revolut.png" alt="team-member-4" class="h-64 w-64 rounded-3xl object-cover object-top" />
                         </div>
                         <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                             Revolut
                         </h4>
                         <h6 class="text-sm font-bold">One App, All things Money</h6>
-                    </div>
-
-                    <div class="group cursor-pointer text-center">
+                    </a>
+                    <a class="group cursor-pointer text-center" href="https://puri.sm/" target="_blank">
                         <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/team-member-4.png" alt="team-member-4" class="h-full w-full rounded-3xl object-cover object-top" />
+                            <img src="/assets/images/partners/purism_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl object-cover object-top" />
+                        </div>
+                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            Purism
+                        </h4>
+                        <h6 class="text-sm font-bold">Beautify, Privacy-respecting Devices</h6>
+                    </a>
+                    <a class="group cursor-pointer text-center" href="https://www.shefan.pro/" target="_blank">
+                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/shefan_dark.png" alt="team-member-3" class="h-64 w-64 rounded-3xl object-cover object-top" />
+                        </div>
+                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            SheFan Pro
+                        </h4>
+                        <h6 class="text-sm font-bold">Womens Empowerment Blockchain</h6>
+                    </a>
+                    <a class="group cursor-pointer text-center" href="https://www.estglobalinc.com/" target="_blank">
+                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/fab_dark.png" alt="team-member-4" class="h-64 w-64 rounded-3xl object-cover object-top" />
                         </div>
                         <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                             FAB
                         </h4>
                         <h6 class="text-sm font-bold">Fintech and Blockchain Association</h6>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
 
         <!-- <Testimonial class="py-14 lg:py-[100px]"></Testimonial> -->
 
-        <section class="py-14 dark:bg-gray-dark lg:py-[100px]">
+        <!-- Contact -->
+        <section class="py-14 dark:bg-gray-dark lg:py-[100px]" id="contact">
             <div class="container">
                 <div class="relative z-10 lg:flex">
                     <div class="heading text-center lg:mb-0 lg:w-1/3 ltr:lg:pr-10 ltr:lg:text-left rtl:lg:pl-10 rtl:lg:text-right">
@@ -719,172 +800,30 @@
                             data-aos-duration="1000"
                         />
                     </div>
-                    <form action="" class="rounded-3xl bg-white px-4 py-12 dark:bg-[#101626] lg:w-2/3 lg:px-8">
-                        <div class="grid gap-10 sm:grid-cols-2">
-                            <div class="relative">
-                                <input
-                                    type="text"
-                                    name="name"
-                                    class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                />
-                                <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >Full Name</label
-                                >
-                                <svg
-                                    width="20"
-                                    height="22"
-                                    viewBox="0 0 20 22"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                >
-                                    <path
-                                        d="M5.42855 5.57875C5.42855 8.10348 7.47525 10.1502 9.99998 10.1502C12.5247 10.1502 14.5714 8.10348 14.5714 5.57875C14.5714 3.05402 12.5247 1.00732 9.99998 1.00732"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                    <path
-                                        d="M2 16.9328C2 15.9495 2.61812 15.0724 3.5441 14.7417V14.7417C7.71891 13.2507 12.2811 13.2507 16.4559 14.7417V14.7417C17.3819 15.0724 18 15.9495 18 16.9328V18.7014C18 19.9185 16.922 20.8535 15.7172 20.6813L13.8184 20.4101C11.2856 20.0483 8.71435 20.0483 6.18162 20.4101L4.28284 20.6813C3.07798 20.8535 2 19.9185 2 18.7014V16.9328Z"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                    />
-                                </svg>
-                            </div>
-                            <div class="relative">
-                                <input
-                                    type="email"
-                                    name="email"
-                                    class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                />
-                                <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >Email Address</label
-                                >
-                                <svg
-                                    width="22"
-                                    height="21"
-                                    viewBox="0 0 22 21"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                >
-                                    <path
-                                        d="M1 8.00732V7.00732C1 4.2459 3.23858 2.00732 6 2.00732H16C18.7614 2.00732 21 4.2459 21 7.00732V13.0073C21 15.7687 18.7614 18.0073 16 18.0073H6C3.23858 18.0073 1 15.7687 1 13.0073V12.0073"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                    <path
-                                        d="M5 7.00732L9.8 10.6073C10.5111 11.1407 11.4889 11.1407 12.2 10.6073L17 7.00732"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                </svg>
-                            </div>
-                            <div class="relative">
-                                <input
-                                    type="text"
-                                    name="mobile"
-                                    class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                />
-                                <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >Mobile Number</label
-                                >
-                                <svg
-                                    width="22"
-                                    height="22"
-                                    viewBox="0 0 22 22"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                >
-                                    <path
-                                        d="M6.45241 1.40806C5.45292 0.783702 4.14202 0.887138 3.2983 1.73086L1.86856 3.1606C-0.302899 5.33207 1.73747 10.8931 6.42586 15.5815C11.1142 20.2699 16.6753 22.3102 18.8467 20.1388L20.2765 18.709C21.2635 17.722 21.2374 16.0956 20.2182 15.0764L18.0036 12.8619C16.9844 11.8426 15.358 11.8165 14.371 12.8036L14.0639 13.1107C13.531 13.6436 12.6713 13.6957 12.0713 13.2005C11.4925 12.7229 10.9159 12.208 10.3576 11.6497C9.79933 11.0914 9.28441 10.5149 8.80678 9.93607C8.31161 9.33601 8.36374 8.47631 8.89666 7.9434L9.20375 7.63631C9.98187 6.85819 10.1303 5.68271 9.65898 4.72062"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                </svg>
-                            </div>
-                            <div class="relative">
-                                <input
-                                    type="text"
-                                    name="city"
-                                    class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                />
-                                <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >City</label
-                                >
-                                <svg
-                                    width="20"
-                                    height="22"
-                                    viewBox="0 0 20 22"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                >
-                                    <path
-                                        d="M5.89416 2.31259C7.20149 1.48625 8.75475 1.00732 10.4211 1.00732C15.0719 1.00732 18.8421 4.73828 18.8421 9.34066C18.8421 15.0541 12.1053 21.0073 10.4211 21.0073C8.73684 21.0073 2 15.0541 2 9.34066C2 7.87581 2.38193 6.49924 3.05263 5.30315"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                    <path
-                                        d="M13.4571 9.77392C13.5365 9.49702 13.579 9.20456 13.579 8.90216C13.579 7.15811 12.1651 5.74427 10.4211 5.74427C8.67702 5.74427 7.26318 7.15811 7.26318 8.90216C7.26318 10.6462 8.67702 12.0601 10.4211 12.0601C10.6633 12.0601 10.8991 12.0328 11.1256 11.9812"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                </svg>
-                            </div>
+
+                    <div class="w-full">
+                        <div data-tf-widget="QOyYsO0L" data-tf-iframe-props="title=proposal" data-tf-medium="snippet" style="width:100%;height:400px;">
                         </div>
-                        <div class="relative mt-10">
-                            <input
-                                type="text"
-                                name="message"
-                                class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                            />
-                            <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                >Message</label
-                            >
-                            <svg
-                                width="22"
-                                height="22"
-                                viewBox="0 0 22 22"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                            >
-                                <path
-                                    d="M1 11.467V18.9267C1 19.7652 1.96993 20.2314 2.6247 19.7076L5.45217 17.4456C5.8068 17.1619 6.24742 17.0073 6.70156 17.0073H16C18.7614 17.0073 21 14.7687 21 12.0073V6.00732C21 3.2459 18.7614 1.00732 16 1.00732H6C3.23858 1.00732 1 3.2459 1 6.00732V7.62225"
-                                    stroke="currentColor"
-                                    stroke-width="1.8"
-                                    stroke-linecap="round"
-                                />
-                                <circle cx="6.05005" cy="9.05713" r="1.25" fill="currentColor" />
-                                <circle cx="11.05" cy="9.05713" r="1.25" fill="currentColor" />
-                                <circle cx="16.05" cy="9.05713" r="1.25" fill="currentColor" />
-                            </svg>
-                        </div>
-                        <div class="mt-10 text-center ltr:lg:text-right rtl:lg:text-left">
-                            <button type="button" class="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
-                                Send Message
-                            </button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
 </template>
 <script setup lang="ts">
-    import { ref } from 'vue';
+    import { ref, onMounted } from 'vue';
     import Testimonial from '@/components/Testimonial.vue';
     import Counter from '@/components/Counter.vue';
     import { useAppStore } from '@/stores/index';
     const store = useAppStore();
 
     const activeTab = ref('all');
+    const dialog: any = ref(null);
+
+    onMounted(() => {
+
+      let recaptchaScript = document.createElement('script')
+      recaptchaScript.setAttribute('src', 'https://embed.typeform.com/next/embed.js')
+      document.head.appendChild(recaptchaScript)
+    })
 </script>
