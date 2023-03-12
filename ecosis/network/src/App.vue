@@ -1,13 +1,9 @@
 <template>
-    <router-view />
+    <div>
+        <app-layout></app-layout>
+    </div>
 </template>
 
-<script>
-    import WOW from "wow.js";
-    export default {
-        name: 'app',
-        mounted(){
-            new WOW().init();
-        }
-    }
+<script lang="ts" setup>
+    import appLayout from './layouts/default.vue';
 </script>
