@@ -40,13 +40,13 @@
                 <div class="text-center lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
                         <h6>Join the Future</h6>
-                        <h4>Empower Your Purchases,<br> Empower Your Community</h4>
+                        <h4>Digitized, Automated, Rewarding</h4>
                     </div>
                     <p class="pb-10 text-lg font-semibold leading-[30px]">
-                      Step into a reward-based digital economy platform that supports the growth of your community.
+                      A strong economy is built on consumer spending, job creation, and increased purchasing power, creating a self-reinforcing cycle of growth that benefits all.
                     </p>
-                    <p class="pb-10 text-xl font-semibold leading-[30px]">
-                        Are you ready to enter the future?
+                    <p class="pb-10 text-lg font-semibold leading-[30px]">
+                      Step into a digital rewarding economy that supports your puchasing power.
                     </p>
                 </div>
                 <div class="lg:w-1/2 w-full p-4">
@@ -61,9 +61,9 @@
                 <div class="lg:w-1/2">
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                         <h6 class="!text-secondary">FEATURES</h6>
-                        <h4>A robust rewarding B2B2C SaaS</h4>
+                        <h4>A robust digital ecosystem</h4>
                         <p class="mt-4 text-lg font-semibold">
-                            Unleash the power for businesses, consumers, and investors to benefit from the most advanced and rewarding infrastructure. Streamline your cash-flow and support sustainable growth with ease.
+                            This platform constantly rewards users who have a deposit and actively make transactions, such as purchasing services and products from partners within the ecosystem.
                         </p>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="flex-1">
                             <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Transaction Driven</h3>
-                            <p class="line-clamp-3">It's all about transaction are incetivising user traffic by rewards</p>
+                            <p class="line-clamp-3">Transactions incentivise more user traffic through rewards</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -159,7 +159,7 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Powerful Gateway</h3>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Custom Transaction Types</h3>
                             <p class="line-clamp-3">Simplify and customize your Transactions</p>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                         </div>
                         <div class="flex-1">
                             <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Customizable</h3>
-                            <p class="line-clamp-3">Build custom logics for your business and customers needs</p>
+                            <p class="line-clamp-3">Build custom logics or flavours for your business and customers needs</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -222,36 +222,49 @@
         </section>
 
         <!-- Benefits -->
-        <!-- <section class="py-14 dark:bg-gradient-to-t dark:from-white/[0.02] dark:to-transparent lg:py-20">
+        <section class="py-14 dark:bg-gradient-to-t dark:from-white/[0.02] dark:to-transparent lg:py-20">
             <div class="container">
                 <div class="relative">
                     <div class="lg:w-2/3">
                         <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h6 class="!text-secondary">Advantages</h6>
-                            <h4 class="">Smart Economics</h4>
+                            <h4 class="">Rewards for everyone</h4>
                             <p class="mt-4 text-lg font-semibold">
-                                Designs the most efficient ecosystem infrastructres. Every good ecosystem is made by great transaction volume.
+                                The long awaited win-win ecosystem
                             </p>
                         </div>
                         <ul class="mt-14 space-y-14 lg:w-2/3">
                             <li class="flex gap-5 sm:gap-8">
                                 <div class="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-primary p-2 sm:h-[72px] sm:w-[72px]">
-                                    <img src="/assets/images/modern-saas/tracking-icon.svg" alt="" />
+                                  <svg class="m-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#fff" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
                                 </div>
                                 <div class="flex-1">
-                                    <h4 class="text-[22px] font-extrabold text-black dark:text-white">Data Driven</h4>
+                                    <h4 class="text-[22px] font-extrabold text-black dark:text-white">Consumers</h4>
                                     <p class="pt-4 text-lg font-semibold">
-                                        Get the most out of processed data to support your business.
+                                        Take more control of your data and get rewarded for purchasing products and services within the ecosystem.
                                     </p>
                                 </div>
                             </li>
                             <li class="flex gap-5 sm:gap-8">
                                 <div class="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-secondary p-2 sm:h-[72px] sm:w-[72px]">
-                                    <img src="/assets/images/modern-saas/monitoring-icon.svg" alt="" />
+                                    <svg class="m-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#fff" d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/></svg>
                                 </div>
                                 <div class="flex-1">
-                                    <h4 class="text-[22px] font-extrabold text-black dark:text-white">Sustainable Rewards</h4>
-                                    <p class="pt-4 text-lg font-semibold">User traffic incentivied due attractive rewards from your application.</p>
+                                    <h4 class="text-[22px] font-extrabold text-black dark:text-white">Businesses</h4>
+                                    <p class="pt-4 text-lg font-semibold">
+                                      Incentivize more purchases by your community and get rewarded B2B as well.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="flex gap-5 sm:gap-8">
+                                <div class="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-secondary p-2 sm:h-[72px] sm:w-[72px]">
+                                    <svg class="m-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="#fff" d="M224 256A128 128 0 1 1 224 0a128 128 0 1 1 0 256zM209.1 359.2l-18.6-31c-6.4-10.7 1.3-24.2 13.7-24.2H224h19.7c12.4 0 20.1 13.6 13.7 24.2l-18.6 31 33.4 123.9 36-146.9c2-8.1 9.8-13.4 17.9-11.3c70.1 17.6 121.9 81 121.9 156.4c0 17-13.8 30.7-30.7 30.7H285.5c-2.1 0-4-.4-5.8-1.1l.3 1.1H168l.3-1.1c-1.8 .7-3.8 1.1-5.8 1.1H30.7C13.8 512 0 498.2 0 481.3c0-75.5 51.9-138.9 121.9-156.4c8.1-2 15.9 3.3 17.9 11.3l36 146.9 33.4-123.9z"/></svg>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="text-[22px] font-extrabold text-black dark:text-white">Investors</h4>
+                                    <p class="pt-4 text-lg font-semibold">
+                                      Simple one-click investment solution for a sustainable and risk-free return.
+                                    </p>
                                 </div>
                             </li>
                         </ul>
@@ -263,7 +276,7 @@
                     />
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- Integrations -->
         <section class="py-14 lg:py-20">
@@ -276,7 +289,7 @@
                         <h6 class="!text-secondary">INTEGRATIONS</h6>
                         <h4 class="">Interoperable with platforms you love</h4>
                         <p class="mt-4 text-lg font-semibold">
-                            Bundle your existing web accounts and leverage the most out of your data and finance!
+                            Leverage your Data by bundling your existing web accounts
                         </p>
                         <!-- <a
                             href="javascript:"
@@ -341,7 +354,6 @@
         </section> -->
 
         <!-- Mission -->
-
         <section class="py-14 dark:!bg-none lg:py-[100px]" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 54.69%)">
             <!-- <counter></counter> -->
 
@@ -352,13 +364,12 @@
                     <div class="items-end gap-4 lg:flex xl:gap-0">
                         <div class="lg:w-1/2">
                             <div class="heading mb-16 text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h6>Ecosystem as a Service</h6>
-                                <h4 class="leading-normal !text-white lg:!leading-[50px]">Reward communities for engagement</h4>
-                                <p class="text-white pt-4">Every sustainable ecosystem needs distributed purchasing power.</p>
+                                <h6>The Ultimate Digital Economy</h6>
+                                <h4 class="leading-normal !text-white lg:!leading-[50px]">Connecting the World</h4>
+                                <p class="text-white pt-4">Building the most powerful network of businesses, investors and consumers.</p>
                             </div>
                             <div
                                 class="grid gap-x-7 gap-y-12 sm:grid-cols-2"
-                                :data-aos="store.direction === 'rtl' ? 'fade-left' : 'fade-right'"
                                 data-aos-duration="1000"
                             >
                                 <div class="flex transition">
@@ -457,7 +468,7 @@
                                     </div>
                                     <div class="ltr:pl-3 rtl:pr-3">
                                         <h4 class="mb-2 text-lg font-bold text-white">Curative</h4>
-                                        <p class="font-semibold">Accelerates your network effect</p>
+                                        <p class="font-semibold">Incentivizes community engagement</p>
                                     </div>
                                 </div>
                                 <div class="flex transition">
@@ -492,7 +503,7 @@
                                         </svg>
                                     </div>
                                     <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Extenbable</h4>
+                                        <h4 class="mb-2 text-lg font-bold text-white">Extendable</h4>
                                         <p class="font-semibold">The Module System enables customizability, compatibility and scalability</p>
                                     </div>
                                 </div>
@@ -518,8 +529,8 @@
                                         </svg>
                                     </div>
                                     <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Engaging</h4>
-                                        <p class="font-semibold">Incentivize users for engagement</p>
+                                        <h4 class="mb-2 text-lg font-bold text-white">Supportive</h4>
+                                        <p class="font-semibold">Network effect supports all users</p>
                                     </div>
                                 </div>
                             </div>
@@ -530,6 +541,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Ecosystem -->
             <div class="container" id="ecosystem">
                 <div class="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
                     <div class="heading text-center ltr:lg:text-left rtl:lg:text-right">
@@ -593,7 +606,7 @@
                             <img src="/assets/images/project-3-2.png" alt="project-2" class="h-52 w-full rounded-t-3xl object-cover" />
                             <div class="p-5 text-sm font-bold">
                                 <h6 class="mb-1 text-black dark:text-white">ecosis Finance</h6>
-                                <p>Revolut & Paypal Extention</p>
+                                <p>Revolut Extention</p>
                             </div>
                         </div>
                     </div>
@@ -667,7 +680,7 @@
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                         <h4 class="">Eco</h4>
                         <p class="mt-6 text-lg font-semibold">
-                            Your one and only Wallet
+                            The wallet to manage funds, receive rewards, and manage your profile within ecosis. Users can customize their experience with plugins that will add functionality to the app.
                         </p>
                         <router-link
                           class="mt-8 inline-flex items-center gap-4 text-lg font-extrabold text-primary transition hover:text-secondary lg:mt-14"
@@ -693,7 +706,7 @@
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                         <h4 class="">Nomics</h4>
                         <p class="mt-6 text-lg font-semibold">
-                            The most advanced Smart Contract Platform connected to the real world.
+                            A dedicated Smart-Contract platform that powers the digital Ecosystem. Its modular system allows for unparalleled scalability, customization, and interoperability.
                         </p>
 
                         <router-link
@@ -716,6 +729,16 @@
             </div>
         </section>
 
+        <section class="bg-white/50 py-14 dark:bg-white/[0.03] lg:py-20" id="roadmap">
+          <div class="container heading mb-5 text-center">
+              <!-- <h6 class="!text-secondary">Products</h6> -->
+              <h4 class="">Roadmap</h4>
+          </div>
+          <div class="flex justify-center w-full">
+            <img src="/assets/images/roadmapV23.png" alt="">
+          </div>
+        </section>
+
         <!-- Partners -->
         <!-- <section class="py-14 lg:py-[100px]">
             <project-slider>
@@ -733,51 +756,60 @@
                     <h6>Our</h6>
                     <h4>Partners</h4>
                 </div>
-                <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
-                    <a class="group cursor-pointer text-center" href="https://changenow.io/" target="_blank">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/partners/changenow_dark.png" alt="team-member-1" class="h-64 w-64 rounded-3xl object-cover object-top" />
+                <div class="flex flex-wrap justify-center">
+                    <a class="cursor-pointer text-center" href="https://changenow.io/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/changenow_dark.png" alt="team-member-1" class="h-64 w-64 rounded-3xl" />
                         </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                             Change Now
                         </h4>
                         <h6 class="text-sm font-bold">Crypto Exchange</h6>
                     </a>
-                    <a class="group cursor-pointer text-center" href="https://www.revolut.com/" target="_blank">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/partners/revolut.png" alt="team-member-4" class="h-64 w-64 rounded-3xl object-cover object-top" />
+                    <a class="cursor-pointer text-center" href="https://www.revolut.com/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/revolut.png" alt="team-member-4" class="h-64 w-64 rounded-3xl" />
                         </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                             Revolut
                         </h4>
                         <h6 class="text-sm font-bold">One App, All things Money</h6>
                     </a>
-                    <a class="group cursor-pointer text-center" href="https://puri.sm/" target="_blank">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/partners/purism_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl object-cover object-top" />
+                    <a class="cursor-pointer text-center" href="https://www.estglobalinc.com/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/fab_dark.png" alt="team-member-4" class="h-64 w-64 rounded-3xl" />
                         </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                            Purism
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            FAB
                         </h4>
-                        <h6 class="text-sm font-bold">Beautify, Privacy-respecting Devices</h6>
+                        <h6 class="text-sm font-bold">Fintech and Blockchain Association</h6>
                     </a>
-                    <a class="group cursor-pointer text-center" href="https://www.shefan.pro/" target="_blank">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/partners/shefan_dark.png" alt="team-member-3" class="h-64 w-64 rounded-3xl object-cover object-top" />
+                    <a class="cursor-pointer text-center" href="https://www.shefan.pro/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/shefan_dark.png" alt="team-member-3" class="h-64 w-64 rounded-3xl" />
                         </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                             SheFan Pro
                         </h4>
                         <h6 class="text-sm font-bold">Womens Empowerment Blockchain</h6>
                     </a>
-                    <a class="group cursor-pointer text-center" href="https://www.estglobalinc.com/" target="_blank">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/partners/fab_dark.png" alt="team-member-4" class="h-64 w-64 rounded-3xl object-cover object-top" />
+                    <a class="cursor-pointer text-center" href="https://puri.sm/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/purism_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
                         </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                            FAB
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            Purism
                         </h4>
-                        <h6 class="text-sm font-bold">Fintech and Blockchain Association</h6>
+                        <h6 class="text-sm font-bold">Beautify, Privacy-respecting Devices</h6>
+                    </a>
+                    <a class="cursor-pointer text-center" href="https://discord.gg/RrgAb9dwYE" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/forge_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            The Forge
+                        </h4>
+                        <h6 class="text-sm font-bold">Dev Projects</h6>
                     </a>
                 </div>
             </div>
@@ -821,7 +853,6 @@
     const dialog: any = ref(null);
 
     onMounted(() => {
-
       let recaptchaScript = document.createElement('script')
       recaptchaScript.setAttribute('src', 'https://embed.typeform.com/next/embed.js')
       document.head.appendChild(recaptchaScript)

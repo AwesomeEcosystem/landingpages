@@ -146,6 +146,9 @@
                             <li>
                                 <a href="https://www.estglobalinc.com/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">FAB</a>
                             </li>
+                            <li>
+                                <a href="https://discord.gg/RrgAb9dwYE" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">The Forge</a>
+                            </li>
                         </ul>
                     </div>
                     <div>

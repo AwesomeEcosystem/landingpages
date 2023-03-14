@@ -160,7 +160,7 @@
                             Build smart economies
                         </h2>
                         <p class="mt-[18px] max-w-[522px] text-lg font-semibold">
-                            Transform your financial operations with our platform! Say goodbye to manual processes and hello to seamless automation. Customize and integrate with ease, creating the perfect solution for your business. Experience game-changing results with our cutting-edge technology. Start streamlining your cash flow today!
+                            World's first smart-contract platform interoperable with third-party services like Revolut, Paypal, Shopify and Co. 
                         </p>
                         <a class="btn mt-7 text-white" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Contact Us</a>
                         <!-- <button type="button" class="btn mt-7 text-white">Waitlist</button> -->

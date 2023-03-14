@@ -117,6 +117,9 @@
                                 <router-link to="/nomics">Nomics</router-link>
                             </li>
                             <li>
+                                <router-link to="/#roadmap">Roadmap</router-link>
+                            </li>
+                            <li>
                                 <router-link to="/#partner">Partner</router-link>
                             </li>
                             <li>
