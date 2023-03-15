@@ -23,6 +23,12 @@
 
                         <ul @click="showMenu = false">
                             <li><router-link to="/" :class="{ active: $route.name === '/' }"> Home </router-link></li>
+                            <li>
+                                <router-link to="/#features" :class="{ active: $route.name === '#features' }">Features</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/#ecosystem" :class="{ active: $route.name === '#ecosystem' }">Ecosystem</router-link>
+                            </li>
                             <li class="group relative" @click.stop>
                                 <router-link
                                     to="/#products"
@@ -49,25 +55,13 @@
                                     <router-link to="/eco">Eco</router-link>
                                     <router-link to="/nomics">
                                         Nomics
-                                        <span
+                                        <!-- <span
                                             class="ml-1 rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
                                         >
                                             New
-                                        </span>
+                                        </span> -->
                                     </router-link>
                                 </div>
-                            </li>
-                            <li>
-                                <router-link to="/#features" :class="{ active: $route.name === '#features' }">Features</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/#ecosystem" :class="{ active: $route.name === '#ecosystem' }">Ecosystem</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/eco" :class="{ active: $route.name === 'eco' }">Eco</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/nomics" :class="{ active: $route.name === 'nomics' }">Nomics</router-link>
                             </li>
                             <li>
                                 <router-link to="/#roadmap" :class="{ active: $route.name === 'roadmap' }">Roadmap</router-link>
