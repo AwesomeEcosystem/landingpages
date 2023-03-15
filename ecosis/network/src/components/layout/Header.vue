@@ -20,20 +20,19 @@
                                 </svg>
                             </button>
                         </div>
+
                         <ul @click="showMenu = false">
-                            <li><router-link to="/"> Home </router-link></li>
-                            <!-- <li class="group relative" @click.stop>
-                                <a
-                                    href="javascript:;"
+                            <li><router-link to="/" :class="{ active: $route.name === '/' }"> Home </router-link></li>
+                            <li class="group relative" @click.stop>
+                                <router-link
+                                    to="/#products"
                                     :class="{
                                         active:
-                                            $route.name === 'crypto' ||
-                                            $route.name === 'modern-saas' ||
-                                            $route.name === 'real-estate' ||
-                                            $route.name === 'healthcare',
+                                            $route.name === 'eco' ||
+                                            $route.name === 'nomics'
                                     }"
                                 >
-                                    Landing
+                                    Products
                                     <div class="transition duration-500 group-hover:rotate-180 ltr:ml-2 rtl:mr-2">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -45,85 +44,39 @@
                                             />
                                         </svg>
                                     </div>
-                                </a>
+                                </router-link>
                                 <div class="submenu" @click="showMenu = false">
-                                    <router-link to="/crypto">Crypto Currency</router-link>
-                                    <router-link to="/modern-saas">
-                                        Modern Saas
+                                    <router-link to="/eco">Eco</router-link>
+                                    <router-link to="/nomics">
+                                        Nomics
                                         <span
                                             class="ml-1 rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
                                         >
                                             New
                                         </span>
                                     </router-link>
-                                    <router-link to="/real-estate">
-                                        Real Estate
-                                        <span
-                                            class="ml-1 rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
-                                        >
-                                            New
-                                        </span>
-                                    </router-link>
-                                    <router-link to="/healthcare">
-                                        Health Care
-                                        <span
-                                            class="ml-1 rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white"
-                                        >
-                                            New
-                                        </span>
-                                    </router-link>
-                                    <a href="#">
-                                        Sales Marketing
-                                        <span class="ml-1 rounded bg-secondary px-2 py-1 text-[9px] font-bold uppercase text-white">Coming Soon</span>
-                                    </a>
-                                    <a href="#">
-                                        Application
-                                        <span class="ml-1 rounded bg-secondary px-2 py-1 text-[9px] font-bold uppercase text-white">Coming Soon</span>
-                                    </a>
-                                    <a href="#">
-                                        Online Courses
-                                        <span class="ml-1 rounded bg-secondary px-2 py-1 text-[9px] font-bold uppercase text-white">Coming Soon</span>
-                                    </a>
-                                    <a href="#">
-                                        Hotel & Resort
-                                        <span class="ml-1 rounded bg-secondary px-2 py-1 text-[9px] font-bold uppercase text-white">Coming Soon</span>
-                                    </a>
-                                    <a href="#">
-                                        Blog
-                                        <span class="ml-1 rounded bg-secondary px-2 py-1 text-[9px] font-bold uppercase text-white">Coming Soon</span>
-                                    </a>
-                                    <a href="#">
-                                        NFT Marketplace
-                                        <span class="ml-1 rounded bg-secondary px-2 py-1 text-[9px] font-bold uppercase text-white">Coming Soon</span>
-                                    </a>
                                 </div>
-                            </li> -->
-                            <!-- <li>
-                                <router-link to="/portfolio" :class="{ active: $route.name === 'portfolio-detail' }">Portfolio</router-link>
                             </li>
                             <li>
-                                <router-link to="/services" :class="{ active: $route.name === 'services-detail' }">Service</router-link>
-                            </li> -->
-                            <li>
-                                <router-link to="/#features">Features</router-link>
+                                <router-link to="/#features" :class="{ active: $route.name === '#features' }">Features</router-link>
                             </li>
                             <li>
-                                <router-link to="/#ecosystem">Ecosystem</router-link>
+                                <router-link to="/#ecosystem" :class="{ active: $route.name === '#ecosystem' }">Ecosystem</router-link>
                             </li>
                             <li>
-                                <router-link to="/eco">Eco</router-link>
+                                <router-link to="/eco" :class="{ active: $route.name === 'eco' }">Eco</router-link>
                             </li>
                             <li>
-                                <router-link to="/nomics">Nomics</router-link>
+                                <router-link to="/nomics" :class="{ active: $route.name === 'nomics' }">Nomics</router-link>
                             </li>
                             <li>
-                                <router-link to="/#roadmap">Roadmap</router-link>
+                                <router-link to="/#roadmap" :class="{ active: $route.name === 'roadmap' }">Roadmap</router-link>
                             </li>
                             <li>
-                                <router-link to="/#partner">Partner</router-link>
+                                <router-link to="/#partner" :class="{ active: $route.name === 'partner' }">Partner</router-link>
                             </li>
                             <li>
-                                <router-link to="/#contact">Contact</router-link>
+                                <router-link to="/#contact" :class="{ active: $route.name === 'contact' }">Contact</router-link>
                             </li>
                             <!-- <li
                                 class="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex"
@@ -167,42 +120,7 @@
                             </li> -->
                         </ul>
                     </div>
-                    <ul class="flex items-center gap-5 ltr:pr-5 rtl:pl-5 ltr:lg:pl-5 ltr:lg:pr-0 rtl:lg:pr-5 rtl:lg:pl-0">
-                        <!-- <li>
-                            <button
-                                type="button"
-                                class="flex h-5 w-5 items-center text-white hover:text-primary rtl:text-primary"
-                                @click="store.toggleDirection(store.direction === 'ltr' ? 'rtl' : 'ltr')"
-                            >
-                                <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 18.9439H7.72074" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M13.8571 21L16 18.9439L13.8571 16.8879"
-                                        stroke="currentColor"
-                                        stroke-width="1.4"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    <path d="M1 16.4206H9.27926" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M3.14287 18.4766L1 16.4206L3.14287 14.3645"
-                                        stroke="currentColor"
-                                        stroke-width="1.4"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    <path
-                                        d="M12.7855 1H5.82118C4.82662 1 3.87279 1.37909 3.16952 2.05387C2.46626 2.72865 2.07117 3.64385 2.07117 4.59813C2.07117 5.55242 2.46626 6.46761 3.16952 7.14239C3.87279 7.81717 4.82662 8.19626 5.82118 8.19626H6.3569"
-                                        stroke="currentColor"
-                                        stroke-width="1.4"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    <path d="M10.6426 12.3084V1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M6.3573 12.3084V1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                        </li> -->
+                    <!-- <ul class="flex items-center gap-5 ltr:pr-5 rtl:pl-5 ltr:lg:pl-5 ltr:lg:pr-0 rtl:lg:pr-5 rtl:lg:pl-0">
                         <li>
                             <button
                                 type="button"
@@ -241,7 +159,7 @@
                                 </svg>
                             </button>
                         </li>
-                    </ul>
+                    </ul> -->
                     <button type="button" class="flex h-10 w-10 items-center justify-center rounded-full bg-primary lg:hidden" @click="toggleMenu()">
                         <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-white">
                             <path

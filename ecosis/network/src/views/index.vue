@@ -15,9 +15,13 @@
                             <p class="my-8 text-lg lg:w-[100%]">
                               Streamline smart economies.
                             </p>
-                            <div class="flex">
-                              <a href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto px-4">Waitlist</a>
-                              <router-link to="/eco" class="btn bg-transparent text-white underline mx-auto mt-2 block w-fit lg:mx-0 lg:rtl:ml-auto px-4">Start here</router-link>
+                            <div class="flex justify-center md:justify-start">
+                              <div class="m-2">
+                                <a href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto px-4">Waitlist</a>
+                              </div>
+                              <div class="m-2">
+                                <router-link to="/eco" class="btn bg-transparent text-white underline mx-auto mt-2 block w-fit lg:mx-0 lg:rtl:ml-auto px-4">Start here</router-link>
+                              </div>
                             </div>
                         </div>
                         <div
@@ -36,7 +40,7 @@
 
         <!-- Intro -->
         <section class="relative overflow-hidden pt-14 lg:pb-16 lg:pt-[100px]">
-            <div class="container relative z-[1] flex">
+            <div class="container relative z-[1] flex flex-wrap-reverse">
                 <div class="text-center lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
                         <h6>Join the Future</h6>
@@ -48,6 +52,9 @@
                     <p class="pb-10 text-lg font-semibold leading-[30px]">
                       Step into a digital rewarding economy that supports your puchasing power.
                     </p>
+                    <div class="w-full flex justify-center md:justify-start">
+                      <router-link to="/eco" class="btn bg-secondary hover-primary text-white mt-4 px-4">Get started</router-link>
+                    </div>
                 </div>
                 <div class="lg:w-1/2 w-full p-4">
                   <img src="/assets/images/smareco.png" alt="about-who-bg" class="rtl:rotate-y-180" />
@@ -142,7 +149,7 @@
                         </div>
                         <div class="flex-1">
                             <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Automated Contracts</h3>
-                            <p class="line-clamp-3">Smat Contract like platform to enhance the ecosystem behaviour</p>
+                            <p class="line-clamp-3">Smart Contract platform to enhance the ecosystem behaviour</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -159,8 +166,8 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Custom Transaction Types</h3>
-                            <p class="line-clamp-3">Simplify and customize your Transactions</p>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Analytics</h3>
+                            <p class="line-clamp-3">Analyse data and platform performance</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -252,7 +259,7 @@
                                 <div class="flex-1">
                                     <h4 class="text-[22px] font-extrabold text-black dark:text-white">Businesses</h4>
                                     <p class="pt-4 text-lg font-semibold">
-                                      Incentivize more purchases by your community and get rewarded B2B as well.
+                                      Incentivise more purchases by your community and get rewarded for B2B transaction as well.
                                     </p>
                                 </div>
                             </li>
@@ -289,8 +296,12 @@
                         <h6 class="!text-secondary">INTEGRATIONS</h6>
                         <h4 class="">Interoperable with platforms you love</h4>
                         <p class="mt-4 text-lg font-semibold">
-                            Leverage your Data by bundling your existing web accounts
+                            <!-- Leverage your Data by bundling your existing web accounts -->
+                            Keep using what you are used to
                         </p>
+                        <div class="w-full flex justify-center md:justify-end">
+                          <router-link to="/eco" class="btn text-white mt-4 px-4">Get started</router-link>
+                        </div>
                         <!-- <a
                             href="javascript:"
                             class="mt-8 inline-flex items-center gap-4 text-lg font-extrabold text-primary transition hover:text-secondary md:mt-12"
@@ -667,7 +678,7 @@
         </section>
 
         <!-- Products -->
-        <section class="bg-white/50 py-14 dark:bg-white/[0.03] lg:py-20">
+        <section class="bg-white/50 py-14 dark:bg-white/[0.03] lg:py-20" id="products">
             <div class="container">
                 <div class="heading mb-5 text-center">
                     <h6 class="!text-secondary">Products</h6>
@@ -695,7 +706,7 @@
                           </svg>
                         </router-link>
                     </div>
-                    <div class="lg:ltr:pl-24 lg:rtl:pr-24">
+                    <div class="lg:ltr:pl-24 lg:rtl:pr-24 w-full flex justify-center">
                         <img src="/assets/logos/eco.png" alt="" class="rounded-2xl" />
                     </div>
                 </div>
@@ -722,7 +733,7 @@
                           </svg>
                         </router-link>
                     </div>
-                    <div class="lg:ltr:pl-24 lg:rtl:pr-24">
+                    <div class="lg:ltr:pl-24 lg:rtl:pr-24 w-full flex justify-center">
                         <img src="/assets/logos/nomics.png" alt="" class="rounded-2xl p-8" />
                     </div>
                 </div>

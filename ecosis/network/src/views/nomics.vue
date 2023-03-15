@@ -160,7 +160,7 @@
                             Build smart economies
                         </h2>
                         <p class="mt-[18px] max-w-[522px] text-lg font-semibold">
-                            World's first smart-contract platform interoperable with third-party services like Revolut, Paypal, Shopify and Co. 
+                            World's first smart-contract platform interoperable with third-party services like Revolut, Paypal, Shopify and Co.
                         </p>
                         <a class="btn mt-7 text-white" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Contact Us</a>
                         <!-- <button type="button" class="btn mt-7 text-white">Waitlist</button> -->
@@ -474,8 +474,8 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-white">Typescript Driven</h4>
-                                <p class="mt-2.5 font-semibold">Smart contract platform written in Typescript. The most ubiquitous programming language out there.</p>
+                                <h4 class="text-lg font-bold text-white">Over-collateralization</h4>
+                                <p class="mt-2.5 font-semibold">Over ollteralized asstes</p>
                             </div>
                         </div>
                     </div>

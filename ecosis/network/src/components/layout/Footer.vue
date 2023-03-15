@@ -97,6 +97,15 @@
                             <li>
                                 <router-link to="/nomics" class="inline-block transition hover:scale-110 hover:text-secondary">Nomics</router-link>
                             </li>
+                            <li>
+                                <router-link to="/#roadmap" class="inline-block transition hover:scale-110 hover:text-secondary">Roadmap</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/#partner" class="inline-block transition hover:scale-110 hover:text-secondary">Partner</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/#contact" class="inline-block transition hover:scale-110 hover:text-secondary">Contact</router-link>
+                            </li>
                         </ul>
                     </div>
                     <div>

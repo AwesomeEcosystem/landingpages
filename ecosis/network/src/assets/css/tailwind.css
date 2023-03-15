@@ -41,7 +41,7 @@
         @apply flex items-center justify-between py-4 px-4 transition hover:text-secondary dark:text-white dark:hover:text-secondary lg:px-0 lg:py-10 hover:lg:scale-110;
     }
     header .menus > ul li > a.active {
-        @apply text-secondary lg:scale-110;
+        @apply lg:scale-110;
     }
     header .menus .submenu {
         @apply invisible z-50 mt-5 hidden grid-cols-1 gap-x-4 whitespace-nowrap rounded-lg py-3 text-sm font-medium text-black opacity-0 transition-all dark:text-white lg:absolute lg:top-full lg:left-1/2 lg:grid lg:min-w-[480px] lg:-translate-x-1/2 lg:grid-cols-2 lg:bg-[#F0F4F7] lg:shadow-lg lg:dark:bg-gray-dark;
