@@ -762,13 +762,13 @@
             </project-slider>
         </section> -->
         <section class="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]" id="partner">
-            <div class="container">
+            <div class="">
                 <div class="heading text-center">
                     <h6>Our</h6>
                     <h4>Partners</h4>
                 </div>
                 <div class="flex flex-wrap justify-center">
-                    <a class="cursor-pointer text-center" href="https://changenow.io/" target="_blank">
+                    <a class="cursor-pointer text-center px-4" href="https://changenow.io/" target="_blank">
                         <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                             <img src="/assets/images/partners/changenow_dark.png" alt="team-member-1" class="h-64 w-64 rounded-3xl" />
                         </div>
@@ -777,7 +777,7 @@
                         </h4>
                         <h6 class="text-sm font-bold">Crypto Exchange</h6>
                     </a>
-                    <a class="cursor-pointer text-center" href="https://www.revolut.com/" target="_blank">
+                    <a class="cursor-pointer text-center px-4" href="https://www.revolut.com/" target="_blank">
                         <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                             <img src="/assets/images/partners/revolut.png" alt="team-member-4" class="h-64 w-64 rounded-3xl" />
                         </div>
@@ -786,7 +786,7 @@
                         </h4>
                         <h6 class="text-sm font-bold">One App, All things Money</h6>
                     </a>
-                    <a class="cursor-pointer text-center" href="https://www.estglobalinc.com/" target="_blank">
+                    <a class="cursor-pointer text-center px-4" href="https://www.estglobalinc.com/" target="_blank">
                         <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                             <img src="/assets/images/partners/fab_dark.png" alt="team-member-4" class="h-64 w-64 rounded-3xl" />
                         </div>
@@ -795,7 +795,7 @@
                         </h4>
                         <h6 class="text-sm font-bold">Fintech and Blockchain Association</h6>
                     </a>
-                    <a class="cursor-pointer text-center" href="https://www.shefan.pro/" target="_blank">
+                    <a class="cursor-pointer text-center px-4" href="https://www.shefan.pro/" target="_blank">
                         <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                             <img src="/assets/images/partners/shefan_dark.png" alt="team-member-3" class="h-64 w-64 rounded-3xl" />
                         </div>
@@ -804,7 +804,7 @@
                         </h4>
                         <h6 class="text-sm font-bold">Womens Empowerment Blockchain</h6>
                     </a>
-                    <a class="cursor-pointer text-center" href="https://puri.sm/" target="_blank">
+                    <a class="cursor-pointer text-center px-4" href="https://puri.sm/" target="_blank">
                         <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                             <img src="/assets/images/partners/purism_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
                         </div>
@@ -813,7 +813,7 @@
                         </h4>
                         <h6 class="text-sm font-bold">Beautify, Privacy-respecting Devices</h6>
                     </a>
-                    <a class="cursor-pointer text-center" href="https://discord.gg/RrgAb9dwYE" target="_blank">
+                    <a class="cursor-pointer text-center px-4" href="https://discord.gg/RrgAb9dwYE" target="_blank">
                         <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                             <img src="/assets/images/partners/forge_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
                         </div>
@@ -821,6 +821,24 @@
                             The Forge
                         </h4>
                         <h6 class="text-sm font-bold">Dev Projects</h6>
+                    </a>
+                    <a class="cursor-pointer text-center px-4" href="https://kalipo.io/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/kalipo_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            Kalipo
+                        </h4>
+                        <h6 class="text-sm font-bold">DAO as a Service</h6>
+                    </a>
+                    <a class="cursor-pointer text-center px-4" href="https://www.spirinova.dev/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/spirinova_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            Spirinova
+                        </h4>
+                        <h6 class="text-sm font-bold">Spirit of Innovation</h6>
                     </a>
                 </div>
             </div>

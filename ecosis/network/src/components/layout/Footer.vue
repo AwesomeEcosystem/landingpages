@@ -158,6 +158,12 @@
                             <li>
                                 <a href="https://discord.gg/RrgAb9dwYE" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">The Forge</a>
                             </li>
+                            <li>
+                                <a href="https://kalipo.io/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">Kalipo</a>
+                            </li>
+                            <li>
+                                <a href="https://www.spirinova.dev/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">Spirinova</a>
+                            </li>
                         </ul>
                     </div>
                     <div>
