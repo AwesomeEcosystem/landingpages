@@ -76,6 +76,24 @@
                 </div>
                 <div class="mt-16 grid gap-x-7 gap-y-12 text-lg font-semibold sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-20">
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="h-10 w-10 flex-none">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M35.4885 2.06836H5.20114C3.85481 2.06836 2.75861 3.16457 2.75861 4.51089V7.52888C2.75861 9.7887 3.77665 11.8864 5.5509 13.2844L14.8765 20.6316H25.8122L35.1378 13.2844C36.9129 11.8864 37.931 9.78774 37.931 7.52888V4.51089C37.931 3.16457 36.8348 2.06836 35.4885 2.06836Z"
+                                    fill="#47BDFF"
+                                />
+                                <path
+                                    d="M15.46 23.5625V35.7752C15.46 36.3242 15.7668 36.8274 16.2543 37.0785C16.4664 37.187 16.696 37.2407 16.9255 37.2407C17.2255 37.2407 17.5244 37.1488 17.7775 36.9681L24.6166 32.0831C25.0015 31.8075 25.2302 31.363 25.2302 30.8901V23.5625H15.46Z"
+                                    fill="#B476E5"
+                                />
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Reward-driven</h3>
+                            <p class="line-clamp-3">Get rewarded for making transactions and maintaining a deposit</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
                         <div class="h-10 w-10 flex-none text-black dark:text-white">
                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -94,7 +112,7 @@
                         </div>
                         <div class="flex-1">
                             <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Compound Rewards</h3>
-                            <p class="line-clamp-3">Supports purchasing power of consumers, investors and businesses</p>
+                            <p class="line-clamp-3">Receive automatically rewards in periods proportionally</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -148,26 +166,8 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Automated Contracts</h3>
-                            <p class="line-clamp-3">Smart Contract platform to enhance the ecosystem behaviour</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="h-10 w-10 flex-none">
-                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M35.4885 2.06836H5.20114C3.85481 2.06836 2.75861 3.16457 2.75861 4.51089V7.52888C2.75861 9.7887 3.77665 11.8864 5.5509 13.2844L14.8765 20.6316H25.8122L35.1378 13.2844C36.9129 11.8864 37.931 9.78774 37.931 7.52888V4.51089C37.931 3.16457 36.8348 2.06836 35.4885 2.06836Z"
-                                    fill="#47BDFF"
-                                />
-                                <path
-                                    d="M15.46 23.5625V35.7752C15.46 36.3242 15.7668 36.8274 16.2543 37.0785C16.4664 37.187 16.696 37.2407 16.9255 37.2407C17.2255 37.2407 17.5244 37.1488 17.7775 36.9681L24.6166 32.0831C25.0015 31.8075 25.2302 31.363 25.2302 30.8901V23.5625H15.46Z"
-                                    fill="#B476E5"
-                                />
-                            </svg>
-                        </div>
-                        <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Analytics</h3>
-                            <p class="line-clamp-3">Analyse data and platform performance</p>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Interoperability</h3>
+                            <p class="line-clamp-3">transact seamlessly with existing platforms within the finance, payment, and e-commerce sectors</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -190,8 +190,8 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Customizable</h3>
-                            <p class="line-clamp-3">Build custom logics or flavours for your business and customers needs</p>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">B2B2C</h3>
+                            <p class="line-clamp-3">The system benefits both businesses and consumers, allowing businesses to reward you for your loyalty and improve customer retention</p>
                         </div>
                     </div>
                     <div class="flex gap-5" data-aos="fade-up" data-aos-duration="1000">
@@ -218,9 +218,9 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Interoperability</h3>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Security</h3>
                             <p class="text-lg font-semibold line-clamp-3">
-                                Cross-platform third-party integrations
+                                Designed with security in mind, ensuring that your data and transactions are protected from cyber threats and unauthorized access
                             </p>
                         </div>
                     </div>
