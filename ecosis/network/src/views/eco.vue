@@ -245,6 +245,11 @@
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="">
+              <h3 class="text-center text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[34px] lg:leading-[70px]">Get rewarded for spending with Eco!</h3>
+              <div class="w-full flex justify-center">
                 <a href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank" class="btn mt-6 py-[18px] px-8 text-base text-white">Waitlist</a>
               </div>
             </div>
