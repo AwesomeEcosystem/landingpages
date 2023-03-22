@@ -40,7 +40,7 @@
                 <div class="text-center lg:w-1/3 ltr:lg:text-left rtl:lg:text-right">
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
                         <h6>About</h6>
-                        <h4>Lift up your Financials</h4>
+                        <h4>Lift up your Finances</h4>
                     </div>
                     <p class="pb-10 text-lg font-semibold leading-[30px]">
                         What you need is a simplified app that supports your purchasing power, so you can focus on the things that matter most.
