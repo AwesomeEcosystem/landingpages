@@ -1,9 +1,8 @@
 <template>
     <div class="container">
         <div class="heading text-center">
-            <h6 :class="{ hidden: !showTitle, '!text-secondary': type.toLowerCase() === 'modern-saas' }">FAQs</h6>
+            <!-- <h6 :class="{ hidden: !showTitle, '!text-secondary': type.toLowerCase() === 'modern-saas' }">Frequently Asked Questions</h6> -->
             <h4>Frequently Asked Questions</h4>
-            <p class="mt-5 text-lg font-bold">Have questions? We’re help you.</p>
         </div>
         <div class="mx-auto lg:w-[730px]">
             <div v-for="(faq, i) in queries" :key="faq.id" class="mt-6 border-0 border-b-2 border-gray/20 bg-transparent">
@@ -35,6 +34,10 @@
                         <p class="px-0 pb-5 pt-0 text-sm font-bold leading-[18px] text-gray">{{ faq.answer }}</p>
                     </div>
                 </vue-collapsible>
+            </div>
+            <div class="w-full flex flex-col items-center justify-center text-center pt-16">
+              <p class="mt-5 text-lg font-bold">Still have questions?</p>
+              <a class="btn mx-auto mt-2 block py-[18px] px-8 rtl:ml-auto lg:mx-0 w-64" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Contact Us</a>
             </div>
         </div>
     </div>

@@ -40,7 +40,7 @@
                 <div class="text-center lg:w-1/3 ltr:lg:text-left rtl:lg:text-right">
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
                         <h6>About</h6>
-                        <h4>Lift up Finance</h4>
+                        <h4>Lift up your Financials</h4>
                     </div>
                     <p class="pb-10 text-lg font-semibold leading-[30px]">
                         What you need is a simplified app that supports your purchasing power, so you can focus on the things that matter most.
@@ -248,7 +248,7 @@
               </div>
             </div>
             <div class="">
-              <h3 class="text-center text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[34px] lg:leading-[70px]">Get rewarded for spending with Eco!</h3>
+              <h3 class="text-center text-2xl font-extrabold leading-normal sm:text-5xl lg:text-[24px] lg:leading-[50px]">Get rewarded for spending with Eco!</h3>
               <div class="w-full flex justify-center">
                 <a href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank" class="btn mt-6 py-[18px] px-8 text-base text-white">Waitlist</a>
               </div>

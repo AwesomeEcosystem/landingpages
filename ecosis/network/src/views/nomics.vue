@@ -13,7 +13,7 @@
                             <p class="my-5 text-lg lg:my-8">
                                 The universal smart contract platform
                             </p>
-                            <a class="btn mx-auto mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0 w-64" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Contact Us</a>
+                            <a class="btn mx-auto mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0 w-64" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Waitlist</a>
                         </div>
                         <div>
                             <img
@@ -30,7 +30,7 @@
         </div>
 
         <!-- Stats -->
-        <section class="pt-12">
+        <!-- <section class="pt-12">
             <div class="container">
                 <div class="text-center py-12">
                     <h3 class="text-xl font-bold leading-[25px] text-black dark:text-white">Testnet Data</h3>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- About -->
         <section class="pt-12 lg:pt-24">
@@ -160,9 +160,9 @@
                             Build smart economies
                         </h2>
                         <p class="mt-[18px] max-w-[522px] text-lg font-semibold">
-                            World's first smart-contract platform interoperable with third-party services like Revolut, Paypal, Shopify and Co.
+                            The world is poised to build sustainable digital infrastructures that support an equitable redistribution of purchasing power.
                         </p>
-                        <a class="btn mt-7 text-white" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Contact Us</a>
+                        <a class="btn mt-7 text-white" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Waitlist</a>
                         <!-- <button type="button" class="btn mt-7 text-white">Waitlist</button> -->
                     </div>
                     <div>
@@ -172,92 +172,20 @@
             </div>
         </section>
 
-        <section class="py-14 dark:!bg-none lg:py-24">
-            <div class="container">
-                <div class="grid gap-4 sm:grid-cols-2 md:gap-[30px] lg:grid-cols-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div>
-                        <div
-                            class="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary"
-                        >
-                            <div class="text-center">
-                                <count-up
-                                    class="pb-2.5 text-4xl font-black leading-none transition dark:text-gray dark:group-hover:text-black"
-                                    :startVal="0"
-                                    :end-val="10"
-                                    :duration="10"
-                                    :delay="10"
-                                    :options="{ suffix: 'sec' }"
-                                ></count-up>
-                                <span class="font-bold text-black transition dark:text-white dark:group-hover:text-black">Blocktime</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div
-                            class="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary"
-                        >
-                            <div class="text-center">
-                                <count-up
-                                    class="pb-2.5 text-4xl font-black leading-none transition dark:text-gray dark:group-hover:text-black"
-                                    :startVal="0"
-                                    :end-val="10"
-                                    :duration="10"
-                                    :delay="10"
-                                    :options="{ suffix: 'k' }"
-                                ></count-up>
-                                <span class="font-bold text-black transition dark:text-white dark:group-hover:text-black">Tx per Block</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div
-                            class="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary"
-                        >
-                            <div class="text-center">
-                                <count-up
-                                    class="pb-2.5 text-4xl font-black leading-none transition dark:text-gray dark:group-hover:text-black"
-                                    :startVal="0"
-                                    :end-val="371"
-                                    :duration="10"
-                                    :delay="10"
-                                ></count-up>
-                                <span class="font-bold text-black transition dark:text-white dark:group-hover:text-black">Delegates</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div>
-                        <div
-                            class="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary"
-                        >
-                            <div class="text-center">
-                                <count-up
-                                    class="pb-2.5 text-4xl font-black leading-none transition dark:text-gray dark:group-hover:text-black"
-                                    :startVal="0"
-                                    :end-val="1254"
-                                    :duration="10"
-                                    :delay="10"
-                                    :options="{ suffix: '+' }"
-                                ></count-up>
-                                <span class="font-bold text-black transition dark:text-white dark:group-hover:text-black">Collections</span>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </section>
-
+        <!-- Features -->
         <section class="bg-black py-12 lg:py-24">
             <div class="bg-[url(/assets/images/crypto/background-img.png)] bg-cover bg-center bg-no-repeat">
                 <div class="container">
                     <div class="heading text-center">
-                        <h6>We Can Shape Your Vision</h6>
-                        <h4 class="!text-white">You do the business, we’ll handle the money.</h4>
+                        <h6>Features</h6>
+                        <h4 class="!text-white">Automated Infrastructure Management</h4>
+                        <p class="text-white pt-4">A dedicated Smart Contract platform built exclusively to empower a digital rewarding economy, backed by over-collateralised reserves and interoperable with real-world solutions like banking, e-commerce, payments & more.</p>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                         <div
                             class="flex gap-[15px] border-b border-dashed px-4 py-5 sm:py-9 ltr:lg:border-r rtl:lg:border-l"
                             data-aos="fade-up"
-                            data-aos-duration="1000"
+                            data-aos-duratiosc="1000"
                         >
                             <div>
                                 <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -271,8 +199,8 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-white">Security</h4>
-                                <p class="mt-2.5 font-semibold"> Inbuilt data security and privacy enabled.</p>
+                                <h4 class="text-lg font-bold text-white">Secure</h4>
+                                <p class="mt-2.5 font-semibold">Inbuilt data security and privacy enabled by cryptography</p>
                             </div>
                         </div>
                         <div
@@ -314,7 +242,7 @@
                             </div>
                             <div>
                                 <h4 class="text-lg font-bold text-white">Universally interoperable</h4>
-                                <p class="mt-2.5 font-semibold">Our plugins enable you to benefit from modern technologies with a push of a button.</p>
+                                <p class="mt-2.5 font-semibold">APIs enable endless implementations</p>
                             </div>
                         </div>
                         <div class="flex gap-[15px] border-l border-dashed px-4 py-5 sm:py-9" data-aos="fade-up" data-aos-duration="1000">
@@ -351,8 +279,8 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-white">Customizable Rewards</h4>
-                                <p class="mt-2.5 font-semibold">Enabling new ways to reward your community and grow organically.</p>
+                                <h4 class="text-lg font-bold text-white">In-built reward system</h4>
+                                <p class="mt-2.5 font-semibold">Can be tailored to business requirements</p>
                             </div>
                         </div>
                         <div
@@ -389,8 +317,8 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-white">Data Analytics</h4>
-                                <p class="mt-2.5 font-semibold">Visualise important data in an easy to use actionable dashboard.</p>
+                                <h4 class="text-lg font-bold text-white">Governance</h4>
+                                <p class="mt-2.5 font-semibold">DPoS Consensus</p>
                             </div>
                         </div>
                         <div
@@ -431,8 +359,8 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-white">Sustainability</h4>
-                                <p class="mt-2.5 font-semibold">91% more efficient than traditional platforms. Low computation requirement supercharged with robust economics.</p>
+                                <h4 class="text-lg font-bold text-white">Sustainable</h4>
+                                <p class="mt-2.5 font-semibold">Ultra light (A complete node could run on a smart phone)</p>
                             </div>
                         </div>
                         <div
@@ -474,14 +402,215 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-white">Over-collateralization</h4>
-                                <p class="mt-2.5 font-semibold">Over ollteralized asstes</p>
+                                <h4 class="text-lg font-bold text-white">Over-collateralised</h4>
+                                <p class="mt-2.5 font-semibold">Ensuring more than 100% liquidity</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Metrics -->
+        <section class="py-14 dark:!bg-none lg:py-24">
+            <div class="container">
+                <div class="flex flex-wrap justify-center" data-aos="fade-up" data-aos-duration="1000">
+                    <div>
+                        <div
+                            class="cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary m-4 w-64"
+                        >
+                            <div class="text-center">
+                                <count-up
+                                    class="pb-2.5 text-4xl font-black leading-none transition dark:text-gray dark:group-hover:text-black"
+                                    :startVal="0"
+                                    :end-val="10"
+                                    :duration="10"
+                                    :delay="10"
+                                    :options="{ suffix: 'sec' }"
+                                ></count-up>
+                                <span class="font-bold text-black transition dark:text-white dark:group-hover:text-black">Blocktime</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            class="cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary m-4 w-64"
+                        >
+                            <div class="text-center">
+                                <count-up
+                                    class="pb-2.5 text-4xl font-black leading-none transition dark:text-gray dark:group-hover:text-black"
+                                    :startVal="0"
+                                    :end-val="10"
+                                    :duration="10"
+                                    :delay="10"
+                                    :options="{ suffix: 'k' }"
+                                ></count-up>
+                                <span class="font-bold text-black transition dark:text-white dark:group-hover:text-black">Tx per Block</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            class="cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary m-4 w-64"
+                        >
+                            <div class="text-center">
+                                <count-up
+                                    class="pb-2.5 text-4xl font-black leading-none transition dark:text-gray dark:group-hover:text-black"
+                                    :startVal="0"
+                                    :end-val="51"
+                                    :duration="10"
+                                    :delay="10"
+                                ></count-up>
+                                <span class="font-bold text-black transition dark:text-white dark:group-hover:text-black">Delegates</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div>
+                        <div
+                            class="cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary m-4 w-64"
+                        >
+                            <div class="text-center">
+                                <count-up
+                                    class="pb-2.5 text-4xl font-black leading-none transition dark:text-gray dark:group-hover:text-black"
+                                    :startVal="0"
+                                    :end-val="1254"
+                                    :duration="10"
+                                    :delay="10"
+                                    :options="{ suffix: '+' }"
+                                ></count-up>
+                                <span class="font-bold text-black transition dark:text-white dark:group-hover:text-black">Collections</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Integrations -->
+        <!-- <section class="py-12 lg:py-24">
+            <div class="container">
+                <div class="heading text-center">
+                    <h6>Crossplatform</h6>
+                    <h4 class="text-4xl md:!text-[46px] md:!leading-[57px]">All in one place</h4>
+                </div>
+                <div class="flex flex-wrap justify-center gap-[27px] pt-5 sm:gap-[30px] md:pt-12" data-aos="fade-up" data-aos-duration="1000">
+
+                    <div>
+                        <div class="flex items-center justify-center rounded-[32px] bg-[#7780A1]/10 p-11 duration-500 hover:bg-secondary hover:text-white">
+                            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_15_88987)">
+                                    <path
+                                        d="M17.5 35L35 8.75L52.5 35L35 61.25L17.5 35Z"
+                                        stroke="currentColor"
+                                        stroke-width="5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M17.5 35L35 26.25L52.5 35L35 40.8333L17.5 35Z"
+                                        stroke="currentColor"
+                                        stroke-width="5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_15_88987">
+                                        <rect width="70" height="70" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center justify-center rounded-[32px] bg-[#7780A1]/10 p-11 duration-500 hover:bg-secondary hover:text-white">
+                            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_15_89007)">
+                                    <path
+                                        d="M17.5 17.5H40.8333C43.154 17.5 45.3796 18.4219 47.0205 20.0628C48.6615 21.7038 49.5833 23.9294 49.5833 26.25C49.5833 28.5706 48.6615 30.7962 47.0205 32.4372C45.3796 34.0781 43.154 35 40.8333 35C43.154 35 45.3796 35.9219 47.0205 37.5628C48.6615 39.2038 49.5833 41.4294 49.5833 43.75C49.5833 46.0706 48.6615 48.2962 47.0205 49.9372C45.3796 51.5781 43.154 52.5 40.8333 52.5H17.5"
+                                        stroke="currentColor"
+                                        stroke-width="5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path d="M23.3333 17.5V52.5" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M23.3333 35H40.8333" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M26.25 8.75V17.5" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M37.9167 8.75V17.5" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M26.25 52.5V61.25" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M37.9167 52.5V61.25" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_15_89007">
+                                        <rect width="70" height="70" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center justify-center rounded-[32px] bg-[#7780A1]/10 p-11 duration-500 hover:bg-secondary hover:text-white">
+                            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_15_89000)">
+                                    <path
+                                        d="M11.6667 52.5007H46.6667L58.3333 40.834H23.3333L11.6667 52.5007Z"
+                                        stroke="currentColor"
+                                        stroke-width="5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M23.3333 40.8327L11.6667 29.166H46.6667L58.3333 40.8327"
+                                        stroke="currentColor"
+                                        stroke-width="5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M46.6667 29.1667L58.3333 17.5H23.3333L11.6667 29.1667"
+                                        stroke="currentColor"
+                                        stroke-width="5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_15_89000">
+                                        <rect width="70" height="70" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center justify-center rounded-[32px] bg-[#7780A1]/10 p-11 duration-500 hover:bg-secondary hover:text-white">
+                            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                  stroke="currentColor"
+                                  stroke-width="5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="M111.4 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.3c-7.6 0-13.1-6.6-12.1-13.9L58.8 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2zM357.1 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6z"/></svg>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center justify-center rounded-[32px] bg-[#7780A1]/10 p-11 duration-500 hover:bg-secondary hover:text-white">
+                            <svg  width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    stroke="currentColor"
+                                    stroke-width="5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M388.32,104.1a4.66,4.66,0,0,0-4.4-4c-2,0-37.23-.8-37.23-.8s-21.61-20.82-29.62-28.83V503.2L442.76,472S388.72,106.5,388.32,104.1ZM288.65,70.47a116.67,116.67,0,0,0-7.21-17.61C271,32.85,255.42,22,237,22a15,15,0,0,0-4,.4c-.4-.8-1.2-1.2-1.6-2C223.4,11.63,213,7.63,200.58,8c-24,.8-48,18-67.25,48.83-13.61,21.62-24,48.84-26.82,70.06-27.62,8.4-46.83,14.41-47.23,14.81-14,4.4-14.41,4.8-16,18-1.2,10-38,291.82-38,291.82L307.86,504V65.67a41.66,41.66,0,0,0-4.4.4S297.86,67.67,288.65,70.47ZM233.41,87.69c-16,4.8-33.63,10.4-50.84,15.61,4.8-18.82,14.41-37.63,25.62-50,4.4-4.4,10.41-9.61,17.21-12.81C232.21,54.86,233.81,74.48,233.41,87.69ZM200.58,24.44A27.49,27.49,0,0,1,215,28c-6.4,3.2-12.81,8.41-18.81,14.41-15.21,16.42-26.82,42-31.62,66.45-14.42,4.41-28.83,8.81-42,12.81C131.33,83.28,163.75,25.24,200.58,24.44ZM154.15,244.61c1.6,25.61,69.25,31.22,73.25,91.66,2.8,47.64-25.22,80.06-65.65,82.47-48.83,3.2-75.65-25.62-75.65-25.62l10.4-44s26.82,20.42,48.44,18.82c14-.8,19.22-12.41,18.81-20.42-2-33.62-57.24-31.62-60.84-86.86-3.2-46.44,27.22-93.27,94.47-97.68,26-1.6,39.23,4.81,39.23,4.81L221.4,225.39s-17.21-8-37.63-6.4C154.15,221,153.75,239.8,154.15,244.61ZM249.42,82.88c0-12-1.6-29.22-7.21-43.63,18.42,3.6,27.22,24,31.23,36.43Q262.63,78.68,249.42,82.88Z"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
 
         <!-- <section class="py-12 lg:py-24">
             <div class="container">
