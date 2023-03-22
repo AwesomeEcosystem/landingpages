@@ -89,7 +89,7 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Reward-driven</h3>
+                            <h3 class="mb-6 text-[22px] font-extrabold text-black dark:text-white">Reward Focused</h3>
                             <p class="line-clamp-3">Get rewarded for making transactions and maintaining a deposit</p>
                         </div>
                     </div>
