@@ -30,12 +30,12 @@ module.exports = {
             transparent: 'transparent',
             current: 'currentColor',
             white: '#ffffff',
-            black: '#08111F',
-            primary: '#47BDFF',
-            secondary: '#B476E5',
+            black: '#001a23',
+            primary: '#CC2936',
+            secondary: '#c6ff00',
             gray: {
                 DEFAULT: '#7780A1',
-                dark: '#1C2331',
+                dark: '#001a23',
             },
         },
         extend: {

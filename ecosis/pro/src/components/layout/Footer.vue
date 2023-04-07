@@ -4,8 +4,11 @@
             <div class="container">
                 <div class="grid gap-y-10 gap-x-4 sm:grid-cols-3 lg:grid-cols-5">
                     <div class="relative">
-                        <img src="/assets/images/logo.png" alt="plurk" class="h-7" />
-                        <ul class="mt-12 flex items-center gap-8">
+                        <router-link to="/" class="flex text-black text-2xl">
+                          <img src="/assets/logos/ecosisPro_dark.png" alt="logo" class="h-10 mr-2" />
+                          <p>ecosis <span class="font-bold">Pro</span></p>
+                        </router-link>
+                        <!-- <ul class="mt-12 flex items-center gap-8">
                             <li>
                                 <a href="javascript:">
                                     <svg
@@ -66,9 +69,17 @@
                                     </svg>
                                 </a>
                             </li>
-                        </ul>
-                        <img src="/assets/images/footer-shape.png" alt="footer-shape" class="absolute bottom-0 right-0 sm:left-0" />
-                        <img src="/assets/images/footer-shape-dark.png" alt="footer-shape-dark" class="absolute bottom-0 right-0 hidden dark:block sm:left-0" />
+                        </ul> -->
+                        <!-- <img src="/assets/images/footer-shape.png" alt="footer-shape" class="absolute bottom-0 right-0 sm:left-0" />
+                        <img src="/assets/images/footer-shape-dark.png" alt="footer-shape-dark" class="absolute bottom-0 right-0 hidden dark:block sm:left-0" /> -->
+                        <div>
+                            <ul class="flex flex-col gap-3 font-bold pt-8">
+                                <li>by ecosis Network Ltd</li>
+                                <!-- <li>
+                                    <a href="tel:+(617) 254-2333" class="inline-block transition hover:scale-110 hover:text-secondary">+(617) 254-2333</a>
+                                </li> -->
+                            </ul>
+                        </div>
                     </div>
                     <div>
                         <ul class="flex flex-col gap-3 font-bold">
@@ -77,48 +88,107 @@
                                 <router-link to="/" class="inline-block transition hover:scale-110 hover:text-secondary">Home</router-link>
                             </li>
                             <li>
-                                <router-link to="/portfolio" class="inline-block transition hover:scale-110 hover:text-secondary">Portfolio</router-link>
+                                <router-link to="/#about" class="inline-block transition hover:scale-110 hover:text-secondary">About</router-link>
                             </li>
                             <li>
-                                <router-link to="/services" class="inline-block transition hover:scale-110 hover:text-secondary">Service</router-link>
+                                <router-link to="/#features" class="inline-block transition hover:scale-110 hover:text-secondary">Features</router-link>
                             </li>
                             <li>
-                                <router-link to="/team" class="inline-block transition hover:scale-110 hover:text-secondary">Team</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/about-us" class="inline-block transition hover:scale-110 hover:text-secondary">About Us</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/career" class="inline-block transition hover:scale-110 hover:text-secondary">Career</router-link>
+                                <router-link to="/#prices" class="inline-block transition hover:scale-110 hover:text-secondary">Prices</router-link>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <ul class="flex flex-col gap-3 font-bold">
-                            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Services</li>
+                            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Ecosystem</li>
                             <li>
-                                <router-link to="/services-detail" class="inline-block transition hover:scale-110 hover:text-secondary"
-                                    >UI/UX Design</router-link
+                                <a href="https://elabs.enterprises" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary"
+                                    >eLabs</a
                                 >
                             </li>
                             <li>
-                                <router-link to="/services-detail" class="inline-block transition hover:scale-110 hover:text-secondary"
-                                    >Web Development</router-link
+                                <a href="https://ecosis.network" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary"
+                                    >ecosis Network</a
                                 >
                             </li>
                             <li>
-                                <router-link to="/services-detail" class="inline-block transition hover:scale-110 hover:text-secondary"
-                                    >Digital Marketing</router-link
+                                <a href="https://ecosis.finance" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary"
+                                    >ecosis Finance</a
                                 >
                             </li>
                             <li>
+                                <a href="https://ecosis.shop" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary"
+                                    >ecosis Shop</a
+                                >
+                            </li>
+                            <!-- <li>
                                 <router-link to="/services-detail" class="inline-block transition hover:scale-110 hover:text-secondary"
                                     >App Development</router-link
                                 >
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="flex flex-col gap-3 font-bold">
+                            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Partners</li>
+                            <li>
+                                <a href="https://changenow.io/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary"
+                                    >Change Now</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://www.revolut.com/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary"
+                                    >Revolut</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://puri.sm/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">Purism</a>
+                            </li>
+                            <li>
+                                <a href="https://www.shefan.pro/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">SheFan Pro</a>
+                            </li>
+                            <li>
+                                <a href="https://www.estglobalinc.com/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">FAB</a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/RrgAb9dwYE" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">The Forge</a>
+                            </li>
+                            <li>
+                                <a href="https://kalipo.io/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">Kalipo</a>
+                            </li>
+                            <li>
+                                <a href="https://www.spirinova.dev/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">Spirinova</a>
                             </li>
                         </ul>
                     </div>
                     <div>
+                        <ul class="flex flex-col gap-3 font-bold">
+                            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Social Media</li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/ecosiss/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary"
+                                    >LinkedIn</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://medium.com/@ecosis/" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary"
+                                    >Medium</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/ecosisnetwork" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/ecosisnetwork" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">Telegram</a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/JFuxncwnDt" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">Discord</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AwesomeEcosystem" target="_blank" class="inline-block transition hover:scale-110 hover:text-secondary">Github</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div>
                         <ul class="flex flex-col gap-3 font-bold">
                             <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Legal</li>
                             <li>
@@ -138,16 +208,7 @@
                                 <router-link to="/blog" class="inline-block transition hover:scale-110 hover:text-secondary">Blog</router-link>
                             </li>
                         </ul>
-                    </div>
-                    <div>
-                        <ul class="flex flex-col gap-3 font-bold">
-                            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Information</li>
-                            <li>164 Brighton Ave, Allston, Maine, U.S. - 02134</li>
-                            <li>
-                                <a href="tel:+(617) 254-2333" class="inline-block transition hover:scale-110 hover:text-secondary">+(617) 254-2333</a>
-                            </li>
-                        </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </footer>
@@ -156,12 +217,12 @@
                 <div class="flex flex-col items-center justify-between text-center font-bold dark:text-white md:flex-row">
                     <div>
                         Copyright© {{ new Date().getFullYear() }}
-                        <a href="javascript:" class="text-primary transition hover:text-secondary">Plurk Technologies Pvt. Ltd.</a>
+                        <a href="https://elabs.enterprises" class="text-primary transition hover:text-secondary">eLabs Enterprises</a>
                     </div>
-                    <div>
+                    <!-- <div>
                         Need help? Visit the
                         <router-link to="/contact-us" class="text-secondary transition hover:text-primary">Contact Us</router-link>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

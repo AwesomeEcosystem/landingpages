@@ -39,7 +39,7 @@
         </div>
 
         <!-- Intro -->
-        <section class="relative overflow-hidden pt-14 lg:pb-16 lg:pt-[100px]">
+        <section class="overflow-hidden pt-14 lg:pb-16 lg:pt-[100px]">
             <div class="container relative z-[1] flex flex-wrap-reverse">
                 <div class="text-center lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
@@ -740,6 +740,7 @@
             </div>
         </section>
 
+        <!-- Roadmap -->
         <section class="bg-white/50 py-14 dark:bg-white/[0.03] lg:py-20" id="roadmap">
           <div class="container heading mb-5 text-center">
               <!-- <h6 class="!text-secondary">Products</h6> -->
