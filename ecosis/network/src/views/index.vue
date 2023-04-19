@@ -17,7 +17,7 @@
                             </p>
                             <div class="flex justify-center md:justify-start">
                               <div class="m-2">
-                                <a href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto px-4">Waitlist</a>
+                                <a href="https://airtable.com/shruP2nuVOBvsktsf" target="_blank" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto px-4">Waitlist</a>
                               </div>
                               <div class="m-2">
                                 <router-link to="/eco" class="btn bg-transparent text-white underline mx-auto mt-2 block w-fit lg:mx-0 lg:rtl:ml-auto px-4">Start here</router-link>
@@ -864,8 +864,7 @@
                     </div>
 
                     <div class="w-full">
-                        <div data-tf-widget="QOyYsO0L" data-tf-iframe-props="title=proposal" data-tf-medium="snippet" style="width:100%;height:400px;">
-                        </div>
+                        <iframe class="airtable-embed" src="https://airtable.com/embed/shrn8pQ3lNFYEXQ0V?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
                     </div>
                 </div>
             </div>

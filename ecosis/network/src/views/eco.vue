@@ -26,7 +26,7 @@
                                 <span class="italic text-primary font-extrabold">Your</span> one and only <span class="italic text-secondary font-extrabold">Wallet</span>
                             </h2>
                             <div class="w-full flex justify-center pt-8">
-                                <a href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank" class="btn w-64 mx-auto mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0">Waitlist</a>
+                                <a href="https://airtable.com/shruP2nuVOBvsktsf" target="_blank" class="btn w-64 mx-auto mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0">Waitlist</a>
                             </div>
                         </div>
                     </div>
@@ -250,7 +250,7 @@
             <div class="">
               <h3 class="text-center text-2xl font-extrabold leading-normal sm:text-5xl lg:text-[24px] lg:leading-[50px]">Get rewarded for spending with Eco!</h3>
               <div class="w-full flex justify-center">
-                <a href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank" class="btn mt-6 py-[18px] px-8 text-base text-white">Waitlist</a>
+                <a href="https://airtable.com/shruP2nuVOBvsktsf" target="_blank" class="btn mt-6 py-[18px] px-8 text-base text-white">Waitlist</a>
               </div>
             </div>
           </div>
