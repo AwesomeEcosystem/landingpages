@@ -13,7 +13,7 @@
                             <p class="my-5 text-lg lg:my-8">
                                 The universal smart contract platform
                             </p>
-                            <a class="btn mx-auto mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0 w-64" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Waitlist</a>
+                            <a class="btn mx-auto mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0 w-64" href="https://airtable.com/shruP2nuVOBvsktsf" target="_blank">Waitlist</a>
                         </div>
                         <div>
                             <img
@@ -162,7 +162,7 @@
                         <p class="mt-[18px] max-w-[522px] text-lg font-semibold">
                             The world is poised to build sustainable digital infrastructures that support an equitable redistribution of purchasing power.
                         </p>
-                        <a class="btn mt-7 text-white" href="https://kcha60ohz1u.typeform.com/to/ShJeY8a2" target="_blank">Waitlist</a>
+                        <a class="btn mt-7 text-white" href="https://airtable.com/shruP2nuVOBvsktsf" target="_blank">Waitlist</a>
                         <!-- <button type="button" class="btn mt-7 text-white">Waitlist</button> -->
                     </div>
                     <div>
