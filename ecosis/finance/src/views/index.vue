@@ -1,39 +1,48 @@
 <template>
     <div class="overflow-x-hidden">
+        <!-- Hero  -->
         <div class="overflow-hidden bg-black pt-[82px] sm:-mx-[250px] sm:rounded-b-[50%] lg:-mx-[150px] lg:pt-[106px]">
             <div class="relative">
                 <img src="/assets/images/banner-lefticon.png" alt="banner-lefticon" class="absolute left-0 top-20 sm:left-[250px] lg:left-[150px]" />
                 <img src="/assets/images/banner-rightIcon.png" alt="banner-rightIcon" class="absolute right-0 -top-4 sm:right-[250px] lg:right-[150px]" />
                 <div class="container">
-                    <div class="relative bg-[url('/assets/images/world-map.png')] bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
+                    <div class="relative md:flex bg-[url('/assets/images/world-map.png')] bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
                         <div class="relative z-[1] text-center text-white lg:w-3/5 ltr:lg:text-left rtl:lg:text-right xl:w-1/2">
-                            <h2 class="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px]">
-                                Make your <span class="italic text-primary">team </span> <span class="italic text-secondary">work</span> together
+                            <h2 class="text-xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px]">
+                              The most <span class="italic text-primary">rewarding </span> payments <span class="italic text-secondary">experience</span>
                             </h2>
-                            <p class="my-8 text-lg lg:w-[90%]">
-                                In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.
+                            <p class="my-8 text-2xl lg:w-[100%]">
+                              One app to Spend, Send, Save & Earn.
                             </p>
-                            <router-link to="/about-us" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">read more</router-link>
+                            <div class="flex justify-center md:justify-start">
+                              <div class="m-2">
+                                <a href="https://airtable.com/shruP2nuVOBvsktsf" target="_blank" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto px-4">Waitlist</a>
+                              </div>
+                              <div class="m-2">
+                                <router-link to="/#about" class="btn bg-transparent text-white underline mx-auto mt-2 block w-fit lg:mx-0 lg:rtl:ml-auto px-4">Learn more</router-link>
+                              </div>
+                            </div>
                         </div>
                         <div
-                            class="bottom-0 mx-auto mt-5 mb-2 w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:absolute lg:mb-0 lg:mt-0 xl:w-[650px]"
+                            class="mx-auto mt-5 mb-2 w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:mb-0 lg:mt-0 xl:w-[650px]"
                             :data-aos="store.direction === 'rtl' ? 'fade-right' : 'fade-left'"
                             data-aos-duration="1000"
                             data-aos-offset="0"
                             data-aos-delay="300"
                         >
-                            <img src="/assets/images/home-banner-icon.svg" alt="home-banner-icon" class="rtl:rotate-y-180" />
+                            <img src="/assets/images/heroPhone.png" alt="home-banner-icon" class="rtl:rotate-y-180" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <section class="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
+        <!-- About -->
+        <section class="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]" id="about">
             <div class="container">
                 <div class="heading text-center">
-                    <h6>High - Impact Services</h6>
-                    <h4>We help Brands with</h4>
+                    <h6>Easy as A B C</h6>
+                    <h4>How it works</h4>
                 </div>
                 <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     <div data-aos="fade-up" data-aos-duration="1000">
@@ -60,10 +69,10 @@
                             <router-link
                                 to="/services-detail"
                                 class="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
-                                >UI/UX Design
+                                >Simple Login & Deposit
                             </router-link>
                             <p class="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                We provide services with the best designs than our designer team for your business.
+                                Sign up using your social accounts and deposit money in one click.
                             </p>
                             <router-link
                                 to="services-detail"
@@ -109,10 +118,10 @@
                             <router-link
                                 to="/services-detail"
                                 class="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
-                                >Web Development
+                                >Shop or Send money
                             </router-link>
                             <p class="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                We help develop company websites to be more professional and attractive
+                                Select ecosis when you checkout and pay with instant settlement
                             </p>
                             <router-link
                                 to="services-detail"
@@ -158,10 +167,10 @@
                             <router-link
                                 to="/services-detail"
                                 class="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
-                                >Digital Marketing
+                                >Earn Rewards
                             </router-link>
                             <p class="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                We also help you market your products through an online marketplace.
+                                Receive weekly rewards proportional to your deposit & transaction.
                             </p>
                             <router-link
                                 to="services-detail"
@@ -186,948 +195,357 @@
                 </div>
             </div>
         </section>
-        <section class="py-14 dark:!bg-none lg:py-[100px]" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 54.69%)">
-            <counter></counter>
 
-            <div
-                class="relative my-14 mx-auto border-[10px] border-transparent bg-black py-14 dark:border-black dark:bg-gray-dark lg:my-[100px] lg:py-[100px] xl:max-w-[1440px] xl:rounded-3xl"
-            >
+        <!-- Features -->
+        <section class="bg-gradient-to-b from-white/[55%] to-transparent pt-14 dark:bg-none lg:pt-20" id="features">
+            <div class="container">
+                <div class="lg:w-1/2">
+                    <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
+                        <h6 class="!text-secondary">The ultimate Payment Experience</h6>
+                        <h4>Why ecosis</h4>
+                        <p class="mt-4 text-lg font-semibold">
+                            Assured periodic returns on transactions and deposits for all users, combined with the most competitive transaction fees in the industry for businesses.
+                        </p>
+                        <p class="italic xl:w-11/12 pt-2">
+                            When compared to Paypal, Visa, Master card, Stripe and similar solutions
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="bg-gradient-to-t from-white/[55%] to-transparent py-8 px-5 dark:bg-white/[0.03] dark:bg-none">
+            <div class="relative mx-auto max-w-[1440px] rounded-[32px] text-black pt-14">
                 <div class="container">
-                    <div class="items-end gap-4 lg:flex xl:gap-0">
-                        <div class="lg:w-1/2">
-                            <div class="heading mb-16 text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h6>What Makes us Different?</h6>
-                                <h4 class="leading-normal !text-white lg:!leading-[50px]">We bring solutions to make life easier for our customers.</h4>
+                    <div class="relative">
+                        <div class="grid gap-4 lg:grid-cols-2">
+                            <div class="pt-28 lg:pb-10 lg:pt-0">
+                                <div class="heading mb-12 ltr:lg:text-left rtl:lg:text-right">
+                                    <h6 class="!text-secondary">For all</h6>
+                                    <h4 class="pb-4 leading-normal lg:!leading-[50px] text-black">Users</h4>
+                                </div>
+                                <ul class="space-y-8 text-lg font-semibold text-black">
+                                    <li class="flex items-center gap-3.5">
+                                        <div class="flex h-5 w-5 items-center justify-center rounded-full bg-primary">
+                                            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.60002 5.79922L2.42502 3.62422C2.24169 3.44089 2.01669 3.34922 1.75002 3.34922C1.48336 3.34922 1.25002 3.44922 1.05002 3.64922C0.866691 3.83255 0.775024 4.06589 0.775024 4.34922C0.775024 4.63255 0.866691 4.86589 1.05002 5.04922L3.90002 7.89922C4.08336 8.08255 4.31669 8.17422 4.60002 8.17422C4.88336 8.17422 5.11669 8.08255 5.30002 7.89922L10.975 2.22422C11.1584 2.04089 11.25 1.81589 11.25 1.54922C11.25 1.28255 11.15 1.04922 10.95 0.849219C10.7667 0.665886 10.5334 0.574219 10.25 0.574219C9.96669 0.574219 9.73336 0.665886 9.55002 0.849219L4.60002 5.79922Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <p>Users can earn upto 1% rewards risk-free against their spending volume and deposits every week.</p>
+                                    </li>
+                                    <li class="flex items-center gap-3.5">
+                                        <div class="flex h-5 w-5 items-center justify-center rounded-full bg-secondary">
+                                            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.60002 5.79922L2.42502 3.62422C2.24169 3.44089 2.01669 3.34922 1.75002 3.34922C1.48336 3.34922 1.25002 3.44922 1.05002 3.64922C0.866691 3.83255 0.775024 4.06589 0.775024 4.34922C0.775024 4.63255 0.866691 4.86589 1.05002 5.04922L3.90002 7.89922C4.08336 8.08255 4.31669 8.17422 4.60002 8.17422C4.88336 8.17422 5.11669 8.08255 5.30002 7.89922L10.975 2.22422C11.1584 2.04089 11.25 1.81589 11.25 1.54922C11.25 1.28255 11.15 1.04922 10.95 0.849219C10.7667 0.665886 10.5334 0.574219 10.25 0.574219C9.96669 0.574219 9.73336 0.665886 9.55002 0.849219L4.60002 5.79922Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <p>Inherent privacy & data protection ensuring that our user's information and transactions are secure and private.</p>
+                                    </li>
+                                </ul>
                             </div>
-                            <div
-                                class="grid gap-x-7 gap-y-12 sm:grid-cols-2"
-                                :data-aos="store.direction === 'rtl' ? 'fade-left' : 'fade-right'"
-                                data-aos-duration="1000"
-                            >
-                                <div class="flex transition">
-                                    <div>
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_36_337)">
-                                                <path
-                                                    opacity="0.5"
-                                                    d="M19.2867 23.9285V25.119C19.2867 25.7505 19.0358 26.3561 18.5893 26.8027C18.1427 27.2492 17.5371 27.5001 16.9056 27.5001H12.1435C11.512 27.5001 10.9063 27.2492 10.4598 26.8027C10.0133 26.3561 9.76239 25.7505 9.76239 25.119V23.9285H19.2867Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M9.69213 21.5473C9.33855 20.0318 7.74323 18.7924 7.08844 17.9757C5.96718 16.5748 5.26448 14.8857 5.06127 13.1028C4.85807 11.32 5.16263 9.51606 5.93988 7.89876C6.71712 6.28146 7.93542 4.91663 9.45445 3.96148C10.9735 3.00632 12.7314 2.49971 14.5258 2.5C16.3202 2.50029 18.078 3.00746 19.5967 3.9631C21.1154 4.91874 22.3333 6.28396 23.11 7.90151C23.8867 9.51906 24.1907 11.3231 23.9869 13.1059C23.7831 14.8886 23.0799 16.5776 21.9582 17.9781C21.3034 18.7936 19.7105 20.033 19.3569 21.5473H9.69094H9.69213ZM15.715 12.029V7.26094L10.3576 14.4101H13.334V19.1722L18.6914 12.029H15.715Z"
-                                                    fill="#B476E5"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_36_337">
-                                                    <rect width="30" height="30" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Creativity</h4>
-                                        <p class="font-semibold">Curabitur blandit lacus porttitor ridiculus mus.</p>
-                                    </div>
-                                </div>
-                                <div class="flex transition">
-                                    <div>
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_36_379)">
-                                                <path
-                                                    d="M7.38901 21.9074C8.8422 21.9074 10.0284 20.7213 10.0284 19.268C10.0284 17.8148 8.84225 16.6287 7.38901 16.6287C5.93576 16.6287 4.74963 17.8148 4.74963 19.268C4.74963 20.7212 5.90621 21.9074 7.38901 21.9074Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M9.64281 22.5896C8.99038 23.0344 8.21938 23.2717 7.38902 23.2717C6.55865 23.2717 5.78771 23.0048 5.13522 22.5896C3.86013 23.3014 3 24.6655 3 26.2372V26.7709C3 27.364 3.47454 27.8386 4.06761 27.8386H9.73188V27.6013C9.73188 26.2075 10.2656 24.9324 11.0962 23.9537C10.7104 23.3901 10.2062 22.9158 9.64276 22.5896L9.64281 22.5896Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M20.9714 19.268C20.9714 20.7212 22.1575 21.9074 23.6107 21.9074C25.064 21.9074 26.2501 20.7213 26.2501 19.268C26.2501 17.8148 25.064 16.6287 23.6107 16.6287C22.128 16.6287 20.9714 17.815 20.9714 19.268Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M25.8646 22.5893C25.2122 23.0341 24.4412 23.2714 23.6109 23.2714C22.7805 23.2714 21.9797 23.0045 21.3571 22.5596C20.764 22.8858 20.2894 23.3306 19.9039 23.894C20.7638 24.8727 21.2681 26.1478 21.2681 27.5416V27.7789H26.9324C27.5255 27.7789 28 27.3044 28 26.7113V26.1776C27.9998 24.6652 27.1397 23.3308 25.8646 22.5894L25.8646 22.5893Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M12.8456 20.6318C12.8456 22.085 14.0318 23.2712 15.485 23.2712C16.9383 23.2712 18.1244 22.085 18.1244 20.6318C18.1244 19.1786 16.9383 17.9924 15.485 17.9924C14.0318 17.9924 12.8456 19.1786 12.8456 20.6318Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M17.7388 23.9536C17.0864 24.3984 16.3154 24.6356 15.485 24.6356C14.6547 24.6356 13.8837 24.3688 13.2312 23.9536C11.9561 24.6654 11.096 26.0295 11.096 27.6012V28.1349C11.096 28.728 11.5706 29.2025 12.1636 29.2025H18.8065C19.3996 29.2025 19.8741 28.728 19.8741 28.1349V27.6012C19.8739 26.0295 19.014 24.6654 17.7387 23.9536H17.7388Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    opacity="0.5"
-                                                    d="M11.0663 9.15515C11.3036 10.6379 12.5787 11.7945 14.1209 11.7945C14.625 11.7945 15.07 11.676 15.4852 11.4683C15.9003 11.676 16.3451 11.7945 16.8495 11.7945C18.3916 11.7945 19.6965 10.6676 19.904 9.15515C20.9123 8.65103 21.5945 7.613 21.5945 6.39726C21.5945 5.18132 20.9125 4.17307 19.904 3.63937C19.6667 2.15658 18.3916 1 16.8495 1C16.3453 1 15.9004 1.11853 15.4852 1.32623C15.07 1.11853 14.6253 1 14.1209 1C12.5787 1 11.2738 2.12698 11.0663 3.63937C10.0581 4.1435 9.37585 5.18153 9.37585 6.39726C9.37606 7.613 10.0581 8.65106 11.0663 9.15515ZM18.5989 5.3888C19.1625 5.3888 19.6072 5.83356 19.6072 6.39705C19.6072 6.96055 19.1624 7.4053 18.5989 7.4053C18.0354 7.4053 17.5907 6.96055 17.5907 6.39705C17.5907 5.83356 18.0354 5.3888 18.5989 5.3888ZM15.485 5.3888C16.0485 5.3888 16.4933 5.83356 16.4933 6.39705C16.4933 6.96055 16.0485 7.4053 15.485 7.4053C14.9215 7.4053 14.4768 6.96055 14.4768 6.39705C14.4768 5.83356 14.9215 5.3888 15.485 5.3888ZM12.3711 5.3888C12.9346 5.3888 13.3793 5.83356 13.3793 6.39705C13.3793 6.96055 12.9346 7.4053 12.3711 7.4053C11.8076 7.4053 11.3629 6.96055 11.3629 6.39705C11.3629 5.83356 11.8076 5.3888 12.3711 5.3888Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M9.25737 15.9762C9.73192 15.9762 10.1173 15.5906 10.1173 15.1163C10.1173 14.6417 9.7317 14.2563 9.25737 14.2563C8.78283 14.2563 8.39746 14.6419 8.39746 15.1163C8.39746 15.5908 8.78305 15.9762 9.25737 15.9762Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    opacity="0.5"
-                                                    d="M11.3036 12.0911C10.7105 12.0911 10.2064 12.5656 10.2064 13.1883C10.2064 13.7813 10.6809 14.2855 11.3036 14.2855C11.9265 14.2855 12.4008 13.811 12.4008 13.1883C12.3712 12.5656 11.8967 12.0911 11.3036 12.0911Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M20.8527 15.1163C20.8527 15.5908 21.2383 15.9762 21.7126 15.9762C22.1872 15.9762 22.5726 15.5906 22.5726 15.1163C22.5726 14.6417 22.187 14.2563 21.7126 14.2563C21.2383 14.2563 20.8527 14.6417 20.8527 15.1163Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    opacity="0.5"
-                                                    d="M19.6665 12.0911C19.0734 12.0911 18.5693 12.5656 18.5693 13.1883C18.5693 13.7813 19.0438 14.2855 19.6665 14.2855C20.2596 14.2855 20.7637 13.811 20.7637 13.1883C20.7637 12.5656 20.2892 12.0911 19.6665 12.0911Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    opacity="0.5"
-                                                    d="M15.4851 12.5063C14.892 12.5063 14.3879 12.9809 14.3879 13.6036C14.3879 14.1966 14.8624 14.7008 15.4851 14.7008C16.0782 14.7008 16.5823 14.2262 16.5823 13.6036C16.5823 13.0105 16.0782 12.5063 15.4851 12.5063Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M15.485 15.353C15.0105 15.353 14.6251 15.7386 14.6251 16.2129C14.6251 16.6875 15.0107 17.0729 15.485 17.0729C15.9596 17.0729 16.345 16.6873 16.345 16.2129C16.345 15.7386 15.9596 15.353 15.485 15.353Z"
-                                                    fill="#B476E5"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_36_379">
-                                                    <rect width="30" height="30" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Innovative Thinking</h4>
-                                        <p class="font-semibold">There are many variations of passages of Lorem Ipsum available</p>
-                                    </div>
-                                </div>
-                                <div class="flex transition">
-                                    <div>
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_36_392)">
-                                                <path
-                                                    opacity="0.5"
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M14.2364 27.9997V24.9966C12.4567 25.1078 11.1218 23.6617 11.1218 21.9935C11.1218 20.3249 12.4567 18.9904 14.2364 19.1015V16.0984H8.67477C8.89731 15.6535 9.3422 15.0973 9.3422 14.5412C9.3422 12.3167 6.00534 12.3167 6.00534 14.5412C6.00534 15.0975 6.33905 15.6535 6.56161 16.0984H1V27.1102C1 27.5551 1.44487 27.9999 1.88974 27.9999H14.2365L14.2364 27.9997Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M28.6959 16.0981H25.2477C25.3588 17.8778 24.0242 19.3238 22.3557 19.3238C20.576 19.3238 19.2412 17.8778 19.3526 16.0981H15.4595V20.7698C15.0146 20.6586 14.4584 20.3249 14.0135 20.3249C11.9001 20.3249 11.9001 23.6618 14.0135 23.6618C14.4584 23.6618 15.0146 23.4392 15.4595 23.2169V27.9997H27.8063C28.2511 27.9997 28.696 27.5549 28.696 27.11V16.0982L28.6959 16.0981Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M28.6731 14.9015V3.88974C28.6731 3.44487 28.2283 3 27.672 3H15.4367V5.89196C17.1052 5.66942 18.6624 7.00423 18.6624 8.78392C18.6624 10.5636 17.1052 11.8985 15.4367 11.6759V14.9016H20.9983C20.8871 15.3464 20.5534 15.9027 20.5534 16.3476C20.5534 18.5722 24.0017 18.5722 24.0017 16.3476C24.0017 15.9027 23.668 15.3465 23.4454 14.9016L28.6731 14.9015Z"
-                                                    fill="#B476E5"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_36_392">
-                                                    <rect width="30" height="30" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Rapid Solutions</h4>
-                                        <p class="font-semibold">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                                    </div>
-                                </div>
-                                <div class="flex transition">
-                                    <div>
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_36_401)">
-                                                <path
-                                                    opacity="0.5"
-                                                    d="M9.68219 19.8007L10.8868 17.8733C11.9699 18.5518 13.2226 18.9106 14.5006 18.9086C15.7787 18.9106 17.0313 18.5518 18.1144 17.8733L19.319 19.8007C17.8749 20.7054 16.2047 21.184 14.5006 21.1814C12.7965 21.184 11.1263 20.7054 9.68219 19.8007Z"
-                                                    fill="#B476E5"
-                                                />
-                                                <path
-                                                    d="M24.7284 10.9537C25.3312 10.9537 25.9093 11.1932 26.3355 11.6194C26.7618 12.0457 27.0012 12.6238 27.0012 13.2265V17.7722C27.0012 18.375 26.7618 18.9531 26.3355 19.3794C25.9093 19.8056 25.3312 20.0451 24.7284 20.0451H23.5215C23.2445 22.2421 22.1752 24.2625 20.5143 25.7272C18.8534 27.1918 16.715 28 14.5006 28V25.7272C16.309 25.7272 18.0433 25.0088 19.322 23.7301C20.6007 22.4513 21.3191 20.717 21.3191 18.9086V12.0901C21.3191 10.2817 20.6007 8.54743 19.322 7.26871C18.0433 5.98999 16.309 5.27162 14.5006 5.27162C12.6922 5.27162 10.9579 5.98999 9.67919 7.26871C8.40047 8.54743 7.6821 10.2817 7.6821 12.0901V20.0451H4.27284C3.67004 20.0451 3.09194 19.8056 2.6657 19.3794C2.23946 18.9531 2 18.375 2 17.7722V13.2265C2 12.6238 2.23946 12.0457 2.6657 11.6194C3.09194 11.1932 3.67004 10.9537 4.27284 10.9537H5.47972C5.75704 8.75689 6.82646 6.73677 8.48733 5.27238C10.1482 3.808 12.2864 3 14.5006 3C16.7149 3 18.853 3.808 20.5139 5.27238C22.1748 6.73677 23.2442 8.75689 23.5215 10.9537H24.7284Z"
-                                                    fill="#B476E5"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_36_401">
-                                                    <rect width="30" height="30" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div class="ltr:pl-3 rtl:pr-3">
-                                        <h4 class="mb-2 text-lg font-bold text-white">Top-Notch Support</h4>
-                                        <p class="font-semibold">It has survived not only five centuries, but also the leap into electronic typesetting</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="top-1/2 mx-auto mt-10 ltr:right-5 rtl:left-5 md:w-[45%] lg:mt-0 xl:absolute xl:-translate-y-1/2">
-                            <img src="/assets/images/box-img.png" alt="box-img" class="w-full rtl:rotate-y-180" />
                         </div>
                     </div>
+                    <a href="javascript:" class="btn text-xl text-white group-hover:bg-white group-hover:text-primary dark:text-black xl:w-44"
+                        >Waitlist</a
+                    >
                 </div>
             </div>
-            <div class="container">
-                <div class="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
-                    <div class="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                        <h6>Our Project</h6>
-                        <h4>Some of our finest work.</h4>
-                    </div>
-                    <!-- <div class="flex items-center justify-end gap-4">
-                            <div class="text-sm font-extrabold text-black dark:text-white">View All</div>
-                            <button type="button" class="bg-black/5 dark:bg-white/5 w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary dark:hover:bg-secondary transition">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-black dark:text-white">
-                                    <path d="M5.95007 1.2002L1.48924 5.3424C1.06317 5.73803 1.06317 6.41236 1.48924 6.80799L5.95007 10.9502" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                </svg>
-                            </button>
-                            <button type="button" class="bg-black/5 dark:bg-white/5 text-p w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary dark:hover:bg-secondary transition">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-black dark:text-white">
-                                    <path d="M1.05005 10.7998L5.51089 6.6576C5.93695 6.26197 5.93695 5.58764 5.51089 5.19201L1.05005 1.0498" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                </svg>
-                            </button>
-                        </div> -->
-                </div>
-                <div class="mb-7">
-                    <ul class="filters home-filter mt-10 flex gap-8 overflow-x-auto whitespace-nowrap pb-3 font-bold lg:mt-0 lg:gap-10">
-                        <li class="filter" :class="{ active: activeTab === 'all' }">
-                            <button type="button" class="transition hover:text-secondary" @click="activeTab = 'all'">All Work</button>
-                        </li>
-                        <li class="filter" :class="{ active: activeTab === 'design' }">
-                            <button type="button" class="transition hover:text-secondary" @click="activeTab = 'design'">Design</button>
-                        </li>
-                        <li class="filter" :class="{ active: activeTab === 'website' }">
-                            <button type="button" class="transition hover:text-secondary" @click="activeTab = 'website'">Website</button>
-                        </li>
-                        <li class="filter" :class="{ active: activeTab === 'app' }">
-                            <button type="button" class="transition hover:text-secondary" @click="activeTab = 'app'">Mobile App</button>
-                        </li>
-                        <li class="filter" :class="{ active: activeTab === 'web' }">
-                            <button type="button" class="transition hover:text-secondary" @click="activeTab = 'web'">Web Application</button>
-                        </li>
-                        <li class="filter" :class="{ active: activeTab === 'ecommerce' }">
-                            <button type="button" class="transition hover:text-secondary" @click="activeTab = 'ecommerce'">Ecommerce</button>
-                        </li>
-                    </ul>
-                </div>
-                <div class="projects grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                    <div class="project" :class="activeTab === 'all' || activeTab === 'web' ? 'block' : 'hidden'">
-                        <div
-                            class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                        >
-                            <router-link to="/portfolio-detail" class="absolute top-0 left-0 h-full w-full"></router-link>
-                            <img src="/assets/images/project-1.png" alt="project-1" class="h-52 w-full rounded-t-3xl object-cover" />
-                            <div class="p-5 text-sm font-bold">
-                                <h6 class="mb-1 text-black dark:text-white">Space Landing page</h6>
-                                <p>Website</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project" :class="activeTab === 'all' || activeTab === 'ecommerce' ? 'block' : 'hidden'">
-                        <div
-                            class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                        >
-                            <router-link to="/portfolio-detail" class="absolute top-0 left-0 h-full w-full"></router-link>
-                            <img src="/assets/images/project-2.png" alt="project-2" class="h-52 w-full rounded-t-3xl object-cover" />
-                            <div class="p-5 text-sm font-bold">
-                                <h6 class="mb-1 text-black dark:text-white">Crypto Game - UX Interface</h6>
-                                <p>Website, App</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project" :class="activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'">
-                        <div
-                            class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                        >
-                            <router-link to="/portfolio-detail" class="absolute top-0 left-0 h-full w-full"></router-link>
-                            <img src="/assets/images/project-3.png" alt="project-3" class="h-52 w-full rounded-t-3xl object-cover" />
-                            <div class="p-5 text-sm font-bold">
-                                <h6 class="mb-1 text-black dark:text-white">Looking for a quiet place</h6>
-                                <p>Website</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project" :class="activeTab === 'all' || activeTab === 'design' ? 'block' : 'hidden'">
-                        <div
-                            class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                        >
-                            <router-link to="/portfolio-detail" class="absolute top-0 left-0 h-full w-full"></router-link>
-                            <img src="/assets/images/project-4.png" alt="project-4" class="h-52 w-full rounded-t-3xl object-cover" />
-                            <div class="p-5 text-sm font-bold">
-                                <h6 class="mb-1 text-black dark:text-white">WeTour - Travel Hero Illustration</h6>
-                                <p>Website</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project" :class="activeTab === 'all' || activeTab === 'website' ? 'block' : 'hidden'">
-                        <div
-                            class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                        >
-                            <router-link to="/portfolio-detail" class="absolute top-0 left-0 h-full w-full"></router-link>
-                            <img src="/assets/images/project-5.png" alt="project-5" class="h-52 w-full rounded-t-3xl object-cover" />
-                            <div class="p-5 text-sm font-bold">
-                                <h6 class="mb-1 text-black dark:text-white">Digital Art Guide</h6>
-                                <p>Branding</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project" :class="activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'">
-                        <div
-                            class="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none"
-                        >
-                            <router-link to="/portfolio-detail" class="absolute top-0 left-0 h-full w-full"></router-link>
-                            <img src="/assets/images/project-6.png" alt="project-6" class="h-52 w-full rounded-t-3xl object-cover" />
-                            <div class="p-5 text-sm font-bold">
-                                <h6 class="mb-1 text-black dark:text-white">Frozeverse - 3D and motion design</h6>
-                                <p>Branding, Website, App</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <section class="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
+        <div class="bg-gradient-to-t from-white/[55%] to-transparent py-8 px-5 dark:bg-white/[0.03] dark:bg-none lg:py-20">
+            <div class="relative mx-auto max-w-[1440px] rounded-[32px] bg-black pt-14">
+                <img src="/assets/images/modern-saas/perfomance-design.svg" alt="" class="absolute bottom-0 ltr:right-0 rtl:left-0" />
+                <img src="/assets/images/modern-saas/dollers-icon.svg" alt="" class="absolute top-0 ltr:right-14 rtl:left-14" />
+                <div class="container">
+                    <div class="relative">
+                        <img src="/assets/images/modern-saas/perfomance-doller-icon.svg" alt="" class="absolute bottom-0 ltr:left-0 rtl:right-0" />
+                        <div class="grid gap-4 lg:grid-cols-2">
+                            <div class="pt-28 lg:pb-10 lg:pt-0">
+                                <div class="heading mb-12 ltr:lg:text-left rtl:lg:text-right">
+                                    <h6 class="!text-secondary">Additionally for</h6>
+                                    <h4 class="pb-4 leading-normal !text-white lg:!leading-[50px]">Businesses</h4>
+                                </div>
+                                <ul class="space-y-8 text-lg font-semibold text-white">
+                                    <li class="flex items-center gap-3.5">
+                                        <div class="flex h-5 w-5 items-center justify-center rounded-full bg-primary">
+                                            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.60002 5.79922L2.42502 3.62422C2.24169 3.44089 2.01669 3.34922 1.75002 3.34922C1.48336 3.34922 1.25002 3.44922 1.05002 3.64922C0.866691 3.83255 0.775024 4.06589 0.775024 4.34922C0.775024 4.63255 0.866691 4.86589 1.05002 5.04922L3.90002 7.89922C4.08336 8.08255 4.31669 8.17422 4.60002 8.17422C4.88336 8.17422 5.11669 8.08255 5.30002 7.89922L10.975 2.22422C11.1584 2.04089 11.25 1.81589 11.25 1.54922C11.25 1.28255 11.15 1.04922 10.95 0.849219C10.7667 0.665886 10.5334 0.574219 10.25 0.574219C9.96669 0.574219 9.73336 0.665886 9.55002 0.849219L4.60002 5.79922Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <p>Save up to 80%* on transaction costs with our platform.</p>
+                                    </li>
+                                    <li class="flex items-center gap-3.5">
+                                        <div class="flex h-5 w-5 items-center justify-center rounded-full bg-secondary">
+                                            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.60002 5.79922L2.42502 3.62422C2.24169 3.44089 2.01669 3.34922 1.75002 3.34922C1.48336 3.34922 1.25002 3.44922 1.05002 3.64922C0.866691 3.83255 0.775024 4.06589 0.775024 4.34922C0.775024 4.63255 0.866691 4.86589 1.05002 5.04922L3.90002 7.89922C4.08336 8.08255 4.31669 8.17422 4.60002 8.17422C4.88336 8.17422 5.11669 8.08255 5.30002 7.89922L10.975 2.22422C11.1584 2.04089 11.25 1.81589 11.25 1.54922C11.25 1.28255 11.15 1.04922 10.95 0.849219C10.7667 0.665886 10.5334 0.574219 10.25 0.574219C9.96669 0.574219 9.73336 0.665886 9.55002 0.849219L4.60002 5.79922Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <p>Free and Instant checkout integration with storefronts, apps and websites.</p>
+                                    </li>
+                                    <li class="flex items-center gap-3.5">
+                                        <div class="flex h-5 w-5 items-center justify-center rounded-full bg-primary">
+                                            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.60002 5.79922L2.42502 3.62422C2.24169 3.44089 2.01669 3.34922 1.75002 3.34922C1.48336 3.34922 1.25002 3.44922 1.05002 3.64922C0.866691 3.83255 0.775024 4.06589 0.775024 4.34922C0.775024 4.63255 0.866691 4.86589 1.05002 5.04922L3.90002 7.89922C4.08336 8.08255 4.31669 8.17422 4.60002 8.17422C4.88336 8.17422 5.11669 8.08255 5.30002 7.89922L10.975 2.22422C11.1584 2.04089 11.25 1.81589 11.25 1.54922C11.25 1.28255 11.15 1.04922 10.95 0.849219C10.7667 0.665886 10.5334 0.574219 10.25 0.574219C9.96669 0.574219 9.73336 0.665886 9.55002 0.849219L4.60002 5.79922Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <p>Inbuilt reward mechanisms allows for significantly reduced customer acquisition costs.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pb-20 lg:pt-20 lg:pb-8" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="/assets/images/modern-saas/perfomance-img.png" alt="" class="w-full" />
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:" class="btn text-xl text-white group-hover:bg-white group-hover:text-secondary dark:text-black xl:w-44"
+                        >Contact Us</a
+                    >
+                </div>
+            </div>
+        </div>
+
+        <!-- Examples -->
+        <section class="py-12">
             <div class="container">
                 <div class="heading text-center">
-                    <h6>Meet Our Team</h6>
-                    <h4>Creative Minds</h4>
+                    <h6>System</h6>
+                    <h4>Performance</h4>
                 </div>
-                <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-                    <div class="group cursor-pointer text-center">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/team-member-1.png" alt="team-member-1" class="h-full w-full rounded-3xl object-cover object-top" />
-                        </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                            Aditya Patel
-                        </h4>
-                        <h6 class="text-sm font-bold">Chief Executive Officer</h6>
-                    </div>
-                    <div class="group cursor-pointer text-center">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/team-member-2.png" alt="team-member-2" class="h-full w-full rounded-3xl object-cover object-top" />
-                        </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                            Audrey Ramirez
-                        </h4>
-                        <h6 class="text-sm font-bold">Chief Operating Officer</h6>
-                    </div>
-                    <div class="group cursor-pointer text-center">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/team-member-3.png" alt="team-member-3" class="h-full w-full rounded-3xl object-cover object-top" />
-                        </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                            James Robinson
-                        </h4>
-                        <h6 class="text-sm font-bold">Chief Financial Officer</h6>
-                    </div>
-                    <div class="group cursor-pointer text-center">
-                        <div class="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                            <img src="/assets/images/team-member-4.png" alt="team-member-4" class="h-full w-full rounded-3xl object-cover object-top" />
-                        </div>
-                        <h4 class="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                            Daniel Allen
-                        </h4>
-                        <h6 class="text-sm font-bold">Chief Marketing Officer</h6>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="bg-gradient-to-b from-white/60 to-transparent py-14 dark:from-white/[0.02] lg:py-[100px]">
-            <div class="container">
-                <div class="heading text-center">
-                    <h6>Pricing Plan</h6>
-                    <h4>Choose Affordable Prices</h4>
-                </div>
-                <div class="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3">
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <div
-                            class="group rounded-3xl border-2 border-primary bg-white p-6 px-4 transition hover:bg-primary hover:drop-shadow-[-10px_30px_70px_rgba(40,38,77,0.25)] dark:border-white/10 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.01] dark:to-transparent dark:drop-shadow-none dark:hover:border-gray-dark dark:hover:bg-gray-dark sm:px-6"
-                        >
-                            <div class="mb-8">
-                                <h3 class="text-[22px] font-black text-black dark:text-white">Intro</h3>
-                            </div>
-                            <ul class="space-y-5 pb-7 text-sm font-bold group-hover:text-white">
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Daily content updates</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Unlimited downloads of FREE resources</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Unlimited PREMIUM downloads</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Valid commercial licenses</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g opacity="0.3">
-                                                <circle cx="8" cy="8" r="8" fill="#7780A1" />
-                                            </g>
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Advanced Search</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g opacity="0.3">
-                                                <circle cx="8" cy="8" r="8" fill="#7780A1" />
-                                            </g>
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">No attribution required</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g opacity="0.3">
-                                                <circle cx="8" cy="8" r="8" fill="#7780A1" />
-                                            </g>
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Browse with no ads</p>
-                                </li>
-                            </ul>
-                            <div class="border-t-2 border-[#BBC0D0]/50 pt-7">
-                                <div class="mb-3 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
-                                    <div
-                                        class="relative mb-2 text-lg font-extrabold before:absolute before:top-1/2 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full before:bg-primary group-hover:text-white group-hover:before:bg-white ltr:pl-5 ltr:before:left-0 rtl:pr-5 rtl:before:right-0 sm:mb-0"
-                                    >
-                                        Monthly
-                                    </div>
-                                    <a href="javascript:" class="btn text-xl text-white group-hover:bg-white group-hover:text-primary dark:text-black xl:w-44"
-                                        >$39.99<small class="text-xs lowercase">/month</small></a
-                                    >
-                                </div>
-                                <span class="block text-center text-sm font-bold text-black dark:text-white sm:pr-5 ltr:sm:text-right rtl:sm:text-left"
-                                    >Billed every month</span
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                    <div class="rounded-[18px] bg-white p-4 dark:bg-black" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="flex justify-between">
+                            <div class="flex items-center gap-2.5">
+                                <a href="javascript:" class="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#F7931A]">
+                                    <svg width="30" height="30" viewBox="0 0 97 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M47.8917 0.84375C51.5534 1.72875 55.205 2.65708 58.8567 3.58375C57.39 9.46875 55.92 15.3538 54.4534 21.2371C57.3917 21.8954 60.3217 22.5871 63.2434 23.3171C64.7017 17.4654 66.1567 11.6138 67.62 5.76375C71.28 6.65375 74.9367 7.56708 78.5884 8.49708C77.0934 14.5038 75.5934 20.5088 74.0967 26.5154C79.7384 28.5038 85.385 30.9154 89.935 34.8921C92.2167 36.9204 94.1434 39.4138 95.2267 42.2888C96.335 45.1554 96.5517 48.3071 96.1434 51.3371C95.7484 54.3154 94.9234 57.2754 93.4084 59.8854C92.235 61.9138 90.63 63.6938 88.6984 65.0254C86.7117 66.4004 84.4267 67.3038 82.0817 67.8554C84.7117 69.2271 87.2167 70.9021 89.275 73.0554C90.9367 74.7804 92.2584 76.8471 93.045 79.1154C94.4984 83.2638 94.1 87.8154 92.9384 91.9838C91.75 96.2071 89.9234 100.354 86.9634 103.644C84.9617 105.894 82.4367 107.669 79.645 108.802C75.7634 110.415 71.505 110.892 67.33 110.845C62.6667 110.809 58.04 110.12 53.4634 109.284C51.9484 115.35 50.4334 121.417 48.9217 127.485C45.27 126.549 41.61 125.639 37.95 124.739C39.4434 118.759 40.9367 112.779 42.43 106.799C39.5134 106.047 36.5984 105.289 33.6867 104.52C32.1867 110.532 30.69 116.545 29.19 122.559C25.54 121.635 21.8867 120.727 18.2334 119.822C19.7434 113.745 21.2584 107.672 22.7717 101.597C15.43 99.6421 8.04669 97.8454 0.671692 96.0171C2.48836 91.8304 4.30169 87.6421 6.12169 83.4571C8.39836 84.0471 10.6734 84.6504 12.9567 85.2188C14.1034 85.4704 15.31 85.7938 16.4767 85.4638C17.8534 85.0788 18.85 83.8254 19.2134 82.4821C21.5717 73.0121 23.9334 63.5438 26.2984 54.0754C26.6517 54.1571 27.0067 54.2354 27.3634 54.3038C27.0167 54.1921 26.6684 54.0888 26.32 53.9888C27.945 47.4471 29.5767 40.9088 31.21 34.3704C31.6817 32.8854 31.4217 31.2021 30.6267 29.8737C29.8584 28.6054 28.5317 27.7738 27.145 27.3254C24.27 26.3854 21.2934 25.8071 18.355 25.1054C19.3234 21.1988 20.2967 17.2921 21.2717 13.3871C25.36 14.3771 29.435 15.4187 33.5167 16.4304C35.4167 16.8687 37.2717 17.4704 39.18 17.8787C40.5817 18.2237 41.9934 18.5254 43.4017 18.8454C44.8967 12.8438 46.395 6.84375 47.8917 0.84375ZM51.4984 34.2071C49.6734 41.5054 47.8567 48.8054 46.035 56.1038C49.115 56.9088 52.1867 57.7688 55.3234 58.3338C58.7767 58.9821 62.3367 59.3438 65.8317 58.8254C68.3517 58.4388 70.9034 57.4004 72.55 55.3804C74.1384 53.4254 74.84 50.8338 74.7484 48.3404C74.655 45.9521 73.4584 43.7171 71.745 42.0904C69.3984 39.8238 66.3767 38.4288 63.35 37.3154C59.4967 35.9371 55.4834 35.1004 51.4984 34.2071ZM43.2784 67.1554C41.2717 75.2104 39.26 83.2637 37.2534 91.3187C44.21 93.1071 51.2534 95.1304 58.505 94.9421C61.7567 94.8304 65.1984 94.2188 67.8 92.1304C70.1834 90.2454 71.335 87.1538 71.375 84.1771C71.405 82.0988 70.6867 80.0454 69.4517 78.3838C67.8317 76.1971 65.5517 74.6021 63.1734 73.3371C56.9684 70.0904 50.0334 68.7404 43.2784 67.1554Z"
+                                            fill="white"
+                                        />
+                                    </svg>
+                                </a>
+                                <h4 class="text-lg font-bold text-black dark:text-white">BTC</h4>
+                                <span class="rounded bg-[rgba(198,198,198,0.4)] py-1 px-[6px] text-[10px] font-semibold leading-3 text-black dark:text-white"
+                                    >BITCON</span
                                 >
                             </div>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <div
-                            class="group rounded-3xl border-2 border-secondary bg-white p-6 px-4 transition hover:bg-secondary hover:drop-shadow-[-10px_30px_70px_rgba(40,38,77,0.25)] dark:border-white/10 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.01] dark:to-transparent dark:drop-shadow-none dark:hover:border-gray-dark dark:hover:bg-gray-dark sm:px-6"
-                        >
-                            <div class="relative mb-8">
-                                <h3 class="text-[22px] font-black text-black dark:text-white">Base</h3>
-                                <div
-                                    class="group-hover:white/10 absolute top-1/2 -translate-y-1/2 rounded-xl bg-secondary/10 py-2 px-4 text-xs font-black text-secondary group-hover:bg-white group-hover:text-black ltr:right-0 rtl:left-0"
-                                >
-                                    MOST POPULAR
-                                </div>
-                            </div>
-                            <ul class="space-y-5 pb-7 text-sm font-bold group-hover:text-white">
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Daily content updates</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Unlimited downloads of FREE resources</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Unlimited PREMIUM downloads</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Valid commercial licenses</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Advanced Search</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">No attribution required</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Browse with no ads</p>
-                                </li>
-                            </ul>
-                            <div class="border-t-2 border-[#BBC0D0]/50 pt-7">
-                                <div class="mb-3 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
-                                    <div
-                                        class="relative mb-2 text-lg font-extrabold before:absolute before:top-1/2 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full before:bg-secondary group-hover:text-white group-hover:before:bg-white ltr:pl-5 ltr:before:left-0 rtl:pr-5 rtl:before:right-0 sm:mb-0"
-                                    >
-                                        Yearly
-                                    </div>
-                                    <a
-                                        href="javascript:"
-                                        class="btn bg-secondary text-xl text-white group-hover:bg-white group-hover:text-secondary dark:text-black xl:w-44"
-                                        >$14.99<small class="text-xs lowercase">/month</small></a
-                                    >
-                                </div>
-                                <span class="block text-center text-sm font-bold text-black dark:text-white sm:pr-5 ltr:sm:text-right rtl:sm:text-left"
-                                    >$179.00 every 12 months</span
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <div
-                            class="group rounded-3xl border-2 border-black bg-white p-6 px-4 transition hover:bg-black hover:drop-shadow-[-10px_30px_70px_rgba(40,38,77,0.25)] dark:border-white/10 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.01] dark:to-transparent dark:drop-shadow-none dark:hover:border-gray-dark dark:hover:bg-gray-dark sm:px-6"
-                        >
-                            <div class="mb-8">
-                                <h3 class="text-[22px] font-black text-black group-hover:text-white dark:text-white">Pro</h3>
-                            </div>
-                            <ul class="space-y-5 pb-7 text-sm font-bold group-hover:text-white">
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Daily content updates</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Unlimited downloads of FREE resources</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Unlimited PREMIUM downloads</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Valid commercial licenses</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Advanced Search</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">No attribution required</p>
-                                </li>
-                                <li class="flex items-center">
-                                    <div>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="8" cy="8" r="8" fill="#45B649" />
-                                            <path
-                                                d="M5.11438 8.11438L7 10L10.7712 6.22876"
-                                                stroke="white"
-                                                stroke-width="1.6"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <p class="ltr:pl-3 rtl:pr-3">Browse with no ads</p>
-                                </li>
-                            </ul>
-                            <div class="border-t-2 border-[#BBC0D0]/50 pt-7">
-                                <div class="mb-3 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
-                                    <div
-                                        class="relative mb-2 text-lg font-extrabold before:absolute before:top-1/2 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full before:bg-black group-hover:text-gray group-hover:before:bg-white ltr:pl-5 ltr:before:left-0 rtl:pr-5 rtl:before:right-0 sm:mb-0"
-                                    >
-                                        Yearly
-                                    </div>
-                                    <a href="javascript:" class="btn bg-black text-xl text-white group-hover:bg-white group-hover:text-black xl:w-44">$499</a>
-                                </div>
-                                <span
-                                    class="block text-center text-sm font-bold text-black group-hover:text-white dark:text-white sm:pr-5 ltr:sm:text-right rtl:sm:text-left"
-                                    >Billed once only</span
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <Testimonial class="py-14 lg:py-[100px]"></Testimonial>
-
-        <section class="py-14 dark:bg-gray-dark lg:py-[100px]">
-            <div class="container">
-                <div class="relative z-10 lg:flex">
-                    <div class="heading text-center lg:mb-0 lg:w-1/3 ltr:lg:pr-10 ltr:lg:text-left rtl:lg:pl-10 rtl:lg:text-right">
-                        <h6>Get In Touch.</h6>
-                        <h4 class="sm:!leading-[50px]">Ready to Get Started?</h4>
-                        <img
-                            src="/assets/images/form-img.png"
-                            alt="form-img"
-                            class="mx-auto"
-                            :data-aos="store.direction === 'rtl' ? 'fade-left' : 'fade-right'"
-                            data-aos-duration="1000"
-                        />
-                    </div>
-                    <form action="" class="rounded-3xl bg-white px-4 py-12 dark:bg-[#101626] lg:w-2/3 lg:px-8">
-                        <div class="grid gap-10 sm:grid-cols-2">
-                            <div class="relative">
-                                <input
-                                    type="text"
-                                    name="name"
-                                    class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                />
-                                <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >Full Name</label
-                                >
-                                <svg
-                                    width="20"
-                                    height="22"
-                                    viewBox="0 0 20 22"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                >
+                            <div>
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
-                                        d="M5.42855 5.57875C5.42855 8.10348 7.47525 10.1502 9.99998 10.1502C12.5247 10.1502 14.5714 8.10348 14.5714 5.57875C14.5714 3.05402 12.5247 1.00732 9.99998 1.00732"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                    <path
-                                        d="M2 16.9328C2 15.9495 2.61812 15.0724 3.5441 14.7417V14.7417C7.71891 13.2507 12.2811 13.2507 16.4559 14.7417V14.7417C17.3819 15.0724 18 15.9495 18 16.9328V18.7014C18 19.9185 16.922 20.8535 15.7172 20.6813L13.8184 20.4101C11.2856 20.0483 8.71435 20.0483 6.18162 20.4101L4.28284 20.6813C3.07798 20.8535 2 19.9185 2 18.7014V16.9328Z"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                    />
-                                </svg>
-                            </div>
-                            <div class="relative">
-                                <input
-                                    type="email"
-                                    name="email"
-                                    class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                />
-                                <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >Email Address</label
-                                >
-                                <svg
-                                    width="22"
-                                    height="21"
-                                    viewBox="0 0 22 21"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                >
-                                    <path
-                                        d="M1 8.00732V7.00732C1 4.2459 3.23858 2.00732 6 2.00732H16C18.7614 2.00732 21 4.2459 21 7.00732V13.0073C21 15.7687 18.7614 18.0073 16 18.0073H6C3.23858 18.0073 1 15.7687 1 13.0073V12.0073"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                    <path
-                                        d="M5 7.00732L9.8 10.6073C10.5111 11.1407 11.4889 11.1407 12.2 10.6073L17 7.00732"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
+                                        d="M17 19.9815L24 14M24 14L31 19.9815M24 14V33"
+                                        stroke="#12AF97"
+                                        stroke-width="2"
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
                                     />
                                 </svg>
                             </div>
-                            <div class="relative">
-                                <input
-                                    type="text"
-                                    name="mobile"
-                                    class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                />
-                                <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >Mobile Number</label
-                                >
-                                <svg
-                                    width="22"
-                                    height="22"
-                                    viewBox="0 0 22 22"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                >
-                                    <path
-                                        d="M6.45241 1.40806C5.45292 0.783702 4.14202 0.887138 3.2983 1.73086L1.86856 3.1606C-0.302899 5.33207 1.73747 10.8931 6.42586 15.5815C11.1142 20.2699 16.6753 22.3102 18.8467 20.1388L20.2765 18.709C21.2635 17.722 21.2374 16.0956 20.2182 15.0764L18.0036 12.8619C16.9844 11.8426 15.358 11.8165 14.371 12.8036L14.0639 13.1107C13.531 13.6436 12.6713 13.6957 12.0713 13.2005C11.4925 12.7229 10.9159 12.208 10.3576 11.6497C9.79933 11.0914 9.28441 10.5149 8.80678 9.93607C8.31161 9.33601 8.36374 8.47631 8.89666 7.9434L9.20375 7.63631C9.98187 6.85819 10.1303 5.68271 9.65898 4.72062"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                </svg>
+                        </div>
+                        <div class="my-4 h-[1px] bg-[#11011E] opacity-5"></div>
+                        <div class="flex items-center justify-between gap-2">
+                            <div>
+                                <h3 class="text-xl font-bold leading-[25px] text-black dark:text-white">$56,623.54</h3>
+                                <h4 class="mt-2 text-lg font-semibold text-[#12AF97]">1.41%</h4>
                             </div>
-                            <div class="relative">
-                                <input
-                                    type="text"
-                                    name="city"
-                                    class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                />
-                                <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >City</label
-                                >
-                                <svg
-                                    width="20"
-                                    height="22"
-                                    viewBox="0 0 20 22"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                                >
-                                    <path
-                                        d="M5.89416 2.31259C7.20149 1.48625 8.75475 1.00732 10.4211 1.00732C15.0719 1.00732 18.8421 4.73828 18.8421 9.34066C18.8421 15.0541 12.1053 21.0073 10.4211 21.0073C8.73684 21.0073 2 15.0541 2 9.34066C2 7.87581 2.38193 6.49924 3.05263 5.30315"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                    <path
-                                        d="M13.4571 9.77392C13.5365 9.49702 13.579 9.20456 13.579 8.90216C13.579 7.15811 12.1651 5.74427 10.4211 5.74427C8.67702 5.74427 7.26318 7.15811 7.26318 8.90216C7.26318 10.6462 8.67702 12.0601 10.4211 12.0601C10.6633 12.0601 10.8991 12.0328 11.1256 11.9812"
-                                        stroke="currentColor"
-                                        stroke-width="1.8"
-                                        stroke-linecap="round"
-                                    />
-                                </svg>
+                            <div>
+                                <apexchart height="55" :options="successChartOptions" :series="successChartSeries"></apexchart>
                             </div>
                         </div>
-                        <div class="relative mt-10">
-                            <input
-                                type="text"
-                                name="message"
-                                class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                            />
-                            <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                >Message</label
-                            >
-                            <svg
-                                width="22"
-                                height="22"
-                                viewBox="0 0 22 22"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white"
-                            >
+                    </div>
+                    <div class="rounded-[18px] bg-white p-4 dark:bg-black" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="flex justify-between">
+                            <div class="flex items-center gap-2.5">
+                                <a href="javascript:" class="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#345d9d]">
+                                    <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_209)">
+                                            <path d="M10.4628 12.4716L5.25708 9.99516L10.4628 19.0926L15.6687 9.99516L10.4628 12.4716Z" fill="white" />
+                                            <path d="M15.1018 8.14969L10.4628 0.0926056L5.81866 8.15897L10.4628 5.95589L15.1018 8.14969Z" fill="white" />
+                                            <path d="M6.22125 9.20426L10.4629 11.2134L14.7116 9.20092L10.4629 7.19194L6.22125 9.20426Z" fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_209">
+                                                <rect width="19" height="19" fill="white" transform="translate(0.952393 0.0926056)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                                <h4 class="text-lg font-bold text-black dark:text-white">ETH</h4>
+                                <span class="rounded bg-[rgba(198,198,198,0.4)] py-1 px-[6px] text-[10px] font-semibold leading-3 text-black dark:text-white"
+                                    >ETHEREUM</span
+                                >
+                            </div>
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
-                                    d="M1 11.467V18.9267C1 19.7652 1.96993 20.2314 2.6247 19.7076L5.45217 17.4456C5.8068 17.1619 6.24742 17.0073 6.70156 17.0073H16C18.7614 17.0073 21 14.7687 21 12.0073V6.00732C21 3.2459 18.7614 1.00732 16 1.00732H6C3.23858 1.00732 1 3.2459 1 6.00732V7.62225"
-                                    stroke="currentColor"
-                                    stroke-width="1.8"
+                                    d="M31.0208 27.0264L24.0208 33.0078M24.0208 33.0078L17.0208 27.0264M24.0208 33.0078V14.0078"
+                                    stroke="#FF0000"
+                                    stroke-width="2"
                                     stroke-linecap="round"
+                                    stroke-linejoin="round"
                                 />
-                                <circle cx="6.05005" cy="9.05713" r="1.25" fill="currentColor" />
-                                <circle cx="11.05" cy="9.05713" r="1.25" fill="currentColor" />
-                                <circle cx="16.05" cy="9.05713" r="1.25" fill="currentColor" />
                             </svg>
                         </div>
-                        <div class="mt-10 text-center ltr:lg:text-right rtl:lg:text-left">
-                            <button type="button" class="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
-                                Send Message
-                            </button>
+                        <div class="my-4 h-[1px] bg-[#11011E] opacity-5"></div>
+                        <div class="flex items-center justify-between gap-2">
+                            <div>
+                                <h3 class="text-xl font-bold leading-[25px] text-black dark:text-white">$4,267.90</h3>
+                                <h4 class="mt-2 text-lg font-semibold text-[#FF0000]">-2.22%</h4>
+                            </div>
+                            <div>
+                                <apexchart height="55" :options="dangerChartOptions" :series="dangerChartSeries"></apexchart>
+                            </div>
                         </div>
-                    </form>
+                    </div>
+                    <div class="rounded-[18px] bg-white p-4 dark:bg-black" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="flex justify-between">
+                            <div class="flex items-center gap-2.5">
+                                <a href="javascript:" class="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#F3BA2F]">
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M15 6.77988L9.17344 12.6059V12.6053L5.78379 9.21562L15 0L24.2186 9.21855L20.8283 12.6082L15 6.77988ZM3.39023 11.6092L0 15L3.38965 18.3885L6.77988 15L3.39023 11.6092ZM15 23.2189L9.17344 17.3936V17.393L5.7791 20.7779L5.78379 20.7832L15 30L24.2203 20.7785L20.8283 17.3906L15 23.2189ZM26.6086 11.6104L23.2189 15L26.6104 18.3896L30 15L26.6086 11.6104ZM15 11.5591L18.4371 15.0015L18.4365 15.0026H18.4395L15 18.4421L11.5623 15.005L11.5576 15.0003L11.5623 14.9956L12.1641 14.3938L12.457 14.1009L15 11.5591Z"
+                                            fill="white"
+                                        />
+                                    </svg>
+                                </a>
+                                <h4 class="text-lg font-bold text-black dark:text-white">BNB</h4>
+                                <span class="rounded bg-[rgba(198,198,198,0.4)] py-1 px-[6px] text-[10px] font-semibold leading-3 text-black dark:text-white"
+                                    >BINANCE</span
+                                >
+                            </div>
+                            <div>
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17 19.9815L24 14M24 14L31 19.9815M24 14V33"
+                                        stroke="#12AF97"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="my-4 h-[1px] bg-[#11011E] opacity-5"></div>
+                        <div class="flex items-center justify-between gap-2">
+                            <div>
+                                <h3 class="text-xl font-bold leading-[25px] text-black dark:text-white">$587.74</h3>
+                                <h4 class="mt-2 text-lg font-semibold text-[#12AF97]">0.82%</h4>
+                            </div>
+                            <div>
+                                <apexchart height="55" :options="successChartOptions" :series="successChartSeries"></apexchart>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <!-- Partners TODO smaller logos -->
+        <section class="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]" id="partner">
+            <div class="">
+                <div class="heading text-center">
+                    <h6>Our</h6>
+                    <h4>Partners</h4>
+                </div>
+                <div class="flex flex-wrap justify-center">
+                    <a class="cursor-pointer text-center px-4" href="https://changenow.io/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/changenow_dark.png" alt="team-member-1" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            Change Now
+                        </h4>
+                        <h6 class="text-sm font-bold">Crypto Exchange</h6>
+                    </a>
+                    <a class="cursor-pointer text-center px-4" href="https://www.revolut.com/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/revolut.png" alt="team-member-4" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            Revolut
+                        </h4>
+                        <h6 class="text-sm font-bold">One App, All things Money</h6>
+                    </a>
+                    <a class="cursor-pointer text-center px-4" href="https://www.estglobalinc.com/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/fab_dark.png" alt="team-member-4" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            FAB
+                        </h4>
+                        <h6 class="text-sm font-bold">Fintech and Blockchain Association</h6>
+                    </a>
+                    <a class="cursor-pointer text-center px-4" href="https://www.shefan.pro/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/shefan_dark.png" alt="team-member-3" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            SheFan Pro
+                        </h4>
+                        <h6 class="text-sm font-bold">Womens Empowerment Blockchain</h6>
+                    </a>
+                    <a class="cursor-pointer text-center px-4" href="https://puri.sm/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/purism_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            Purism
+                        </h4>
+                        <h6 class="text-sm font-bold">Beautify, Privacy-respecting Devices</h6>
+                    </a>
+                    <a class="cursor-pointer text-center px-4" href="https://discord.gg/RrgAb9dwYE" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/forge_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            The Forge
+                        </h4>
+                        <h6 class="text-sm font-bold">Dev Projects</h6>
+                    </a>
+                    <a class="cursor-pointer text-center px-4" href="https://kalipo.io/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/kalipo_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            Kalipo
+                        </h4>
+                        <h6 class="text-sm font-bold">DAO as a Service</h6>
+                    </a>
+                    <a class="cursor-pointer text-center px-4" href="https://www.spirinova.dev/" target="_blank">
+                        <div class="flex justify-center items-center h-[280px] w-full rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                            <img src="/assets/images/partners/spirinova_dark.png" alt="team-member-2" class="h-64 w-64 rounded-3xl" />
+                        </div>
+                        <h4 class="p-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            Spirinova
+                        </h4>
+                        <h6 class="text-sm font-bold">Spirit of Innovation</h6>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cal to Action -->
+        <section>
+          <!-- Screenshots Mockups and
+
+          'monitise your payments'
+
+          Button
+         -->
         </section>
     </div>
 </template>
