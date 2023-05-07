@@ -26,7 +26,7 @@
                                 <span class="italic text-primary font-extrabold">Your</span> one and only <span class="italic text-secondary font-extrabold">Wallet</span>
                             </h2>
                             <div class="w-full flex justify-center pt-8">
-                                <a href="https://airtable.com/shruP2nuVOBvsktsf" target="_blank" class="btn w-64 mx-auto mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0">Waitlist</a>
+                                <a href="https://ecosis.app" target="_blank" class="btn w-64 mx-auto mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0">Enter App</a>
                             </div>
                         </div>
                     </div>
@@ -35,8 +35,8 @@
         </div>
 
         <!-- About -->
-        <section class="relative pt-14 lg:pb-48 lg:pt-[100px]">
-            <div class="container relative z-[1]">
+        <section class="flex flex-wrap pt-14 lg:pb-48 lg:pt-[100px]">
+            <div class="container relative w-full md:w-1/3 z-[1]">
                 <div class="text-center lg:w-1/3 ltr:lg:text-left rtl:lg:text-right">
                     <div class="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
                         <h6>About</h6>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div
-                class="bottom-0 ltr:right-0 rtl:left-0 lg:absolute mt-32"
+                class="w-full md:w1/2 mt-32"
                 :data-aos="store.direction === 'rtl' ? 'fade-right' : 'fade-left'"
                 data-aos-duration="1000"
             >
@@ -250,7 +250,7 @@
             <div class="">
               <h3 class="text-center text-2xl font-extrabold leading-normal sm:text-5xl lg:text-[24px] lg:leading-[50px]">Get rewarded for spending with Eco!</h3>
               <div class="w-full flex justify-center">
-                <a href="https://airtable.com/shruP2nuVOBvsktsf" target="_blank" class="btn mt-6 py-[18px] px-8 text-base text-white">Waitlist</a>
+                <a href="https://ecosis.app" target="_blank" class="btn mt-6 py-[18px] px-8 text-base text-white">Enter App</a>
               </div>
             </div>
           </div>

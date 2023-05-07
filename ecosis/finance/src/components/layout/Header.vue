@@ -2,7 +2,7 @@
     <header class="sticky top-0 z-50 bg-black/10 transition duration-300">
         <div class="container">
             <div class="flex items-center justify-between py-5 lg:py-0">
-                <router-link to="/"><img src="/assets/logos/ecosis.png" alt="logo" class="h-10" /></router-link>
+                <router-link to="/"><img src="/assets/logos/ecosis-finance_light.png" alt="logo" class="h-10" /></router-link>
                 <div class="flex items-center">
                     <div @click="toggleMenu()" class="overlay fixed inset-0 z-[51] bg-black/60" :class="{ hidden: !showMenu }"></div>
                     <div class="menus" :class="{ 'overflow-y-auto ltr:!right-0 rtl:!left-0': showMenu }">
@@ -22,15 +22,20 @@
                         </div>
 
                         <ul @click="showMenu = false">
-                            <li><router-link to="/" :class="{ active: $route.name === '/' }"> Home </router-link></li>
                             <li>
                                 <router-link to="/#about" :class="{ active: $route.name === '#about' }">How it works</router-link>
                             </li>
                             <li>
-                                <router-link to="/#features" :class="{ active: $route.name === '#features' }">Features</router-link>
+                                <router-link to="/#features" :class="{ active: $route.name === '#features' }">Advantages</router-link>
                             </li>
                             <li>
-                                <router-link to="/#example" :class="{ active: $route.name === 'example' }">Example</router-link>
+                                <router-link to="/#business" :class="{ active: $route.name === '#business' }">For Businesses</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/#perfomance" :class="{ active: $route.name === 'perfomance' }">Performance</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/#partner" :class="{ active: $route.name === 'partner' }">Partners</router-link>
                             </li>
                             <li>
                                 <router-link to="/#join" :class="{ active: $route.name === 'join' }">Join Now</router-link>

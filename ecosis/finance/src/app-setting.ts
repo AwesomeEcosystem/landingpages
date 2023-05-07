@@ -5,12 +5,12 @@ export default {
         const store = useAppStore();
 
         // set default styles
-        let val: any = localStorage.getItem('theme'); // light, dark
-        val = val || 'light';
-        store.toggleTheme(val);
+        // let val: any = localStorage.getItem('theme'); // light, dark
+        // val = val || 'light';
+        store.toggleTheme('light');
 
-        val = localStorage.getItem('direction'); // rtl, ltr
-        val = val || 'ltr';
-        store.toggleDirection(val);
+        // val = localStorage.getItem('direction'); // rtl, ltr
+        // val = val || 'ltr';
+        store.toggleDirection('ltr');
     },
 };

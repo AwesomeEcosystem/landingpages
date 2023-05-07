@@ -17,7 +17,7 @@
                             </p>
                             <div class="flex justify-center md:justify-start">
                               <div class="m-2">
-                                <a href="https://airtable.com/shruP2nuVOBvsktsf" target="_blank" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto px-4">Waitlist</a>
+                                <a href="https://ecosis.app" target="_blank" class="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto px-4">Enter App</a>
                               </div>
                               <div class="m-2">
                                 <router-link to="/eco" class="btn bg-transparent text-white underline mx-auto mt-2 block w-fit lg:mx-0 lg:rtl:ml-auto px-4">Start here</router-link>
