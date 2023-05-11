@@ -5,36 +5,7 @@ import { nextTick } from 'vue';
 
 const routes: RouteRecordRaw[] = [
     // dashboard
-    { path: '/', name: 'home', component: HomeView, meta: { title: 'ecosis Network- Streamline Smart Economies' } },
-    {
-        path: '/eco',
-        name: 'eco',
-        component: () => import(/* webpackChunkName: "about-us" */ '../views/eco.vue'),
-        meta: { title: 'ecosis Network | Eco' },
-    },
-    {
-        path: '/terms-conditions',
-        name: 'terms-conditions',
-        component: () => import(/* webpackChunkName: "terms-conditions" */ '../views/terms-conditions.vue'),
-        meta: { title: 'ecosis Network | Terms of Use' },
-    },
-    {
-        path: '/privacy-policy',
-        name: 'privacy-policy',
-        component: () => import(/* webpackChunkName: "privacy-policy" */ '../views/privacy-policy.vue'),
-        meta: { title: 'ecosis Network | Privacy Policy' },
-    },
-    {
-        path: '/nomics',
-        name: 'nomics',
-        component: () => import(/* webpackChunkName: "nomics" */ '../views/nomics.vue'),
-        meta: { title: 'ecosis Network | Nomics' },
-    },
-    {
-        path: '/:catchAll(.*)',
-        name: '404 | ecosis Network',
-        component: () => import(/* webpackChunkName: "404" */ '../layouts/error.vue'),
-    },
+    { path: '/', name: 'home', component: HomeView, meta: { title: 'ecosis Network - Built to save money and boost earnings' } },
 ];
 
 const router = createRouter({

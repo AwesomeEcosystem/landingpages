@@ -6,7 +6,7 @@ export default {
 
         // set default styles
         let val: any = localStorage.getItem('theme'); // light, dark
-        val = val || 'light';
+        val = val || 'dark';
         store.toggleTheme(val);
 
         val = localStorage.getItem('direction'); // rtl, ltr

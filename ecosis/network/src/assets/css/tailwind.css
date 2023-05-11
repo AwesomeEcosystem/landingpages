@@ -97,7 +97,7 @@
 
 /* sticky header */
 .sticky-header {
-    @apply bg-black shadow-lg;
+    @apply shadow-lg backdrop-blur-md bg-black/80;
 }
 
 /* Transition FADE Slide */
